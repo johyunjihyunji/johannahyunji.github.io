@@ -1,5 +1,13 @@
 import * as React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
+function Home() {
+  return (
+    <div>Hello world!
+      jo
+    </div>
+
+  );
 }
+
+
+export default Home
