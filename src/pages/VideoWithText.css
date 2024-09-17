@@ -1,0 +1,36 @@
+.container {
+    width: 80vw; /* Adjust this value as needed */
+    margin: 0 auto; /* This centers the content and creates margins */
+    padding: 0 20px; /* This adds some space on the sides */
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+  }
+  
+  .video-text-wrapper {
+    display: flex;
+    gap: 20px; /* This adds space between the video and text */
+  }
+  
+  .video-container {
+    flex: 0 0 55%; /* This makes the video take up 60% of the width */
+  }
+  
+  .text-container {
+    flex: 0 0 40%; /* This makes the text take up 40% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* This pushes the content to the bottom */
+    padding-bottom: 50px; /* This adds some space at the bottom */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .video-text-wrapper {
+      flex-direction: column;
+    }
+  
+    .video-container,
+    .text-container {
+      flex: 0 0 100%;
+    }
+  }

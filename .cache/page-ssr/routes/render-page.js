@@ -4701,7 +4701,7 @@ function getForwards(collectedScripts) {
 /***/ 5418:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-exports.components={"component---src-pages-index-js":()=>__webpack_require__.e(/* import() | component---src-pages-index-js */ 678).then(__webpack_require__.bind(__webpack_require__, 6558))};
+exports.components={"component---src-pages-grid-background-js":()=>Promise.all(/* import() | component---src-pages-grid-background-js */[__webpack_require__.e(950), __webpack_require__.e(555)]).then(__webpack_require__.bind(__webpack_require__, 1846)),"component---src-pages-index-js":()=>Promise.all(/* import() | component---src-pages-index-js */[__webpack_require__.e(950), __webpack_require__.e(678)]).then(__webpack_require__.bind(__webpack_require__, 6558)),"component---src-pages-introduction-slide-js":()=>__webpack_require__.e(/* import() | component---src-pages-introduction-slide-js */ 979).then(__webpack_require__.bind(__webpack_require__, 8932)),"component---src-pages-project-slide-js":()=>Promise.all(/* import() | component---src-pages-project-slide-js */[__webpack_require__.e(950), __webpack_require__.e(75)]).then(__webpack_require__.bind(__webpack_require__, 5259))};
 
 /***/ }),
 
@@ -5418,22 +5418,17 @@ const RouteAnnouncerProps={id:`gatsby-announcer`,style:{position:`absolute`,top:
 
 /***/ }),
 
-/***/ 5897:
+/***/ 1034:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  WritableAsPromise: () => (/* binding */ WritableAsPromise)
-});
-
-;// CONCATENATED MODULE: external "stream"
-const external_stream_namespaceObject = require("stream");
-;// CONCATENATED MODULE: ./.cache/server-utils/writable-as-promise.js
-class WritableAsPromise extends external_stream_namespaceObject.Writable{constructor(){super();this._output=``;this._deferred={promise:null,resolve:null,reject:null};this._deferred.promise=new Promise((resolve,reject)=>{this._deferred.resolve=resolve;this._deferred.reject=reject;});}_write(chunk,_,next){this._output+=chunk.toString();next();}_destroy(error,next){if(error instanceof Error){this._deferred.reject(error);}else{next();}}end(){this._deferred.resolve(this._output);this.destroy();}// disguise us as a promise
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   WritableAsPromise: () => (/* binding */ WritableAsPromise)
+/* harmony export */ });
+/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8311);
+/* harmony import */ var stream__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(stream__WEBPACK_IMPORTED_MODULE_0__);
+class WritableAsPromise extends stream__WEBPACK_IMPORTED_MODULE_0__.Writable{constructor(){super();this._output=``;this._deferred={promise:null,resolve:null,reject:null};this._deferred.promise=new Promise((resolve,reject)=>{this._deferred.resolve=resolve;this._deferred.reject=reject;});}_write(chunk,_,next){this._output+=chunk.toString();next();}_destroy(error,next){if(error instanceof Error){this._deferred.reject(error);}else{next();}}end(){this._deferred.resolve(this._output);this.destroy();}// disguise us as a promise
 then(resolve,reject){return this._deferred.promise.then(resolve,reject);}}
 
 /***/ }),
@@ -9267,6 +9262,14 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ 8311:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
 /***/ 6464:
 /***/ ((module) => {
 
@@ -9595,7 +9598,7 @@ module.exports = JSON.parse('{"name":"gatsby","description":"Blazing fast modern
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + "component---src-pages-index-js" + ".js";
+/******/ 			return "" + ({"75":"component---src-pages-project-slide-js","555":"component---src-pages-grid-background-js","678":"component---src-pages-index-js","979":"component---src-pages-introduction-slide-js"}[chunkId] || chunkId) + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -9622,6 +9625,11 @@ module.exports = JSON.parse('{"name":"gatsby","description":"Blazing fast modern
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/require chunk loading */
@@ -9683,7 +9691,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   sanitizeComponents: () => (/* binding */ sanitizeComponents)
 /* harmony export */ });
 /* harmony import */ var react_server_dom_webpack_writer_node_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2442);
-const React=__webpack_require__(9025);const path=__webpack_require__(1423);const{renderToStaticMarkup,renderToPipeableStream}=__webpack_require__(6187);const{ServerLocation,Router,isRedirect}=__webpack_require__(7896);const merge=__webpack_require__(9996);const{StaticQueryContext}=__webpack_require__(7076);const fs=__webpack_require__(2422);const{WritableAsPromise}=__webpack_require__(5897);const{RouteAnnouncerProps}=__webpack_require__(236);const{apiRunner,apiRunnerAsync}=__webpack_require__(4067);const asyncRequires=__webpack_require__(5418);const{version:gatsbyVersion}=__webpack_require__(1741);const{grabMatchParams}=__webpack_require__(9755);const{headHandlerForSSR}=__webpack_require__(923);const{SlicesResultsContext,SlicesContext,SlicesMapContext,SlicesPropsContext}=__webpack_require__(8995);const{ServerSliceRenderer}=__webpack_require__(7529);// we want to force posix-style joins, so Windows doesn't produce backslashes for urls
+const React=__webpack_require__(9025);const path=__webpack_require__(1423);const{renderToStaticMarkup,renderToPipeableStream}=__webpack_require__(6187);const{ServerLocation,Router,isRedirect}=__webpack_require__(7896);const merge=__webpack_require__(9996);const{StaticQueryContext}=__webpack_require__(7076);const fs=__webpack_require__(2422);const{WritableAsPromise}=__webpack_require__(1034);const{RouteAnnouncerProps}=__webpack_require__(236);const{apiRunner,apiRunnerAsync}=__webpack_require__(4067);const asyncRequires=__webpack_require__(5418);const{version:gatsbyVersion}=__webpack_require__(1741);const{grabMatchParams}=__webpack_require__(9755);const{headHandlerForSSR}=__webpack_require__(923);const{SlicesResultsContext,SlicesContext,SlicesMapContext,SlicesPropsContext}=__webpack_require__(8995);const{ServerSliceRenderer}=__webpack_require__(7529);// we want to force posix-style joins, so Windows doesn't produce backslashes for urls
 const{join}=path.posix;const testRequireError=(moduleName,err)=>{const regex=new RegExp(`Error: Cannot find module\\s.${moduleName}`);const firstLine=err.toString().split(`\n`)[0];return regex.test(firstLine);};let Html;try{Html=__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../src/html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));}catch(err){if(testRequireError(`../src/html`,err)){Html=__webpack_require__(9079);}else{throw err;}}Html=Html&&Html.__esModule?Html.default:Html;const getPageDataPath=path=>{const fixedPagePath=path===`/`?`index`:path;return join(`page-data`,fixedPagePath,`page-data.json`);};const createElement=React.createElement;const sanitizeComponents=components=>{const componentsArray=[].concat(components).flat(Infinity).filter(Boolean);return componentsArray.map(component=>{// Ensure manifest is always loaded from content server
 // And not asset server when an assetPrefix is used
 if(false){}return component;});};function deepMerge(a,b){const combineMerge=(target,source,options)=>{const destination=target.slice();source.forEach((item,index)=>{if(typeof destination[index]===`undefined`){destination[index]=options.cloneUnlessOtherwiseSpecified(item,options);}else if(options.isMergeableObject(item)){destination[index]=merge(target[index],item,options);}else if(target.indexOf(item)===-1){destination.push(item);}});return destination;};return merge(a,b,{arrayMerge:combineMerge});}/**
