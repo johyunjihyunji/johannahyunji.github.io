@@ -1,5 +1,4 @@
-// src/Gallery.js
-import React from 'react';
+import * as React from "react"
 import styled from 'styled-components';
 import './Gallary.css'; 
 
@@ -25,7 +24,7 @@ const shuffleArray = (array) => {
 };
 
 const GalleryContainer = styled.div`
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px; /* Space between items */
   padding: 20px;

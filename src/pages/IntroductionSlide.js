@@ -8,7 +8,7 @@ function IntroductionSlide() {
 
     // CROSSOUTANIMINATION
     const [locations, setLocations] = useState(['Los Angeles, CA']);
-    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', '?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
   
     useEffect(() => {
       const interval = setInterval(() => {
@@ -37,36 +37,31 @@ function IntroductionSlide() {
                     fontFamily: "'Inter', sans-serif",
                 }}>
                 <span style={{
-                    fontSize: '100px',
-                    fontWeight: 700,
-                    color: '#00BE09'
-                }}>Jo</span> 
-                <span style={{
-                    fontSize: '100px',
-                    fontWeight: 700
-                }}>hanna Lee</span>
+                    fontFamily: "'IkeaFont', sans-serif",
+                    fontSize: '4.3vw',
+                }}>Johanna</span>
                 <br />
                 <br />
                 <br />
-                <span> a designer and engineer based in </span>
+                <span> is a designer, multimedia artist, and engineer </span>
                 <br />
+                <span> based in </span>
                 {locations.map((location, index) => (
                     <React.Fragment key={index}>
                     <span 
-                        className={`location ${index < locations.length - 1 ? 'crossed' : ''} ${
-                        index === locations.length - 1 && location === '?' ? 'red-question-mark' : ''
+                        className={`location ${index < locations.length - 1 ? 'crossed' : ' '} ${
+                        index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''
                         }`}
                     >
                         {location}
                     </span>
-                    {index < locations.length - 1 && <span className="space">&nbsp;</span>}
+                    {index < locations.length - 1 && <span className="space">&nbsp; &nbsp;</span>}
                     </React.Fragment>
                 ))}
                 <br />
                 <br />
-                <span> studying CS and design innovation </span>
+                <span> passionate about fashion soup and oranges</span>
                 <br />
-                <span> at University of California Berkeley</span>
             </div>
           </div>
         </div>
