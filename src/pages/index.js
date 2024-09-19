@@ -31,9 +31,11 @@ function Home() {
     <AppContainer>
       <Content>
         <Header />
-        {/* <GridBackground /> */}
         <IntroductionSlide />
         <ProjectSlide />
+        <br />
+        <br />
+        <br />
         <LopsterGallery />
       </Content>
       <Footer />

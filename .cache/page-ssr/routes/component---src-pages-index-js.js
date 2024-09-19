@@ -123,10 +123,10 @@ var unitlessKeys = {
 
 /***/ }),
 
-/***/ "./src/pages/GridBackground.js":
-/*!*************************************!*\
-  !*** ./src/pages/GridBackground.js ***!
-  \*************************************/
+/***/ "./src/pages/Footer.js":
+/*!*****************************!*\
+  !*** ./src/pages/Footer.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -139,73 +139,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const GridContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  grid-auto-rows: minmax(50px, 1fr);
-  pointer-events: none;
+const FooterContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].footer`
+  color: #FF1700;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
 `;
-const GridCell = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
-  background-color: rgba(0, 0, 255, ${props => props.opacity});
-  transition: background-color 0.1s ease;
+const FooterText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
+  margin: 0;
+  font-size: 16px;
+  color: #FF1700;
 `;
-const GridBackground = () => {
-  const {
-    0: mousePosition,
-    1: setMousePosition
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
-    x: 0,
-    y: 0
-  });
-  const gridRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
-  if (typeof window === 'undefined') {
-    return null; // Render nothing or a loading state on the server
+const Link = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
+  color: #FF1700;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
-
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const handleMouseMove = event => {
-      setMousePosition({
-        x: event.clientX,
-        y: event.clientY
-      });
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const updateGrid = () => {
-      if (!gridRef.current) return;
-      const cells = gridRef.current.childNodes;
-      cells.forEach(cell => {
-        const rect = cell.getBoundingClientRect();
-        const centerX = rect.left + rect.width / 2;
-        const centerY = rect.top + rect.height / 2;
-        const distance = Math.sqrt(Math.pow(mousePosition.x - centerX, 2) + Math.pow(mousePosition.y - centerY, 2));
-        const maxDistance = 200; // Adjust this value to change the size of the "spotlight"
-        const opacity = Math.max(0, 1 - distance / maxDistance);
-        cell.style.backgroundColor = `rgba(0, 0, 255, ${opacity * 0.5})`;
-      });
-    };
-    updateGrid();
-  }, [mousePosition]);
-  const createGrid = () => {
-    const cellsCount = Math.ceil(window.innerWidth / 50 * (window.innerHeight / 50));
-    return Array(cellsCount).fill().map((_, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GridCell, {
-      key: index
-    }));
-  };
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GridContainer, {
-    ref: gridRef
-  }, createGrid());
+`;
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FooterContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FooterText, {
+    style: {
+      fontFamily: "'Inter', sans-serif"
+    }
+  }, "\xA9 ", currentYear, " Johanna Lee"));
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GridBackground);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
 /***/ }),
 
@@ -328,24 +288,137 @@ function IntroductionSlide() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     style: {
-      fontSize: '80px',
-      fontWeight: 700
-      //color: '#00BE09'
+      fontFamily: "'IkeaFont', sans-serif",
+      fontSize: '4.3vw'
     }
-  }, "Jo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    style: {
-      fontSize: '80px',
-      fontWeight: 700
-    }
-  }, "hanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " a designer and engineer based in "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
+  }, "Johanna"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " is a designer, multimedia artist, and engineer "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " based in "), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: index
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: `location ${index < locations.length - 1 ? 'crossed' : ''} ${index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''}`
+    className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''}`
   }, location), index < locations.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "space"
-  }, "\xA0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " studying CS and design innovation "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " at University of California Berkeley")))));
+  }, "\xA0 \xA0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " passionate about fashion soup and oranges"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
+
+/***/ }),
+
+/***/ "./src/pages/LopsterGallary.js":
+/*!*************************************!*\
+  !*** ./src/pages/LopsterGallary.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+
+
+const GalleryContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: flex;
+  padding: 20px;
+  justify-content: center; /* Center the content horizontally */
+`;
+const ImageItem = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  margin-right: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+  transform: ${props => `rotate(${props.rotation}deg)`};
+
+  &:hover {
+    transform: scale(1.1) ${props => `rotate(${props.rotation}deg)`};
+  }
+`;
+const Image = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+`;
+const LopsterGallery = () => {
+  const {
+    0: rotations,
+    1: setRotations
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+
+  // Image list with speed and direction
+  const images = [{
+    src: './../../favicon.ico',
+    speed: 2,
+    direction: 1
+  },
+  // clockwise
+  {
+    src: './../../favicon.ico',
+    speed: 3,
+    direction: -1
+  },
+  // counterclockwise
+  {
+    src: './../../favicon.ico',
+    speed: 1,
+    direction: 1
+  }, {
+    src: './../../favicon.ico',
+    speed: 4,
+    direction: -1
+  }, {
+    src: './../../favicon.ico',
+    speed: 2,
+    direction: 1
+  }, {
+    src: './../../favicon.ico',
+    speed: 3,
+    direction: -1
+  }, {
+    src: './../../favicon.ico',
+    speed: 1,
+    direction: 1
+  }, {
+    src: './../../favicon.ico',
+    speed: 4,
+    direction: -1
+  }, {
+    src: './../../favicon.ico',
+    speed: 2,
+    direction: 1
+  }, {
+    src: './../../favicon.ico',
+    speed: 3,
+    direction: -1
+  }
+  // Add more images as needed
+  ];
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    // Initialize rotations for each image
+    const initialRotations = Array(images.length).fill(0);
+    setRotations(initialRotations);
+    const interval = setInterval(() => {
+      setRotations(prevRotations => prevRotations.map((rotation, index) => {
+        const {
+          speed,
+          direction
+        } = images[index];
+        return (rotation + speed * direction) % 360; // Update rotation based on speed and direction
+      }));
+    }, 30); // Adjust this value to control overall rotation speed
+
+    return () => clearInterval(interval);
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GalleryContainer, null, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+    key: index,
+    rotation: rotations[index]
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Image, {
+    src: image.src,
+    alt: `Lobster ${index + 1}`
+  }))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LopsterGallery);
 
 /***/ }),
 
@@ -362,75 +435,87 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _Gallary_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Gallary.css */ "./src/pages/Gallary.css");
-/* harmony import */ var _Gallary_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Gallary_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-
-
-// Sample image URLs (replace these with your own images)
-const images = ['https://via.placeholder.com/150', 'https://via.placeholder.com/300x400', 'https://via.placeholder.com/400x300', 'https://via.placeholder.com/200', 'https://via.placeholder.com/250x400', 'https://via.placeholder.com/350x200', 'https://via.placeholder.com/300', 'https://via.placeholder.com/450x300', 'https://via.placeholder.com/300x250'];
-
-// Function to shuffle the images array
-const shuffleArray = array => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-};
-const GalleryContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px; /* Space between items */
-  padding: 20px;
-  margin: 10vw 10vw
+const GalleryContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  overflow: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent line breaks */
+  position: relative;
 `;
-const GalleryItem = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
-  overflow: hidden;
+const ScrollingInnerContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: inline-block;
+  animation: scroll-left 30s linear infinite; /* Adjust speed here */
   
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
+  &:hover {
+    animation-play-state: paused; /* Pause on hover */
+  }
 
-    &:hover {
-      transform: scale(1.05);
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0); /* Start from the original position */
+    }
+    100% {
+      transform: translateX(-50%); /* Move to left by half of the container */
     }
   }
-
-  &.square img {
-    aspect-ratio: 1 / 1; /* Square */
-    object-fit: cover;
-  }
-
-  &.horizontal img {
-    aspect-ratio: 3 / 4; /* Horizontal rectangle */
-    object-fit: cover;
-  }
-
-  &.vertical img {
-    aspect-ratio: 4 / 3; /* Vertical rectangle */
-    object-fit: cover;
+`;
+const ImageItem = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
+  display: inline-block; /* Ensure items are inline */
+  margin-right: 20px; /* Space between images */
+  
+  &:hover img {
+    transform: scale(1.2); /* Scale up on hover */
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
 `;
-const getRandomSizeClass = () => {
-  const sizes = ['square', 'horizontal', 'vertical'];
-  return sizes[Math.floor(Math.random() * sizes.length)];
-};
-const ProjectSlide = () => {
-  // Shuffle images to randomize their order
-  shuffleArray(images);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(GalleryContainer, null, images.map((src, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(GalleryItem, {
+const Image = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
+  width: auto; /* Allow images to maintain their aspect ratio */
+  height: 300px; /* Set a consistent height */
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+`;
+const ImageTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  text-align: center;
+  color: white;
+`;
+const LopsterGallery = () => {
+  const images = [{
+    src: './../../YelpThumbnail.png',
+    title: 'Yelp Marketing Design',
+    link: '/YelpHomeServices'
+  }, {
+    src: 'https://via.placeholder.com/200',
+    title: 'Project B',
+    link: '/project-b'
+  }, {
+    src: 'https://via.placeholder.com/250',
+    title: 'Project C',
+    link: '/project-c'
+  }, {
+    src: 'https://via.placeholder.com/300',
+    title: 'Project D',
+    link: '/project-d'
+  }
+
+  // Add more images as needed
+  ];
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GalleryContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ScrollingInnerContainer, null, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
     key: index,
-    className: getRandomSizeClass()
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: src,
-    alt: `Gallery item ${index + 1}`
-  }))));
+    href: image.link
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Image, {
+    src: image.src,
+    alt: image.title
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageTitle, null, image.title))), images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+    key: `duplicate-${index}`,
+    href: image.link
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Image, {
+    src: image.src,
+    alt: image.title
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageTitle, null, image.title)))));
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectSlide);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LopsterGallery);
 
 /***/ }),
 
@@ -447,12 +532,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _GridBackground__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./GridBackground */ "./src/pages/GridBackground.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './GridBackground'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.css */ "./src/pages/Home.css");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./src/pages/Header.js");
 /* harmony import */ var _IntroductionSlide__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./IntroductionSlide */ "./src/pages/IntroductionSlide.js");
 /* harmony import */ var _ProjectSlide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProjectSlide */ "./src/pages/ProjectSlide.js");
+/* harmony import */ var _LopsterGallary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./LopsterGallary */ "./src/pages/LopsterGallary.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer */ "./src/pages/Footer.js");
+
 
 
 
@@ -463,8 +552,20 @@ __webpack_require__.r(__webpack_exports__);
 //Landing Page
 
 
+
+
+//Footer
+
+const AppContainer = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the container takes at least full height */
+`;
+const Content = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div`
+  flex: 1; /* This allows the content to grow and push the footer down */
+`;
 function Home() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_GridBackground__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_IntroductionSlide__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectSlide__WEBPACK_IMPORTED_MODULE_5__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(AppContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_IntroductionSlide__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ProjectSlide__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_6__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
@@ -474,16 +575,6 @@ function Home() {
 /*!*****************************************!*\
   !*** ./src/pages/CrossoutAnimation.css ***!
   \*****************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./src/pages/Gallary.css":
-/*!*******************************!*\
-  !*** ./src/pages/Gallary.css ***!
-  \*******************************/
 /***/ (() => {
 
 
