@@ -1,18 +1,19 @@
 import * as React from "react"
-import GridBackground from './GridBackground';
 import './Home.css'
 import styled from 'styled-components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-//Header
+
+//Header & Footer
 import Header from './Header';
+import Footer from './Footer';
 
 //Landing Page
 import IntroductionSlide from './IntroductionSlide';
 import ProjectSlide from './ProjectSlide';
-import LopsterGallery from './LopsterGallary';
 
-//Footer
-import Footer from './Footer';
+//Projects
+import Yelp from './projects/Yelp';
 
 const AppContainer = styled.div`
   display: flex;
@@ -28,18 +29,26 @@ const Content = styled.div`
 function Home() {
   return (
 
-    <AppContainer>
-      <Content>
-        <Header />
-        <IntroductionSlide />
-        <ProjectSlide />
-        <br />
-        <br />
-        <br />
-        <LopsterGallery />
-      </Content>
-      <Footer />
-    </AppContainer>
+    <Router>
+      <AppContainer>
+        <Content>
+          <Header />
+          <Routes>
+            <Route path="/" element={
+              <>
+                <IntroductionSlide />
+                <ProjectSlide />
+                <br />
+                <br />
+                <br />
+              </>
+            } />
+            <Route path="./projects/Yelp" element={<Yelp />} />
+          </Routes>
+        </Content>
+        <Footer />
+      </AppContainer>
+    </Router>
 
   );
 }

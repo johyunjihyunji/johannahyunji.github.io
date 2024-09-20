@@ -5,7 +5,8 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-introduction-slide-js": () => import("./../../../src/pages/IntroductionSlide.js?export=default" /* webpackChunkName: "component---src-pages-introduction-slide-js" */),
   "component---src-pages-lopster-gallary-js": () => import("./../../../src/pages/LopsterGallary.js?export=default" /* webpackChunkName: "component---src-pages-lopster-gallary-js" */),
-  "component---src-pages-project-slide-js": () => import("./../../../src/pages/ProjectSlide.js?export=default" /* webpackChunkName: "component---src-pages-project-slide-js" */)
+  "component---src-pages-project-slide-js": () => import("./../../../src/pages/ProjectSlide.js?export=default" /* webpackChunkName: "component---src-pages-project-slide-js" */),
+  "component---src-pages-projects-yelp-js": () => import("./../../../src/pages/projects/Yelp.js?export=default" /* webpackChunkName: "component---src-pages-projects-yelp-js" */)
 }
 
 

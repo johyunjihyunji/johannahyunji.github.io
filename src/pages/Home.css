@@ -1,6 +1,7 @@
 body {
     background-color: #F5F5F5; /* Set your desired background color #FFF7CE */
     color: #161616; /* Set your desired default text color */
+    font-family: 'Inter', sans-serif;
   }
 
 @font-face {

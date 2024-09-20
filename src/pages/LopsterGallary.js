@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import styled from 'styled-components';
 
 const GalleryContainer = styled.div`
@@ -29,7 +29,7 @@ const LopsterGallery = () => {
   const [rotations, setRotations] = useState([]);
 
   // Image list with speed and direction
-  const images = [
+  const images = useMemo(() => [
     { src: './../../favicon.ico', speed: 2, direction: 1 }, // clockwise
     { src: './../../favicon.ico', speed: 3, direction: -1 }, // counterclockwise
     { src: './../../favicon.ico', speed: 1, direction: 1 },
@@ -41,7 +41,7 @@ const LopsterGallery = () => {
     { src: './../../favicon.ico', speed: 2, direction: 1 },
     { src: './../../favicon.ico', speed: 3, direction: -1 },
     // Add more images as needed
-  ];
+  ], []); 
 
   useEffect(() => {
     // Initialize rotations for each image
@@ -58,7 +58,7 @@ const LopsterGallery = () => {
     }, 30); // Adjust this value to control overall rotation speed
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
 
   return (
     <GalleryContainer>

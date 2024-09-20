@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-index-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js")),
   "component---src-pages-introduction-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/IntroductionSlide.js")),
   "component---src-pages-lopster-gallary-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/LopsterGallary.js")),
-  "component---src-pages-project-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/ProjectSlide.js"))
+  "component---src-pages-project-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/ProjectSlide.js")),
+  "component---src-pages-projects-yelp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/projects/Yelp.js"))
 }
 

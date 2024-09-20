@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const GalleryContainer = styled.div`
   overflow: hidden; /* Hide overflow */
@@ -9,7 +10,7 @@ const GalleryContainer = styled.div`
 
 const ScrollingInnerContainer = styled.div`
   display: inline-block;
-  animation: scroll-left 30s linear infinite; /* Adjust speed here */
+  animation: scroll-left 20s linear infinite; /* Adjust speed here */
   
   &:hover {
     animation-play-state: paused; /* Pause on hover */
@@ -26,20 +27,27 @@ const ScrollingInnerContainer = styled.div`
 `;
 
 const ImageItem = styled.a`
-  display: inline-block; /* Ensure items are inline */
-  margin-right: 20px; /* Space between images */
-  
-  &:hover img {
-    transform: scale(1.2); /* Scale up on hover */
-    margin-left: 2vw;
-    margin-right: 2vw;
-  }
-`;
+  display: inline-block;
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  transition: all 0.3s ease; // Smooth transition for all changes
+  position: relative; // Add this
+  z-index: 1; // Add this
 
-const Image = styled.img`
-  width: auto; /* Allow images to maintain their aspect ratio */
-  height: 300px; /* Set a consistent height */
-  transition: transform 0.3s ease; /* Smooth scaling effect */
+  &:hover {
+    z-index: 2; // Ensure hovered item is on top
+    margin-left: 30px; // Increased margin
+    margin-right: 30px; // Increased margin
+
+    img {
+      transform: scale(1.2); // Scale the image instead of the container
+    }
+  }
+
+  img {
+    transition: transform 0.3s ease; // Smooth transition for image scaling
+  }
 `;
 
 const ImageTitle = styled.div`
@@ -47,36 +55,99 @@ const ImageTitle = styled.div`
   color: white;
 `;
 
-const LopsterGallery = () => {
-  const images = [
-    { src: './../../YelpThumbnail.png', title: 'Yelp Marketing Design', link: '/YelpHomeServices' },
-    { src: 'https://via.placeholder.com/200', title: 'Project B', link: '/project-b' },
-    { src: 'https://via.placeholder.com/250', title: 'Project C', link: '/project-c' },
-    { src: 'https://via.placeholder.com/300', title: 'Project D', link: '/project-d' },
-
-    // Add more images as needed
-  ];
+const ProjectSlide = () => {
 
   return (
     <GalleryContainer>
       <ScrollingInnerContainer>
-        {/* Original Images */}
-        {images.map((image, index) => (
-          <ImageItem key={index} href={image.link}>
-            <Image src={image.src} alt={image.title} />
-            <ImageTitle>{image.title}</ImageTitle>
-          </ImageItem>
-        ))}
-        {/* Duplicate Images for seamless scrolling */}
-        {images.map((image, index) => (
-          <ImageItem key={`duplicate-${index}`} href={image.link}>
-            <Image src={image.src} alt={image.title} />
-            <ImageTitle>{image.title}</ImageTitle>
-          </ImageItem>
-        ))}
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+            <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+          <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+        
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+          <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+        
+        {/* Project Yelp */}
+          <ImageItem href="./projects/Yelp">
+            <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+          <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+        
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+          <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+
+        {/* Project Yelp */}
+        <ImageItem href="./projects/Yelp">
+            <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+
+
       </ScrollingInnerContainer>
     </GalleryContainer>
   );
 };
 
-export default LopsterGallery;
+export default ProjectSlide;

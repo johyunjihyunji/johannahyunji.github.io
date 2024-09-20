@@ -166,7 +166,7 @@ const LopsterGallery = () => {
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
 
   // Image list with speed and direction
-  const images = [{
+  const images = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => [{
     src: './../../favicon.ico',
     speed: 2,
     direction: 1
@@ -212,8 +212,7 @@ const LopsterGallery = () => {
     direction: -1
   }
   // Add more images as needed
-  ];
-
+  ], []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     // Initialize rotations for each image
     const initialRotations = Array(images.length).fill(0);
@@ -229,7 +228,7 @@ const LopsterGallery = () => {
     }, 30); // Adjust this value to control overall rotation speed
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GalleryContainer, null, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
     key: index,
     rotation: rotations[index]

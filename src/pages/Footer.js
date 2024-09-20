@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import LopsterGallery from './LopsterGallary';
 
 const FooterContainer = styled.footer`
   color: #FF1700;
@@ -14,19 +15,13 @@ const FooterText = styled.p`
   color: #FF1700;
 `;
 
-const Link = styled.a`
-  color: #FF1700;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-`;
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <FooterContainer>
+      <LopsterGallery />
       <FooterText  style={{ fontFamily: "'Inter', sans-serif"}}>
         © {currentYear} Johanna Lee
       </FooterText>

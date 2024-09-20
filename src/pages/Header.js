@@ -34,7 +34,9 @@ const MenuItem = styled.a`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo src="./../../favicon.ico" alt="Logo" /> {/* Replace with your logo URL */}
+      <a href="/">
+        <Logo src="./../../favicon.ico" alt="Logo" />
+      </a>
       <Menu>
         <MenuItem href = "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1">About</MenuItem>
         <MenuItem href = "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1">Resume</MenuItem>
