@@ -1,6 +1,7 @@
 // src/Header.js
 import React from 'react';
 import styled from 'styled-components';
+import Lopster from '../../static/lopster.png'
 
 const HeaderContainer = styled.header`
   display: flex;
@@ -13,7 +14,7 @@ const HeaderContainer = styled.header`
 `;
 
 const Logo = styled.img`
-  height: 100px; /* Adjust logo size */
+  height: 80px; /* Adjust logo size */
 `;
 
 const Menu = styled.nav`
@@ -35,7 +36,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <a href="/">
-        <Logo src="./../../favicon.ico" alt="Logo" />
+        <Logo src= {Lopster} alt="Logo" />
       </a>
       <Menu>
         <MenuItem href = "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1">About</MenuItem>

@@ -942,226 +942,9 @@ Z.displayName = "StaticImage", Z.propTypes = Q;
 
 /***/ }),
 
-/***/ "./src/pages/Footer.js":
-/*!*****************************!*\
-  !*** ./src/pages/Footer.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _LopsterGallary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LopsterGallary */ "./src/pages/LopsterGallary.js");
-
-
-
-const FooterContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].footer`
-  color: #FF1700;
-  padding: 20px 0;
-  text-align: center;
-  width: 100%;
-`;
-const FooterText = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p`
-  margin: 0;
-  font-size: 16px;
-  color: #FF1700;
-`;
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FooterContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FooterText, {
-    style: {
-      fontFamily: "'Inter', sans-serif"
-    }
-  }, "\xA9 ", currentYear, " Johanna Lee"));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
-
-/***/ }),
-
-/***/ "./src/pages/Header.js":
-/*!*****************************!*\
-  !*** ./src/pages/Header.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-// src/Header.js
-
-
-const HeaderContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  font-size: 20px;
-  fontFamily: "'Inter', sans-serif";
-  margin-right: 2vw;
-`;
-const Logo = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
-  height: 100px; /* Adjust logo size */
-`;
-const Menu = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].nav`
-  display: flex;
-  gap: 20px; /* Space between menu items */
-`;
-const MenuItem = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
-  color: #FF1700;
-  text-decoration: none; /* Remove underline */
-  font-family: 'Inter', sans-serif;
-  
-  &:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
-`;
-const Header = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(HeaderContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Logo, {
-    src: "./../../favicon.ico",
-    alt: "Logo"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Menu, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MenuItem, {
-    href: "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1"
-  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MenuItem, {
-    href: "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1"
-  }, "Resume")));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
-
-/***/ }),
-
-/***/ "./src/pages/LopsterGallary.js":
-/*!*************************************!*\
-  !*** ./src/pages/LopsterGallary.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-
-
-const GalleryContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
-  display: flex;
-  padding: 20px;
-  justify-content: center; /* Center the content horizontally */
-`;
-const ImageItem = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
-  margin-right: 20px;
-  position: relative;
-  transition: transform 0.3s ease;
-  transform: ${props => `rotate(${props.rotation}deg)`};
-
-  &:hover {
-    transform: scale(1.1) ${props => `rotate(${props.rotation}deg)`};
-  }
-`;
-const Image = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img`
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-`;
-const LopsterGallery = () => {
-  const {
-    0: rotations,
-    1: setRotations
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
-
-  // Image list with speed and direction
-  const images = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => [{
-    src: './../../favicon.ico',
-    speed: 2,
-    direction: 1
-  },
-  // clockwise
-  {
-    src: './../../favicon.ico',
-    speed: 3,
-    direction: -1
-  },
-  // counterclockwise
-  {
-    src: './../../favicon.ico',
-    speed: 1,
-    direction: 1
-  }, {
-    src: './../../favicon.ico',
-    speed: 4,
-    direction: -1
-  }, {
-    src: './../../favicon.ico',
-    speed: 2,
-    direction: 1
-  }, {
-    src: './../../favicon.ico',
-    speed: 3,
-    direction: -1
-  }, {
-    src: './../../favicon.ico',
-    speed: 1,
-    direction: 1
-  }, {
-    src: './../../favicon.ico',
-    speed: 4,
-    direction: -1
-  }, {
-    src: './../../favicon.ico',
-    speed: 2,
-    direction: 1
-  }, {
-    src: './../../favicon.ico',
-    speed: 3,
-    direction: -1
-  }
-  // Add more images as needed
-  ], []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    // Initialize rotations for each image
-    const initialRotations = Array(images.length).fill(0);
-    setRotations(initialRotations);
-    const interval = setInterval(() => {
-      setRotations(prevRotations => prevRotations.map((rotation, index) => {
-        const {
-          speed,
-          direction
-        } = images[index];
-        return (rotation + speed * direction) % 360; // Update rotation based on speed and direction
-      }));
-    }, 30); // Adjust this value to control overall rotation speed
-
-    return () => clearInterval(interval);
-  }, [images]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GalleryContainer, null, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
-    key: index,
-    rotation: rotations[index]
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Image, {
-    src: image.src,
-    alt: `Lobster ${index + 1}`
-  }))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LopsterGallery);
-
-/***/ }),
-
-/***/ "./src/pages/projects/Yelp.js?export=default":
+/***/ "./src/pages/Projects/Yelp.js?export=default":
 /*!***************************************************!*\
-  !*** ./src/pages/projects/Yelp.js?export=default ***!
+  !*** ./src/pages/Projects/Yelp.js?export=default ***!
   \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1172,64 +955,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header */ "./src/pages/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Footer */ "./src/pages/Footer.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 
 
 
-
-//Header & Footer
-
-
-const Container = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
   max-width: 80vw;
   margin: 0 auto;
   padding: 20px;
 `;
-const HeaderImage = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const HeaderImage = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
   width: 100%;
   object-fit: cover;
   margin-bottom: 30px;
 `;
-const InfoRow = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const InfoRow = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
   text-align: right;
 `;
-const InfoItem = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const InfoItem = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
   flex: 1;
   margin-right: 20px;
 `;
-const InfoTitle = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h3`
+const InfoTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h3`
   font-size: 18px;
   margin-bottom: 10px;
 `;
-const InfoContent = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
+const InfoContent = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
   font-size: 16px;
 `;
-const Section = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
   margin-bottom: 40px;
 `;
-const SectionTitle = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h2`
+const SectionTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2`
   font-size: 24px;
   margin-bottom: 20px;
+
 `;
-const Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
+const Subsection = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  flex: '1';
+  max-width: '50%;
+`;
+const SubsectionTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h3`
+  font-size: 20px;
+`;
+const Paragraph = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
 `;
-const TeamPhoto = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].a`
+const TeamPhoto = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
   width: 100%;
-  max-height: 400px;
   object-fit: cover;
   margin-bottom: 20px;
 `;
+const FlexContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+`;
 function Yelp() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(HeaderImage, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(HeaderImage, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
     src: "../../../static/YelpHeader.png",
     alt: "Project Header",
     placeholder: "blurred" // Optional placeholder
@@ -1239,23 +1028,70 @@ function Yelp() {
     style: {
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1896427768.json */ "./.cache/caches/gatsby-plugin-image/1896427768.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoRow, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Creative Design Consultant")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Performance Marketing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Content Ideation", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "User Survey and AB Testings", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Brand Design System", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "User Persona")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Timeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Jan 2024 - June 2024")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Team"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "UMA Design Team:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Jazzy Rao, Jenny Wang, Amber Louie, Andrea Yang, Isabella He, Jenny Kim, Johanna Lee, Kimmy Pruit, Naomi Manuel, Vivian Butler"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "Yelp, founded in 2004, has transformed the way consumers discover local food businesses through customer reviews and recommendations. As part of this project, my team focused on promoting Yelp's Home Services, which connects users with trusted professionals for various home improvement tasks. By leveraging Yelp\u2019s preestablished extensive food businesses review platform, the project aims to broaden the scope of Yelp\u2019s recognition and enhance visibility for these home service providers through perfomance marketing and brand design consultation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TeamPhoto, {
-    src: "path_to_your_team_photo.jpg",
-    alt: "Team Photo"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "Yelp, founded in 2004, has transformed the way consumers discover local food businesses through customer reviews and recommendations. As part of this project, my team focused on promoting Yelp's Home Services, which connects users with trusted professionals for various home improvement tasks. By leveraging Yelp\u2019s preestablished extensive food businesses review platform, the project aims to broaden the scope of Yelp\u2019s recognition and enhance visibility for these home service providers through perfomance marketing and brand design consultation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TeamPhoto, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../../static/YelpHeader.png",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/781229777.json */ "./.cache/caches/gatsby-plugin-image/781229777.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoRow, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Creative Design Consultant")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Performance Marketing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Content Ideation", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "User Survey and AB Testings", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Brand Design System", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "User Persona")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Timeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "Jan 2024 - June 2024")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoItem, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoTitle, null, "Team"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(InfoContent, null, "UMA Design Team:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Jazzy Rao, Jenny Wang, Amber Louie, Andrea Yang, Isabella He, Jenny Kim, Johanna Lee, Kimmy Pruit, Naomi Manuel, Vivian Butler"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FlexContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Subsection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Yelp Home Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Yelp"), ", founded in 2004, has transformed the way consumers discover local food businesses through customer reviews and recommendations. As part of this project, my team focused on promoting ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Yelp's Home Services"), ", which connects consumers with trusted professionals for various home improvement tasks. By leveraging Yelp's preestablished extensive food businesses review platform, the project aims to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "broaden the scope of Yelp's recognition and enhance visibility"), " for these home service providers.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Subsection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "UMA Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Design Team at the Undergraduate Marketing Association"), " is a creative group of individuals passionate about ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "visual storytelling and crafting impactful brand experiences"), ". We are dedicated to pushing the boundaries of design and creating innovative marketing solutions.  With our expertise in interface & graphic design, user experience, and all visual communications, we ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "collaborate with clients spanning diverse industries."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FlexContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TeamPhoto, {
+    style: {
+      flex: '1',
+      maxWidth: '40%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+    src: "../../../static/YelpFinal.jpeg",
     alt: "Project Header",
-    placeholder: "blurred" // Optional placeholder
-    ,
-    layout: "constrained" // Layout options
-    ,
+    placeholder: "blurred",
+    layout: "constrained",
     style: {
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1896427768.json */ "./.cache/caches/gatsby-plugin-image/1896427768.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1938142696.json */ "./.cache/caches/gatsby-plugin-image/1938142696.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Subsection, {
+    style: {
+      maxWidth: '60%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#FF1A1A'
+    }
+  }, "Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "Deliver Performance Marketing ideations for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Home Services project"), " to enhance engagement ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " among Gen Z, millennials, and young homeowners "), " needing home services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#FF1A1A'
+    }
+  }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "Establish a robust ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "graphic design system"), " that reinforces brand consistency and strengthens connection with three distinct audiences: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Consumers, Local Businesses, and Brand stakeholders"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "<---", "During our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "final deliverable"), " with Yelp's marketing team :)")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SectionTitle, null, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FlexContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Subsection, {
+    style: {
+      maxWidth: '50%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Designing Branding System:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "The biggest challenge was creating a branding system for Yelp that remained cohesive under the main brand while catering to different target groups. Took trial and error to successfully differentiate the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SubsectionTitle, {
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Video Concept Ideation and Storyboarding:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Paragraph, null, "I particularly enjoyed the video concept ideation and storyboard mock-ups stage, leveraging my experience in personal video content creation. This project offered a new perspective as I approached video creation from a marketing standpoint, contrasting to catering personal memories and experiences.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(TeamPhoto, {
+    style: {
+      flex: '1',
+      maxWidth: '50%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_2__.StaticImage, {
+    src: "../../../static/YelpClientReveal.jpg",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      borderRadius: '10px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1873351580.json */ "./.cache/caches/gatsby-plugin-image/1873351580.json")
+  })))));
 }
+;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Yelp);
 
 /***/ }),
@@ -2850,14 +2686,36 @@ function filter (array, pattern) {
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/1896427768.json":
+/***/ "./.cache/caches/gatsby-plugin-image/1873351580.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/1896427768.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/1873351580.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVR42h2QXU8aURCG+SGtJNoYGqBVcYFVgYC110Yw0JoojR+lpsSkXBiNdxq9MvF3yrq7Z+ast09nuZicz/d5551Ctr6Gb9TRsImEDVw9IAk2iPOqrRNtbhA1AqJmg2h7y2rb9k3ifp9kOCQdDJDxGFerocMRhezPBH98jLZbSKtFasDYTN6+VHmr1xfiyMzmBnsNAuZhyHzT/vQHJFdXpPv7uF4POTtD7VzIHh/xs39op410OkjueH6OTCa4iwvU3qN2hygXPTwgt7ckBkkPDnDWiBuNcLnGjHR52YDWrjeyPzlBbH2/vyd7euL95QW9vkbv7oi7PeJWm+z5Gf07xRlQfvxEbm6su13k8BD9NUY/fDTg5SXZ0RE6m6G/J8jed9Jwi9QAyc4Oie2TZmhztdl+XSMpl0nLFVzpM65aRVY+oXbnKxX80pIBLVp2eoqfTlFz1t1vC6jkzt0uzubqLI4zoDOgmFBKJWR11SKuLGJqsbiA+WKR/6+TLZG693tkAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/7b7cf97346d1693614bb02c25572fee2/5e0b4/YelpHeader.png","srcSet":"/static/7b7cf97346d1693614bb02c25572fee2/fd18e/YelpHeader.png 480w,\\n/static/7b7cf97346d1693614bb02c25572fee2/74b84/YelpHeader.png 960w,\\n/static/7b7cf97346d1693614bb02c25572fee2/5e0b4/YelpHeader.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/7b7cf97346d1693614bb02c25572fee2/ad76d/YelpHeader.webp 480w,\\n/static/7b7cf97346d1693614bb02c25572fee2/1ca0d/YelpHeader.webp 960w,\\n/static/7b7cf97346d1693614bb02c25572fee2/707e4/YelpHeader.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":600}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFWiviM0D//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADERITIv/aAAgBAQABBQLqEVrjruso9tzSEDP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAgMBAAAAAAAAAAAAAAAAITEBERJh/9oACAEBAAY/AvU6Wz1KlP/EABkQAAMBAQEAAAAAAAAAAAAAAAABIRExYf/aAAgBAQABPyG91uIUZ5+aPSoQIJEFPDdjp//aAAwDAQACAAMAAAAQnz//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QFX//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QMX//xAAbEAEAAwADAQAAAAAAAAAAAAABABExIUFhUf/aAAgBAQABPxAAFMqjYFK8HZ7kOwD8YTQgDxWwJDm91AU6Op//2Q=="},"images":{"fallback":{"src":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg","srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/6e816/YelpClientReveal.jpg 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/af85c/YelpClientReveal.jpg 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg 2734w","sizes":"(min-width: 2734px) 2734px, 100vw"},"sources":[{"srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/aa42b/YelpClientReveal.webp 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/8ae20/YelpClientReveal.webp 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/fdd4d/YelpClientReveal.webp 2734w","type":"image/webp","sizes":"(min-width: 2734px) 2734px, 100vw"}]},"width":2734,"height":1537}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1938142696.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1938142696.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdYRrieEiP8A/8QAGhABAQEAAwEAAAAAAAAAAAAAAQIAAwQRE//aAAgBAQABBQImkoqT1x2qNXO0fd3/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHxAAAgAFBQAAAAAAAAAAAAAAAAECERIxMlFxg5Pi/9oACAEBAAY/As11k6k+M8kqINDGFbFj/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARITFR0WH/2gAIAQEAAT8hKOydeoCZL4oRzzn58lBYzVPsrmhFbewoMT//2gAMAwEAAgADAAAAEHg//8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAh/9oACAEDAQE/EE5N/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oACAECAQE/ENR//8QAHBABAQACAgMAAAAAAAAAAAAAAREAQSExUbHR/9oACAEBAAE/EEeIFBg4MHfeL7QG2iMjHZ1MRQIL24OsApVQA9MScKApl8o26wBLQDmfM//Z"},"images":{"fallback":{"src":"/static/dadf82752109d70a9076b72f88f7ab4b/2b5af/YelpFinal.jpg","srcSet":"/static/dadf82752109d70a9076b72f88f7ab4b/b0c3e/YelpFinal.jpg 756w,\\n/static/dadf82752109d70a9076b72f88f7ab4b/8b3ff/YelpFinal.jpg 1512w,\\n/static/dadf82752109d70a9076b72f88f7ab4b/2b5af/YelpFinal.jpg 3024w","sizes":"(min-width: 3024px) 3024px, 100vw"},"sources":[{"srcSet":"/static/dadf82752109d70a9076b72f88f7ab4b/4625e/YelpFinal.webp 756w,\\n/static/dadf82752109d70a9076b72f88f7ab4b/8c30b/YelpFinal.webp 1512w,\\n/static/dadf82752109d70a9076b72f88f7ab4b/f4976/YelpFinal.webp 3024w","type":"image/webp","sizes":"(min-width: 3024px) 3024px, 100vw"}]},"width":3024,"height":1964}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/781229777.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/781229777.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVR42h2QXU8aURCG+SGtJNoYGqBVcYFVgYC110Yw0JoojR+lpsSkXBiNdxq9MvF3yrq7Z+ast09nuZicz/d5551Ctr6Gb9TRsImEDVw9IAk2iPOqrRNtbhA1AqJmg2h7y2rb9k3ifp9kOCQdDJDxGFerocMRhezPBH98jLZbSKtFasDYTN6+VHmr1xfiyMzmBnsNAuZhyHzT/vQHJFdXpPv7uF4POTtD7VzIHh/xs39op410OkjueH6OTCa4iwvU3qN2hygXPTwgt7ckBkkPDnDWiBuNcLnGjHR52YDWrjeyPzlBbH2/vyd7euL95QW9vkbv7oi7PeJWm+z5Gf07xRlQfvxEbm6su13k8BD9NUY/fDTg5SXZ0RE6m6G/J8jed9Jwi9QAyc4Oie2TZmhztdl+XSMpl0nLFVzpM65aRVY+oXbnKxX80pIBLVp2eoqfTlFz1t1vC6jkzt0uzubqLI4zoDOgmFBKJWR11SKuLGJqsbiA+WKR/6+TLZG693tkAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/7b7cf97346d1693614bb02c25572fee2/5e0b4/YelpHeader.png","srcSet":"/static/7b7cf97346d1693614bb02c25572fee2/fd18e/YelpHeader.png 480w,\\n/static/7b7cf97346d1693614bb02c25572fee2/74b84/YelpHeader.png 960w,\\n/static/7b7cf97346d1693614bb02c25572fee2/5e0b4/YelpHeader.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/7b7cf97346d1693614bb02c25572fee2/ad76d/YelpHeader.webp 480w,\\n/static/7b7cf97346d1693614bb02c25572fee2/1ca0d/YelpHeader.webp 960w,\\n/static/7b7cf97346d1693614bb02c25572fee2/707e4/YelpHeader.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":600}');
 
 /***/ })
 

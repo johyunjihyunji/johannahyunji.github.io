@@ -11,13 +11,13 @@ exports.modules = {
 "use strict";
 
 var token = '%[a-f0-9]{2}';
-var singleMatcher = new RegExp(token, 'gi');
+var singleMatcher = new RegExp('(' + token + ')|([^%]+?)', 'gi');
 var multiMatcher = new RegExp('(' + token + ')+', 'gi');
 
 function decodeComponents(components, split) {
 	try {
 		// Try to decode the entire string first
-		return decodeURIComponent(components.join(''));
+		return [decodeURIComponent(components.join(''))];
 	} catch (err) {
 		// Do nothing
 	}
@@ -39,12 +39,12 @@ function decode(input) {
 	try {
 		return decodeURIComponent(input);
 	} catch (err) {
-		var tokens = input.match(singleMatcher);
+		var tokens = input.match(singleMatcher) || [];
 
 		for (var i = 1; i < tokens.length; i++) {
 			input = decodeComponents(tokens, i).join('');
 
-			tokens = input.match(singleMatcher);
+			tokens = input.match(singleMatcher) || [];
 		}
 
 		return input;
@@ -1807,7 +1807,6 @@ const prefetch = function (url, options) {
     }).catch(() => {}); // 404s are logged to the console anyway
   });
 };
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (prefetch);
 
 /***/ }),
@@ -2073,7 +2072,7 @@ const ServerSliceRenderer = ({
     // if children exist, we split the slice into a before and after piece
     // see renderSlices in render-html
     contents.push(children);
-    contents.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(`slice-start`, {
+    contents.push(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(`slice-start`, {
       id: `${sliceId}-2`
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(`slice-end`, {
       id: `${sliceId}-2`
@@ -4221,11 +4220,9 @@ module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.c
   \**********************************************************************/
 /***/ ((module) => {
 
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-  return self;
+function _assertThisInitialized(e) {
+  if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  return e;
 }
 module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
@@ -4238,10 +4235,8 @@ module.exports = _assertThisInitialized, module.exports.__esModule = true, modul
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  setPrototypeOf(subClass, superClass);
+function _inheritsLoose(t, o) {
+  t.prototype = Object.create(o.prototype), t.prototype.constructor = t, setPrototypeOf(t, o);
 }
 module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
@@ -4253,12 +4248,10 @@ module.exports = _inheritsLoose, module.exports.__esModule = true, module.export
   \***************************************************************/
 /***/ ((module) => {
 
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _setPrototypeOf(o, p);
+function _setPrototypeOf(t, e) {
+  return module.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function (t, e) {
+    return t.__proto__ = e, t;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports, _setPrototypeOf(t, e);
 }
 module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
 

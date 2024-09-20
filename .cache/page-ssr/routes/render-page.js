@@ -1528,15 +1528,16 @@ function getForwards(collectedScripts) {
 
 exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js?export=default */ "./.cache/dev-404-page.js?export=default")),
+  "component---src-pages-404-js": () => __webpack_require__.e(/*! import() | component---src-pages-404-js */ "component---src-pages-404-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.js?export=default */ "./src/pages/404.js?export=default")),
+  "component---src-pages-components-introduction-slide-js": () => __webpack_require__.e(/*! import() | component---src-pages-components-introduction-slide-js */ "component---src-pages-components-introduction-slide-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Components/IntroductionSlide.js?export=default */ "./src/pages/Components/IntroductionSlide.js?export=default")),
+  "component---src-pages-components-lopster-gallary-js": () => __webpack_require__.e(/*! import() | component---src-pages-components-lopster-gallary-js */ "component---src-pages-components-lopster-gallary-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Components/LopsterGallary.js?export=default */ "./src/pages/Components/LopsterGallary.js?export=default")),
+  "component---src-pages-components-project-slide-js": () => __webpack_require__.e(/*! import() | component---src-pages-components-project-slide-js */ "component---src-pages-components-project-slide-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Components/ProjectSlide.js?export=default */ "./src/pages/Components/ProjectSlide.js?export=default")),
   "component---src-pages-footer-js": () => __webpack_require__.e(/*! import() | component---src-pages-footer-js */ "component---src-pages-footer-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Footer.js?export=default */ "./src/pages/Footer.js?export=default")),
   "component---src-pages-header-js": () => __webpack_require__.e(/*! import() | component---src-pages-header-js */ "component---src-pages-header-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Header.js?export=default */ "./src/pages/Header.js?export=default")),
+  "component---src-pages-home-js": () => __webpack_require__.e(/*! import() | component---src-pages-home-js */ "component---src-pages-home-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Home.js?export=default */ "./src/pages/Home.js?export=default")),
   "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js?export=default */ "./src/pages/index.js?export=default")),
-  "component---src-pages-introduction-slide-js": () => __webpack_require__.e(/*! import() | component---src-pages-introduction-slide-js */ "component---src-pages-introduction-slide-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/IntroductionSlide.js?export=default */ "./src/pages/IntroductionSlide.js?export=default")),
-  "component---src-pages-lopster-gallary-js": () => __webpack_require__.e(/*! import() | component---src-pages-lopster-gallary-js */ "component---src-pages-lopster-gallary-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/LopsterGallary.js?export=default */ "./src/pages/LopsterGallary.js?export=default")),
-  "component---src-pages-project-slide-js": () => __webpack_require__.e(/*! import() | component---src-pages-project-slide-js */ "component---src-pages-project-slide-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/ProjectSlide.js?export=default */ "./src/pages/ProjectSlide.js?export=default")),
-  "component---src-pages-projects-yelp-js": () => __webpack_require__.e(/*! import() | component---src-pages-projects-yelp-js */ "component---src-pages-projects-yelp-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/projects/Yelp.js?export=default */ "./src/pages/projects/Yelp.js?export=default"))
+  "component---src-pages-projects-yelp-js": () => __webpack_require__.e(/*! import() | component---src-pages-projects-yelp-js */ "component---src-pages-projects-yelp-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/Projects/Yelp.js?export=default */ "./src/pages/Projects/Yelp.js?export=default"))
 };
-
 exports.head = {};
 
 /***/ }),
@@ -6456,9 +6457,9 @@ module.exports = require("stream");
   \**********************************************************************/
 /***/ ((module) => {
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
+function _interopRequireDefault(e) {
+  return e && e.__esModule ? e : {
+    "default": e
   };
 }
 module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
@@ -6476,7 +6477,7 @@ module.exports = _interopRequireDefault, module.exports.__esModule = true, modul
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 
-const PartytownSnippet = "/* Partytown 0.7.5 - MIT builder.io */\n!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,\"/\"==(a=(o.lib||\"/~partytown/\")+(o.debug?\"debug/\":\"\"))[0]&&(s=e.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener(\"pt0\",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||\"partytown-sw.js\"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?\"script\":\"iframe\"),t||(c.setAttribute(\"style\",\"display:block;width:0;height:0;border:0;visibility:hidden\"),c.setAttribute(\"aria-hidden\",!0)),c.src=a+\"partytown-\"+(t?\"atomics.js?v=0.7.5\":\"sandbox-sw.html?\"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(\".\")[0]]})),n=0;n<s.length;n++)(r=e.createElement(\"script\")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(\".\").map((function(e,n,i){p=p[i[n]]=n+1<i.length?\"push\"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),\"complete\"==e.readyState?u():(t.addEventListener(\"DOMContentLoaded\",u),t.addEventListener(\"load\",u))}(window,document,navigator,top,window.crossOriginIsolated);";
+const PartytownSnippet = "/* Partytown 0.7.6 - MIT builder.io */\n!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,\"/\"==(a=(o.lib||\"/~partytown/\")+(o.debug?\"debug/\":\"\"))[0]&&(s=e.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener(\"pt0\",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||\"partytown-sw.js\"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?\"script\":\"iframe\"),t||(c.setAttribute(\"style\",\"display:block;width:0;height:0;border:0;visibility:hidden\"),c.setAttribute(\"aria-hidden\",!0)),c.src=a+\"partytown-\"+(t?\"atomics.js?v=0.7.6\":\"sandbox-sw.html?\"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(\".\")[0]]})),n=0;n<s.length;n++)(r=e.createElement(\"script\")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(\".\").map((function(e,n,i){p=p[i[n]]=n+1<i.length?\"push\"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),\"complete\"==e.readyState?u():(t.addEventListener(\"DOMContentLoaded\",u),t.addEventListener(\"load\",u))}(window,document,navigator,top,window.crossOriginIsolated);";
 
 const createSnippet = (config, snippetCode) => {
     const { forward = [], ...filteredConfig } = config || {};

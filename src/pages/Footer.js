@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import LopsterGallery from './LopsterGallary';
+import LopsterGallery from './Components/LopsterGallary';
 
 const FooterContainer = styled.footer`
   color: #FF1700;
   padding: 20px 0;
   text-align: center;
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 `;
 
 const FooterText = styled.p`

@@ -1,57 +1,28 @@
 import * as React from "react"
-import './Home.css'
-import styled from 'styled-components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 
 //Header & Footer
 import Header from './Header';
 import Footer from './Footer';
 
 //Landing Page
-import IntroductionSlide from './IntroductionSlide';
-import ProjectSlide from './ProjectSlide';
+import Home from './Home'
+//Projects 
+import Yelp from './Projects/Yelp';
 
-//Projects
-import Yelp from './projects/Yelp';
-
-const AppContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Make sure the container takes at least full height */
-`;
-
-const Content = styled.div`
-  flex: 1; /* This allows the content to grow and push the footer down */
-`;
-
-
-function Home() {
+function App() {
   return (
 
     <Router>
-      <AppContainer>
-        <Content>
-          <Header />
-          <Routes>
-            <Route path="/" element={
-              <>
-                <IntroductionSlide />
-                <ProjectSlide />
-                <br />
-                <br />
-                <br />
-              </>
-            } />
-            <Route path="./projects/Yelp" element={<Yelp />} />
+        <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Projects/Yelp" element={<Yelp />} />
           </Routes>
-        </Content>
         <Footer />
-      </AppContainer>
     </Router>
 
   );
 }
 
-
-export default Home
+export default App

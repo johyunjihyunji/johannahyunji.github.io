@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 
-//Header & Footer
-import Header from '../Header';
-import Footer from '../Footer';
 
 const Container = styled.div`
   max-width: 80vw;
@@ -46,6 +43,7 @@ const Section = styled.div`
 const SectionTitle = styled.h2`
   font-size: 24px;
   margin-bottom: 20px;
+
 `;
 
 const Subsection = styled.div`
@@ -77,8 +75,6 @@ const FlexContainer = styled.div`
 
 function Yelp() {
   return (
-    <div>
-      <Header />
       <Container>
         <HeaderImage>
         <StaticImage 
@@ -225,10 +221,7 @@ function Yelp() {
       </Section>
 
     </Container>
-
-      <Footer />
-    </div>
   );
-}
+};
 
 export default Yelp;
