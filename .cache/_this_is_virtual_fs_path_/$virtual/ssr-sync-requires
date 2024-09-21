@@ -2,7 +2,6 @@ exports.ssrComponents = {
   "component---cache-dev-404-page-js": require("/Users/johannalee/repo/johannahyunji.github.io/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/404.js"),
   "component---src-pages-index-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js"),
-  "component---src-pages-projects-es-net-mrdp-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/ESNetMRDP.js"),
-  "component---src-pages-projects-yelp-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Yelp.js")
+  "component---src-pages-projects-broke-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Broke.js")
   }
 

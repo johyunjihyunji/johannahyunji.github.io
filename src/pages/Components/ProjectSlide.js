@@ -68,7 +68,7 @@ const ProjectSlide = () => {
             />
         </ImageItem>
 
-        {/* Project Yelp */}
+        {/* Project MRDP */}
         <ImageItem to="/Projects/ESNetMRDP">
           <StaticImage 
             src="../../../static/ESnetMRDPThumbnail.png"
@@ -80,11 +80,11 @@ const ProjectSlide = () => {
             />
         </ImageItem>
         
-        {/* Project Yelp */}
-        <ImageItem to="/Projects/Yelp">
+        {/* Project Broke */}
+        <ImageItem to="/Projects/Broke">
           <StaticImage 
-            src="../../../static/YelpThumbnail.png"
-            alt="yelp"
+            src="../../../static/BrokeThumbnail.png"
+            alt="broke"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
             height={300} // Desired width
