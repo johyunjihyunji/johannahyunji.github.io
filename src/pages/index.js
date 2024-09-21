@@ -1,27 +1,21 @@
 import * as React from "react"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Header & Footer
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 //Landing Page
-import Home from './Home'
-//Projects 
-import Yelp from './Projects/Yelp';
+import Home from './Components/Home';
 
-function App() {
+function App({ children }) {
   return (
-
-    <Router>
-        <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Projects/Yelp" element={<Yelp />} />
-          </Routes>
-        <Footer />
-    </Router>
-
+    <>
+      <Header />
+      <main>
+        {children || <Home />}  {/* Render children if present, otherwise render Home */}
+      </main>
+      <Footer />
+    </>
   );
 }
 

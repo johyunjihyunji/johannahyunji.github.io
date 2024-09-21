@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
 
 const GalleryContainer = styled.div`
   overflow: hidden; /* Hide overflow */
@@ -8,7 +9,7 @@ const GalleryContainer = styled.div`
   position: relative;
 `;
 
-const ScrollingInnerContainer = styled.div`
+const ScrollingInnerContainer = styled.nav`
   display: inline-block;
   animation: scroll-left 20s linear infinite; /* Adjust speed here */
   
@@ -26,7 +27,7 @@ const ScrollingInnerContainer = styled.div`
   }
 `;
 
-const ImageItem = styled.a`
+const ImageItem = styled(Link)`
   display: inline-block;
   height: 300px;
   margin-right: 20px;
@@ -50,18 +51,13 @@ const ImageItem = styled.a`
   }
 `;
 
-const ImageTitle = styled.div`
-  text-align: center;
-  color: white;
-`;
-
 const ProjectSlide = () => {
 
   return (
     <GalleryContainer>
       <ScrollingInnerContainer>
         {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
+        <ImageItem to="/Projects/Yelp">
             <StaticImage 
             src="../../../static/YelpThumbnail.png"
             alt="yelp"
@@ -73,7 +69,19 @@ const ProjectSlide = () => {
         </ImageItem>
 
         {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
+        <ImageItem to="/Projects/ESNetMRDP">
+          <StaticImage 
+            src="../../../static/ESnetMRDPThumbnail.png"
+            alt="ESNet MRDP"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </ImageItem>
+        
+        {/* Project Yelp */}
+        <ImageItem to="/Projects/Yelp">
           <StaticImage 
             src="../../../static/YelpThumbnail.png"
             alt="yelp"
@@ -85,19 +93,7 @@ const ProjectSlide = () => {
         </ImageItem>
         
         {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
-          <StaticImage 
-            src="../../../static/YelpThumbnail.png"
-            alt="yelp"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-        </ImageItem>
-        
-        {/* Project Yelp */}
-          <ImageItem href="/Projects/Yelp">
+          <ImageItem to="/Projects/Yelp">
             <StaticImage 
             src="../../../static/YelpThumbnail.png"
             alt="yelp"
@@ -109,32 +105,8 @@ const ProjectSlide = () => {
         </ImageItem>
 
         {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
+        <ImageItem to="/Projects/Yelp">
           <StaticImage 
-            src="../../../static/YelpThumbnail.png"
-            alt="yelp"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-        </ImageItem>
-        
-        {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
-          <StaticImage 
-            src="../../../static/YelpThumbnail.png"
-            alt="yelp"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-        </ImageItem>
-
-        {/* Project Yelp */}
-        <ImageItem href="/Projects/Yelp">
-            <StaticImage 
             src="../../../static/YelpThumbnail.png"
             alt="yelp"
             placeholder="blurred" // Optional placeholder

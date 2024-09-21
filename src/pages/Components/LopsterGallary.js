@@ -15,7 +15,7 @@ const ImageItem = styled.div`
   transform: ${props => `rotate(${props.rotation}deg)`};
 
   &:hover {
-    transform: scale(1.1) ${props => `rotate(${props.rotation}deg)`};
+    transform: scale(1.2) ${props => `rotate(${props.rotation}deg)`};
   }
 `;
 
