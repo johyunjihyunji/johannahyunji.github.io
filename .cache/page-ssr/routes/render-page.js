@@ -12075,61 +12075,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _style_ProjectSlide_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style/ProjectSlide.css */ "./src/pages/style/ProjectSlide.css");
+/* harmony import */ var _style_ProjectSlide_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_ProjectSlide_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 
-const GalleryContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
-  overflow: hidden; /* Hide overflow */
-  white-space: nowrap; /* Prevent line breaks */
-  position: relative;
-  marginTop: 100px;
-`;
-const ScrollingInnerContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].nav`
-  display: inline-block;
-  animation: scroll-left 20s linear infinite; /* Adjust speed here */
-  
-  &:hover {
-    animation-play-state: paused; /* Pause on hover */
-  }
-
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(0); /* Start from the original position */
-    }
-    100% {
-      transform: translateX(-50%); /* Move to left by half of the container */
-    }
-  }
-`;
-const ImageItem = (0,styled_components__WEBPACK_IMPORTED_MODULE_2__["default"])((0,gatsby__WEBPACK_IMPORTED_MODULE_1__.Link))`
-  display: inline-block;
-  height: 300px;
-  margin-right: 20px;
-  margin-left: 20px;
-  transition: all 0.3s ease; // Smooth transition for all changes
-  position: relative; // Add this
-  z-index: 1; // Add this
-
-  &:hover {
-    z-index: 2; // Ensure hovered item is on top
-    margin-left: 30px; // Increased margin
-    margin-right: 30px; // Increased margin
-
-    img {
-      transform: scale(1.2); // Scale the image instead of the container
-    }
-  }
-
-  img {
-    transition: transform 0.3s ease; // Smooth transition for image scaling
-  }
-`;
 const ProjectSlide = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GalleryContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ScrollingInnerContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "GalleryContainer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "ScrollingInnerContainer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     to: "/Projects/Yelp"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/YelpThumbnail.png",
@@ -12144,7 +12104,8 @@ const ProjectSlide = () => {
       borderRadius: '5px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1977721157.json */ "./.cache/caches/gatsby-plugin-image/1977721157.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     to: "/Projects/ESNetMRDP"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/ESnetMRDPThumbnail.png",
@@ -12159,7 +12120,8 @@ const ProjectSlide = () => {
       borderRadius: '5px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2725969576.json */ "./.cache/caches/gatsby-plugin-image/2725969576.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     to: "/Projects/Broke"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/BrokeThumbnail.png",
@@ -12174,7 +12136,8 @@ const ProjectSlide = () => {
       borderRadius: '5px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2953709351.json */ "./.cache/caches/gatsby-plugin-image/2953709351.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     to: "/Projects/Yelp"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/YelpThumbnail.png",
@@ -12189,7 +12152,8 @@ const ProjectSlide = () => {
       borderRadius: '5px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1977721157.json */ "./.cache/caches/gatsby-plugin-image/1977721157.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ImageItem, {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     to: "/Projects/Yelp"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/YelpThumbnail.png",
@@ -22943,6 +22907,16 @@ exports.parse = parse;
 /*!**********************************!*\
   !*** ./src/pages/style/Home.css ***!
   \**********************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/pages/style/ProjectSlide.css":
+/*!******************************************!*\
+  !*** ./src/pages/style/ProjectSlide.css ***!
+  \******************************************/
 /***/ (() => {
 
 
