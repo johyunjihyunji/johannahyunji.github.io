@@ -90,7 +90,7 @@ function Broke() {
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
-              style={{ marginTop: '25px',borderRadius: '2px' }}
+              style={{ marginTop: '25px',borderRadius: '10px' }}
               />
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
