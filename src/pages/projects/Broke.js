@@ -124,6 +124,15 @@ function Broke() {
         </div>
 
         <div className="section">
+          <h2 className="section-title">Brand Design System</h2>
+          <p className="paragraph">
+          After iterating through multiple rounds of low-fidelity wireframes and conducting user experience interviews, 
+          I crafted high-fidelity wireframe prototype.
+          I developed a comprehensive prototype that was presented to potential investors and program instructors/mentors. 
+          </p>
+        </div>
+
+        <div className="section">
           <h2 className="section-title">Prototyping</h2>
           <p className="paragraph">
           After iterating through multiple rounds of low-fidelity wireframes and conducting user experience interviews, 

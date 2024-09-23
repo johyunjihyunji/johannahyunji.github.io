@@ -16,4 +16,54 @@ b {
   color: #0438C6;
   font-size: 18px;
 }
+
+.AppContainer{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the container takes at least full height */
+}
+
+.HeaderContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "'Inter', sans-serif";
+  margin-right: 2vw;
+}
+
+.Logo {
+  height: 80px; /* Adjust logo size */
+}
+
+.Menu {
+  display: flex;
+  gap: 20px; /* Space between menu items */
+}
+
+.MenuItem {
+  color: #FF1700;
+  text-decoration: none; /* Remove underline */
+  font-family: 'Inter', sans-serif;
   
+  &:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+}
+  
+
+.FooterContainer{
+  color: #FF1700;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.FooterText {
+  margin: 0;
+  font-size: 16px;
+  color: #FF1700;
+}

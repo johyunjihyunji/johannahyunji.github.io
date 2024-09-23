@@ -5,17 +5,18 @@ import Lopster from '../../../static/lopster.png'
 const GalleryContainer = styled.div`
   display: flex;
   padding: 20px;
-  justify-content: center; /* Center the content horizontally */
+  justify-content: center;
+  flex-wrap: wrap; // Allow wrapping for multiple rows
 `;
 
 const ImageItem = styled.div`
-  margin-right: 20px;
+  margin: 10px;
   position: relative;
   transition: transform 0.3s ease;
-  transform: ${props => `rotate(${props.rotation}deg)`};
+  transform: ${props => `rotate(${props.$rotation}deg)`};
 
   &:hover {
-    transform: scale(1.2) ${props => `rotate(${props.rotation}deg)`};
+    transform: ${props => `scale(1.2) rotate(${props.$rotation}deg)`};
   }
 `;
 
@@ -25,27 +26,23 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-
 const LopsterGallery = () => {
   const [rotations, setRotations] = useState([]);
 
-  // Image list with speed and direction
   const images = useMemo(() => [
-    { src: Lopster, speed: 2, direction: 1 }, // clockwise
-    { src: Lopster, speed: 3, direction: -1 }, // counterclockwise
-    { src: Lopster, speed: 1, direction: 1 },
-    { src: Lopster, speed: 4, direction: -1 },
     { src: Lopster, speed: 2, direction: 1 },
     { src: Lopster, speed: 3, direction: -1 },
     { src: Lopster, speed: 1, direction: 1 },
     { src: Lopster, speed: 4, direction: -1 },
     { src: Lopster, speed: 2, direction: 1 },
     { src: Lopster, speed: 3, direction: -1 },
-    // Add more images as needed
+    { src: Lopster, speed: 1, direction: 1 },
+    { src: Lopster, speed: 4, direction: -1 },
+    { src: Lopster, speed: 2, direction: 1 },
+    { src: Lopster, speed: 3, direction: -1 },
   ], []); 
 
   useEffect(() => {
-    // Initialize rotations for each image
     const initialRotations = Array(images.length).fill(0);
     setRotations(initialRotations);
 
@@ -53,10 +50,10 @@ const LopsterGallery = () => {
       setRotations(prevRotations =>
         prevRotations.map((rotation, index) => {
           const { speed, direction } = images[index];
-          return (rotation + speed * direction) % 360; // Update rotation based on speed and direction
+          return (rotation + speed * direction + 360) % 360; // Ensure positive rotation
         })
       );
-    }, 30); // Adjust this value to control overall rotation speed
+    }, 50); // Adjust for desired speed
 
     return () => clearInterval(interval);
   }, [images]);
@@ -64,7 +61,7 @@ const LopsterGallery = () => {
   return (
     <GalleryContainer>
       {images.map((image, index) => (
-        <ImageItem key={index} rotation={rotations[index]}>
+        <ImageItem $rotation={rotations[index]} key={index}>
           <Image src={image.src} alt={`Lobster ${index + 1}`} />
         </ImageItem>
       ))}

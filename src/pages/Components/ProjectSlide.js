@@ -7,6 +7,7 @@ const GalleryContainer = styled.div`
   overflow: hidden; /* Hide overflow */
   white-space: nowrap; /* Prevent line breaks */
   position: relative;
+  marginTop: 100px;
 `;
 
 const ScrollingInnerContainer = styled.nav`

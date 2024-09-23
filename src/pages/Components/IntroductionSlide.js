@@ -43,7 +43,7 @@ function IntroductionSlide() {
                 <br />
                 <br />
                 <br />
-                <span> is a designer, multimedia artist, and engineer </span>
+                <span> is a designer and engineer </span>
                 <br />
                 <span> based in </span>
                 {locations.map((location, index) => (
@@ -60,7 +60,7 @@ function IntroductionSlide() {
                 ))}
                 <br />
                 <br />
-                <span> passionate about fashion soup and oranges</span>
+                <span> passionate about x y and z</span>
                 <br />
             </div>
           </div>
