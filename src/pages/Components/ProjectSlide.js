@@ -44,11 +44,23 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
         </Link>
+
+        {/* Project Electrocraft */}
+        <Link className='ImageItem'  to="/Projects/Electrocrafting">
+          <StaticImage 
+            src="../../../static/ElectrocraftThumbnail.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </Link>
         
-        {/* Project Yelp */}
-          <Link className='ImageItem'  to="/Projects/Yelp">
+        {/* Project Youtube*/}
+          <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
             <StaticImage 
-            src="../../../static/YelpThumbnail.png"
+            src="../../../static/Youtube.png"
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -68,6 +80,7 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
         </Link>
+
 
 
       </nav>

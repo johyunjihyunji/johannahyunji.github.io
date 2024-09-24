@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-components-project-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/ProjectSlide.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js")),
   "component---src-pages-projects-broke-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Broke.js")),
+  "component---src-pages-projects-electrocrafting-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Electrocrafting.js")),
   "component---src-pages-projects-es-net-mrdp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/ESNetMRDP.js")),
   "component---src-pages-projects-yelp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Yelp.js"))
 }

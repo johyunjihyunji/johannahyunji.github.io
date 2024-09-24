@@ -37,10 +37,8 @@
     z-index: 2; 
     margin-left: 30px; 
     margin-right: 30px; 
-  }
-  
-  .ImageItem:hover img {
-    transform: scale(1.2); 
+    transform: scale(1.1); 
+    
   }
   
   .ImageItem img {

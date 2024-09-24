@@ -11854,43 +11854,43 @@ const LopsterGallery = () => {
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
   const images = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => [{
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 2,
+    speed: 10,
     direction: 1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 3,
+    speed: 9,
     direction: -1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 1,
+    speed: 14,
     direction: 1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 4,
+    speed: 8,
     direction: -1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 2,
+    speed: 13,
     direction: 1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 3,
+    speed: 10,
     direction: -1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 1,
+    speed: 8,
     direction: 1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 4,
+    speed: 9,
     direction: -1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 2,
+    speed: 7,
     direction: 1
   }, {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 3,
+    speed: 5,
     direction: -1
   }], []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
@@ -12001,9 +12001,9 @@ const ProjectSlide = () => {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2953709351.json */ "./.cache/caches/gatsby-plugin-image/2953709351.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
-    to: "/Projects/Yelp"
+    to: "/Projects/Electrocrafting"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../../static/YelpThumbnail.png",
+    src: "../../../static/ElectrocraftThumbnail.png",
     alt: "yelp",
     placeholder: "blurred" // Optional placeholder
     ,
@@ -12014,7 +12014,23 @@ const ProjectSlide = () => {
     style: {
       borderRadius: '5px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1977721157.json */ "./.cache/caches/gatsby-plugin-image/1977721157.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3872193401.json */ "./.cache/caches/gatsby-plugin-image/3872193401.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
+    href: "https://www.youtube.com/@johannalee8172/videos"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../../static/Youtube.png",
+    alt: "yelp",
+    placeholder: "blurred" // Optional placeholder
+    ,
+    layout: "constrained" // Layout options
+    ,
+    height: 300 // Desired width
+    ,
+    style: {
+      borderRadius: '5px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1860533389.json */ "./.cache/caches/gatsby-plugin-image/1860533389.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
     to: "/Projects/Yelp"
@@ -25395,6 +25411,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1860533389.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1860533389.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAADsElEQVR42lWSW2xUVRSGN73MmdOZzuXMOTPTGy0ttJXa+41OW1Ij0UqAqCRGRAyWakiQKqYIWtrQ1MTa+GDEJxJNDDUhGkKiaI1U8Ta9g5XUUqSJl0igPkDUBGyTw+c6Y2v04c/Ofljf+tbaW5mmYYeCXjsUMu2sLNMuKYrYNfURO9ASsP2tQdv9cNAuj/ntZ0LpdnvYZ7eZHrsio9D2ZjfYoWihbYYzbMsK2R6vYQeNkK38Zh45G17go3ermPu6lD+mmzhzoRj1hU7yOS/qW50n+lwQVCxmJkNY0XfXLlTTNJ7Yl6iqITq7dnL6+Foqy6IozSinec9JFn+K8ed8FfzQwuB0IeozN6lnPagxnV1HNAgobi8DjxVuRzVfxNM8jqqYpuu1PrhZw9bWLFSKv5wdB/r5a/5ufpupgLkYb57PE6CGa1iA4252d7sSwMXMpATwnXX3oBpHSWv+SoCj7OwcYHG+jM2bMlFJvio6el/mzs+lLMzUweUW+qfWJAy1YRl5PI0nlw1XgO8XbJSRz+NumpCRp3hg71vculLHlvvEcJWvkp6Bw/BLCddnagXYzNHJ1ahhB+gY6ux56f+GH+Q3iuEEWuMYqnqc2O4T/D5Xz7b7xTA5UM4rrz8nwGIxlB1ejnFkMluAGu7hNNSETluXAP2KJQcYUXy8pl6AcbSmOKomTuVjg9y8VLcCrGDgWKcAy8RwgwA30jWZmzB0JwzTaHNG/g/wkwRwClfTFKp2iopHT3FjtkmAzqOI4atvOIbrWfiuBmYb6B7PQX2q4XGAE2k85QDl29zKEWCG4kxBnQBHBDgqhiPU7BjkxsyyofJWcahPdnh1Pdd+rIdfm+m5JI/yjYZ2Vpdvo9F2MBVSxNAvQI/iwwxnh2P/jFw9Rm27AK82sHWzrConL5/Phx+H0VJu74vAs9nE2310H9I5OlLA4Qv5nDiZS+8+jY4OFy/uV2zrKCKp5ZxAL5JTfZpTjZukLsqDJRaquCDI0HvFXHm7iCWfShg4NtTq3JGuXK/n2kId3jkfajaNVfNuVDwD171DAvyeLRW9LBmKuJ5MYzCAMgyTQMAiO8uiOhrioWiAp8PpHFwrls8X0N+zjt6eQswDAbz7/fj3puN7JAt/wXZ8ua1kRotYbZkEIxYhSwxN08SJA/aZFrrEJUk2JKkGKS4DzR3C1C0st0XYJdFDWIYu8WCEggSXGWHJv0BLulhyRpYTlXtUukYjcpeYYUlkJRamFZY6J1aiLsEwTf4GIsBHxXtFH1UAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/d442fc4d24554bd73bc438fa545ac233/6addd/Youtube.png","srcSet":"/static/d442fc4d24554bd73bc438fa545ac233/4e4d4/Youtube.png 100w,\\n/static/d442fc4d24554bd73bc438fa545ac233/2c67b/Youtube.png 200w,\\n/static/d442fc4d24554bd73bc438fa545ac233/6addd/Youtube.png 400w,\\n/static/d442fc4d24554bd73bc438fa545ac233/c2d17/Youtube.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/d442fc4d24554bd73bc438fa545ac233/f6ea0/Youtube.webp 100w,\\n/static/d442fc4d24554bd73bc438fa545ac233/b5535/Youtube.webp 200w,\\n/static/d442fc4d24554bd73bc438fa545ac233/f5c71/Youtube.webp 400w,\\n/static/d442fc4d24554bd73bc438fa545ac233/0d27e/Youtube.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":300}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1977721157.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1977721157.json ***!
@@ -25425,6 +25452,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAD0ElEQVR42k2UW0ybZRzGv6tFlxjjhZfTC2NcOJYWSgsUmbCRGWO8cRripZqdgjOLqHEum6jDbDNuDsHMDZljUAqBgd04lEM7hFIoh9J+LQU5lI7DaKEchpsz/ny/thdePHn/efO9z/v83+95/lLEm03EmxmHUmcI6GK1nBHf07PhTyfs0xH2asWawaY/539nDPE6BylGoI5DqVUCGjYn09n2p7EhDv8dUNFVmctn2iKOG/Zx2vAuQyY9OzMprHuUc+kCKdFViqlJj0MXJYsIFcujmcz0JzFn1/I4qOH6iTd4WzrF+8+UUCR9zu0L+TwJZghCnbg0K3qxIkgQZkXlrss61jzZbAll/r4cJn12qqsqaTNbCExd4sdjeeRLJzi0u5iDUjG3fyjgr9lEVsdVhCfUhFzJgtSgEGrZ9KWwM53Eo1kNj6Zfwd2bQ2g1wui9Pwlvb7MwU0P5JwUcyf6ZU29V8F5CGTXn9CxNl2CqPobZ+BFzYyWsClIpImuZd77JH+YiWm8cxG8vwtN3gLtGB8Zvzcw+djIfqOJicT77XyjjUOrXFL54hqpvXmNp0Urg/izjC7OMei08GNUiLTkT8I1fZcLrx9LVwdr6PJ2mQpaX7jMXXGF54x8WF2o5+2E2z4tW9+46yh7pKNfL9uN31eHsbqfZLdM5WEtoXI+0MpLEsP00K5vNPKGFxVA97cYDuOQx+t0zDHhWkV0VfHk4l6ekj9nzdDHPSsf55bsCbLZKzBYzPZ5BbPZq8Z5qRaEa10gpy1tNrGzdYCncQEf969gGHXT3O2m908to/3lKT+YiSUd4bvdhdkkfUHu5EFPHRcptLVzrNtH4+wXxx/cpCpMZc5whEGpgIVxNcMUoCAsxtzTgHbDid44w3FeJuyuBhqsabv2UQtO1ZAL2LFp6rnDT3sittu9pb/+KNbcw9rJCOHSWBzvN7PxrFC03Ym3Kw2Gto6elkcZfaxns+YK1iQQeTuvY8mt4OJVKSH6Vtrrz4oIrNFRV09l0ibCcKVoeTsPnLmVs7CadrZeZmTfiseUxdS8VV1cKnp50Ao6Y8ddlETHh1w1htZA7i77Oenyjc3Q1DTFg/U3YJlt5w714XeVMuhcxVVjxTbrw9RmEinRhVJWIYIYgyIhHS+RVTovGc82jxXk3GUudCotRjac3OZoWSRkADvM7WFvPcafmU6zmkyyN6YXZ9bF8y1nxSKrjgyCu1pMjFKsEtNHhEZFTBYRtlLgFhxPx9r4kIpdIcOhloUiokxWS1NjHUYWKMkEua6LkG4Jc6SDi08Xq6Aww8B8eTWrJWhxY8QAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/a637219d9d9a15a7fac1fad79d3e7ef2/6addd/BrokeThumbnail.png","srcSet":"/static/a637219d9d9a15a7fac1fad79d3e7ef2/4e4d4/BrokeThumbnail.png 100w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/2c67b/BrokeThumbnail.png 200w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/6addd/BrokeThumbnail.png 400w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/099ef/BrokeThumbnail.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/a637219d9d9a15a7fac1fad79d3e7ef2/f6ea0/BrokeThumbnail.webp 100w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/b5535/BrokeThumbnail.webp 200w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/f5c71/BrokeThumbnail.webp 400w,\\n/static/a637219d9d9a15a7fac1fad79d3e7ef2/9d9de/BrokeThumbnail.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":300}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3872193401.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3872193401.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAADV0lEQVR42n2U209cVRjF+RtQoF7LMKWJPpCQVCxQW6BgqxFNTBMvCW2i1jRRGx9sk8aIMdEY+1AfNGqa1qRRX0w1aoGZgZZKKToXCp1BQ89w5sJcW2YoKchQmJSf68wZUmOMDyuz95yzf2etb397V+DoLOJoB8dOqVPaVZbGzjaoaWbp1NfM3Y4zP+1n6YuTrO07CFv3QtV22NSqd58sr3+aCmp3CKg/a/XQ8YTUbMspaE0ja88dIDdvkM9NM3/TEHiW3ILBzfFhlj49oef77Q87tmEZq8DRVrTprdhOd9jgOo0famZh6Bz55Rjp639gXp8inZ0iJ3j+lknegi+azP34DeslIx0WcLeAbWV3u23rWwS7t5mVN48wJ9jcjT8JZq/iTV9hPDNJUDKyQRKZKWYTY1yLD7Lc3aP4nf+I7ChHrmuBhx9nvWEP86FLJSdhLfYJ5k/58aW80hXNJxhOBZgw3ITT57lxvBeqt/+HQ8td5TYKxz4kt5aQixCBzIQgAemsdKb0G0h6GEz6GY3+ihl1Eb38HXce7bYcthep26ihwPXajMpGlj/4hNxqAiNtR/Wl+qSvpNPSR/iTJ7mU9OGJjxE2+jESLhb3H/53ZIHrtSmVDXL4vooeZyYTxJuaFOSnMvAzqVc6jjc5iivhJaTYRtpD5tTnG5Hb70au74B7HqPwTi/5QpRINqR6WUCX9LH0rvSeHJ4R8DLnFPv3yEXM8C+YV/st4M7i3f5T3C1yWdXIyuFj5P+KEFeb+K3IyRFtyg+q3bfSWcaSXvoV+WJslOlrA4QjLozU0P8ADx0lrx5LqP+G5cKtaIOJAEPJcSnAgOZe8wIzRp/iXsCc+J6Ft49uRO4oN3SXvcvVTay+dqTUtNHYCMEZN5PmEOOSzzzPb+YwobCbmVkPRsxD9ssTFJv2yEiXBbQ2xYI12Q6dLaUjt9rzBvHECMb0z6pPH6YpRfoxYwOYcfWe2ibuPk3h+ZfV0FrzYIPMlIDt5aNnH53Sjm9uYf2RvdzufIaVp16k8GwPy/teYOmlV1k8cJBbrx9i8ZW3uLNV66p1CJxKVtdUuiQE7Crat0urHblUT2mzbpsH9NL9WnSf5pt0+Gt2lW4fqjSu0rhWH3ZaHaKbxyGXjm7+BucCYmD6uOotAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/0d132de628a8c070b7a594d9c5c6d69a/6addd/ElectrocraftThumbnail.png","srcSet":"/static/0d132de628a8c070b7a594d9c5c6d69a/4e4d4/ElectrocraftThumbnail.png 100w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/2c67b/ElectrocraftThumbnail.png 200w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/6addd/ElectrocraftThumbnail.png 400w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/c2d17/ElectrocraftThumbnail.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/0d132de628a8c070b7a594d9c5c6d69a/f6ea0/ElectrocraftThumbnail.webp 100w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/b5535/ElectrocraftThumbnail.webp 200w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/f5c71/ElectrocraftThumbnail.webp 400w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/0d27e/ElectrocraftThumbnail.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":300}');
 
 /***/ }),
 
