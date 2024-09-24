@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 import App from '../index';
 import '../style/Project.css'
+
 function Yelp() {
   return (
     <App>

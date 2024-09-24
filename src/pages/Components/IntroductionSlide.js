@@ -5,24 +5,23 @@ import profileGIF from '../../../joprofile.gif'
 
 
 function IntroductionSlide() {
+  const [locations, setLocations] = useState(['Los Angeles, CA']);
 
-    // CROSSOUTANIMINATION
-    const [locations, setLocations] = useState(['Los Angeles, CA']);
-    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
-  
-    useEffect(() => {
+  useEffect(() => {
+      const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
+      
       const interval = setInterval(() => {
-        setLocations((prevLocations) => {
-          const currentIndex = prevLocations.length;
-          if (currentIndex < allLocations.length) {
-            return [...prevLocations, allLocations[currentIndex]];
-          }
-          return prevLocations; // Stop adding after all locations are added
-        });
-      }, 2000); // Change location every 4 seconds
+          setLocations((prevLocations) => {
+              const currentIndex = prevLocations.length;
+              if (currentIndex < allLocations.length) {
+                  return [...prevLocations, allLocations[currentIndex]];
+              }
+              return prevLocations;
+          });
+      }, 2000);
   
       return () => clearInterval(interval);
-    }, [allLocations]);
+    }, []); // Empty dependency array
 
 
     return (

@@ -89,7 +89,9 @@ function ESNetMRDP() {
                MRDP streamlines high-speed data transfer by enabling secure, reliable file transfers between 
                authorized Globus source/destination points, browse datasets for transfers and monitor transfer progress. MRDP acceleartes research
               workflows and enhance collaboration by providing a centralized access point to facilitate data transfers.
+              </p>
               <h3 className="subsection-title" style={{ color: '#48C5DC' }}>Goal</h3>
+              <p className="paragraph">
               Improving the <b>Modern Research Data Portal (MRDP)</b> through UI/UX redesign and Django-based web development. 
               Aiming to transform the MRDP codebase into a <b>versatile, distributable, and customizable solution for various research institutions</b>.
               </p>

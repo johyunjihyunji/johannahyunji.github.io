@@ -11895,25 +11895,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function IntroductionSlide() {
-  // CROSSOUTANIMINATION
   const {
     0: locations,
     1: setLocations
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(['Los Angeles, CA']);
-  const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
     const interval = setInterval(() => {
       setLocations(prevLocations => {
         const currentIndex = prevLocations.length;
         if (currentIndex < allLocations.length) {
           return [...prevLocations, allLocations[currentIndex]];
         }
-        return prevLocations; // Stop adding after all locations are added
+        return prevLocations;
       });
-    }, 2000); // Change location every 4 seconds
-
+    }, 2000);
     return () => clearInterval(interval);
-  }, [allLocations]);
+  }, []); // Empty dependency array
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
