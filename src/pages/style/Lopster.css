@@ -1,0 +1,34 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .LopGalleryContainer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .LopImageItem {
+    margin: 10px;
+    position: relative;
+    animation: rotate linear infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  .LopImageItem:hover {
+    animation-play-state: paused;
+    transform: scale(1.2);
+  }
+  
+  .LopImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  

@@ -1,45 +1,21 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import styled from 'styled-components';
-import Lopster from '../../../static/lopster.png'
-
-const GalleryContainer = styled.div`
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-  flex-wrap: wrap; // Allow wrapping for multiple rows
-`;
-
-const ImageItem = styled.div`
-  margin: 10px;
-  position: relative;
-  transition: transform 0.3s ease;
-  transform: ${props => `rotate(${props.$rotation}deg)`};
-
-  &:hover {
-    transform: ${props => `scale(1.2) rotate(${props.$rotation}deg)`};
-  }
-`;
-
-const Image = styled.img`
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-`;
+import Lopster from '../../../static/lopster.png';
+import '../style/Lopster.css';
 
 const LopsterGallery = () => {
   const [rotations, setRotations] = useState([]);
 
   const images = useMemo(() => [
-    { src: Lopster, speed: 2, direction: 1 },
-    { src: Lopster, speed: 3, direction: -1 },
-    { src: Lopster, speed: 1, direction: 1 },
-    { src: Lopster, speed: 4, direction: -1 },
-    { src: Lopster, speed: 2, direction: 1 },
-    { src: Lopster, speed: 3, direction: -1 },
-    { src: Lopster, speed: 1, direction: 1 },
-    { src: Lopster, speed: 4, direction: -1 },
-    { src: Lopster, speed: 2, direction: 1 },
-    { src: Lopster, speed: 3, direction: -1 },
+    { src: Lopster, speed: 10, direction: 1 },
+    { src: Lopster, speed: 9, direction: -1 },
+    { src: Lopster, speed: 14, direction: 1 },
+    { src: Lopster, speed: 8, direction: -1 },
+    { src: Lopster, speed: 13, direction: 1 },
+    { src: Lopster, speed: 10, direction: -1 },
+    { src: Lopster, speed: 8, direction: 1 },
+    { src: Lopster, speed: 9, direction: -1 },
+    { src: Lopster, speed: 7, direction: 1 },
+    { src: Lopster, speed: 5, direction: -1 },
   ], []); 
 
   useEffect(() => {
@@ -59,13 +35,13 @@ const LopsterGallery = () => {
   }, [images]);
 
   return (
-    <GalleryContainer>
+    <div className='LopGalleryContainer'>
       {images.map((image, index) => (
-        <ImageItem $rotation={rotations[index]} key={index}>
-          <Image src={image.src} alt={`Lobster ${index + 1}`} />
-        </ImageItem>
+        <div className="LopImageItem" style={{ animationDuration: `${image.speed}s` }}>
+          <img className = 'LopImage' src={image.src} alt={`Lobster ${index + 1}`} />
+        </div>
       ))}
-    </GalleryContainer>
+    </div>
   );
 };
 

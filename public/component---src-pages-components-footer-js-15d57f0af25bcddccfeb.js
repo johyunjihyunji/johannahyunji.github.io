@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[309],{4101:function(e,t,a){a.r(t);var l=a(6540),r=a(3731);t.default=()=>{const e=(new Date).getFullYear();return l.createElement("footer",{className:"FooterContainer"},l.createElement(r.default,null),l.createElement("p",{className:"FooterText",style:{fontFamily:"'Inter', sans-serif"}},"© ",e," Johanna Lee"))}}}]);
+//# sourceMappingURL=component---src-pages-components-footer-js-15d57f0af25bcddccfeb.js.map
