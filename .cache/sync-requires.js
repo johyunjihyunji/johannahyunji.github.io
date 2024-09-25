@@ -15,6 +15,8 @@ exports.components = {
   "component---src-pages-projects-broke-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Broke.js")),
   "component---src-pages-projects-electrocrafting-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Electrocrafting.js")),
   "component---src-pages-projects-es-net-mrdp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/ESNetMRDP.js")),
+  "component---src-pages-projects-sia-partners-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/SiaPartners.js")),
+  "component---src-pages-projects-waymo-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Waymo.js")),
   "component---src-pages-projects-yelp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Yelp.js"))
 }
 

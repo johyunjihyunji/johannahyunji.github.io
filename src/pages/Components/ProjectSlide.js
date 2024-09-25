@@ -13,7 +13,7 @@ const ProjectSlide = () => {
         <Link className='ImageItem' to="/Projects/Yelp">
             <StaticImage 
             src="../../../static/YelpThumbnail.png"
-            alt="yelp"
+            alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
             height={300} // Desired width
@@ -25,7 +25,7 @@ const ProjectSlide = () => {
         <Link className='ImageItem'  to="/Projects/ESNetMRDP">
           <StaticImage 
             src="../../../static/ESnetMRDPThumbnail.png"
-            alt="ESNet MRDP"
+            alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
             height={300} // Desired width
@@ -37,7 +37,31 @@ const ProjectSlide = () => {
         <Link className='ImageItem'  to="/Projects/Broke">
           <StaticImage 
             src="../../../static/BrokeThumbnail.png"
-            alt="broke"
+            alt="BrokeThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </Link>
+
+        {/* Project Waymo */}
+        <Link className='ImageItem'  to="/Projects/Waymo">
+          <StaticImage 
+            src="../../../static/WaymoThumbnail.png"
+            alt="WaymoThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+        </Link>
+
+        {/* Project Waymo */}
+        <Link className='ImageItem'  to="/Projects/SiaPartners">
+          <StaticImage 
+            src="../../../static/SiaPartnersMetaThumbnail.png"
+            alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
             height={300} // Desired width
@@ -56,6 +80,7 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
         </Link>
+        
         
         {/* Project Youtube*/}
           <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
