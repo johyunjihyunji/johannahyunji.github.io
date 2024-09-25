@@ -83,7 +83,7 @@ const ProjectSlide = () => {
         
         
         {/* Project Youtube*/}
-          <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
+          <a className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
             <StaticImage 
             src="../../../static/Youtube.png"
             alt="yelp"
@@ -92,7 +92,7 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
-        </Link>
+        </a>
 
         {/* Project Yelp */}
         <Link className='ImageItem'  to="/Projects/Yelp">
