@@ -37,12 +37,15 @@ function IntroductionSlide() {
                 }}>
                 <span style={{
                     fontFamily: "'IkeaFont', sans-serif",
-                    fontSize: '4.3vw',
-                }}>Johanna</span>
+                    fontSize: '4vw',
+                }}>Johanna's
+                <br />
+                Portfolio
+                </span>
                 <br />
                 <br />
                 <br />
-                <span> is a designer and engineer </span>
+                <span> Johanna Lee is a designer, engineer, and artist </span>
                 <br />
                 <span> based in </span>
                 {locations.map((location, index) => (
@@ -59,7 +62,7 @@ function IntroductionSlide() {
                 ))}
                 <br />
                 <br />
-                <span> passionate about x y and z</span>
+                <span> passionate about fashion, chai latte, and travel</span>
                 <br />
             </div>
           </div>

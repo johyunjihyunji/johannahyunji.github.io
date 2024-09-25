@@ -11815,15 +11815,15 @@ function IntroductionSlide() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     style: {
       fontFamily: "'IkeaFont', sans-serif",
-      fontSize: '4.3vw'
+      fontSize: '4vw'
     }
-  }, "Johanna"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " is a designer and engineer "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " based in "), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
+  }, "Johanna's", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Johanna Lee is a designer, engineer, and artist "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " based in "), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: index
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''}`
   }, location), index < locations.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "space"
-  }, "\xA0 \xA0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " passionate about x y and z"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))));
+  }, "\xA0 \xA0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " passionate about fashion, chai latte, and travel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 
@@ -12215,10 +12215,12 @@ function SiaPartners() {
   }, "First End to End Product Design Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, "Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a wide range of users, from kids to parents. This was challenging because each age group has different needs. We spent a lot of time discussing how to make the platform friendly and easy to use for everyone. User interviews provided valuable insights that helped us understand different perspectives, which was crucial for shaping our approach."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
     style: {
       flex: '1',
-      maxWidth: '35%'
+      maxWidth: '50%'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/SiaPartnersTeamPhoto1.png",
@@ -12226,15 +12228,16 @@ function SiaPartners() {
     placeholder: "blurred",
     layout: "constrained",
     style: {
-      marginTop: '40px',
-      borderRadius: '10px'
+      marginTop: '10px',
+      borderRadius: '10px',
+      height: '350px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/792139369.json */ "./.cache/caches/gatsby-plugin-image/792139369.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
     style: {
       flex: '1',
-      maxWidth: '35%'
+      maxWidth: '50%'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/SiaPartnersTeamPhoto2.png",
@@ -12242,17 +12245,16 @@ function SiaPartners() {
     placeholder: "blurred",
     layout: "constrained",
     style: {
-      marginTop: '40px',
-      borderRadius: '10px'
+      marginTop: '10px',
+      borderRadius: '10px',
+      height: '350px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1353569743.json */ "./.cache/caches/gatsby-plugin-image/1353569743.json")
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
     style: {
       flex: '1',
-      maxWidth: '40%'
+      maxWidth: '30%'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../../static/SiaPartnersTeamPhoto3.png",

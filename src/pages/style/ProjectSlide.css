@@ -7,7 +7,7 @@
   
   .ScrollingInnerContainer {
     display: inline-block;
-    animation: scroll-left 20s linear infinite; /* Adjust speed here */
+    animation: scroll-left 15s linear infinite; /* Adjust speed here */
   }
   
   .ScrollingInnerContainer:hover {
