@@ -1,6 +1,5 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": require("/Users/johannalee/repo/johannahyunji.github.io/.cache/dev-404-page.js"),
-  "component---src-pages-index-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js"),
-  "component---src-pages-projects-sia-partners-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/SiaPartners.js")
+  "component---src-pages-index-js": require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js")
   }
 
