@@ -2,7 +2,7 @@ body {
     background-color: #F5F5F5; /* Set your desired background color #FFF7CE */
     color: #161616; /* Set your desired default text color */
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   }
 
 @font-face {
@@ -45,7 +45,8 @@ b {
 .MenuItem {
   color: #FF1700;
   text-decoration: none; /* Remove underline */
-  font-family: 'Inter', sans-serif;
+  font-size: 1.5vw;
+  font-family: "'Inter', sans-serif";
   
   &:hover {
     text-decoration: underline; /* Add underline on hover */

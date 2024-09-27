@@ -8,7 +8,6 @@ exports.components = {
   "component---src-pages-components-project-slide-js": () => import("./../../../src/pages/Components/ProjectSlide.js?export=default" /* webpackChunkName: "component---src-pages-components-project-slide-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js?export=default" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-projects-broke-js": () => import("./../../../src/pages/Projects/Broke.js?export=default" /* webpackChunkName: "component---src-pages-projects-broke-js" */),
-  "component---src-pages-projects-electrocrafting-js": () => import("./../../../src/pages/Projects/Electrocrafting.js?export=default" /* webpackChunkName: "component---src-pages-projects-electrocrafting-js" */),
   "component---src-pages-projects-es-net-mrdp-js": () => import("./../../../src/pages/Projects/ESNetMRDP.js?export=default" /* webpackChunkName: "component---src-pages-projects-es-net-mrdp-js" */),
   "component---src-pages-projects-sia-partners-js": () => import("./../../../src/pages/Projects/SiaPartners.js?export=default" /* webpackChunkName: "component---src-pages-projects-sia-partners-js" */),
   "component---src-pages-projects-waymo-js": () => import("./../../../src/pages/Projects/Waymo.js?export=default" /* webpackChunkName: "component---src-pages-projects-waymo-js" */),

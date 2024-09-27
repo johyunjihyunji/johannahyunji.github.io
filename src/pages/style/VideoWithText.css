@@ -1,36 +1,68 @@
-.container {
-    width: 80vw; /* Adjust this value as needed */
-    margin: 0 auto; /* This centers the content and creates margins */
-    padding: 0 20px; /* This adds some space on the sides */
-    margin-top: 5vh;
-    margin-bottom: 200px;
-  }
-  
-  .video-text-wrapper {
-    display: flex;
-    gap: 20px; /* This adds space between the video and text */
-  }
-  
-  .video-container {
-    flex: 0 0 55%; /* This makes the video take up 60% of the width */
-  }
-  
-  .text-container {
-    flex: 0 0 40%; /* This makes the text take up 40% of the width */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* This pushes the content to the bottom */
-    padding-bottom: 50px; /* This adds some space at the bottom */
-  }
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 768px) {
-    .video-text-wrapper {
-      flex-direction: column;
-    }
-  
-    .video-container,
-    .text-container {
-      flex: 0 0 100%;
-    }
-  }
+html, body {
+  height: 100%;               /* Ensure full height for centering */
+  margin: 0;                  /* Remove default margin */
+}
+
+.background {
+  position: relative;         /* Position relative for absolute positioning of text */
+  height: 80vh;             /* Full viewport height */
+  display: flex;              /* Use Flexbox for layout */
+  flex-direction: column;     /* Stack children vertically */
+  justify-content: center;     /* Center items vertically */
+  align-items: center;        /* Center items horizontally */
+}
+
+.joImage {
+  position: absolute;         /* Position image absolutely */
+  top: 50%;                  /* Center vertically */
+  left: 50%;                 /* Center horizontally */
+  width: 70%;                /* Set desired width (adjust as needed) */
+  height: auto;              /* Maintain aspect ratio */
+  transform: translate(-50%, -50%); /* Center the image */
+  object-fit: cover;         /* Cover while maintaining aspect ratio */
+  z-index: 1;                /* Send image to back */
+}
+
+.text-container {
+  display: flex;              /* Use Flexbox for text alignment */
+  width: 100%;               /* Full width to allow space for left and right text */
+  position: relative;         /* Position relative for z-index context */
+  z-index: 2;                /* Bring text in front of the image */
+}
+
+.left-text {
+  flex: 1;                   /* Take up available space on the left */
+  text-align: left;          /* Align text to the left */
+  font-size: 1.5vw;           /* Adjust font size as needed */
+  font-family: 'IkeaFont', sans-serif;
+}
+
+.center-text {
+  flex: 1;                   /* Take up available space in the center */
+  text-align: center;        /* Center align the text */
+  font-size: 4vw;           /* Adjust font size as needed */
+  font-family: 'IkeaFont', sans-serif;
+}
+
+.right-text {
+  flex: 1;                   /* Take up available space on the right */
+  text-align: right;         /* Align text to the right */
+  font-size: 1.5vw;           /* Adjust font size as needed */
+  font-family: 'IkeaFont', sans-serif;
+}
+
+.top-text, .bottom-text {
+  position: relative;         /* Position relative for stacking order */
+  z-index: 2;                /* Bring text in front of the image */
+  text-align: center;        /* Center align the text */
+  font-size: 1.5vw;           /* Adjust font size as needed */
+  font-family: 'IkeaFont', sans-serif;
+}
+
+.top-text {
+ margin-bottom: auto;        /* Push top text towards top of container */ 
+}
+
+.bottom-text {
+ margin-top: auto;           /* Push bottom text towards bottom of container */ 
+}

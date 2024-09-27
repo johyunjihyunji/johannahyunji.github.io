@@ -68,18 +68,6 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
         </Link>
-
-        {/* Project Electrocraft */}
-        <Link className='ImageItem'  to="/Projects/Electrocrafting">
-          <StaticImage 
-            src="../../../static/ElectrocraftThumbnail.png"
-            alt="yelp"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-        </Link>
         
         
         {/* Project Youtube*/}

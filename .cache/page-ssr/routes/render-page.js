@@ -9,7 +9,8 @@
 
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": __webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js"),
-  "component---src-pages-index-js": __webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")
+  "component---src-pages-index-js": __webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"),
+  "component---src-pages-projects-es-net-mrdp-js": __webpack_require__(/*! ./src/pages/Projects/ESNetMRDP.js */ "./src/pages/Projects/ESNetMRDP.js")
   }
 
 
@@ -11768,7 +11769,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_CrossoutAnimation_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_CrossoutAnimation_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style/VideoWithText.css */ "./src/pages/style/VideoWithText.css");
 /* harmony import */ var _style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _joprofile_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../joprofile.gif */ "./joprofile.gif");
+/* harmony import */ var _static_jo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../static/jo.png */ "./static/jo.png");
 
  // We'll create this CSS file next
 
@@ -11793,36 +11794,75 @@ function IntroductionSlide() {
   }, []); // Empty dependency array
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
+    className: "background"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "video-text-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "video-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _joprofile_gif__WEBPACK_IMPORTED_MODULE_3__["default"],
-    alt: "profile gif",
-    style: {
-      maxWidth: '40vw'
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "top-text"
+  }, "passionate about fashion, chai latte, and travel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "animation-container",
-    style: {
-      fontFamily: "'Inter', sans-serif"
-    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    style: {
-      fontFamily: "'IkeaFont', sans-serif",
-      fontSize: '4vw'
-    }
-  }, "Johanna's", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Johanna Lee is a designer, engineer, and artist "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " based in "), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
+    className: "left-text"
+  }, "Designer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "center-text"
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "right-text"
+  }, "Engineer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "joImage",
+    src: _static_jo_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "profile gif"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "bottom-text"
+  }, "based in", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: index
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''}`
   }, location), index < locations.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "space"
-  }, "\xA0 \xA0"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " passionate about fashion, chai latte, and travel"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))));
+  }, "\xA0 \xA0")))))
+
+  //     <div className="container">
+  //     <div className="video-text-wrapper">
+  //       <div className="video-container">
+  //           <img src={profileGIF} alt="profile gif" style={{ maxWidth: '40vw' }} />
+  //       </div>
+  //       <div className="text-container">
+  //         <div className="animation-container" 
+  //         style={{
+  //                 fontFamily: "'Inter', sans-serif",
+  //             }}>
+  //             <span style={{
+  //                 fontFamily: "'IkeaFont', sans-serif",
+  //                 fontSize: '4vw',
+  //             }}>Johanna's
+  //             <br />
+  //             Portfolio
+  //             </span>
+  //             <br />
+  //             <br />
+  //             <br />
+  //             <span> Johanna Lee is a designer, engineer, and artist </span>
+  //             <br />
+  //             <span> based in </span>
+  //             {locations.map((location, index) => (
+  //                 <React.Fragment key={index}>
+  //                 <span 
+  //                     className={`location ${index < locations.length - 1 ? 'crossed' : ' '} ${
+  //                     index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''
+  //                     }`}
+  //                 >
+  //                     {location}
+  //                 </span>
+  //                 {index < locations.length - 1 && <span className="space">&nbsp; &nbsp;</span>}
+  //                 </React.Fragment>
+  //             ))}
+  //             <br />
+  //             <br />
+  //             <span> passionate about fashion, chai latte, and travel</span>
+  //             <br />
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  ;
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 
@@ -12043,22 +12083,6 @@ const ProjectSlide = () => {
       borderRadius: '5px'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/101045512.json */ "./.cache/caches/gatsby-plugin-image/101045512.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "ImageItem",
-    to: "/Projects/Electrocrafting"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../../static/ElectrocraftThumbnail.png",
-    alt: "yelp",
-    placeholder: "blurred" // Optional placeholder
-    ,
-    layout: "constrained" // Layout options
-    ,
-    height: 300 // Desired width
-    ,
-    style: {
-      borderRadius: '5px'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3872193401.json */ "./.cache/caches/gatsby-plugin-image/3872193401.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "ImageItem",
     href: "https://www.youtube.com/@johannalee8172/videos"
@@ -12094,6 +12118,189 @@ const ProjectSlide = () => {
   }))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectSlide);
+
+/***/ }),
+
+/***/ "./src/pages/Projects/ESNetMRDP.js":
+/*!*****************************************!*\
+  !*** ./src/pages/Projects/ESNetMRDP.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../index */ "./src/pages/index.js");
+/* harmony import */ var _style_Project_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style/Project.css */ "./src/pages/style/Project.css");
+/* harmony import */ var _style_Project_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_Project_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+function ESNetMRDP() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_index__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "header-image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../../static/ESNetMRDPHeader.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      borderRadius: '10px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4268331353.json */ "./.cache/caches/gatsby-plugin-image/4268331353.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "info-row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "info-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "info-title"
+  }, "Role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "info-content"
+  }, "UX Engineer Intern")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "info-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "info-title"
+  }, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "info-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI Engineering:"), " React Development, Jinja Templating, Django Framework, Ansible, Docker", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UX Redesign:"), " UX Research, UX Interface Mockups, User Flow, Wireframing")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "info-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "info-title"
+  }, "Timeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "info-content"
+  }, "June 2024 - August 2024")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "info-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "info-title"
+  }, "Team"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "info-content"
+  }, "Johanna Lee", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "James Kafader (Supervisor)", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Ken Miller (Client Point of Contact)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section-title"
+  }, "Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Energy Science Network"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "The ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Energy Sciences Network"), " is a high-performance network designed to support large-scale scientific research by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), ". It facilitates the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "transfer of massive data sets"), " generated by scientific experiments, enabling collaboration among researchers across various disciplines.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Lawrence Berkeley National Laboratory"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Lawrence Berkeley National Laboratory"), " is a leading research facility located in Berkeley, California, established in 1931 and operated by the University of California. Funded by the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "U.S. Department of Energy"), ", LBNL focuses on advancing scientific knowledge in areas such as ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "energy efficiency, environmental sustainability, and health."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section-title"
+  }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    style: {
+      flex: '1',
+      maxWidth: '40%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../../static/ESNetMRDPScreenshot.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      marginTop: '25px',
+      borderRadius: '2px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2705413433.json */ "./.cache/caches/gatsby-plugin-image/2705413433.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection",
+    style: {
+      flex: '1',
+      maxWidth: '60%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#48C5DC'
+    }
+  }, "Modern Research Data Portal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "MRDP streamlines high-speed data transfer by enabling secure, reliable file transfers between authorized Globus source/destination points, browse datasets for transfers and monitor transfer progress. MRDP acceleartes research workflows and enhance collaboration by providing a centralized access point to facilitate data transfers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#48C5DC'
+    }
+  }, "Goal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Improving the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Modern Research Data Portal (MRDP)"), " through UI/UX redesign and Django-based web development. Aiming to transform the MRDP codebase into a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable solution for various research institutions"), ".")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section-title"
+  }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection",
+    style: {
+      maxWidth: '60%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "User Flow Redesign:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "My project aimed to design for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "niche group of lab researchers,"), ". shifting my focus from previous GenZ targeted marketing projects. I aimed to create a UX that prioritized versatility and approachability, leading to a redesign of the website's user flow, which simplified navigation by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "consolidating two-page operations into a efficient single-page experience"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#5a5a5a'
+    }
+  }, "Distributable and Customizable Codebase Development:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Another focus was creating templates that ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "future developers could easily customize and distribute"), ", ensuring that my design was both ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "user-friendly for end-users and adaptable for developers"), ". This experience broadened my perspective on user experience design and highlighted the importance of balancing technical requirements with usability.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    style: {
+      flex: '1',
+      maxWidth: '40%'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../../static/ESNetMRDPPresentation.jpg",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      marginTop: '40px',
+      borderRadius: '10px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/887816292.json */ "./.cache/caches/gatsby-plugin-image/887816292.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.linkedin.com/posts/energysciencesnetwork_stem-summerstudents-interns-activity-7228803311460569089-k_iF?utm_source=share&utm_medium=member_desktop",
+    style: {
+      textAlign: 'center',
+      color: '#161616',
+      textDecoration: 'none',
+      display: 'block',
+      fontSize: '14px'
+    }
+  }, "Student Poster Session for Berkeley Lab Computing Sciences"))))));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ESNetMRDP);
 
 /***/ }),
 
@@ -22846,6 +23053,16 @@ exports.parse = parse;
 
 /***/ }),
 
+/***/ "./src/pages/style/Project.css":
+/*!*************************************!*\
+  !*** ./src/pages/style/Project.css ***!
+  \*************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ "./src/pages/style/ProjectSlide.css":
 /*!******************************************!*\
   !*** ./src/pages/style/ProjectSlide.css ***!
@@ -25066,9 +25283,9 @@ exports.fromPromise = function (fn) {
 
 /***/ }),
 
-/***/ "./joprofile.gif":
+/***/ "./static/jo.png":
 /*!***********************!*\
-  !*** ./joprofile.gif ***!
+  !*** ./static/jo.png ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -25077,7 +25294,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/joprofile-db529395c907b63f733b8a53633da5ba.gif");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/jo-93a71f902540a3da3f8f5c67e309d1d5.png");
 
 /***/ }),
 
@@ -25488,6 +25705,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2705413433.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2705413433.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2UlEQVR42qVSy07bQBTNZ+UhFlSoXbBHgj/opp/RJftKXbDrohs2FSCQQKlABVQwSbBJYmLnYccmPBLs+DF+nN7xJBZBLJA60tHcmblz7rlnprC6to6Vj5+wvPwBlcoSyuXKu1EqlVEsliguU1yiuIiCrDQhyze4Jszn61dr+Q3Mc+q1BmoESarh4kJCAf8x4jiGz6KFvUKapgDBCwIEjCGOIiRJkiVz8JjnZKALGShmhGpNwee9PzhSu6IA5QpCGpvbe9j6tQ+j18OldAVFoXbqDQwtK68eUbGJ42ASRti1n3HetVD9W4fU0rLzNFdIQ+noUHsDRKTScV34pJgT8KrpjPCH3MGXnWMcdww4iWAIPJ8QYEYjPOSkccTAiMz3fQK1H4Q0ewjDMCc8a+n4fnKF9t0T2m4A3fFnul54OCc0zSH6/QEM04RObfcNM1vbti18FK+A+r2Dn8YYh/07bFRl4V8S57QZIb/Q0TQ0my2oqgqrq2OoaxTfok2YTqe5Apak4N0ORo/4etLAt9MGPFecc2G5Qu6bS4aPyZMDa4yqPQHjHpKquc+pSIYXJ7gZTXCkWfjdteGThwst44UTU0retSh55CBJ3/5/D/TKT/T/HokoCtmCh/8ACIgYju2SbEIAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png","srcSet":"/static/387c971840543fb259d68a8b19aa0cda/01504/ESNetMRDPScreenshot.png 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/bfc7e/ESNetMRDPScreenshot.png 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png 2878w","sizes":"(min-width: 2878px) 2878px, 100vw"},"sources":[{"srcSet":"/static/387c971840543fb259d68a8b19aa0cda/110ca/ESNetMRDPScreenshot.webp 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/90f98/ESNetMRDPScreenshot.webp 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/28008/ESNetMRDPScreenshot.webp 2878w","type":"image/webp","sizes":"(min-width: 2878px) 2878px, 100vw"}]},"width":2878,"height":1618}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/2725969576.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2725969576.json ***!
@@ -25510,14 +25738,25 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3872193401.json":
+/***/ "./.cache/caches/gatsby-plugin-image/4268331353.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3872193401.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/4268331353.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAADV0lEQVR42n2U209cVRjF+RtQoF7LMKWJPpCQVCxQW6BgqxFNTBMvCW2i1jRRGx9sk8aIMdEY+1AfNGqa1qRRX0w1aoGZgZZKKToXCp1BQ89w5sJcW2YoKchQmJSf68wZUmOMDyuz95yzf2etb397V+DoLOJoB8dOqVPaVZbGzjaoaWbp1NfM3Y4zP+1n6YuTrO07CFv3QtV22NSqd58sr3+aCmp3CKg/a/XQ8YTUbMspaE0ja88dIDdvkM9NM3/TEHiW3ILBzfFhlj49oef77Q87tmEZq8DRVrTprdhOd9jgOo0famZh6Bz55Rjp639gXp8inZ0iJ3j+lknegi+azP34DeslIx0WcLeAbWV3u23rWwS7t5mVN48wJ9jcjT8JZq/iTV9hPDNJUDKyQRKZKWYTY1yLD7Lc3aP4nf+I7ChHrmuBhx9nvWEP86FLJSdhLfYJ5k/58aW80hXNJxhOBZgw3ITT57lxvBeqt/+HQ8td5TYKxz4kt5aQixCBzIQgAemsdKb0G0h6GEz6GY3+ihl1Eb38HXce7bYcthep26ihwPXajMpGlj/4hNxqAiNtR/Wl+qSvpNPSR/iTJ7mU9OGJjxE2+jESLhb3H/53ZIHrtSmVDXL4vooeZyYTxJuaFOSnMvAzqVc6jjc5iivhJaTYRtpD5tTnG5Hb70au74B7HqPwTi/5QpRINqR6WUCX9LH0rvSeHJ4R8DLnFPv3yEXM8C+YV/st4M7i3f5T3C1yWdXIyuFj5P+KEFeb+K3IyRFtyg+q3bfSWcaSXvoV+WJslOlrA4QjLozU0P8ADx0lrx5LqP+G5cKtaIOJAEPJcSnAgOZe8wIzRp/iXsCc+J6Ft49uRO4oN3SXvcvVTay+dqTUtNHYCMEZN5PmEOOSzzzPb+YwobCbmVkPRsxD9ssTFJv2yEiXBbQ2xYI12Q6dLaUjt9rzBvHECMb0z6pPH6YpRfoxYwOYcfWe2ibuPk3h+ZfV0FrzYIPMlIDt5aNnH53Sjm9uYf2RvdzufIaVp16k8GwPy/teYOmlV1k8cJBbrx9i8ZW3uLNV66p1CJxKVtdUuiQE7Crat0urHblUT2mzbpsH9NL9WnSf5pt0+Gt2lW4fqjSu0rhWH3ZaHaKbxyGXjm7+BucCYmD6uOotAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/0d132de628a8c070b7a594d9c5c6d69a/6addd/ElectrocraftThumbnail.png","srcSet":"/static/0d132de628a8c070b7a594d9c5c6d69a/4e4d4/ElectrocraftThumbnail.png 100w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/2c67b/ElectrocraftThumbnail.png 200w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/6addd/ElectrocraftThumbnail.png 400w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/c2d17/ElectrocraftThumbnail.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/0d132de628a8c070b7a594d9c5c6d69a/f6ea0/ElectrocraftThumbnail.webp 100w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/b5535/ElectrocraftThumbnail.webp 200w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/f5c71/ElectrocraftThumbnail.webp 400w,\\n/static/0d132de628a8c070b7a594d9c5c6d69a/0d27e/ElectrocraftThumbnail.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":300}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABgklEQVR42i2RXU/TcBjF+928Udv5JUz20mWgiQk3xAFGMDqcGPEbwC2JVyQmZG0HKJlb25Vu9IWupRuYQOAb/HhavXjyP+c55+L/nKNopodmXaCZgby+TEilX/AJqhkJn/JC9IoZl7jQ1V6Aaoi3H4lX/Nbkny5Y0b05zfE1urug7mTU7QXVYUrdzai5c5ns/8jeTqnZOUvhX5r+FbVRTrWctHxfDjOUDeuQNyenvP0z4OMk4N04YHf+QPvnCe+PHT6NfDpnDp3BOV/OYzadiCcrG1T3D9jN7+nGN+wkN3xNb9me3aG0ez9Y7h2xctqncxGx5cd8XzywfmiwdTyi68V8Hvp0xzHfwis27Yinqx9o7B3Q/uWx9ttjfeDRmWbsZPcoLfn6K3/OcnG6m9Byc3QnkQgS4bnEMaPpzYTn5U6X818H17Rk1xhl4k3R7ZiGnQmfoWjmlOdWxDMpoCLhq8alFBJK+EVJieykBCMssWYEZfhFWWq/KOhSsHDxVgrdinkEdcBtmjwGsREAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/47908197e6e240549a3cfa3cdbf59c78/8144b/ESNetMRDPHeader.png","srcSet":"/static/47908197e6e240549a3cfa3cdbf59c78/e0957/ESNetMRDPHeader.png 360w,\\n/static/47908197e6e240549a3cfa3cdbf59c78/e54a2/ESNetMRDPHeader.png 720w,\\n/static/47908197e6e240549a3cfa3cdbf59c78/8144b/ESNetMRDPHeader.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/47908197e6e240549a3cfa3cdbf59c78/64838/ESNetMRDPHeader.webp 360w,\\n/static/47908197e6e240549a3cfa3cdbf59c78/10ef5/ESNetMRDPHeader.webp 720w,\\n/static/47908197e6e240549a3cfa3cdbf59c78/42982/ESNetMRDPHeader.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":401}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/887816292.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/887816292.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQACBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABS59E5rsZH//EABwQAQACAQUAAAAAAAAAAAAAAAIBAxEAEhMhIv/aAAgBAQABBQIdFWzybTqH4FqwnOf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Bp//EABsQAAICAwEAAAAAAAAAAAAAAAABAiEQQXKx/9oACAEBAAY/AkRUFW2X4KhdY//EABsQAQACAgMAAAAAAAAAAAAAAAEAESFRYaHx/9oACAEBAAE/ITQNTLonwimbLGQbUL3EaLR1xTi5/9oADAMBAAIAAwAAABB7H//EABcRAAMBAAAAAAAAAAAAAAAAAAABEYH/2gAIAQMBAT8QmiI//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBmt/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBcYH/2gAIAQEAAT8QEL2ImHcogHAm1znjGxWFot4gAjK+mWeAQD5jQOgxoZ//2Q=="},"images":{"fallback":{"src":"/static/57d3163b6e76c7f15c19dfb00282e1af/44dcb/ESNetMRDPPresentation.jpg","srcSet":"/static/57d3163b6e76c7f15c19dfb00282e1af/66b2a/ESNetMRDPPresentation.jpg 2064w,\\n/static/57d3163b6e76c7f15c19dfb00282e1af/a1aea/ESNetMRDPPresentation.jpg 4128w,\\n/static/57d3163b6e76c7f15c19dfb00282e1af/44dcb/ESNetMRDPPresentation.jpg 8256w","sizes":"(min-width: 8256px) 8256px, 100vw"},"sources":[{"srcSet":"/static/57d3163b6e76c7f15c19dfb00282e1af/5d735/ESNetMRDPPresentation.webp 2064w,\\n/static/57d3163b6e76c7f15c19dfb00282e1af/4b44a/ESNetMRDPPresentation.webp 4128w,\\n/static/57d3163b6e76c7f15c19dfb00282e1af/c7522/ESNetMRDPPresentation.webp 8256w","type":"image/webp","sizes":"(min-width: 8256px) 8256px, 100vw"}]},"width":8256,"height":5504}');
 
 /***/ }),
 
