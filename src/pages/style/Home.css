@@ -29,7 +29,6 @@ b {
   align-items: center;
   padding: 10px 20px;
   font-size: 20px;
-  font-family: "'Inter', sans-serif";
   margin-right: 2vw;
 }
 
@@ -45,8 +44,7 @@ b {
 .MenuItem {
   color: #FF1700;
   text-decoration: none; /* Remove underline */
-  font-size: 1.5vw;
-  font-family: "'Inter', sans-serif";
+  font-size: 1.2vw;
   
   &:hover {
     text-decoration: underline; /* Add underline on hover */
@@ -65,6 +63,6 @@ b {
 
 .FooterText {
   margin: 0;
-  font-size: 16px;
   color: #FF1700;
+  font-family: 'IkeaFont', sans-serif;
 }

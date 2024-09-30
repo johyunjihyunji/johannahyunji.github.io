@@ -26,7 +26,7 @@ function IntroductionSlide() {
 
     return (
         <div className="background">
-            <div className="top-text">passionate about fashion, chai latte, and travel</div>
+            <div className="top-text">passionate about fashion, apple cider, and travel</div>
             <div className="text-container">
                 <span className="left-text">Designer</span>
                 <span className="center-text">Johanna Lee</span>

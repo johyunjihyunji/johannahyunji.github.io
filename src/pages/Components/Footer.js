@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className='FooterContainer'>
       <LopsterGallery />
-      <p className ='FooterText'  style={{ fontFamily: "'Inter', sans-serif"}}>
+      <p className ='FooterText'>
         © {currentYear} Johanna Lee
       </p>
     </footer>

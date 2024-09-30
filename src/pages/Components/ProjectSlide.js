@@ -19,6 +19,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+            <div className="ImageOverlay">
+            <div className="Tags">Data Analysis, Visualization</div>
+            <div className="Title">Yelp Project</div>
+            </div>
         </Link>
 
         {/* Project MRDP */}
@@ -31,6 +35,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+            <div className="ImageOverlay">
+            <div className="Tags">Data Analysis, Visualization</div>
+            <div className="Title">Yelp Project</div>
+            </div>
         </Link>
         
         {/* Project Broke */}
@@ -43,6 +51,11 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+
+          <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
         </Link>
 
         {/* Project Waymo */}
@@ -55,6 +68,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+             <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
         </Link>
 
         {/* Project Waymo */}
@@ -67,6 +84,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+           <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
         </Link>
         
         
@@ -80,6 +101,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+            <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
         </a>
 
         {/* Project Yelp */}
@@ -92,6 +117,10 @@ const ProjectSlide = () => {
             height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
+            <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
         </Link>
 
 

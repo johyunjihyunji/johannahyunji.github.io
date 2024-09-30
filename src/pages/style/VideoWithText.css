@@ -10,15 +10,16 @@ html, body {
   flex-direction: column;     /* Stack children vertically */
   justify-content: center;     /* Center items vertically */
   align-items: center;        /* Center items horizontally */
+  margin-top: 2vh;
 }
 
 .joImage {
   position: absolute;         /* Position image absolutely */
-  top: 50%;                  /* Center vertically */
-  left: 50%;                 /* Center horizontally */
+  top: 47%;                  /* Center vertically */
+  left: 47%;                 /* Center horizontally */
   width: 70%;                /* Set desired width (adjust as needed) */
   height: auto;              /* Maintain aspect ratio */
-  transform: translate(-50%, -50%); /* Center the image */
+  transform: translate(-50%, -50%) rotate(7deg);; /* Center the image */
   object-fit: cover;         /* Cover while maintaining aspect ratio */
   z-index: 1;                /* Send image to back */
 }
@@ -35,12 +36,13 @@ html, body {
   text-align: left;          /* Align text to the left */
   font-size: 1.5vw;           /* Adjust font size as needed */
   font-family: 'IkeaFont', sans-serif;
+  margin-left: 20px;
 }
 
 .center-text {
-  flex: 1;                   /* Take up available space in the center */
-  text-align: center;        /* Center align the text */
-  font-size: 4vw;           /* Adjust font size as needed */
+  flex: 1;
+  text-align: center;
+  font-size: 4vw;
   font-family: 'IkeaFont', sans-serif;
 }
 
@@ -49,6 +51,7 @@ html, body {
   text-align: right;         /* Align text to the right */
   font-size: 1.5vw;           /* Adjust font size as needed */
   font-family: 'IkeaFont', sans-serif;
+  margin-right: 20px;
 }
 
 .top-text, .bottom-text {

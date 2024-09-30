@@ -46,3 +46,40 @@
     height: 100%;
     object-fit: cover;
   }
+
+
+  /* changing */
+  .ImageItem {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .ImageOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .Tags {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .Title {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .ImageItem:hover .ImageOverlay {
+    opacity: 1;
+  }
