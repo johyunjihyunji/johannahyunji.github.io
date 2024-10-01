@@ -13,8 +13,10 @@ body {
 }
 
 b {
-  color: #0438C6;
-  font-size: 18px;
+  background-color: #8FD3D5; /* Blue with 20% opacity */ /* Set the background color to blue */
+  padding: 2px 4px;         /* Optional: Add padding for a better highlight effect */
+  border-radius: 10px;       /* Optional: Add rounded corners for a softer look */
+  font-weight: 600; 
 }
 
 .AppContainer{

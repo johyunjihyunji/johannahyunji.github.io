@@ -11,8 +11,6 @@ function Yelp() {
           <StaticImage 
             src="../../../static/YelpHeader.png"
             alt="Project Header"
-            placeholder="blurred"
-            layout="constrained"
             style={{ borderRadius: '10px' }}
           />
         </div>
@@ -57,7 +55,7 @@ function Yelp() {
           <h2 className="section-title">Background</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Yelp Home Services</h3>
+              <h3 className="subsection-title">Yelp Home Services</h3>
               <p className="paragraph">
               <b>Yelp</b>, founded in 2004, has transformed the way consumers discover local food businesses through customer reviews and recommendations. 
                 As part of this project, my team focused on promoting <b>Yelp's Home Services</b>, which connects consumers with trusted professionals for various home improvement tasks. 
@@ -66,7 +64,7 @@ function Yelp() {
               </p>
             </div>
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UMA Design</h3>
+              <h3 className="subsection-title">UMA Design</h3>
               <p className="paragraph">
               <b>Design Team at the Undergraduate Marketing Association</b> is a creative group of individuals passionate about <b>visual 
                 storytelling and crafting impactful brand experiences</b>. We are dedicated to pushing the boundaries of design and creating innovative 
@@ -88,20 +86,20 @@ function Yelp() {
               layout="constrained"
               style={{ borderRadius: '10px' }}
               />
+              <a className="photoDescription">
+              Final Deliverable with Yelp's Marketing Team :)
+              </a>
             </div>
-            <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#FF1A1A' }}>Performance Marketing</h3>
+            <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
+              <h3 className="subsection-title">Performance Marketing</h3>
               <p className="paragraph">
               Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, 
               and young homeowners </b> needing home services 
               </p>
-              <h3 className="subsection-title" style={{ color: '#FF1A1A' }}>Brand Design System</h3>
+              <h3 className="subsection-title">Brand Design System</h3>
               <p className="paragraph">
               Establish a robust <b>graphic design system</b> that reinforces brand consistency and strengthens connection with three 
               distinct audiences: <b>Consumers, Local Businesses, and Brand stakeholders</b>.
-              </p>
-              <p>
-              {"<---"}During our <b>final deliverable</b> with Yelp's marketing team :)
               </p>
             </div>
           </div>
@@ -111,29 +109,32 @@ function Yelp() {
           <div className="flex-container">
 
             <div className="subsection" style ={{ maxWidth: '50%' }}>
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Designing Branding System:</h3>
+              <h3 className="subsection-title">Designing Branding System:</h3>
               <p className="paragraph">
-              The biggest challenge was creating a branding system for Yelp that remained cohesive 
-        under the main brand while catering to different target groups. Took trial and error to successfully differentiate
+              The biggest challenge was creating a branding system for Yelp that <b>remained cohesive 
+        under the main brand while catering to different target groups.</b> Took trial and error to successfully differentiate
         the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience.
               </p>
 
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Video Concept Ideation and Storyboarding:</h3>
+              <h3 className="subsection-title">Video Concept Ideation</h3>
               <p className="paragraph">
-              I particularly enjoyed the video concept ideation and storyboard mock-ups stage, leveraging my experience 
-              in personal video content creation. This project offered a new perspective as I approached video creation from a marketing standpoint,
+              I particularly enjoyed the video concept ideation and storyboard mock-ups stage, given my experience 
+              in personal video content creation. This project offered a new perspective as I approached <b>video creation from a marketing standpoint,</b>
               contrasting to catering personal memories and experiences.
               </p>
             </div>
 
-            <div className="team-photo" style={{ flex: '1', maxWidth: '50%' }}>
+            <div className="team-photo" style={{ flex: '1', maxWidth: '45%' }}>
               <StaticImage 
               src="../../../static/YelpClientReveal.jpg"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
-              style={{ borderRadius: '10px' }}
+              style={{ marginTop: '23px', borderRadius: '10px' }}
               />
+              <a className="photoDescription">
+              Yelp Client Reveal!
+              </a>
             </div>
 
           </div>

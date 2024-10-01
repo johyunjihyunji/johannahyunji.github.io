@@ -13,8 +13,8 @@ const Header = () => {
         <img className='Logo' src= {Lopster} alt="Logo" />
       </Link>
       <div className='Menu'>
-        <a className='MenuItem' href = "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1">About</a>
-        <a className='MenuItem' href = "https://forms.monday.com/forms/72de8dcb9fa0ba969f5c6f71de2c7dde?r=use1">Resume</a>
+        <a className='MenuItem' href = "https://www.linkedin.com/in/johannaleehyunji/">LinkedIn</a>
+        <a className='MenuItem' href = "https://drive.google.com/file/d/19jYAuiv4JhnaoI4WNHnzY0a5nQN8mown/view?usp=sharing">Resume</a>
       </div>
     </header>
   );

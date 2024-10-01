@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    text-align: right;
+    text-align: left;
   }
   
   .info-item {
@@ -24,6 +24,7 @@
   .info-title {
     font-size: 18px;
     margin-bottom: 10px;
+    font-family: 'IkeaFont', sans-serif;
   }
   
   .info-content {
@@ -31,34 +32,52 @@
   }
   
   .section {
-    margin-bottom: 40px;
+    margin-bottom: 8vw;
   }
   
   .section-title {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 2vh;
+    font-family: 'IkeaFont', sans-serif;
   }
   
   .subsection {
     flex: 1;
     max-width: 50%;
+    margin-right: 2vw;
+    margin-bottom: 20px;
+  }
+  .subsection:last-child {
+    margin-right: 0;
   }
   
   .subsection-title {
     font-size: 20px;
+    font-family: 'IkeaFont', sans-serif;
+    color: #FF1700;
+    margin-bottom: 1vh;
   }
   
   .paragraph {
-    font-size: 16px;
+    font-size: 1.0vw;
     line-height: 1.6;
-    margin-bottom: 20px;
   }
   
   .team-photo {
     width: 100%;
     object-fit: cover;
     margin-bottom: 20px;
+    margin-right: 2vw;
   }
+
+  .photoDescription {
+    text-align: center;
+    color: #161616;
+    text-decoration: none;
+    display: block;
+    font-size: 14px; 
+  }
+  
   
   .flex-container {
     display: flex;

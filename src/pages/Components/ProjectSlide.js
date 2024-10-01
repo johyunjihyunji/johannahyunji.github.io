@@ -16,7 +16,7 @@ const ProjectSlide = () => {
             alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -32,7 +32,7 @@ const ProjectSlide = () => {
             alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -48,7 +48,7 @@ const ProjectSlide = () => {
             alt="BrokeThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
 
@@ -65,7 +65,7 @@ const ProjectSlide = () => {
             alt="WaymoThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
              <div className="ImageOverlay">
@@ -81,7 +81,7 @@ const ProjectSlide = () => {
             alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
            <div className="ImageOverlay">
@@ -98,7 +98,7 @@ const ProjectSlide = () => {
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -114,7 +114,7 @@ const ProjectSlide = () => {
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
+            height={350} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">

@@ -60,7 +60,7 @@ function Broke() {
           <h2 className="section-title">Background</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Sutardja Center for Entrepreneurship & Technoology</h3>
+              <h3 className="subsection-title">Sutardja Center for Entrepreneurship & Technoology</h3>
               <p className="paragraph">
               The <b>Sutardja Center for Entrepreneurship & Technology (SCET)</b> at UC Berkeley offers a <b>Certificate in Entrepreneurship and 
               Technology</b> designed to equip students with essential skills for innovation and leadership. This program provides undergraduate
@@ -69,7 +69,7 @@ function Broke() {
               </p>
             </div>
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>European Innovation Academy</h3>
+              <h3 className="subsection-title">European Innovation Academy</h3>
               <p className="paragraph">
               The <b>European Innovation Academy (EIA)</b> offers a dynamic three-week startup program in Porto, Portugal, where students from diverse 
               backgrounds collaborate in <b>multidisciplinary teams to develop innovative product ideas.</b> Guided by industry mentors from leading 
@@ -94,30 +94,30 @@ function Broke() {
               />
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
-              <h3 className="subsection-title" style={{ color: '#551c6a' }}>Broke</h3>
+              <h3 className="subsection-title">Broke</h3>
               <p className="paragraph">
               <b>Broke</b> is product developed during the Sutardja Center for Entrepreneurship & Technoology Certificate program during 
               European Innovation Academy portion of the program. I teamed up with 4 other passionate travellers to identify and solve problems under "travel accessbility."
               
-              <h3 className="subsection-title" style={{ color: '#551c6a' }}>Problem Space</h3>
+              <h3 className="subsection-title">Problem Space</h3>
               Through 17 interviews and 200+ survey results, we identified the following painpoints: financial constraints, lack of budgeting knowledge, uncertainty in planing,
                 limited access to travel resources<br />
               <b>How might we make traveling more accessible to middle to low income young adults?</b>
               </p>
 
-              <h3 className="subsection-title" style={{ color: '#551c6a' }}>Ideation</h3>
+              <h3 className="subsection-title">Ideation</h3>
               <p className="paragraph">
               We recognized a common aspiration among individuals to explore their dream destinations. The primary insight stemmed from the understanding 
               that financial barriers, particularly for middle to low-income young adults, often hinder these travel ambitions. Four Focal Points:
               </p>
-              <p className="paragraph">
-                <b style={{ color: '#0e045b' }}>Personalized Budgeting:</b> team proposed an AI-powered budgeting tool to help users set personalized budgets based on their income and travel goals.
+              <p className="paragraph" >
+                <b>Personalized Budgeting:</b> team proposed an AI-powered budgeting tool to help users set personalized budgets based on their income and travel goals.
                 <br />
-                <b style={{ color: '#0e045b' }}>Real Time Progress Tracking:</b> To enhance motivation, the team suggested a dynamic system for real-time tracking of saving and spending.
+                <b>Real Time Progress Tracking:</b> To enhance motivation, the team suggested a dynamic system for real-time tracking of saving and spending.
                 <br />
-                <b style={{ color: '#0e045b' }}>Secure Transaction Platform:</b> The team recommended integrating a secure transaction platform to ensure safe spending while traveling.
+                <b>Secure Transaction Platform:</b> The team recommended integrating a secure transaction platform to ensure safe spending while traveling.
                 <br />
-                <b style={{ color: '#0e045b' }}>User Friendly Interface:</b> To accommodate varying financial literacy levels, the team emphasized creating an intuitive and accessible app interface.
+                <b>User Friendly Interface:</b> To accommodate varying financial literacy levels, the team emphasized creating an intuitive and accessible app interface.
               </p>
             </div>
           </div>
@@ -135,7 +135,7 @@ function Broke() {
           <p className="paragraph">
           After iterating through multiple rounds of low-fidelity wireframes and conducting user experience interviews, 
           I crafted high-fidelity wireframe prototype.
-          I developed a comprehensive prototype that was presented to potential investors and program instructors/mentors. 
+          I developed a <b>comprehensive prototype that was presented to potential investors and program instructors/mentors. </b>
           </p>
           <div className="flex-container">
             <div className="team-photo" style={{ flex: '1', maxWidth: '15%'}}>
@@ -179,30 +179,35 @@ function Broke() {
           <div className="flex-container">
 
             <div className="subsection" style ={{ maxWidth: '60%' }}>
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>First End to End Product Design Experience</h3>
+              <h3 className="subsection-title">First End to End Product Design</h3>
               <p className="paragraph">
               Embarking on this project marked a significant learning curve for me. It was my first opportunity to independently navigate 
-              the entire product design process, from problem space need finding to brand identity development to high fidelity prototyping. 
+              the entire product design process, from <b>problem space need finding to brand identity development to high fidelity prototyping. </b>
               The experience was truly enriching, allowing me to address painpoints that resonated personally with me, all while collaborating
                with newfound team members with similar passions.
               </p>
 
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}> Leveraging Design and CS background:</h3>
+              <h3 className="subsection-title"> Leveraging Design and CS:</h3>
               <p className="paragraph">
               I discovered that my background in computer 
               science not only provided a strong foundation but also facilitated effective communication within a cross-functional team.
-              I found myself adept at articulating ideas in diverse languages tailored for different stakeholders. This project served as 
-              the catalyst for my interest in a career path in product design.
+              I found myself articulating ideas in different languages tailored for different stakeholders. This project <b>sparked my interest 
+              in a career path in product design.</b>
               </p>
             </div>
 
-            <div className="team-photo" style={{ flex: '1', maxWidth: '40%' }}>
+            <div className="team-photo" style={{ flex: '1', maxWidth: '50%' }}>
               <StaticImage 
               src="../../../static/BrokeTeamPhotoOfficial.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
-              style={{ marginTop: '40px', borderRadius: '10px' }}
+              style={{ 
+                marginTop: '2vh', 
+                borderRadius: '10px',
+                height: '100%',
+                objectFit: 'cover'
+              }}
               />
             </div>
 
