@@ -20,7 +20,7 @@ import ProjectSlide from './Components/ProjectSlide';
 function App() {
   return (
     <Router>
-      <div className = 'AppContainer'>
+      <div className = 'AppContainer' style={{ paddingBottom: '60vh' }}>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Broke" element={<Broke />} />
@@ -31,7 +31,6 @@ function App() {
       </Routes>
       </div>
       <ProjectSlide />
-      <Footer />
     </Router>
     // <>
     //   <Header />
