@@ -1,11 +1,11 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import App from '../index';
+// import App from '../index';
 import '../style/Project.css'
 
 function Yelp() {
   return (
-    <App>
+    // <App>
       <div className="container">
         <div className="header-image">
           <StaticImage 
@@ -56,18 +56,18 @@ function Yelp() {
           <h2 className="section-title">Background</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Waymo</h3>
+              <h3 className="subsection-title" style={{ color: '#0077FF' }}>Waymo</h3>
               <p className="paragraph">
-              <b>Waymo</b> is an autonomous driving technology company headquartered in Mountain View, California. 
-              Originally part of the Google self-driving car project, Waymo focuses on developing advanced self-driving systems to enhance 
-              mobility and safety. Waymo operates commercial robotaxi services in cities like San Francisco 
+              <b>Waymo</b> is an <b>autonomous driving technology company</b> headquartered in Mountain View, California. 
+              Originally part of the Google self-driving car project, Waymo focuses on developing advanced <b>self-driving systems to enhance 
+              mobility and safety.</b> Waymo operates commercial robotaxi services in cities like San Francisco 
               and Phoenix, aiming to revolutionize transportation through fully autonomous vehicles.
 
 
               </p>
             </div>
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UMA Design</h3>
+              <h3 className="subsection-title" style={{ color: '#0077FF' }}>UMA Design</h3>
               <p className="paragraph">
               <b>Design Team at the Undergraduate Marketing Association</b> is a creative group of individuals passionate about <b>visual 
                 storytelling and crafting impactful brand experiences</b>. We are dedicated to pushing the boundaries of design and creating innovative 
@@ -81,7 +81,7 @@ function Yelp() {
         <div className="section">
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
-            <div className="team-photo" style={{ flex: '1', maxWidth: '40%' }}>
+            <div className="team-photo" style={{ flex: '1', maxWidth: '30%' }}>
               <StaticImage 
               src="../../../static/WaymoMockup.png"
               alt="Project Header"
@@ -89,26 +89,28 @@ function Yelp() {
               layout="constrained"
               style={{height: '450px',  borderRadius: '10px'}}
               />
+              <a className="photoDescription">
+              Waymo Advertisement Mockup :)
+              </a>
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '70%' }}>
             <p className="paragraph">
-            Waymo is undergoing a significant transition as it evolves from an R&D-focused firm to a commercial entity. 
-            This transformation requires a comprehensive reevaluation of its brand identity and the overall experience 
+            <b>Waymo</b> is undergoing a significant transition as it <b>evolves from an R&D-focused firm to a commercial entity. </b> 
+             This transformation requires a comprehensive reevaluation of its brand identity and the overall experience 
             it offers to its customers. 
             </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>Performance Marketing</h3>
               <p className="paragraph">
-              Assess the brands of Waymo’s active ride-hailing competitors and determine the Greenfield opportunity for Waymo to stand 
+              Assess the <b>brands of Waymo’s active ride-hailing competitors and determine the Greenfield opportunity</b> for Waymo to stand 
               out from the pack, in terms of brand positioning, personality, visual/verbal identity, and advertising strategy.
               </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>Brand Design System</h3>
               <p className="paragraph">
               Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of 
-              its brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.
+              its <b>brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.</b>
               </p>
-              <p className="paragraph">
-              {"<---"}  Waymo Advertisement Mockup :)
-              </p>
+              <br />
+              <h3 className="subsection-title" style={{ textAlign: 'center', color: '#5a5a5a' }}>under NDA</h3>
             </div>
           </div>
         </div>
@@ -116,19 +118,19 @@ function Yelp() {
           <h2 className="section-title">Reflection</h2>
             <p className="paragraph">
                 This project was very exciting because it was in the autonomous automobile industry. 
-                Exploring and researching this sector provided me with insights into the future landscape of the automotive industry.
+                Exploring and researching this sector provided me with insights into the <b>future landscape of the automotive industry.</b>
             </p>
           <div className="flex-container">
             <div className="subsection" style ={{ maxWidth: '50%' }}>
 
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Rebranding for Self-Driving Car Service:</h3>
+              <h3 className="subsection-title" style={{color: '#0077FF' }}>Rebranding for Self-Driving Car Service:</h3>
               <p className="paragraph">
               It was challenging to reshape perceptions around this cutting-edge technology often deemed "not safe." 
-              The primary hurdle was to make autonomous driving technology more 
-              approachable and acceptable to the emerging generation of users. Successfully rebranding Waymo required more than just a visual transformation;
+              The <b>primary hurdle was to make autonomous driving technology more 
+              approachable and acceptable</b> to the emerging generation of users. Successfully rebranding Waymo required more than just a visual transformation;
                it demanded the establishment of a new norm.
               The goal was to shape a narrative that would encourage users to perceive self-driving car services positively. 
-              This involved not only addressing concerns about safety but also fostering a sense of trust and familiarity.
+              This involved not only addressing concerns about safety but also <b>fostering a sense of trust and familiarity.</b>
         
               </p>
             </div>
@@ -151,7 +153,7 @@ function Yelp() {
         
 
       </div>
-    </App>
+    // </App>
   );
 }
 

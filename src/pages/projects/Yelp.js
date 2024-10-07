@@ -1,11 +1,11 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import App from '../index';
+// import App from '../index';
 import '../style/Project.css'
 
 function Yelp() {
   return (
-    <App>
+    // <App>
       <div className="container">
         <div className="header-image">
           <StaticImage 
@@ -139,13 +139,8 @@ function Yelp() {
 
           </div>
         </div>
-
-
-
-        
-
       </div>
-    </App>
+    // </App>
   );
 }
 
