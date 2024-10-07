@@ -4,18 +4,11 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---src-pages-app-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/App.js")),
-  "component---src-pages-components-footer-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/Footer.js")),
-  "component---src-pages-components-header-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/Header.js")),
-  "component---src-pages-components-home-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/Home.js")),
-  "component---src-pages-components-introduction-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/IntroductionSlide.js")),
-  "component---src-pages-components-lopster-gallary-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/LopsterGallary.js")),
-  "component---src-pages-components-project-slide-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Components/ProjectSlide.js")),
+  "component---src-pages-broke-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Broke.js")),
+  "component---src-pages-es-net-mrdp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/ESNetMRDP.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/index.js")),
-  "component---src-pages-projects-broke-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Broke.js")),
-  "component---src-pages-projects-es-net-mrdp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/ESNetMRDP.js")),
-  "component---src-pages-projects-sia-partners-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/SiaPartners.js")),
-  "component---src-pages-projects-waymo-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Waymo.js")),
-  "component---src-pages-projects-yelp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Projects/Yelp.js"))
+  "component---src-pages-sia-partners-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/SiaPartners.js")),
+  "component---src-pages-waymo-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Waymo.js")),
+  "component---src-pages-yelp-js": preferDefault(require("/Users/johannalee/repo/johannahyunji.github.io/src/pages/Yelp.js"))
 }
 
