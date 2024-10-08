@@ -1,13 +1,13 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-// import App from '../index';
-import '../style/Project.css'
+import '../style/Project.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 
 function Broke() {
   return (
-    // <App>
+    <>
+     <Header />
       <div className="container">
         <div className="header-image">
           <StaticImage 
@@ -221,7 +221,8 @@ function Broke() {
         
 
       </div>
-    // </App>
+      <Footer />
+      </>
   );
 }
 

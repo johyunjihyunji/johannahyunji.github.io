@@ -41,13 +41,13 @@ b {
 .Menu {
   display: flex;
   gap: 20px; /* Space between menu items */
+  
 }
 
 .MenuItem {
   color: #FF1700;
   text-decoration: none; /* Remove underline */
   font-size: 1.2vw;
-  
   &:hover {
     text-decoration: underline; /* Add underline on hover */
   }

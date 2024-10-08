@@ -27,7 +27,7 @@
     color: #F0D732; /* Change color of crossed-out text */
   }
   .red-question-mark {
-    color: #FF1700;
+    color: #0438C6;
     font-size: 24px;
   }
   .cross-line {
@@ -40,5 +40,5 @@
   }
 
   .location-wrapper:last-child .location {
-    color: #FF1700;
+    color: #0438C6;
   }
