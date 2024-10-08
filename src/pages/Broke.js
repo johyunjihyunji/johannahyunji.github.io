@@ -62,7 +62,7 @@ function Broke() {
           <h2 className="section-title">Background</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title">Sutardja Center for Entrepreneurship & Technoology</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Sutardja Center for Entrepreneurship & Technoology</h3>
               <p className="paragraph">
               The <b>Sutardja Center for Entrepreneurship & Technology (SCET)</b> at UC Berkeley offers a <b>Certificate in Entrepreneurship and 
               Technology</b> designed to equip students with essential skills for innovation and leadership. This program provides undergraduate
@@ -71,7 +71,7 @@ function Broke() {
               </p>
             </div>
             <div className="subsection">
-              <h3 className="subsection-title">European Innovation Academy</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>European Innovation Academy</h3>
               <p className="paragraph">
               The <b>European Innovation Academy (EIA)</b> offers a dynamic three-week startup program in Porto, Portugal, where students from diverse 
               backgrounds collaborate in <b>multidisciplinary teams to develop innovative product ideas.</b> Guided by industry mentors from leading 
@@ -96,18 +96,18 @@ function Broke() {
               />
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
-              <h3 className="subsection-title">Broke</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Broke</h3>
               <p className="paragraph">
               <b>Broke</b> is product developed during the Sutardja Center for Entrepreneurship & Technoology Certificate program during 
               European Innovation Academy portion of the program. I teamed up with 4 other passionate travellers to identify and solve problems under "travel accessbility."
               
-              <h3 className="subsection-title">Problem Space</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Problem Space</h3>
               Through 17 interviews and 200+ survey results, we identified the following painpoints: financial constraints, lack of budgeting knowledge, uncertainty in planing,
                 limited access to travel resources<br />
               <b>How might we make traveling more accessible to middle to low income young adults?</b>
               </p>
 
-              <h3 className="subsection-title">Ideation</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Ideation</h3>
               <p className="paragraph">
               We recognized a common aspiration among individuals to explore their dream destinations. The primary insight stemmed from the understanding 
               that financial barriers, particularly for middle to low-income young adults, often hinder these travel ambitions. Four Focal Points:
@@ -127,6 +127,15 @@ function Broke() {
 
         <div className="section">
           <h2 className="section-title">Brand Design System</h2>
+          <div className="team-photo" style={{ flex: '1'}}>
+              <StaticImage 
+              src="../../static/BrokeBrandDesignHigh.png"
+              alt="Project Header"
+              placeholder="blurred"
+              layout="constrained"
+              style={{ marginTop: '25px', width: '100%' }}
+              />
+            </div>
           <p className="paragraph">
            
           </p>
@@ -181,7 +190,7 @@ function Broke() {
           <div className="flex-container">
 
             <div className="subsection" style ={{ maxWidth: '60%' }}>
-              <h3 className="subsection-title">First End to End Product Design</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>First End to End Product Design</h3>
               <p className="paragraph">
               Embarking on this project marked a significant learning curve for me. It was my first opportunity to independently navigate 
               the entire product design process, from <b>problem space need finding to brand identity development to high fidelity prototyping. </b>
@@ -189,7 +198,7 @@ function Broke() {
                with newfound team members with similar passions.
               </p>
 
-              <h3 className="subsection-title"> Leveraging Design and CS:</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}> Leveraging Design and CS:</h3>
               <p className="paragraph">
               I discovered that my background in computer 
               science not only provided a strong foundation but also facilitated effective communication within a cross-functional team.

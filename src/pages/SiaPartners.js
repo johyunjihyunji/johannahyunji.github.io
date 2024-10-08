@@ -83,11 +83,11 @@ function SiaPartners() {
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
 
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>NDA</h3>
+              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}> UNDER NDA</h3>
             
               <p className="paragraph">
-              UMA Design supported Sia Partners on the Meta Family Center project to enhance the Family Center experience through a combination of design, 
-              content strategy, and extensive research efforts. Our goal is to reimagine and revitalize the Meta Family Center, ensuring it not only 
+              UMA Design supported Sia Partners on the <b>Meta Family Center project to enhance the Family Center experience through a combination of design, 
+              content strategy, and extensive research efforts.</b> Our goal is to reimagine and revitalize the Meta Family Center, ensuring it not only 
               meets but exceeds the expectations of its diverse user base.
               </p>
               
@@ -101,9 +101,9 @@ function SiaPartners() {
             <div className="subsection" style ={{ maxWidth: '70%' }}>
               <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>First End to End Product Design Experience</h3>
               <p className="paragraph">
-              Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a wide range of users, 
-              from kids to parents. This was challenging because each age group has different needs. We spent a lot of time discussing how to 
-              make the platform friendly and easy to use for everyone. User interviews provided valuable insights that helped us understand 
+              Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a <b>wide range of users, 
+              from kids to parents.</b> This was challenging because each age group has different needs. We spent a lot of time discussing how to 
+              make the platform friendly and easy to use for everyone. <b>User interviews provided valuable insights</b> that helped us understand 
               different perspectives, which was crucial for shaping our approach.
               </p>
 

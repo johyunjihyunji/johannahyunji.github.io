@@ -26,14 +26,14 @@ function IntroductionSlide() {
 
     return (
         <div className="background">
-            <div className="top-text">passionate about fashion, apple cider, and travel</div>
+            <div className="top-text" style = {{color: '#282828'}}>passionate about fashion, apple cider, and travel</div>
             <div className="text-container">
-                <span className="left-text">Designer</span>
-                <span className="center-text">Johanna Lee</span>
-                <span className="right-text">Engineer</span>
+                <span className="left-text" style = {{color: '#282828'}}>Designer</span>
+                <span className="center-text" style = {{color: '#000000'}}>Johanna Lee</span>
+                <span className="right-text" style = {{color: '#282828'}}>Engineer</span>
             </div>
             <img className="joImage" src={profileGIF} alt="profile gif" />
-            <div className="bottom-text">
+            <div className="bottom-text" style = {{color: '#282828'}}>
                 based in
                 <br/> 
             {locations.map((location, index) => (

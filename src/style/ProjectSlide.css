@@ -7,7 +7,7 @@
   
   .ScrollingInnerContainer {
     display: inline-block;
-    animation: scroll-left 15s linear infinite; /* Adjust speed here */
+    animation: scroll-left 20s linear infinite; /* Adjust speed here */
   }
   
   .ScrollingInnerContainer:hover {
@@ -19,7 +19,7 @@
       transform: translateX(0); /* Start from the original position */
     }
     100% {
-      transform: translateX(-50%); /* Move to left by half of the container */
+      transform: translateX(-100%); /* Move to left by half of the container */
     }
   }.ImageItem {
     position: relative;

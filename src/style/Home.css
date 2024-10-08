@@ -40,7 +40,8 @@ b {
 
 .Menu {
   display: flex;
-  gap: 20px; /* Space between menu items */
+  gap: 30px; /* Space between menu items */
+  font-family: 'IkeaFont', sans-serif;
   
 }
 

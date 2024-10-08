@@ -17,7 +17,7 @@ const ProjectSlide = () => {
             alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -33,7 +33,7 @@ const ProjectSlide = () => {
             alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -49,7 +49,7 @@ const ProjectSlide = () => {
             alt="BrokeThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
 
@@ -66,7 +66,7 @@ const ProjectSlide = () => {
             alt="WaymoThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
              <div className="ImageOverlay">
@@ -82,7 +82,7 @@ const ProjectSlide = () => {
             alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
            <div className="ImageOverlay">
@@ -99,7 +99,7 @@ const ProjectSlide = () => {
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
@@ -109,20 +109,86 @@ const ProjectSlide = () => {
         </a>
 
         {/* Project Yelp */}
-        <Link className='ImageItem'  to="/Yelp">
-          <StaticImage 
+                <Link className='ImageItem' to="/Yelp">
+            <StaticImage 
             src="../../static/YelpThumbnail.png"
-            alt="yelp"
+            alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={350} // Desired width
+            height={300} // Desired width
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
+            <div className="Tags">Data Analysis, Visualization</div>
+            <div className="Title">Yelp Project</div>
+            </div>
+        </Link>
+
+        {/* Project MRDP */}
+        <Link className='ImageItem'  to="/ESNetMRDP">
+          <StaticImage 
+            src="../../static/ESnetMRDPThumbnail.png"
+            alt="ESnetMRDPThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+            <div className="ImageOverlay">
+            <div className="Tags">Data Analysis, Visualization</div>
+            <div className="Title">Yelp Project</div>
+            </div>
+        </Link>
+
+        {/* Project Broke */}
+        <Link className='ImageItem'  to="/Broke">
+          <StaticImage 
+            src="../../static/BrokeThumbnail.png"
+            alt="BrokeThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+
+          <div className="ImageOverlay">
             <div className="Tags">Network, Data Management</div>
             <div className="Title">ESNet MRDP</div>
           </div>
         </Link>
+
+        {/* Project Waymo */}
+        <Link className='ImageItem'  to="/Waymo">
+          <StaticImage 
+            src="../../static/WaymoThumbnail.png"
+            alt="WaymoThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+             <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
+        </Link>
+
+        {/* Project Waymo */}
+        <Link className='ImageItem'  to="/SiaPartners">
+          <StaticImage 
+            src="../../static/SiaPartnersMetaThumbnail.png"
+            alt="SiaPartnersMetaThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+           <div className="ImageOverlay">
+            <div className="Tags">Network, Data Management</div>
+            <div className="Title">ESNet MRDP</div>
+          </div>
+        </Link>
+        
 
 
 
