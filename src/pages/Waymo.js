@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 // import App from '../index';
 import '../style/Project.css'
 
-function Yelp() {
+function Waymo() {
   return (
     // <App>
       <div className="container">
@@ -89,9 +89,9 @@ function Yelp() {
               layout="constrained"
               style={{height: '450px',  borderRadius: '10px'}}
               />
-              <a className="photoDescription">
+              <p className="photoDescription">
               Waymo Advertisement Mockup :)
-              </a>
+              </p>
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '70%' }}>
             <p className="paragraph">
@@ -157,4 +157,4 @@ function Yelp() {
   );
 }
 
-export default Yelp;
+export default Waymo;

@@ -86,9 +86,9 @@ function Yelp() {
               layout="constrained"
               style={{ borderRadius: '10px' }}
               />
-              <a className="photoDescription">
+              <p className="photoDescription">
               Final Deliverable with Yelp's Marketing Team :)
-              </a>
+              </p>
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
               <h3 className="subsection-title">Performance Marketing</h3>
@@ -132,9 +132,9 @@ function Yelp() {
               layout="constrained"
               style={{ marginTop: '23px', borderRadius: '10px' }}
               />
-              <a className="photoDescription">
+              <p className="photoDescription">
               Yelp Client Reveal!
-              </a>
+              </p>
             </div>
 
           </div>

@@ -82,9 +82,9 @@ function ESNetMRDP() {
               layout="constrained"
               style={{ marginTop: '10px',borderRadius: '2px' }}
               />
-              <a className="photoDescription">
+              <p className="photoDescription">
               Final Landing Page for Modern Researh Data Portal
-              </a>
+              </p>
             </div>
             <div className="subsection" style={{ flex: '1', maxWidth: '60%' }}>
               <h3 className="subsection-title">Modern Research Data Portal</h3>

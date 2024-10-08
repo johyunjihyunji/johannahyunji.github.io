@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Routes, Route } from 'gatsby';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //Header & Footer
 // import Header from './Components/Header';
@@ -20,7 +20,7 @@ import ProjectSlide from './Components/ProjectSlide';
 function App() {
   return (
     <Router>
-      <div className = 'AppContainer' style={{ paddingBottom: '60vh' }}>
+    <div className = 'AppContainer'>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Broke" element={<Broke />} />
@@ -29,9 +29,24 @@ function App() {
           <Route path="/Waymo" element={<Waymo />} />
           <Route path="/Yelp" element={<Yelp />} />
       </Routes>
-      </div>
+      <IntroductionSlide />
       <ProjectSlide />
-    </Router>
+    </div>
+  </Router>
+  )
+    // <Router>
+    //   <div className = 'AppContainer' style={{ paddingBottom: '60vh' }}>
+    //   <Routes>
+    //       <Route path="/" element={<Home />} />
+    //       <Route path="/Broke" element={<Broke />} />
+    //       <Route path="/ESNetMRDP" element={<ESNetMRDP />} />
+    //       <Route path="/SiaPartners" element={<SiaPartners />} />
+    //       <Route path="/Waymo" element={<Waymo />} />
+    //       <Route path="/Yelp" element={<Yelp />} />
+    //   </Routes>
+    //   </div>
+    //   <ProjectSlide />
+    // </Router>
     // <>
     //   <Header />
     //   <main>
@@ -39,7 +54,6 @@ function App() {
     //   </main>
     //   <Footer />
     // </>
-  );
 }
 
 export default App

@@ -519,7 +519,7 @@ var index_js_ = __webpack_require__(1725);
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
 var react_dom = __webpack_require__(961);
 var react_dom_namespaceObject = /*#__PURE__*/__webpack_require__.t(react_dom, 2);
-;// CONCATENATED MODULE: ./node_modules/@remix-run/router/dist/router.js
+;// ./node_modules/@remix-run/router/dist/router.js
 /**
  * @remix-run/router v1.19.2
  *
@@ -5539,7 +5539,7 @@ function persistAppliedTransitions(_window, transitions) {
 
 //# sourceMappingURL=router.js.map
 
-;// CONCATENATED MODULE: ./node_modules/react-router/dist/index.js
+;// ./node_modules/react-router/dist/index.js
 /**
  * React Router v6.26.2
  *
@@ -6937,7 +6937,7 @@ function createMemoryRouter(routes, opts) {
 
 //# sourceMappingURL=index.js.map
 
-;// CONCATENATED MODULE: ./node_modules/react-router-dom/dist/index.js
+;// ./node_modules/react-router-dom/dist/index.js
 /**
  * React Router DOM v6.26.2
  *

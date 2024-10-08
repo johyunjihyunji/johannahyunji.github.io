@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-//mport { Link } from 'gatsby';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
+//import { Link } from 'react-router-dom';
 import '../style/ProjectSlide.css'
 
 
@@ -11,7 +11,7 @@ const ProjectSlide = () => {
     <div className='GalleryContainer'>
       <nav className='ScrollingInnerContainer'>
         {/* Project Yelp */}
-        <Link className='ImageItem' to="/Projects/Yelp">
+        <Link className='ImageItem' to="/Yelp">
             <StaticImage 
             src="../../static/YelpThumbnail.png"
             alt="YelpThumbnail"
@@ -27,7 +27,7 @@ const ProjectSlide = () => {
         </Link>
 
         {/* Project MRDP */}
-        <Link className='ImageItem'  to="/Projects/ESNetMRDP">
+        <Link className='ImageItem'  to="/ESNetMRDP">
           <StaticImage 
             src="../../static/ESnetMRDPThumbnail.png"
             alt="ESnetMRDPThumbnail"
@@ -43,7 +43,7 @@ const ProjectSlide = () => {
         </Link>
         
         {/* Project Broke */}
-        <Link className='ImageItem'  to="/Projects/Broke">
+        <Link className='ImageItem'  to="/Broke">
           <StaticImage 
             src="../../static/BrokeThumbnail.png"
             alt="BrokeThumbnail"
@@ -60,7 +60,7 @@ const ProjectSlide = () => {
         </Link>
 
         {/* Project Waymo */}
-        <Link className='ImageItem'  to="/Projects/Waymo">
+        <Link className='ImageItem'  to="/Waymo">
           <StaticImage 
             src="../../static/WaymoThumbnail.png"
             alt="WaymoThumbnail"
@@ -76,7 +76,7 @@ const ProjectSlide = () => {
         </Link>
 
         {/* Project Waymo */}
-        <Link className='ImageItem'  to="/Projects/SiaPartners">
+        <Link className='ImageItem'  to="/SiaPartners">
           <StaticImage 
             src="../../static/SiaPartnersMetaThumbnail.png"
             alt="SiaPartnersMetaThumbnail"
@@ -109,7 +109,7 @@ const ProjectSlide = () => {
         </a>
 
         {/* Project Yelp */}
-        <Link className='ImageItem'  to="/Projects/Yelp">
+        <Link className='ImageItem'  to="/Yelp">
           <StaticImage 
             src="../../static/YelpThumbnail.png"
             alt="yelp"
