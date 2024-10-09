@@ -129,7 +129,7 @@ function Yelp() {
 
             <div className="team-photo" style={{ flex: '1', maxWidth: '45%' }}>
               <StaticImage 
-              src="../../static/YelpClientReveal.jpg"
+              src="../../static/YelpClientReveal.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
