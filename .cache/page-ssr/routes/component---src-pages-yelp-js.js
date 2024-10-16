@@ -3106,7 +3106,7 @@ function Yelp() {
       maxWidth: '45%'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/YelpClientReveal.jpg",
+    src: "../../static/YelpClientReveal.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
@@ -3114,7 +3114,7 @@ function Yelp() {
       marginTop: '23px',
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3524627092.json */ "./.cache/caches/gatsby-plugin-image/3524627092.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/590326540.json */ "./.cache/caches/gatsby-plugin-image/590326540.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "photoDescription"
   }, "Yelp Client Reveal!"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
@@ -4768,17 +4768,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3524627092.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3524627092.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFWiviM0D//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADERITIv/aAAgBAQABBQLqEVrjruso9tzSEDP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAgMBAAAAAAAAAAAAAAAAITEBERJh/9oACAEBAAY/AvU6Wz1KlP/EABkQAAMBAQEAAAAAAAAAAAAAAAABIRExYf/aAAgBAQABPyG91uIUZ5+aPSoQIJEFPDdjp//aAAwDAQACAAMAAAAQnz//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QFX//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QMX//xAAbEAEAAwADAQAAAAAAAAAAAAABABExIUFhUf/aAAgBAQABPxAAFMqjYFK8HZ7kOwD8YTQgDxWwJDm91AU6Op//2Q=="},"images":{"fallback":{"src":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg","srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/6e816/YelpClientReveal.jpg 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/af85c/YelpClientReveal.jpg 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg 2734w","sizes":"(min-width: 2734px) 2734px, 100vw"},"sources":[{"srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/aa42b/YelpClientReveal.webp 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/8ae20/YelpClientReveal.webp 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/fdd4d/YelpClientReveal.webp 2734w","type":"image/webp","sizes":"(min-width: 2734px) 2734px, 100vw"}]},"width":2734,"height":1537}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/3883015766.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3883015766.json ***!
@@ -4798,6 +4787,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundColor":"#f83838","images":{"fallback":{"src":"/static/630db4d89d1d136ba82e38a64b10dfe4/70779/YelpHeader.png","srcSet":"/static/630db4d89d1d136ba82e38a64b10dfe4/a24a4/YelpHeader.png 601w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/679b5/YelpHeader.png 1201w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/70779/YelpHeader.png 2402w","sizes":"(min-width: 2402px) 2402px, 100vw"},"sources":[{"srcSet":"/static/630db4d89d1d136ba82e38a64b10dfe4/a3cc2/YelpHeader.webp 601w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/ae91f/YelpHeader.webp 1201w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/1c39a/YelpHeader.webp 2402w","type":"image/webp","sizes":"(min-width: 2402px) 2402px, 100vw"}]},"width":2402,"height":601}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/590326540.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/590326540.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABuvAAAbrwFeGpEcAAACqklEQVR42gGfAmD9AHBqZnx2c4uFgZmTjaefmLSrpL2zq720q8vAts3BtszCtsi9sb+1q7OqoKqil4mFf3d2c3JxbWNiX2dlXQB0bmqAe3eQi4afmZOtpp66sarFu7LLwbbRyL3OxbrJwbbFvLC+tKq1rKGtpZmKh4F4d3VzcXBkY2JqZ2IAd3Jtg356kYyHoJqUq6SeurCqwrqzy8XAwLaqwLetubOtu7Wvv7astq2hq6aYjImCd3d2c3JyZWVlbGplAHdyboN/e5CLhp2Ykqefmr2yrnpvaoqDhIeAg31sYo18cIFyaYd3bJ6ViXRhVWtrZ3V1dHBvcWRkZm1qZgB1cW+BfXmNiISYlI+jnZeSi4htY1lCQ1IkNmV0b3RtWUxsYVxzYFdiWE46KiRcTj9ycG1qam1hYGNqaGQAdnFvgHt4ioWCmZSPpaCaWFlYUkc+Rzo5NC86XVZTW05KgHhzvbWzk4eJXEgyiWQ2Z19ZY2VqXVxga2llAGBeX2ZlZ2xrbnZ2eWBfXyIhIQ8ODSgjI6Gcn3l0dpuYnZuUlIqAhXJtdDYwLh8bGktMTVtcYjc4Ojs5NwBITVROU1tXXGVWXGcdHyQMDQ48MipGQDx4dXx+e4NbV1lQS0g/P0I0Oj4iJykMCwxARUo+QkcgHB0TExUAR0xRTVJZVltjVVxlP0ZQJy03Pjs+Pz9ELCwuOTk/MjY8Ojo9PkJKQk9YRlBTKCkqU1VWVlFQSC0lQT01AEFESUNHTEVJT0BGTTlASkRJUVFRUVZSUGBbWWlmYn16dkpFQDVFWU1fc3t3a4R8bpOBYHNfQ2xWRWlmZgAXFxgXFxgWFhYWFhdZVVOCfXarpp2ej3ufiXGvopm2q6StpZ2Vko+koJ+spZ2blIuimo9iaHNpb3pqZmdi7x7sFFHrpgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg","srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/6e816/YelpClientReveal.jpg 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/af85c/YelpClientReveal.jpg 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/ce9cb/YelpClientReveal.jpg 2734w","sizes":"(min-width: 2734px) 2734px, 100vw"},"sources":[{"srcSet":"/static/09c57b3d8c78d81e462b6d0cd9944dd7/aa42b/YelpClientReveal.webp 684w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/8ae20/YelpClientReveal.webp 1367w,\\n/static/09c57b3d8c78d81e462b6d0cd9944dd7/fdd4d/YelpClientReveal.webp 2734w","type":"image/webp","sizes":"(min-width: 2734px) 2734px, 100vw"}]},"width":2734,"height":1537}');
 
 /***/ }),
 

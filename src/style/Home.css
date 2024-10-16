@@ -13,7 +13,7 @@ body {
 }
 
 b {
-  background-color: #8FD3D5; /* Blue with 20% opacity */ /* Set the background color to blue */
+  background-color: rgba(143, 211, 213, 0.35);
   padding: 2px 4px;         /* Optional: Add padding for a better highlight effect */
   border-radius: 10px;       /* Optional: Add rounded corners for a softer look */
   font-weight: 600; 
