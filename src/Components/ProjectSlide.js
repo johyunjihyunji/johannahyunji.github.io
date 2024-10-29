@@ -10,6 +10,40 @@ const ProjectSlide = () => {
   return (
     <div className='GalleryContainer'>
       <nav className='GridContainer'>
+                 {/* Project MRDP */}
+        <Link className='ImageItem'  to="/ESNetMRDP">
+          <StaticImage 
+            src="../../static/ESnetMRDPThumbnail.png"
+            alt="ESnetMRDPThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={400} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+            <div className="ImageOverlay">
+            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}} >UX Design</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>React Front-end Dev</div>
+            <div className="Title">Energy Science Network</div>
+            </div>
+        </Link>
+
+                {/* Project Yelp */}
+                <Link className='ImageItem' to="/Yelp">
+            <StaticImage 
+            src="../../static/YelpThumbnail.png"
+            alt="YelpThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={400} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+            <div className="ImageOverlay">
+            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Brand Design System</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Performance Marketing</div>
+            <div className="Title">Yelp</div>
+            </div>
+        </Link>
+
           {/* Project Waymo */}
           <Link className='ImageItem'  to="/SiaPartners">
           <StaticImage 
@@ -26,41 +60,8 @@ const ProjectSlide = () => {
             <div className="Title">Sia Partners</div>
           </div>
         </Link>
-        
+      
 
-        {/* Project Yelp */}
-        <Link className='ImageItem' to="/Yelp">
-            <StaticImage 
-            src="../../static/YelpThumbnail.png"
-            alt="YelpThumbnail"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={400} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-            <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Brand Design System</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Performance Marketing</div>
-            <div className="Title">Yelp</div>
-            </div>
-        </Link>
-
-        {/* Project MRDP */}
-        <Link className='ImageItem'  to="/ESNetMRDP">
-          <StaticImage 
-            src="../../static/ESnetMRDPThumbnail.png"
-            alt="ESnetMRDPThumbnail"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            height={400} // Desired width
-            style={{ borderRadius: '5px' }}
-            />
-            <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}} >UX Design</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>React Front-end Dev</div>
-            <div className="Title">Energy Science Network</div>
-            </div>
-        </Link>
         
         {/* Project Broke */}
         <Link className='ImageItem'  to="/Broke">
