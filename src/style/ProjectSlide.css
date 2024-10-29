@@ -1,66 +1,51 @@
 .GalleryContainer {
-    overflow: hidden; /* Hide overflow */
-    white-space: nowrap; /* Prevent line breaks */
-    position: relative;
-    margin-top: 100px;
-  }
-  
-  .ScrollingInnerContainer {
-    display: inline-block;
-    animation: scroll-left 20s linear infinite; /* Adjust speed here */
-  }
-  
-  .ScrollingInnerContainer:hover {
-    animation-play-state: paused; /* Pause on hover */
-  }
-  
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(0); /* Start from the original position */
-    }
-    100% {
-      transform: translateX(-100%); /* Move to left by half of the container */
-    }
-  }
-  
-  .ImageItem {
-    position: relative;
-    display: inline-block;
-    margin-right: 20px;
-    margin-bottom: 100px;
-    color: black;
-  }
-  
-  .ImageOverlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -10;
-    padding: 10px;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease;
-    opacity: 0; /* Set this to 1 */
+  max-width: 1200px; /* Adjust as needed */
+  margin: 100px auto;
+  padding: 0 20px;
 }
 
-  
-  .Tags {
-    display: inline-block;
-    background-color: rgba(128, 128, 128, 0.3);
-    padding: 3px 6px;
-    border-radius: 30px;
-    font-size: 0.8em;
-    margin-bottom: 5px;
-    margin-right: 10px;
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
 }
 
-  
-  .Title {
-    font-weight: bold; /* Optional: make the title stand out */
-    margin-right: 20px;
-    padding: 3px 6px;
-  }
-  
-  .ImageItem:hover .ImageOverlay {
-    transform: translateY(0); /* Change this from opacity to transform */
-    opacity: 1;
+.ImageItem {
+  position: relative;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.ImageOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+  opacity: 0; /* Set this to 1 */
+}
+
+
+.Tags {
+  display: inline-block;
+  background-color: rgba(128, 128, 128, 0.3);
+  padding: 3px 6px;
+  border-radius: 30px;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+
+.Title {
+  font-weight: bold; /* Optional: make the title stand out */
+  margin-right: 20px;
+  padding: 3px 6px;
+}
+
+.ImageItem:hover .ImageOverlay {
+  transform: translateY(0); /* Change this from opacity to transform */
+  opacity: 1;
 }

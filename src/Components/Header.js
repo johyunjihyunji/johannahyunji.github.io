@@ -14,7 +14,8 @@ const Header = () => {
       </Link>
       <div className='Menu'>
         <a className='MenuItem' href = "https://www.linkedin.com/in/johannaleehyunji/">LinkedIn</a>
-        <a className='MenuItem' href = "https://drive.google.com/file/d/19jYAuiv4JhnaoI4WNHnzY0a5nQN8mown/view?usp=sharing">Resume</a>
+        <Link className='MenuItem' to="/About">About</Link>
+        <a className='MenuItem' href = "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing">Resume</a>
       </div>
     </header>
   );

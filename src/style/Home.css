@@ -29,7 +29,7 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 20px;
   font-size: 20px;
   margin-right: 2vw;
 }
@@ -41,8 +41,6 @@ b {
 .Menu {
   display: flex;
   gap: 30px; /* Space between menu items */
-  font-family: 'IkeaFont', sans-serif;
-  
 }
 
 .MenuItem {
@@ -61,11 +59,11 @@ b {
   text-align: center;
   width: 100%;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .FooterText {
   margin: 0;
+  font-size: 20px;
   color: #FF1700;
-  font-family: 'IkeaFont', sans-serif;
 }

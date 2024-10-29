@@ -1,4 +1,5 @@
 exports.components = {
+  "component---src-pages-about-js": () => import("./../../../src/pages/About.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-broke-js": () => import("./../../../src/pages/Broke.js" /* webpackChunkName: "component---src-pages-broke-js" */),
   "component---src-pages-es-net-mrdp-js": () => import("./../../../src/pages/ESNetMRDP.js" /* webpackChunkName: "component---src-pages-es-net-mrdp-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),

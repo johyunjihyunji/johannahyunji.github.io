@@ -1,0 +1,101 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sectiontitle, .items {
+    flex: 1;
+    margin-right: 20px;
+    color: #FF1700;
+}
+
+.sectiontitle {
+    font-size: 1.2vw;
+    font-family: 'IkeaFont';
+}
+
+.items {
+  margin-top: 5vh;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.section-icon {
+  width: 5vw;
+}
+
+.introText {
+  font-size: 1.2vw
+}
+.intro-section h1 {
+  font-family: 'IkeaFont';
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro-section h2 {
+  font-family: 'IkeaFont';
+  font-size: 2rem;
+  color: #0438C6;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  display: flex;
+  gap: 5rem;
+}
+
+.about-image {
+  flex-shrink: 0;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.experience-item, .project-item, .education-item, .skill-item {
+  margin-bottom: 2rem;
+}
+
+.date {
+  color: #666;
+  font-style: italic;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+
+
+.tags {
+  display: flex;
+  flex-wrap: wrap; /* Allow tags to wrap to the next line */
+  gap: 10px; /* Space between tags */
+}
+
+.tag {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background */
+  color: #333; /* Text color */
+  padding: 5px 10px; /* Padding for tags */
+  border-radius: 15px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+}
+
+
