@@ -59,20 +59,18 @@ function SiaPartners() {
             <div className="subsection">
               <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Sia Partners</h3>
               <p className="paragraph">
-              <b>Sia Partners</b> is a next-generation management consulting firm headquartered in Paris, France, with a global presence across 50 offices
-              in 20 countries. Sia Partners' San Francisco office focuses on helping technology companies and startups with business
-              transformation and data science. With over a decade of experience in the Bay Area, the team uses AI to tackle complex challenges
-              and drive growth.
-
+              Sia Partners is a consulting firm headquartered in Paris, France, with a global presence across 50 offices
+              in 20 countries. <b>Sia Partners' San Francisco office focuses on helping technology companies and startups</b> with business
+              transformation and data science.
 
               </p>
             </div>
             <div className="subsection">
               <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UMA Design</h3>
               <p className="paragraph">
-              <b>Design Team at the Undergraduate Marketing Association</b> is a creative group of individuals passionate about <b>visual 
-                storytelling and crafting impactful brand experiences</b>. We are dedicated to pushing the boundaries of design and creating innovative 
-                marketing solutions.  With our expertise in interface & graphic design, user experience, and all visual communications, we <b>collaborate with 
+              <b>Design Team at the Undergraduate Marketing Association</b> is a creative group passionate about <b>visual 
+                storytelling and crafting impactful brand experiences</b>. 
+                With our expertise in interface & graphic design, user experience, and all visual communications, we <b>collaborate with 
                 clients spanning diverse industries.</b>
               </p>
             </div>
@@ -84,12 +82,28 @@ function SiaPartners() {
           <div className="flex-container">
 
               <h3 className="subsection-title" style={{ color: '#5a5a5a' }}> UNDER NDA</h3>
+              <p className="paragraph">
+              please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
+              </p>
             
               <p className="paragraph">
-              UMA Design supported Sia Partners on the <b>Meta Family Center project to enhance the Family Center experience through a combination of design, 
-              content strategy, and extensive research efforts.</b> Our goal is to reimagine and revitalize the Meta Family Center, ensuring it not only 
-              meets but exceeds the expectations of its diverse user base.
+              UMA Design supported Sia Partners on the <b>Meta Family Center project</b> to improve the webpage experience through <b>module design, 
+              content strategy, and UX research.</b> Our goal is to revitalize the Meta Family Center, ensuring it is approachable by a diverse user base.
               </p>
+
+
+              <div className="team-photo">
+                <StaticImage 
+                src="../../static/SiaPartnersTeamPhoto1.png"
+                alt="Project Header"
+                placeholder="blurred"
+                layout="constrained"
+                style={{ marginTop: '10px', borderRadius: '10px' , height: '350px' }}
+                />
+                <p className="photoDescription">
+                  During our Final Deliverable at Sia Partner's SF Office 
+                  </p>
+                </div>
               
           </div>
         </div>
@@ -98,27 +112,16 @@ function SiaPartners() {
           <h2 className="section-title">Reflection</h2>
           <div className="flex-container">
 
-            <div className="subsection" style ={{ maxWidth: '70%' }}>
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>First End to End Product Design Experience</h3>
+            <div className="subsection">
+              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Wide Target Audience</h3>
               <p className="paragraph">
               Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a <b>wide range of users, 
-              from kids to parents.</b> This was challenging because each age group has different needs. We spent a lot of time discussing how to 
-              make the platform friendly and easy to use for everyone. <b>User interviews provided valuable insights</b> that helped us understand 
+              from kids to parents to non-traditional families.</b> This was challenging because each demographic had different needs. 
+              <b>User interviews provided valuable insights</b> that helped us understand 
               different perspectives, which was crucial for shaping our approach.
               </p>
 
-              <div className="flex-container">
-
-                <div className="team-photo" style={{ flex: '1', maxWidth: '50%'}}>
-                <StaticImage 
-                src="../../static/SiaPartnersTeamPhoto1.png"
-                alt="Project Header"
-                placeholder="blurred"
-                layout="constrained"
-                style={{ marginTop: '10px', borderRadius: '10px' , height: '350px' }}
-                />
-                </div>
-                <div className="team-photo" style={{ flex: '1', maxWidth: '50%'}}>
+                <div className="team-photo">
                   <StaticImage 
                   src="../../static/SiaPartnersTeamPhoto2.png"
                   alt="Project Header"
@@ -126,19 +129,11 @@ function SiaPartners() {
                   layout="constrained"
                   style={{ marginTop: '10px', borderRadius: '10px', height: '350px' }}
                   />
-                </div>
+                  <p className="photoDescription">
+                  On our way to final deliverable in SF!
+                  </p>
               </div>
               </div>
-
-              <div className="team-photo" style={{ flex: '1', maxWidth: '30%' }}>
-              <StaticImage 
-              src="../../static/SiaPartnersTeamPhoto3.png"
-              alt="Project Header"
-              placeholder="blurred"
-              layout="constrained"
-              style={{ marginTop: '40px', borderRadius: '10px' }}
-              />
-            </div>
 
           </div>
       

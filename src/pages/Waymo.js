@@ -61,10 +61,9 @@ function Waymo() {
             <div className="subsection">
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>Waymo</h3>
               <p className="paragraph">
-              <b>Waymo</b> is an <b>autonomous driving technology company</b> headquartered in Mountain View, California. 
-              Originally part of the Google self-driving car project, Waymo focuses on developing advanced <b>self-driving systems to enhance 
-              mobility and safety.</b> Waymo operates commercial robotaxi services in cities like San Francisco 
-              and Phoenix, aiming to revolutionize transportation through fully autonomous vehicles.
+              <b>Waymo</b> is an <b>autonomous driving technology company</b> originally part of the Google self-driving car project.
+              Waymo focuses on developing advanced <b>self-driving systems to enhance 
+              mobility and safety.</b> Waymo operates commercial robotaxi services in San Francisco.
 
 
               </p>
@@ -72,9 +71,9 @@ function Waymo() {
             <div className="subsection">
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>UMA Design</h3>
               <p className="paragraph">
-              <b>Design Team at the Undergraduate Marketing Association</b> is a creative group of individuals passionate about <b>visual 
-                storytelling and crafting impactful brand experiences</b>. We are dedicated to pushing the boundaries of design and creating innovative 
-                marketing solutions.  With our expertise in interface & graphic design, user experience, and all visual communications, we <b>collaborate with 
+              <b>Design Team at the Undergraduate Marketing Association</b> is a creative group passionate about <b>visual 
+                storytelling and crafting impactful brand experiences</b>. 
+                With our expertise in interface & graphic design, user experience, and all visual communications, we <b>collaborate with 
                 clients spanning diverse industries.</b>
               </p>
             </div>
@@ -84,28 +83,26 @@ function Waymo() {
         <div className="section">
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
-            <div className="team-photo" style={{ flex: '1', maxWidth: '30%' }}>
+            <div className="team-photo">
               <StaticImage 
               src="../../static/WaymoMockup.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
-              style={{height: '450px',  borderRadius: '10px'}}
+              style={{height:'80vh', width: '100%', borderRadius: '10px'}}
               />
               <p className="photoDescription">
               Waymo Advertisement Mockup :)
               </p>
             </div>
-            <div className="subsection" style={{ flex: '1', maxWidth: '70%' }}>
+            <div className="subsection">
             <p className="paragraph">
-            <b>Waymo</b> is undergoing a significant transition as it <b>evolves from an R&D-focused firm to a commercial entity. </b> 
-             This transformation requires a comprehensive reevaluation of its brand identity and the overall experience 
-            it offers to its customers. 
+            <b>Waymo</b> is transitioning from an <b>R&D-focused firm to a commercial entity</b>, which requires a comprehensive reevaluation of 
+            its brand identity and the overall experience.
             </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>Performance Marketing</h3>
               <p className="paragraph">
-              Assess the <b>brands of Waymo’s active ride-hailing competitors and determine the Greenfield opportunity</b> for Waymo to stand 
-              out from the pack, in terms of brand positioning, personality, visual/verbal identity, and advertising strategy.
+              Assess the <b>brands of Waymo’s active ride-hailing competitors and self-driving automobile competitors</b>, in terms of brand positioning, personality, visual/verbal identity, and advertising strategy.
               </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>Brand Design System</h3>
               <p className="paragraph">
@@ -114,17 +111,32 @@ function Waymo() {
               </p>
               <br />
               <h3 className="subsection-title" style={{ textAlign: 'center', color: '#5a5a5a' }}>under NDA</h3>
+              <p className="paragraph">
+              please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
+              </p>
             </div>
           </div>
         </div>
+
+
         <div className="section">
           <h2 className="section-title">Reflection</h2>
+          <div className="flex-container">
             <p className="paragraph">
                 This project was very exciting because it was in the autonomous automobile industry. 
                 Exploring and researching this sector provided me with insights into the <b>future landscape of the automotive industry.</b>
             </p>
           <div className="flex-container">
-            <div className="subsection" style ={{ maxWidth: '50%' }}>
+            <div className="subsection">
+            <div className="team-photo">
+              <StaticImage 
+              src="../../static/WaymoCar.png"
+              alt="Project Header"
+              placeholder="blurred"
+              layout="constrained"
+              style={{ borderRadius: '10px' }}
+              />
+            </div>
 
               <h3 className="subsection-title" style={{color: '#0077FF' }}>Rebranding for Self-Driving Car Service:</h3>
               <p className="paragraph">
@@ -138,22 +150,10 @@ function Waymo() {
               </p>
             </div>
 
-            <div className="team-photo" style={{ flex: '1', maxWidth: '50%' }}>
-              <StaticImage 
-              src="../../static/WaymoCar.png"
-              alt="Project Header"
-              placeholder="blurred"
-              layout="constrained"
-              style={{ borderRadius: '10px' }}
-              />
-            </div>
 
           </div>
         </div>
-
-
-
-        
+        </div>     
 
       </div>
     <Footer />

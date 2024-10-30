@@ -17,7 +17,7 @@ html, body {
   position: absolute;         /* Position image absolutely */
   top: 47%;                  /* Center vertically */
   left: 47%;                 /* Center horizontally */
-  width: 70%;                /* Set desired width (adjust as needed) */
+  width: 65%;                /* Set desired width (adjust as needed) */
   height: auto;              /* Maintain aspect ratio */
   transform: translate(-50%, -50%) rotate(7deg);; /* Center the image */
   object-fit: cover;         /* Cover while maintaining aspect ratio */

@@ -67,3 +67,12 @@ b {
   font-size: 20px;
   color: #FF1700;
 }
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+

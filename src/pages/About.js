@@ -3,12 +3,14 @@ import { StaticImage } from 'gatsby-plugin-image';
 import '../style/About.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import CustomCursor from '../Components/CustomCursor';
 import StarIcon from '../../static/starIcon.png';
 
 
 const About = () => {
   return (
     <>
+    <CustomCursor />
     <Header />
     <div className="about-container">
       <section className="intro-section">

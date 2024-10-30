@@ -12,7 +12,7 @@
   .info-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20vh;
     text-align: left;
   }
   
@@ -22,33 +22,38 @@
   }
   
   .info-title {
-    font-size: 18px;
+    font-size: 1.2vw;
     margin-bottom: 10px;
     font-family: 'IkeaFont', sans-serif;
   }
   
   .info-content {
-    font-size: 16px;
+    font-size: 1.0vw;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
   }
   
   .section {
     margin-bottom: 8vw;
+    display: flex;
   }
   
   .section-title {
+    flex: 0.5;
     font-size: 30px;
     margin-bottom: 2vh;
     font-family: 'IkeaFont', sans-serif;
   }
+
+  .flex-container {
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+  }
   
   .subsection {
-    flex: 1;
-    max-width: 50%;
-    margin-right: 2vw;
-    margin-bottom: 20px;
-  }
-  .subsection:last-child {
-    margin-right: 0;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
   }
   
   .subsection-title {
@@ -59,15 +64,15 @@
   }
   
   .paragraph {
-    font-size: 1.0vw;
+    font-size: 1.1vw;
     line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 4vh;
   }
   
   .team-photo {
-    width: 100%;
     object-fit: cover;
-    margin-bottom: 20px;
-    margin-right: 2vw;
+    margin-bottom: 10vh;
   }
 
   .photoDescription {
@@ -78,9 +83,8 @@
     font-size: 14px; 
   }
   
-  
-  .flex-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
+
+  .center-align {
+    text-align: center;
+}
+
