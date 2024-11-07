@@ -94,9 +94,7 @@ function Yelp() {
               Final Deliverable with Yelp's Marketing Team :)
               </p>
             </div>
-            <p className="paragraph">
-              please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
-              </p>
+            
             <div className="subsection">
               <h3 className="subsection-title">Performance Marketing</h3>
               <p className="paragraph">
@@ -109,6 +107,12 @@ function Yelp() {
               distinct audiences: <b>Consumers, Local Businesses, and Brand stakeholders</b>.
               </p>
             </div>
+             <iframe 
+            title="Broke App Prototype"
+            style={{ marginBottom: "8vh", border: "1px solid rgba(0, 0, 0, 0.1)", width: "100%", height: "700px" }}
+            src="https://embed.figma.com/proto/6RoFHhvb5hecQAmYhhWD3v/UMA-Design-Spring-2024?page-id=1150%3A2&node-id=1150-3&node-type=canvas&viewport=257%2C316%2C0.1&scaling=contain&content-scaling=fixed&starting-point-node-id=1150%3A3&embed-host=share"
+            allowFullScreen
+            ></iframe>
           </div>
         </div>
         <div className="section">
