@@ -115,6 +115,23 @@ const ProjectSlide = () => {
           </div>
         </a>
 
+                
+        <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
+            <StaticImage 
+            src="../../static/game.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            height={300} // Desired width
+            style={{ borderRadius: '5px' }}
+            />
+            <div className="ImageOverlay">
+            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Game Design</div>
+            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Graphic Illustrations</div>
+            <div className="Title">No Rain No Flower</div>
+          </div>
+        </a>
+
 
 
       </nav>
