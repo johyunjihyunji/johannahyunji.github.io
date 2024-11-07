@@ -154,7 +154,7 @@ function Broke() {
           I crafted high-fidelity wireframe prototype.
           I developed a <b>comprehensive prototype that was presented to potential investors and program instructors/mentors. </b>
           </p>
-          <div className="flex-container">
+          {/* <div className="flex-container">
             <div className="team-photo">
               <StaticImage 
               src="../../static/BrokeLowfi.png"
@@ -181,18 +181,16 @@ function Broke() {
               </p>
             </div>
             
+          </div> */}
+`          <iframe 
+          title="Broke App Prototype"
+          style={{ marginBottom: "8vh", border: "1px solid rgba(0, 0, 0, 0.1)", width: "100%", height: "700px" }}
+          src="https://embed.figma.com/proto/FsqiWSeQoGw2Ogth08y5pP/Untitled?page-id=0%3A1&node-id=70-1308&node-type=canvas&viewport=477%2C212%2C0.09&scaling=scale-down&content-scaling=fixed&starting-point-node-id=70%3A1308&embed-host=share" 
+          allowFullScreen
+          ></iframe>`
           </div>
-          </div>
+          
         </div>
-        <div className="team-photo">
-              <StaticImage 
-              src="../../static/BrokeMockups.png"
-              alt="Project Header"
-              placeholder="blurred"
-              layout="constrained"
-              style={{ marginTop: '25px',  height: '70vh'}}
-              />
-      </div>
 
 
 
@@ -237,6 +235,10 @@ function Broke() {
 
           </div>
         </div>
+
+        
+
+        
 
 
 
