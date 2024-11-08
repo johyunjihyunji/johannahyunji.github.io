@@ -55,7 +55,7 @@ const About = () => {
             <h3>Undergraduate Marketing Association Design</h3>
             <p className="jobtitle">Project Manager</p>
             <p className="date">Jun 2024 - Present</p>
-            <p className="jobtitle">Consulstant</p>
+            <p className="jobtitle">Consultant</p>
             <p className="date">Jan 2023 - Jun 2024</p>
             </div>
 
