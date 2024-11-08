@@ -33,14 +33,14 @@ const CustomCursor = () => {
           style={{
             position: 'fixed',
             pointerEvents: 'none',
-            zIndex: -1, // Change this to a negative value
+            zIndex: -2, // Change this to a negative value
             left: blurbPosition.x,
             top: blurbPosition.y,
             transform: 'translate(-50%, -50%)',
             width: '700px',
             height: '800px',
             borderRadius: '50%',
-            background:  'radial-gradient(circle, rgba(255, 23, 0, 0.7) 0%, rgba(255, 23, 0, 0) 70%)',
+            background:  'radial-gradient(circle, rgba(255, 113, 201, 0.5) 0%, rgba(255, 23, 0, 0) 70%)',
             filter: 'blur(30px)',
             transition: 'left 0.3s ease-out, top 0.3s ease-out',
           }}

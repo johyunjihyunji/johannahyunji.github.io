@@ -156,6 +156,18 @@ const About = () => {
         </div>
         </div>
       </section>
+
+      <section className="education-section" style = {{marginBottom: "2vh"}}>
+      <div className = "sectiontitle">
+        <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Creating Portfolio</h2>
+        </div>
+        </section>
+        <iframe 
+          title="Broke App Prototype"
+          style={{ marginBottom: "8vh", border: "1px solid rgba(0, 0, 0, 0.1)", width: "100%", height: "700px" }}
+          src="https://embed.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Untitled?page-id=268%3A242&node-id=326-17&node-type=canvas&viewport=1554%2C739%2C0.14&scaling=contain&content-scaling=fixed&embed-host=share"
+          allowFullScreen
+          ></iframe>
     </div>
     <Footer />
     </>
