@@ -12,6 +12,20 @@ body {
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'AlexRoss';
+  src: url('./../fonts/Alexross-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PeppaPig';
+  src: url('./../fonts/peppa_pig/PeppaPig.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 b {
   background-color: rgba(143, 211, 213, 0.35);
   padding: 2px 4px;         /* Optional: Add padding for a better highlight effect */
@@ -35,7 +49,7 @@ b {
 }
 
 .Logo {
-  height: 80px; /* Adjust logo size */
+  height: 6vw; /* Adjust logo size */
 }
 
 .Menu {
@@ -45,12 +59,15 @@ b {
 
 .MenuItem {
   color: #FF1700;
-  text-decoration: none; /* Remove underline */
-  font-size: 1.2vw;
+  text-decoration: none;
+  font-size: 2.4vw;
+  font-family: 'AlexRoss';
+  padding: 10px 15px;
   &:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
   }
 }
+
   
 
 .FooterContainer{
@@ -67,11 +84,23 @@ b {
   font-size: 20px;
   color: #FF1700;
 }
+.FooterText2 {
+  margin: 0;
+  font-size: 2vw;
+  font-family: 'AlexRoss';
+  color: #FF1700;
+}
 
 .content-wrapper {
   position: relative;
   z-index: 1;
 }
+
+.bottom-text {
+  position: relative;         /* Position relative for stacking order */
+  font-size: 2vw;           /* Adjust font size as needed */
+}
+
 
 
 

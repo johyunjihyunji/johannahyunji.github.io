@@ -1,12 +1,12 @@
 .GalleryContainer {
-  max-width: 120vw; /* Adjust as needed */
+  max-width: 120vw;
   margin: 3vw auto;
   padding: 0 20px;
 }
 
 .GridContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 3vw;
 }
 
@@ -27,7 +27,6 @@
   opacity: 0; /* Set this to 1 */
 }
 
-
 .Tags {
   display: inline-block;
   background-color: rgba(128, 128, 128, 0.3);
@@ -38,14 +37,25 @@
   margin-right: 10px;
 }
 
-
 .Title {
-  font-weight: bold; /* Optional: make the title stand out */
+  font-weight: bold;
   margin-right: 20px;
   padding: 3px 6px;
 }
 
 .ImageItem:hover .ImageOverlay {
-  transform: translateY(0); /* Change this from opacity to transform */
+  transform: translateY(0);
   opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .GridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .GridContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

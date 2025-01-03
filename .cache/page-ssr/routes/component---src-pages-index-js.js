@@ -3,7 +3,7 @@ exports.id = 293;
 exports.ids = [293];
 exports.modules = {
 
-/***/ 3493:
+/***/ 9001:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -17,12 +17,10 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "/Users/johannalee/repo/johannahyunji.github.io/node_modules/react/index.js"
 var index_js_ = __webpack_require__(1725);
 var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// ./static/jo.png
-/* harmony default export */ const jo = ("/static/jo-93a71f902540a3da3f8f5c67e309d1d5.png");
-;// ./static/jo3d.gltf
-/* harmony default export */ const jo3d = (__webpack_require__.p + "jo3d.gltf");
+;// ./static/profileDraw.png
+/* harmony default export */ const profileDraw = ("/static/profileDraw-96feac530a8fc7bba4ac4bc452851969.png");
 ;// ./src/Components/IntroductionSlide.js
-function IntroductionSlide(){const{0:locations,1:setLocations}=(0,index_js_.useState)(['Los Angeles, CA']);const mountRef=(0,index_js_.useRef)(null);const modelRef=(0,index_js_.useRef)(null);(0,index_js_.useEffect)(()=>{const allLocations=['Los Angeles, CA','Seoul, Korea','Vientiane, Laos','Berkeley, CA','Where Now ?'];const interval=setInterval(()=>{setLocations(prevLocations=>{const currentIndex=prevLocations.length;if(currentIndex<allLocations.length){return[...prevLocations,allLocations[currentIndex]];}return prevLocations;});},2000);return()=>clearInterval(interval);},[]);return/*#__PURE__*/index_js_default().createElement("div",{className:"background"},/*#__PURE__*/index_js_default().createElement("div",{ref:mountRef,style:{position:'fixed',top:0,left:0,zIndex:-1}}),/*#__PURE__*/index_js_default().createElement("div",{className:"top-text",style:{color:'#282828'}},"passionate about fashion, apple cider, and travel"),/*#__PURE__*/index_js_default().createElement("div",{className:"text-container"},/*#__PURE__*/index_js_default().createElement("span",{className:"left-text",style:{color:'#282828'}},"Designer"),/*#__PURE__*/index_js_default().createElement("span",{className:"center-text",style:{color:'#000000'}},"Johanna Lee"),/*#__PURE__*/index_js_default().createElement("span",{className:"right-text",style:{color:'#282828'}},"Engineer")),/*#__PURE__*/index_js_default().createElement("img",{className:"joImage",src:jo,alt:"profile gif"}),/*#__PURE__*/index_js_default().createElement("div",{className:"bottom-text",style:{color:'#282828'}},"based in",/*#__PURE__*/index_js_default().createElement("br",null),locations.map((location,index)=>/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,{key:index},/*#__PURE__*/index_js_default().createElement("span",{className:`location ${index<locations.length-1?'crossed':' '} ${index===locations.length-1&&location==='Where Now ?'?'red-question-mark':''}`},location),index<locations.length-1&&/*#__PURE__*/index_js_default().createElement("span",{className:"space"},"\xA0 \xA0")))));}/* harmony default export */ const Components_IntroductionSlide = (IntroductionSlide);
+function IntroductionSlide(){return/*#__PURE__*/index_js_default().createElement("div",{className:"background"},/*#__PURE__*/index_js_default().createElement("div",{class:"text-container"},/*#__PURE__*/index_js_default().createElement("div",{class:"left-text"}),/*#__PURE__*/index_js_default().createElement("div",{class:"right-text"},/*#__PURE__*/index_js_default().createElement("div",{class:"my-name"},"Johanna Lee"),/*#__PURE__*/index_js_default().createElement("br",null),"a designer and engineer studying computer science @ UC Berkeley")),/*#__PURE__*/index_js_default().createElement("img",{className:"joImage",src:profileDraw,alt:"profile gif"}));}/* harmony default export */ const Components_IntroductionSlide = (IntroductionSlide);
 // EXTERNAL MODULE: ./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js
 var gatsby_image_module = __webpack_require__(4722);
 // EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 11 modules

@@ -1,100 +1,96 @@
 .container {
-    max-width: 80vw;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header-image {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  
-  .info-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20vh;
-    text-align: left;
-  }
-  
-  .info-item {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .info-title {
-    font-size: 1.2vw;
-    margin-bottom: 10px;
-    font-family: 'IkeaFont', sans-serif;
-  }
-  
-  .info-content {
-    font-size: 1.0vw;
-    line-height: 1.6;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .section {
-    margin-bottom: 8vw;
-    display: flex;
-  }
-  
-  .section-title {
-    flex: 0.5;
-    font-size: 30px;
-    margin-bottom: 2vh;
-    font-family: 'IkeaFont', sans-serif;
-  }
-
-  .flex-container {
-    align-items: flex-start;
-    gap: 20px;
-    flex: 1;
-  }
-  
-  .subsection {
-    margin-bottom: 5vh;
-    margin-top: 2vh;
-  }
-  
-  .subsection-title {
-    font-size: 20px;
-    font-family: 'IkeaFont', sans-serif;
-    color: #FF1700;
-    margin-bottom: 1vh;
-  }
-  
-  .paragraph {
-    font-size: 1.1vw;
-    line-height: 1.6;
-    font-family: 'Inter', sans-serif;
-    margin-bottom: 4vh;
-  }
-  
-  .team-photo {
-    object-fit: cover;
-    margin-bottom: 10vh;
-  }
-
-  .photoDescription {
-    text-align: center;
-    color: #161616;
-    text-decoration: none;
-    display: block;
-    font-size: 14px; 
-  }
-  
-
-  .center-align {
-    text-align: center;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+.header-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+  text-align: left;
+}
+
+.info-item {
+  margin-bottom: 20px;
+}
+
+.info-title {
+  font-size: 5vw;
+  margin-bottom: 10px;
+  font-family: 'AlexRoss', sans-serif;
+}
+
+.info-content {
+  font-size: 3.5vw;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+}
+
+.section {
+  margin-bottom: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 6vw;
+  margin-bottom: 2vh;
+  font-family: 'AlexRoss', sans-serif;
+}
+
+.flex-container {
+  gap: 20px;
+}
+
+.subsection {
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+}
+
+.subsection-title {
+  font-size: 5vw;
+  font-family: 'AlexRoss', sans-serif;
+  color: #FF1700;
+  margin-bottom: 1vh;
+}
+
+.paragraph {
+  font-size: 3.5vw;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 4vh;
+}
+
+.team-photo {
+  object-fit: cover;
+  margin-bottom: 5vh;
+}
+
+.photoDescription {
+  text-align: center;
+  color: #161616;
+  text-decoration: none;
+  display: block;
+  font-size: 3vw;
+}
+
+.center-align {
+  text-align: center;
+}
 
 .figma-prototype {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  margin-bottom: 8vh;
 }
 
 .figma-prototype iframe {
@@ -103,5 +99,55 @@
   left: 0;
   width: 100%;
   height: 100%;
-  margin-bottom: 8vh;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 80vw;
+  }
+
+  .info-row {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+  }
+
+  .info-item {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .info-title {
+    font-size: 2vw;
+  }
+
+  .info-content {
+    font-size: 1.0vw;
+  }
+
+  .section {
+    flex-direction: row;
+  }
+
+  .section-title {
+    flex: 0.5;
+    font-size: 3vw;
+  }
+
+  .flex-container {
+    flex: 1;
+  }
+
+  .subsection-title {
+    font-size: 2.5vw;
+  }
+
+  .paragraph {
+    font-size: 1.1vw;
+  }
+
+  .photoDescription {
+    font-size: 14px;
+  }
 }
