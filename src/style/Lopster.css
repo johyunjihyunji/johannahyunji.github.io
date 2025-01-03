@@ -9,13 +9,13 @@
   
   .LopGalleryContainer {
     display: flex;
-    padding: 20px;
+    padding: 1vh;
     justify-content: center;
     flex-wrap: wrap;
   }
   
   .LopImageItem {
-    margin: 10px;
+    margin: 0.5vw;
     position: relative;
     animation: rotate linear infinite;
     transition: transform 0.3s ease;
