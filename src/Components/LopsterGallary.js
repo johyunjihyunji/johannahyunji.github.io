@@ -15,6 +15,8 @@ const LopsterGallery = () => {
     { id: 8, src: Lopster, speed: 9, direction: -1 },
     { id: 9, src: Lopster, speed: 7, direction: 1 },
     { id: 10, src: Lopster, speed: 5, direction: -1 },
+    { id: 9, src: Lopster, speed: 7, direction: 1 },
+    { id: 10, src: Lopster, speed: 5, direction: -1 },
   ], []); 
 
   useEffect(() => {

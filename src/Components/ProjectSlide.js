@@ -16,8 +16,7 @@ const ProjectSlide = () => {
             alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
             <div className="ImageOverlay">
             <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}} >UX Design</div>
@@ -33,8 +32,7 @@ const ProjectSlide = () => {
             alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
             <div className="ImageOverlay">
             <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Brand Design System</div>
@@ -50,13 +48,12 @@ const ProjectSlide = () => {
             alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
            <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)' }}>UX Research</div>
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)'  }}>UX Design</div>
-            <div className="Title">Sia Partners</div>
+            <div className="Title">Meta Family Center</div>
           </div>
         </Link>
       
@@ -69,8 +66,7 @@ const ProjectSlide = () => {
             alt="BrokeThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
 
           <div className="ImageOverlay">
@@ -87,8 +83,7 @@ const ProjectSlide = () => {
             alt="WaymoThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
             <div className="ImageOverlay">
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>UI Design</div>
@@ -104,8 +99,7 @@ const ProjectSlide = () => {
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
             <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(128, 128, 128, 0.3)'}}>Video Editing</div>
@@ -121,8 +115,7 @@ const ProjectSlide = () => {
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
-            height={300} // Desired width
-            style={{ borderRadius: '5px' }}
+            className = "staticimage"
             />
             <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Game Design</div>

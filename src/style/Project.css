@@ -101,6 +101,22 @@
   height: 100%;
 }
 
+
+.slidepng {
+  transition: transform 0.3s ease-out;
+  border-radius: 30px;
+}
+
+.slidepng-container {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+
+
+
+
+
 @media (min-width: 768px) {
   .container {
     max-width: 80vw;

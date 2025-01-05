@@ -14,6 +14,7 @@
   position: relative;
   margin-bottom: 10vh;
   color: black;
+  transition: transform 0.3s ease;
 }
 
 .ImageOverlay {
@@ -22,7 +23,6 @@
   right: 0;
   bottom: -10;
   padding: 10px;
-  /* transform: translateY(-100%); */
   transition: transform 0.3s ease;
   opacity: 1; /* Set this to 1 */
 }
@@ -43,19 +43,26 @@
   padding: 3px 6px;
 }
 
+.ImageItem:hover img,
 .ImageItem:hover .ImageOverlay {
-  transform: translateY(0) scale(1.1);
-  opacity: 1;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.staticimage {
+  width: 35vw;
+  height: auto;
+  border-radius: 25px;
 }
 
 @media (min-width: 768px) {
   .GridContainer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .GridContainer {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
