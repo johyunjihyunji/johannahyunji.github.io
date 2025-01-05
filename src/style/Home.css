@@ -58,7 +58,7 @@ b {
 }
 
 .MenuItem {
-  color: #FF1700;
+  color: #FF4200;
   text-decoration: none;
   font-size: 2.4vw;
   font-family: 'AlexRoss';
@@ -71,7 +71,7 @@ b {
   
 
 .FooterContainer{
-  color: #FF1700;
+  color: #FF4200;
   padding: 20px 0;
   text-align: center;
   width: 100%;
@@ -82,13 +82,13 @@ b {
 .FooterText {
   margin: 0;
   font-size: 20px;
-  color: #FF1700;
+  color: #FF4200;
 }
 .FooterText2 {
   margin: 0;
   font-size: 2vw;
   font-family: 'AlexRoss';
-  color: #FF1700;
+  color: #FF4200;
 }
 
 .content-wrapper {

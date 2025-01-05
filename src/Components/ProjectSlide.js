@@ -1,7 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
-//import { Link } from 'react-router-dom';
 import '../style/ProjectSlide.css'
 
 
@@ -10,10 +9,10 @@ const ProjectSlide = () => {
   return (
     <div className='GalleryContainer'>
       <nav className='GridContainer'>
-                 {/* Project MRDP */}
+        {/* Project MRDP */}
         <Link className='ImageItem'  to="/ESNetMRDP">
           <StaticImage 
-            src="../../static/ESnetMRDPThumbnail.png"
+            src="../../static/AThumbs/EsnetThumb.png"
             alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -27,10 +26,10 @@ const ProjectSlide = () => {
             </div>
         </Link>
 
-                {/* Project Yelp */}
-                <Link className='ImageItem' to="/Yelp">
+        {/* Project Yelp */}
+            <Link className='ImageItem' to="/Yelp">
             <StaticImage 
-            src="../../static/YelpThumbnail.png"
+            src="../../static/AThumbs/YelpThumb.png"
             alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -38,8 +37,8 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
             <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Brand Design System</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.3)'}} >Performance Marketing</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Brand Design System</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Performance Marketing</div>
             <div className="Title">Yelp</div>
             </div>
         </Link>
@@ -47,7 +46,7 @@ const ProjectSlide = () => {
           {/* Project Waymo */}
           <Link className='ImageItem'  to="/SiaPartners">
           <StaticImage 
-            src="../../static/SiaPartnersMetaThumbnail.png"
+            src="../../static/AThumbs/MetaThumb.png"
             alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -55,8 +54,8 @@ const ProjectSlide = () => {
             style={{ borderRadius: '5px' }}
             />
            <div className="ImageOverlay">
-            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 23, 0, 0.3)' }}>UX Research</div>
-            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 23, 0, 0.3)' }}>UX Design</div>
+            <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)' }}>UX Research</div>
+            <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)'  }}>UX Design</div>
             <div className="Title">Sia Partners</div>
           </div>
         </Link>
@@ -66,7 +65,7 @@ const ProjectSlide = () => {
         {/* Project Broke */}
         <Link className='ImageItem'  to="/Broke">
           <StaticImage 
-            src="../../static/BrokeThumbnail.png"
+            src="../../static/AThumbs/BrokeThumb.png"
             alt="BrokeThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -84,7 +83,7 @@ const ProjectSlide = () => {
         {/* Project Waymo */}
         <Link className='ImageItem'  to="/Waymo">
           <StaticImage 
-            src="../../static/WaymoThumbnail.png"
+            src="../../static/AThumbs/WaymoThumb.png"
             alt="WaymoThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -101,7 +100,7 @@ const ProjectSlide = () => {
         
           <a className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
             <StaticImage 
-            src="../../static/Youtube.png"
+            src="../../static/AThumbs/YoutubeThumb.png"
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -118,7 +117,7 @@ const ProjectSlide = () => {
                 
         <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
             <StaticImage 
-            src="../../static/game.png"
+            src="../../static/AThumbs/GameThumb.png"
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options

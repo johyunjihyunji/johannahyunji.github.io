@@ -4,7 +4,6 @@ import '../style/About.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import CustomCursor from '../Components/CustomCursor';
-import StarIcon from '../../static/starIcon.png';
 
 
 const About = () => {
@@ -42,7 +41,7 @@ const About = () => {
 
       <section className="experience-section">
         <div className="sectiontitle">
-            <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Experience</h2>
+            <h2> Experience</h2>
         </div>
         <div className = "items">
             <div className="experience-item">
@@ -78,7 +77,7 @@ const About = () => {
 
       <section className="projects-section">
         <div className = "sectiontitle">
-            <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Projects</h2>
+            <h2> Projects</h2>
         </div>
         <div className = "items">
         <div className="project-item">
@@ -105,7 +104,7 @@ const About = () => {
 
       <section className="skills-section">
       <div className = "sectiontitle">
-        <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Skills</h2>
+        <h2> Skills</h2>
         </div>
       <div className = "items">
             <div className="skill-item">
@@ -145,7 +144,7 @@ const About = () => {
 
       <section className="education-section">
       <div className = "sectiontitle">
-        <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Education</h2>
+        <h2> Education</h2>
         </div>
         <div className = "items">
         <div className="education-item">
@@ -159,7 +158,7 @@ const About = () => {
 
       <section className="education-section" style = {{marginBottom: "2vh"}}>
       <div className = "sectiontitle">
-        <h2> <img src={StarIcon} alt="Experience Icon" className="section-icon" />Creating Portfolio</h2>
+        <h2>  Creating Portfolio</h2>
         </div>
         </section>
         <iframe 
