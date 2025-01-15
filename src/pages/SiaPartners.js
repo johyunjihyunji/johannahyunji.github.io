@@ -69,11 +69,7 @@ useEffect(() => {
             <p className="info-content">
               UX Research
               <br />
-              User Personas
-              <br />
-              Web Design
-              <br />
-              UI/UX
+              UI/UX Design
             </p>
           </div>
           <div className="info-item">
@@ -116,8 +112,12 @@ useEffect(() => {
               <h3 className="subsection-title" style={{ color: '#1A74E4', background: '#ffffff', borderRadius: '30px', padding: '20px', textAlign: 'center'}}>
               How might we reimagine Meta Family Center to target diverse modern family dynamics and the Gen Z users?
               </h3>
-
             </div>
+
+            <p className="paragraph">
+            Our team's final solutions live on 
+            <a href="https://familycenter.meta.com/" style={{fontFamily: 'AlexRoss', color:'#1A74E4', fontSize: '2vw'}}target="_blank" rel="noopener noreferrer"> Meta Family Center </a>'s site!
+            </p>
 
 
           </div>
@@ -207,13 +207,14 @@ useEffect(() => {
             />
           </div>
           </div>
-              
-          </div>
-        </div>
 
-        <div className="section">
-          <h2 className="section-title">User Personas</h2>
-          <div className="flex-container">
+          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>User Personas</h3>
+
+          <p className="paragraph">
+              After user surveys and interviews, our team synthesized 5 different user personas.
+              These personas represent different family members and age groups, 
+              helping to capture the complexity of modern family dynamics and their interactions with digital platforms.
+          </p>
 
           <div className="slidepng-container">
           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -226,15 +227,37 @@ useEffect(() => {
             />
           </div>
           </div>
+              
+          </div>
+        </div>
 
-          </div>
-          </div>
+
         
           <div className="section">
-          <h2 className="section-title">Solution</h2>
+          <h2 className="section-title">UX Design</h2>
           <div className="flex-container">
+          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Low-Fi Prototyping</h3>
+
+
           <p className="paragraph">
-            Our team's final recommendations live on 
+            Through brainstorming and discussions, our team synthesized a low-fi wireframe which will be further developed into 
+            hi-fi module prototypes for our final deliverable.
+          </p>
+
+          <div className="slidepng-container">
+          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+            <StaticImage
+              src="../../static/metaslides/MetaLowFi.png"
+              alt="Project Header"
+              placeholder="blurred"
+              layout="constrained"
+              className="slidepng"
+            />
+          </div>
+          </div>
+          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Final Recommendations</h3>
+          <p className="paragraph">
+            Our team's final solutions live on 
             <a href="https://familycenter.meta.com/" style={{fontFamily: 'AlexRoss', color:'#1A74E4', fontSize: '2vw'}}target="_blank" rel="noopener noreferrer"> Meta Family Center </a>'s site!
           </p>
 
@@ -252,7 +275,6 @@ useEffect(() => {
           <div className="flex-container">
 
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Wide Target Audience</h3>
               <p className="paragraph">
               Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a <b>wide range of users, 
               from kids to parents to non-traditional families.</b> This was challenging because each demographic had different needs. 
@@ -266,7 +288,7 @@ useEffect(() => {
                   alt="Project Header"
                   placeholder="blurred"
                   layout="constrained"
-                  style={{ marginTop: '10px', borderRadius: '10px', height: '350px' }}
+                  style={{ marginTop: '10px', borderRadius: '10px', height: '60vh' }}
                   />
                   <p className="photoDescription">
                   On our way to final deliverable in SF!
