@@ -288,6 +288,18 @@ function Yelp() {
               For performance marketing content ideation, we delivered story boards for 3 different ad video concepts:
             </p>
 
+            <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/VideoConceptDirection.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+                </div>
+              </div>
+
 
               <h3 className="subsection-title"> Grow with Yelp </h3>
 
@@ -389,8 +401,106 @@ function Yelp() {
           <h2 className="section-title">Solution 2: <br/> Brand Design System</h2>
           <div className="flex-container">
 
-            
-            <div className="subsection">
+          <div className="subsection">
+
+
+          <h3 className="subsection-title">Consumer</h3>
+
+          <p className="paragraph">
+              Yelp for consumers should be the <b>most visually appealing</b>, targeting a broad audience with <b>eye-catching design</b> and engaging content to attract and retain users.
+              Utilize a <b>wide color palette</b> with strong pops of red to expand the Yelp brand beyond food, while maintaining strong brand identity. 
+              <b>Use of diverse shapes</b> while maintaining order establishes Yelp as both refreshingly fun and reliable.
+          </p>
+
+          
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/DesignSystemDirectionConsumers.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpConsumers1.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpConsumers2.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpConsumers3.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <h3 className="subsection-title">Business</h3>
+
+          <p className="paragraph">
+          Yelp for business should be <b>minimalistic and straightforward,</b> targeting local businesses viewing Yelp as a growth opportunity within a <b>community-based</b> platform.
+          Utilize a <b>minimal color palette</b> featuring strong reds and secondary blues to establish a professional tone that businesses can identify with. <b>Simple forms and relatable imagery</b> fosters trust and familiarity with Yelp among businesses.
+          </p>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/DesignSystemDirectionBusiness.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <h3 className="subsection-title">Brand</h3>
+
+          <p className="paragraph">
+          Yelp for brands should be <b>bold and memorable,</b> targeting large brands that can leverage Yelp’s platform for targeted advertising and <b>brand awareness.</b>
+          Use a <b>limited color palette</b> primarily red paired with some whites and blacks, to enhance boldness and fun. Incorporate<b>singular shapes, greater white space,</b> and limited image content to create memorable grand gestures.
+          </p>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/DesignSystemDirectionBusiness.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+
             </div>
           </div>
         </div>
