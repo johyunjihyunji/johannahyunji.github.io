@@ -16,6 +16,9 @@ function IntroductionSlide() {
           </div>
           <br/>
           a designer and engineer studying computer science @ UC Berkeley
+          <br/>
+          <br/>
+          -> currently UX Engineer Intern @ ESNet (Summer 2024 - Present)
 
         </div>
       </div>

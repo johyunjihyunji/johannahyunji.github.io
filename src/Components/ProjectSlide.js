@@ -58,23 +58,7 @@ const ProjectSlide = () => {
         </Link>
       
 
-        
-        {/* Project Broke */}
-        <Link className='ImageItem'  to="/Broke">
-          <StaticImage 
-            src="../../static/AThumbs/BrokeThumb.png"
-            alt="BrokeThumbnail"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            className = "staticimage"
-            />
-
-          <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>UX Design</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Brand Design System</div>
-            <div className="Title">Broke</div>
-          </div>
-        </Link>
+      
 
         {/* Project Waymo */}
         <Link className='ImageItem'  to="/Waymo">
@@ -89,6 +73,23 @@ const ProjectSlide = () => {
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>UI Design</div>
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>Brand Design System</div>
             <div className="Title">Waymo</div>
+          </div>
+        </Link>
+
+                {/* Project Broke */}
+        <Link className='ImageItem'  to="/Broke">
+          <StaticImage 
+            src="../../static/AThumbs/BrokeThumb.png"
+            alt="BrokeThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            className = "staticimage"
+            />
+
+          <div className="ImageOverlay">
+            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>UX Design</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Brand Design System</div>
+            <div className="Title">Broke</div>
           </div>
         </Link>
 

@@ -35,17 +35,23 @@
 .section {
   margin-bottom: 8vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Change to row to place title and content side by side */
+  gap: 20px; /* Add gap between title and content */
 }
 
 .section-title {
   font-size: 6vw;
   margin-bottom: 2vh;
   font-family: 'AlexRoss', sans-serif;
+  position: sticky;
+  top: 15vh; /* Adjust this value to set how far from the top the title should stick */
+  align-self: flex-start; /* Ensures the title stays at the top of its container */
+  width: 30%; /* Adjust the width as needed */
 }
 
 .flex-container {
   gap: 20px;
+  width: 70%; /* Adjust the width as needed */
 }
 
 .subsection {
@@ -167,3 +173,47 @@
     font-size: 14px;
   }
 }
+
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease-out;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+

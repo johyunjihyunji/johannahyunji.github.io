@@ -2923,7 +2923,7 @@ function IntroductionSlide() {
     class: "right-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "a designer and engineer studying computer science @ UC Berkeley")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "a designer and engineer studying computer science @ UC Berkeley", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "-> currently UX Engineer Intern @ ESNet (Summer 2024 - Present)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "joImage",
     src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "profile gif"
@@ -3158,32 +3158,6 @@ const ProjectSlide = () => {
     className: "Title"
   }, "Meta Family Center"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
-    to: "/Broke"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../static/AThumbs/BrokeThumb.png",
-    alt: "BrokeThumbnail",
-    placeholder: "blurred" // Optional placeholder
-    ,
-    layout: "constrained" // Layout options
-    ,
-    className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3847912075.json */ "./.cache/caches/gatsby-plugin-image/3847912075.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "ImageOverlay"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Tags",
-    style: {
-      backgroundColor: 'rgba(240, 215, 50, 0.5)'
-    }
-  }, "UX Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Tags",
-    style: {
-      backgroundColor: 'rgba(240, 215, 50, 0.5)'
-    }
-  }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Title"
-  }, "Broke"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "ImageItem",
     to: "/Waymo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../static/AThumbs/WaymoThumb.png",
@@ -3208,7 +3182,33 @@ const ProjectSlide = () => {
     }
   }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
-  }, "Waymo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "Waymo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
+    to: "/Broke"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../static/AThumbs/BrokeThumb.png",
+    alt: "BrokeThumbnail",
+    placeholder: "blurred" // Optional placeholder
+    ,
+    layout: "constrained" // Layout options
+    ,
+    className: "staticimage",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3847912075.json */ "./.cache/caches/gatsby-plugin-image/3847912075.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "ImageOverlay"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Tags",
+    style: {
+      backgroundColor: 'rgba(240, 215, 50, 0.5)'
+    }
+  }, "UX Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Tags",
+    style: {
+      backgroundColor: 'rgba(240, 215, 50, 0.5)'
+    }
+  }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Title"
+  }, "Broke"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "ImageItem",
     href: "https://www.youtube.com/@johannalee8172/videos"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {

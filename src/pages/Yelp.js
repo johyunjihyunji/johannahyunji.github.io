@@ -472,7 +472,7 @@ function Yelp() {
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
-                              src="../../static/yelp/DesignSystemDirectionBusiness.png"
+                              src="../../static/yelp/DesignSystemDirectionLocalBusiness.png"
                               alt="Project Header"
                               placeholder="blurred"
                               layout="constrained"
@@ -480,6 +480,45 @@ function Yelp() {
                             />
           </div>
           </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBusiness1.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBusiness2.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBusiness3.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+
+          
 
           <h3 className="subsection-title">Brand</h3>
 
@@ -491,7 +530,43 @@ function Yelp() {
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
-                              src="../../static/yelp/DesignSystemDirectionBusiness.png"
+                              src="../../static/yelp/DesignSystemDirectionBrand.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBrands1.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBrands2.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+          </div>
+          </div>
+
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpBrands3.png"
                               alt="Project Header"
                               placeholder="blurred"
                               layout="constrained"

@@ -3033,6 +3033,39 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ESNetMRDP() {
+  const imageRefs = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)([]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const setupImageZoom = container => {
+      if (!container) return;
+      const image = container.querySelector('.slidepng');
+      const handleMouseMove = e => {
+        const {
+          left,
+          top,
+          width,
+          height
+        } = container.getBoundingClientRect();
+        const x = (e.clientX - left) / width;
+        const y = (e.clientY - top) / height;
+        image.style.transformOrigin = `${x * 100}% ${y * 100}%`;
+        image.style.transform = 'scale(1.5)';
+      };
+      const handleMouseLeave = () => {
+        image.style.transformOrigin = 'center center';
+        image.style.transform = 'scale(1)';
+      };
+      container.addEventListener('mousemove', handleMouseMove);
+      container.addEventListener('mouseleave', handleMouseLeave);
+      return () => {
+        container.removeEventListener('mousemove', handleMouseMove);
+        container.removeEventListener('mouseleave', handleMouseLeave);
+      };
+    };
+    const cleanupFunctions = imageRefs.current.map(container => setupImageZoom(container));
+    return () => {
+      cleanupFunctions.forEach(cleanup => cleanup && cleanup());
+    };
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3060,7 +3093,7 @@ function ESNetMRDP() {
     className: "info-title"
   }, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "info-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI Engineering:"), " React Development, Jinja Templating, Django Framework, Ansible, Docker", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UX Redesign:"), " UX Research, UX Interface Mockups, User Flow, Wireframing")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI Engineering:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "React Development, Jinja Templating, Django Framework, Ansible, Docker", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UX Redesign:"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "UX Research, UX Interface Mockups, User Flow, Wireframing")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "info-title"
@@ -3076,7 +3109,7 @@ function ESNetMRDP() {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
-  }, "Background"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Problem Space"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
@@ -3087,24 +3120,107 @@ function ESNetMRDP() {
     }
   }, "Energy Science Network"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Energy Sciences Network"), " is a high-performance network designed to support large-scale scientific research by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Energy Sciences Network is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "high-performance network"), " designed to support large-scale scientific research by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "It facilitates the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "transfer of massive data sets"), " generated by scientific experiments, enabling collaboration among researchers across various disciplines.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "It facilitates the transfer of massive data sets generated by scientific experiments, enabling collaboration among researchers across various disciplines.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#50C5DB'
     }
-  }, "Lawrence Berkeley National Laboratory"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Modern Research Data Portal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Lawrence Berkeley National Laboratory"), " is a leading research facility located in Berkeley, California, and operated by the University of California."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "MRDP streamlines high-speed data transfer process by:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Funded by the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "U.S. Department of Energy"), ", LBNL focuses on advancing scientific knowledge in areas such as ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "energy efficiency, environmental sustainability, and health."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Enables fast and reliable file transfers between ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "authorized Globus points.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Provides a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "single portal"), " for initiating transfers, browsing datasets, and monitoring progress."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Accelerates research workflows, facilitating ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "efficient data movement"), " and collaboration among researchers."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#50C5DB'
+    }
+  }, "Problem"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "During the internship, I worked on improving the Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development. I was assigned to transform the MRDP into a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable codebase solution"), " for various research institutions."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#0075A2',
+      background: '#ffffff',
+      borderRadius: '30px',
+      padding: '20px',
+      textAlign: 'center'
+    }
+  }, "How might we reimagine the Modern Research Data Portal to create an intuitive, streamlined experience that empowers research institutions to effortlessly manage and share their data?"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
-  }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "UX Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#50C5DB'
+    }
+  }, "UX Audit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "During the internship, I worked on improving the Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development. I was assigned to transform the MRDP into a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable codebase solution"), " for various research institutions."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/esnetaudit.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3821245747.json */ "./.cache/caches/gatsby-plugin-image/3821245747.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/mrdpOG1.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4000792713.json */ "./.cache/caches/gatsby-plugin-image/4000792713.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/mrdpOG2.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4027260546.json */ "./.cache/caches/gatsby-plugin-image/4027260546.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/mrdpOG3.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2330478808.json */ "./.cache/caches/gatsby-plugin-image/2330478808.json")
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "section-title"
+  }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
@@ -3121,32 +3237,6 @@ function ESNetMRDP() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "photoDescription"
   }, "Final Landing Page for Modern Researh Data Portal")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#50C5DB'
-    }
-  }, "Modern Research Data Portal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "MRDP streamlines high-speed data transfer process by:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Enables fast and reliable file transfers between authorized Globus points."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Provides a single portal for initiating transfers, browsing datasets, and monitoring progress."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Accelerates research workflows, facilitating efficient data movement and collaboration among researchers."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#50C5DB'
-    }
-  }, "Goal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "Improving the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Modern Research Data Portal (MRDP)"), " through UI/UX redesign and Django-based web development. Aiming to transform the MRDP codebase into a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable solution for various research institutions"), ".")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "section-title"
-  }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
@@ -4827,6 +4917,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2330478808.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2330478808.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVR42oVSy07DMBDMjyJBi6BCFIS4wKkfw89w4AYHLiAQahMnECeO34+YsdNWQiCx2lgb2zOzs0kxX1zMF0usx2eXhyfnR//l7HR5MFtc3ayub1cF7XpCmqr+pB1T2oQx+jA6H5Ao/sx0xwdjfRHCqCQ3gvZdxxhTSkkptNbGGPkrhJDe6qf3r8cPFmMs8DxX7u7BUuGCd9Za7z0hpCzLVDu3T4S1Lo7+reGvjdiCCXP3L4JLi9OsrIZhqOsG8kAZmzCZM6QnR8yRwOM4GsmgihojWG9KeBm44lwJoYTUQhq8MsZBx7GrtPN+B46x6+GXgRLGNhXx3u2c65DvQRM7WAH+oTxhBFTAqTVq6zyXWioDWYYWBFLn/lP3mKXfK6OCyckPkC3tjNZ9zyY6TAL7aIJSCljbtqCA0y0YMYFRCKnWZYVCZyX0jWkBjFOwYHWZ6wcYTiYwGid1gz+BcZlHpTGqKWXylL5/GphzMcZvvBddaC1zo9gAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/1624f/mrdpOG3.png","srcSet":"/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/aeb79/mrdpOG3.png 400w,\\n/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/47126/mrdpOG3.png 800w,\\n/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/1624f/mrdpOG3.png 1600w","sizes":"(min-width: 1600px) 1600px, 100vw"},"sources":[{"srcSet":"/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/dff21/mrdpOG3.webp 400w,\\n/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/b2a35/mrdpOG3.webp 800w,\\n/static/1b3d4cb70a4a84cc5b5eb8c88d535e50/e9d78/mrdpOG3.webp 1600w","type":"image/webp","sizes":"(min-width: 1600px) 1600px, 100vw"}]},"width":1600,"height":900}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3011159126.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3011159126.json ***!
@@ -4857,6 +4958,39 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2UlEQVR42qVSy07bQBTNZ+UhFlSoXbBHgj/opp/RJftKXbDrohs2FSCQQKlABVQwSbBJYmLnYccmPBLs+DF+nN7xJBZBLJA60tHcmblz7rlnprC6to6Vj5+wvPwBlcoSyuXKu1EqlVEsliguU1yiuIiCrDQhyze4Jszn61dr+Q3Mc+q1BmoESarh4kJCAf8x4jiGz6KFvUKapgDBCwIEjCGOIiRJkiVz8JjnZKALGShmhGpNwee9PzhSu6IA5QpCGpvbe9j6tQ+j18OldAVFoXbqDQwtK68eUbGJ42ASRti1n3HetVD9W4fU0rLzNFdIQ+noUHsDRKTScV34pJgT8KrpjPCH3MGXnWMcdww4iWAIPJ8QYEYjPOSkccTAiMz3fQK1H4Q0ewjDMCc8a+n4fnKF9t0T2m4A3fFnul54OCc0zSH6/QEM04RObfcNM1vbti18FK+A+r2Dn8YYh/07bFRl4V8S57QZIb/Q0TQ0my2oqgqrq2OoaxTfok2YTqe5Apak4N0ORo/4etLAt9MGPFecc2G5Qu6bS4aPyZMDa4yqPQHjHpKquc+pSIYXJ7gZTXCkWfjdteGThwst44UTU0retSh55CBJ3/5/D/TKT/T/HokoCtmCh/8ACIgYju2SbEIAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png","srcSet":"/static/387c971840543fb259d68a8b19aa0cda/01504/ESNetMRDPScreenshot.png 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/bfc7e/ESNetMRDPScreenshot.png 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png 2878w","sizes":"(min-width: 2878px) 2878px, 100vw"},"sources":[{"srcSet":"/static/387c971840543fb259d68a8b19aa0cda/110ca/ESNetMRDPScreenshot.webp 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/90f98/ESNetMRDPScreenshot.webp 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/28008/ESNetMRDPScreenshot.webp 2878w","type":"image/webp","sizes":"(min-width: 2878px) 2878px, 100vw"}]},"width":2878,"height":1618}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3821245747.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3821245747.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR42n1Ui3KiQBDk/7/tVPARQS0jgiCgvN8P+6Y3MeclVdmqKVfonemZ7kUbHw8U3YBSoupHPNdDnjOeq5sm5IJRWMF140TQD5xW9wMMN8L8HOLNu6HrOgzDgO8ryGvM7ABr7w7DCWHfUkzj+AOnRWEIfT5DcL1iu15jLXE4HBDHMUJ5l6apAr6fTp84H2/rFZaGjuPxiDzPkSQJiqL4SEg2VVUjyzL4vo/7/Y6rJL9cLmpfVZUC5oIpihKJFPAEx2LEMBlbHj/Zak3TYLffw3VdGIaBzWaDxWKB1Wqlnt1vN3BCfhAqRkxiWRZOwngv5xzHUeyYRyUkAzKK47sCc1+WpQKwHe65Etlnwo6jYHAUz3YZk4imErJVzozJ5vO5YnY6vSOKIpRSuZBDXF4QwBZW9vksnejQdeliuVRnyPRLFLbDGGQGbd+jk5kWdYOybdGIAxr530r1Smwyyaw6wdVdr97V/cdvO4iNpofKo9XDhLmXwopymFGhYpj++Yo7NpOL9zZBBjsp8dvSQmntj27A9a8wd3uY+wMs00IsCtMBT/UCEedon+FePDUi27bR1DV68S3n3UpHVFura1omhSOz4UwurqNmyJlSZYpFloXYJs8zNVsmo7qe56mgygwKo9FPrEgPbrdb7HY7pRqr0gFUmQlDYczDN2FqmqYqRsyT3ZcPyZAWYFX6i0AGGZ6FNW/SIJUpRC8i0H+z2Uz5lUFX0J9fN+V1oK+X/L/nFObl3esH4fvH4S9O3ijBzlF9oQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/e89bb/esnetaudit.png","srcSet":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/c77a7/esnetaudit.png 768w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/60780/esnetaudit.png 1536w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/e89bb/esnetaudit.png 3072w","sizes":"(min-width: 3072px) 3072px, 100vw"},"sources":[{"srcSet":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/593dd/esnetaudit.webp 768w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/292fa/esnetaudit.webp 1536w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/1f917/esnetaudit.webp 3072w","type":"image/webp","sizes":"(min-width: 3072px) 3072px, 100vw"}]},"width":3072,"height":2124}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4000792713.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4000792713.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABGUlEQVR42q2SW0+EMBCF+ZVGDYrKxltiYnzRJ3+utFy6W26lBXrsVCHdaOImK8nHzBmGw4RplGwekGwePZfpPU7ia5zGKc6vbhHf3P3JhXvnLEnx/PqOp5c3RDwvwBjHR8aQZRykxVai7RQGbQ5khBqMQyOapgmDSwitNUgfc0V0I+e66aCUQtd1K33f+xrFBdJhjfqMMd7MWvtt6BqqqnRUK2X5U4e1MCfTvQnpS4wxcM6R5/kaqbkoCp9TXAxCTVEI4adbDc04oXFLoEUoNaz/kpoOZW9CbSbU7eBMtc/nefaGIeM4/go9o/5wQuumsmK7szsprZS1Q3qaprF1/aUphvkS27a1binWmZKj9RNSRnLh2GOj/pNPojI3nT+a1ZcAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/3bafb9ac58292f151ca44b8be8c8449f/ab05e/mrdpOG1.png","srcSet":"/static/3bafb9ac58292f151ca44b8be8c8449f/4c798/mrdpOG1.png 400w,\\n/static/3bafb9ac58292f151ca44b8be8c8449f/948fb/mrdpOG1.png 800w,\\n/static/3bafb9ac58292f151ca44b8be8c8449f/ab05e/mrdpOG1.png 1600w","sizes":"(min-width: 1600px) 1600px, 100vw"},"sources":[{"srcSet":"/static/3bafb9ac58292f151ca44b8be8c8449f/2f986/mrdpOG1.webp 400w,\\n/static/3bafb9ac58292f151ca44b8be8c8449f/29a5b/mrdpOG1.webp 800w,\\n/static/3bafb9ac58292f151ca44b8be8c8449f/99c6d/mrdpOG1.webp 1600w","type":"image/webp","sizes":"(min-width: 1600px) 1600px, 100vw"}]},"width":1600,"height":895}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4027260546.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4027260546.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABG0lEQVR42p2S3UrEMBCF+5wuaEWLuF6IIAje+Lru6rq0m2SSyc9xkrbqdmsRA1/P0GbOTCat6maNurkrXFyvcVY3WF3e4Pzq9k/knJXkPDy94P7xGdX27R2vmy02Qta27aCNBbOHcxP4d6xjWMuoQggSOBA5GMpGAQn/X1V+GDHb7Tvs2wN2H53QQikNrQVRpVSJjTFS3J4QYzw2LF0SyUfqN0lM1MfOfSd6ZqQUi0EIvWZSSseGc8uHBGN9gQbVxFCGEWJaPnKuMCVKEo/DHnDOgb1fnPGsYZBjjB2ZHxy0/eo2F5zmLXZYjiyXlX8hbUal8i7Pby5ncYYx5RnyYCQM5jR0t3TkJDd1gnSRxLBAWalX6/zs/thXSZ/4QT82/fjiywAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/8508323deee8a88274fc90ad83b79436/63184/mrdpOG2.png","srcSet":"/static/8508323deee8a88274fc90ad83b79436/4c798/mrdpOG2.png 400w,\\n/static/8508323deee8a88274fc90ad83b79436/948fb/mrdpOG2.png 800w,\\n/static/8508323deee8a88274fc90ad83b79436/63184/mrdpOG2.png 1600w","sizes":"(min-width: 1600px) 1600px, 100vw"},"sources":[{"srcSet":"/static/8508323deee8a88274fc90ad83b79436/2f986/mrdpOG2.webp 400w,\\n/static/8508323deee8a88274fc90ad83b79436/29a5b/mrdpOG2.webp 800w,\\n/static/8508323deee8a88274fc90ad83b79436/d9b7e/mrdpOG2.webp 1600w","type":"image/webp","sizes":"(min-width: 1600px) 1600px, 100vw"}]},"width":1600,"height":896}');
 
 /***/ }),
 
