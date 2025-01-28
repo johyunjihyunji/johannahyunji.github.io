@@ -44,6 +44,7 @@ function ESNetMRDP() {
     };
   }, []);
 
+
   const changeSlide = (n) => {
     setSlideIndex(prevIndex => {
         let newIndex = prevIndex + n;
@@ -63,6 +64,7 @@ useEffect(() => {
         slides[slideIndex - 1].style.display = "block";
     }
 }, [slideIndex]);
+
 
   return (
     <>
@@ -162,20 +164,23 @@ useEffect(() => {
           <div className="subsection">
             <h3 className="subsection-title" style={{ color: '#50C5DB' }}>UX Audit</h3>
                 <p className="paragraph">
-                During the internship, I worked on improving the Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development. 
-                I was assigned to transform the MRDP into a <b>versatile, distributable, and customizable codebase solution</b> for various research institutions.
+                  The below slideshow are the pages of the original MRDP interface. 
+                  I conducted an audit of the current MRDP interface and synthesized a <b>SWOT analysis.</b>
                 </p>
 
 
                 <div className="slideshow-container">
                                 <div className="slide fade">
                                     <StaticImage src="../../static/esnetmrdp/mrdpOG1.png" alt="Slide 1" />
+                                    <p className="photoDescription">MRDP Original Landing / About Page</p>
                                 </div>
                                 <div className="slide fade">
                                     <StaticImage src="../../static/esnetmrdp/mrdpOG2.png" alt="Slide 2" />
+                                    <p className="photoDescription">MRDP Original Transfer Page</p>
                                 </div>
                                 <div className="slide fade">
                                     <StaticImage src="../../static/esnetmrdp/mrdpOG3.png" alt="Slide 3" />
+                                    <p className="photoDescription">MRDP Original Dataset Search Page</p>
                                 </div>
                                 
                                 <a className="prev" onClick={() => changeSlide(-1)}>&#10094;</a>
@@ -194,57 +199,110 @@ useEffect(() => {
             </div>
             </div>
 
-
-
-
-
-            <div className="slidepng-container">
-                        <div className="team-photo" ref={el => imageRefs.current.push(el)}>
-                          <StaticImage
-                            src="../../static/esnetmrdp/mrdpOG1.png"
-                            alt="Project Header"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="slidepng"
-                          />
-            </div>
             </div>
 
-            <div className="slidepng-container">
-                        <div className="team-photo" ref={el => imageRefs.current.push(el)}>
-                          <StaticImage
-                            src="../../static/esnetmrdp/mrdpOG2.png"
-                            alt="Project Header"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="slidepng"
-                          />
-            </div>
+            <div className="subsection">
+              <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Competitor Research</h3>
+              <p className="paragraph">By going through different software tool webpages and other competitor interfaces, 
+                I compiled my analysis in a FigJam brainstorm. 
+              </p> 
+                <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1);", width: "100%", height: "600px"}}
+                src="https://embed.figma.com/board/MRZRkVkVs13bk74oygmytL/MRDP-Mockup-Brainstorm?node-id=0-1&embed-host=share" 
+                allowfullscreen></iframe>
+                <p className="paragraph">   A few key takeaways were:</p>
+              <p className="paragraph">
+                  <svg width="25" height="25" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z" fill="black"/>
+                  </svg>
+                  MRDP needs a proper landing page dedicated to customizable content catered to host institution/lab
+              </p>
+
+              <p className="paragraph">
+                  <svg width="25" height="25" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z" fill="black"/>
+                  </svg>
+                  Common feature around other competitor interfaces is a instruction page that guide first users which could support MRDP UX
+              </p>
             </div>
 
-            <div className="slidepng-container">
-                        <div className="team-photo" ref={el => imageRefs.current.push(el)}>
-                          <StaticImage
-                            src="../../static/esnetmrdp/mrdpOG3.png"
-                            alt="Project Header"
-                            placeholder="blurred"
-                            layout="constrained"
-                            className="slidepng"
-                          />
-            </div>
-            </div>
-
-            
-
-
-            </div>
           </div>
         </div>
 
+        <div className="section">
+          <h2 className="section-title">Prototyping</h2>
+          <div className="flex-container">
+          <div className="subsection">
+            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Low-Fi Mockups</h3>
+            <div className="mockup-box">
+              <div className="slidepng-container">
+              <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                <StaticImage
+                  src="../../static/esnetmrdp/mrdplowfi1.png"
+                  alt="Project Header"
+                  placeholder="blurred"
+                  layout="constrained"
+                  className="slidepng"/>
+                </div>
+              </div>
+              <p className="paragraph"> 
+                Landing Page
+              <ul className="bullet-list">
+                <li>A landing page that guides users to access the transfer page through logging in</li>
+                <li>Three features to highlight why institutes choose MRDP</li>
+                <li>Teams that uses MRDP to manage and/or transfer data</li>
+              </ul>
+              </p>
+            </div>
+            <div className="mockup-box">
+              <div className="slidepng-container">
+              <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                <StaticImage
+                  src="../../static/esnetmrdp/mrdplowfi2.png"
+                  alt="Project Header"
+                  placeholder="blurred"
+                  layout="constrained"
+                  className="slidepng"/>
+                </div>
+              </div>
+              <p className="paragraph"> 
+                Transfer Page
+              <ul className="bullet-list">
+                <li>Once you're logged in, you'll have the option to select the source, destination, and dataset that you want to transfer.</li>
+                <li>The source and destination search should expand so that users can choose and scroll through the possible options.</li>
+                <li>The search engine should allow the user to filter through datasets and find an appropriate one.</li>
+                <li>Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the “selected” box/cart. </li>
+                <li>The “selected box” should be the datasets that were all selected - this box functions as a final confirmation of datasets to transfer</li>
+              </ul>
+              </p>
+            </div>
+          </div> 
 
+          <div className="subsection">
+            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Client Check In</h3>
+          </div> 
 
+          <div className="subsection">
+            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>High-Fi Mockups</h3>
+          </div> 
+          </div>
+        </div>
 
-
+        <div className="section">
+          <h2 className="section-title">Prototyping</h2>
+          <div className="flex-container">
+          <div className="subsection">
+            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Development</h3>
+          </div> 
+          </div>
+        </div>
 
         <div className="section">
           <h2 className="section-title">Reflection</h2>

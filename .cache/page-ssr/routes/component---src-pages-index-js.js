@@ -2923,7 +2923,45 @@ function IntroductionSlide() {
     class: "right-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "a designer and engineer studying computer science @ UC Berkeley", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "-> currently UX Engineer Intern @ ESNet (Summer 2024 - Present)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "a designer and engineer studying computer science @ UC Berkeley", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "right-text-box"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "30",
+    height: "30",
+    viewBox: "0 0 150 150",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M89.3306 26.8307C91.7714 24.3899 95.7287 24.3899 98.1695 26.8307L123.169 51.8307C125.61 54.2715 125.61 58.2288 123.169 60.6695C120.729 63.1103 116.771 63.1103 114.331 60.6695L89.3306 35.6695C86.8899 33.2288 86.8899 29.2715 89.3306 26.8307Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M28.7162 12.445C32.7101 8.47042 38.1154 6.23914 43.7499 6.23914C49.3845 6.23914 54.7898 8.47042 58.7836 12.445L58.7944 12.4557L85.6693 39.3307C88.1101 41.7715 88.1101 45.7288 85.6693 48.1695C83.2286 50.6103 79.2713 50.6103 76.8305 48.1695L49.9662 21.3052C49.9648 21.3038 49.9677 21.3066 49.9662 21.3052C48.3152 19.6644 46.0777 18.7391 43.7499 18.7391C41.4222 18.7391 39.1891 19.6601 37.5381 21.3008C37.5366 21.3023 37.5351 21.3037 37.5336 21.3052L21.305 37.5338C21.3035 37.5353 21.3021 37.5368 21.3006 37.5383C19.6599 39.1893 18.739 41.4224 18.739 43.7501C18.739 46.0779 19.66 48.3111 21.3007 49.9621C21.3022 49.9635 21.2993 49.9606 21.3007 49.9621L48.1693 76.8307C50.6101 79.2715 50.6101 83.2288 48.1693 85.6695C45.7286 88.1103 41.7713 88.1103 39.3305 85.6695L12.4555 58.7945L12.4448 58.7838C8.47024 54.79 6.23895 49.3847 6.23895 43.7501C6.23895 38.1155 8.47024 32.7103 12.4448 28.7164L12.4555 28.7057L28.7162 12.445Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M66.9194 20.5806C69.3601 23.0214 69.3601 26.9786 66.9194 29.4194L54.4194 41.9194C51.9786 44.3602 48.0213 44.3602 45.5805 41.9194C43.1397 39.4786 43.1397 35.5214 45.5805 33.0806L58.0805 20.5806C60.5213 18.1398 64.4786 18.1398 66.9194 20.5806Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M102.893 13.2683C107.38 8.78095 113.467 6.26001 119.813 6.26001C126.159 6.26001 132.245 8.78095 136.732 13.2683C141.219 17.7556 143.74 23.8417 143.74 30.1877C143.74 36.5337 141.219 42.6198 136.732 47.1071L51.2945 132.545C50.5254 133.314 49.5689 133.869 48.5196 134.155L14.1446 143.53C11.9807 144.12 9.6666 143.506 8.08067 141.92C6.49473 140.334 5.88018 138.02 6.47031 135.856L15.8453 101.481C16.1315 100.431 16.6866 99.4749 17.4557 98.7058L102.893 13.2683ZM119.813 18.76C116.782 18.76 113.875 19.964 111.732 22.1071L27.4681 106.371L21.4077 128.593L43.6293 122.532L127.893 38.2683C130.036 36.1252 131.24 33.2185 131.24 30.1877C131.24 27.1569 130.036 24.2502 127.893 22.1071C125.75 19.964 122.843 18.76 119.813 18.76Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M129.419 83.0807C131.86 85.5215 131.86 89.4788 129.419 91.9195L116.919 104.42C114.479 106.86 110.521 106.86 108.081 104.42C105.64 101.979 105.64 98.0215 108.081 95.5807L120.581 83.0807C123.021 80.6399 126.979 80.6399 129.419 83.0807Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M101.831 64.3307C104.271 61.8899 108.229 61.8899 110.669 64.3307L137.544 91.2057C145.86 99.5215 145.86 112.979 137.544 121.295L121.294 137.545C112.979 145.86 99.5213 145.86 91.2055 137.545L64.3305 110.67C61.8897 108.229 61.8897 104.271 64.3305 101.831C66.7713 99.3899 70.7286 99.3899 73.1694 101.831L100.044 128.706C103.479 132.14 109.021 132.14 112.456 128.706L128.706 112.456C132.14 109.021 132.14 103.479 128.706 100.045L101.831 73.1695C99.3897 70.7288 99.3897 66.7715 101.831 64.3307Z",
+    fill: "black"
+  })), " currently UX Engineer Intern @ ESNet (Summer 2024 - Present)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "joImage",
     src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "profile gif"
