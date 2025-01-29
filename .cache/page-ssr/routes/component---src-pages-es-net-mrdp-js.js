@@ -3243,7 +3243,99 @@ function ESNetMRDP() {
     }
   }, "Competitor Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "By going through different software tool webpages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+  }, "By going through different software tool webpages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "   A few key takeaways were:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    style: {
+      flexShrink: 0,
+      width: '40px',
+      height: '40px',
+      marginRight: '10px'
+    },
+    viewBox: "0 0 150 150",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z",
+    fill: "black"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "MRDP needs a proper landing page dedicated to customizable content catered to host institution/lab")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    style: {
+      flexShrink: 0,
+      width: '40px',
+      height: '40px',
+      marginRight: '10px'
+    },
+    viewBox: "0 0 150 150",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z",
+    fill: "black"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "Common feature around other competitor interfaces is a instruction page that guide first users which could support MRDP UX")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
     style: {
       border: "1px solid rgba(0, 0, 0, 0.1);",
       width: "100%",
@@ -3251,75 +3343,76 @@ function ESNetMRDP() {
     },
     src: "https://embed.figma.com/board/MRZRkVkVs13bk74oygmytL/MRDP-Mockup-Brainstorm?node-id=0-1&embed-host=share",
     allowfullscreen: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#50C5DB'
+    }
+  }, "Interview with Client Point of Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "   A few key takeaways were:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
+  }, "Through the UX research stage, I also had the chance to have a meeting with Ken Miller who was our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "client point of contact. "), "Ken delivered the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "current painpoints of MRDP"), " and more guidance on what I should focus on in terms of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI design and codebase design.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      marginRight: '10px'
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "25",
-    height: "25",
+    style: {
+      flexShrink: 0,
+      width: '40px',
+      height: '40px'
+    },
     viewBox: "0 0 150 150",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
     "clip-rule": "evenodd",
-    d: "M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z",
+    d: "M24.9999 18.7501C21.5767 18.7501 18.7499 21.5769 18.7499 25.0001V78.6613L33.0805 64.3307C34.2526 63.1586 35.8423 62.5001 37.4999 62.5001H74.9999C76.6575 62.5001 78.2472 61.8416 79.4194 60.6695C80.5915 59.4974 81.2499 57.9077 81.2499 56.2501V25.0001C81.2499 23.3425 80.5915 21.7528 79.4194 20.5807C78.2473 19.4086 76.6575 18.7501 74.9999 18.7501H24.9999ZM6.24994 25.0001C6.24994 14.6733 14.6732 6.25012 24.9999 6.25012H74.9999C79.9727 6.25012 84.7419 8.22556 88.2582 11.7419C91.7745 15.2582 93.7499 20.0273 93.7499 25.0001V56.2501C93.7499 61.2229 91.7745 65.9921 88.2582 69.5084C84.7419 73.0247 79.9728 75.0001 74.9999 75.0001H40.0888L16.9194 98.1695C15.1319 99.957 12.4436 100.492 10.1082 99.5244C7.7727 98.557 6.24994 96.278 6.24994 93.7501V25.0001Z",
     fill: "black"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
     "clip-rule": "evenodd",
-    d: "M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z",
+    d: "M106.25 56.2499C106.25 52.7981 109.048 49.9999 112.5 49.9999H125C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V137.5C143.75 140.028 142.227 142.307 139.892 143.274C137.556 144.242 134.868 143.707 133.081 141.919L109.911 118.75H75C70.0272 118.75 65.2581 116.774 61.7418 113.258C58.2254 109.742 56.25 104.973 56.25 99.9999V93.7499C56.25 90.2981 59.0482 87.4999 62.5 87.4999C65.9518 87.4999 68.75 90.2981 68.75 93.7499V99.9999C68.75 101.657 69.4085 103.247 70.5806 104.419C71.7527 105.591 73.3424 106.25 75 106.25H112.5C114.158 106.25 115.747 106.908 116.919 108.08L131.25 122.411V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999H112.5C109.048 62.4999 106.25 59.7017 106.25 56.2499Z",
     fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z",
-    fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z",
-    fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z",
-    fill: "black"
-  })), "MRDP needs a proper landing page dedicated to customizable content catered to host institution/lab"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginLeft: "20px"
+    }
+  }, "Focus on the Django version of the Globus data portal, using data.lsstdesc.org as an example. Similarly, our data search functionality can be removed for now.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      marginRight: '10px'
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "25",
-    height: "25",
+    style: {
+      flexShrink: 0,
+      width: '40px',
+      height: '40px'
+    },
     viewBox: "0 0 150 150",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
     "clip-rule": "evenodd",
-    d: "M137.5 81.2501C140.952 81.2501 143.75 84.0483 143.75 87.5001C143.75 102.419 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.4999 143.75C84.0482 143.75 81.2499 140.952 81.2499 137.5C81.2499 134.048 84.0482 131.25 87.4999 131.25C99.1032 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1033 131.25 87.5001C131.25 84.0483 134.048 81.2501 137.5 81.2501Z",
+    d: "M24.9999 18.7501C21.5767 18.7501 18.7499 21.5769 18.7499 25.0001V78.6613L33.0805 64.3307C34.2526 63.1586 35.8423 62.5001 37.4999 62.5001H74.9999C76.6575 62.5001 78.2472 61.8416 79.4194 60.6695C80.5915 59.4974 81.2499 57.9077 81.2499 56.2501V25.0001C81.2499 23.3425 80.5915 21.7528 79.4194 20.5807C78.2473 19.4086 76.6575 18.7501 74.9999 18.7501H24.9999ZM6.24994 25.0001C6.24994 14.6733 14.6732 6.25012 24.9999 6.25012H74.9999C79.9727 6.25012 84.7419 8.22556 88.2582 11.7419C91.7745 15.2582 93.7499 20.0273 93.7499 25.0001V56.2501C93.7499 61.2229 91.7745 65.9921 88.2582 69.5084C84.7419 73.0247 79.9728 75.0001 74.9999 75.0001H40.0888L16.9194 98.1695C15.1319 99.957 12.4436 100.492 10.1082 99.5244C7.7727 98.557 6.24994 96.278 6.24994 93.7501V25.0001Z",
     fill: "black"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
     "clip-rule": "evenodd",
-    d: "M86.7417 49.2419C90.258 45.7256 95.0271 43.7501 99.9999 43.7501C104.973 43.7501 109.742 45.7256 113.258 49.2419C116.774 52.7582 118.75 57.5273 118.75 62.5001V68.7501C118.75 72.2019 115.952 75.0001 112.5 75.0001C109.048 75.0001 106.25 72.2019 106.25 68.7501V62.5001C106.25 60.8425 105.591 59.2528 104.419 58.0807C103.247 56.9086 101.658 56.2501 99.9999 56.2501C98.3423 56.2501 96.7526 56.9086 95.5805 58.0807C94.4084 59.2528 93.7499 60.8425 93.7499 62.5001C93.7499 65.9519 90.9517 68.7501 87.4999 68.7501C84.0482 68.7501 81.2499 65.9519 81.2499 62.5001C81.2499 57.5273 83.2254 52.7582 86.7417 49.2419Z",
+    d: "M106.25 56.2499C106.25 52.7981 109.048 49.9999 112.5 49.9999H125C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V137.5C143.75 140.028 142.227 142.307 139.892 143.274C137.556 144.242 134.868 143.707 133.081 141.919L109.911 118.75H75C70.0272 118.75 65.2581 116.774 61.7418 113.258C58.2254 109.742 56.25 104.973 56.25 99.9999V93.7499C56.25 90.2981 59.0482 87.4999 62.5 87.4999C65.9518 87.4999 68.75 90.2981 68.75 93.7499V99.9999C68.75 101.657 69.4085 103.247 70.5806 104.419C71.7527 105.591 73.3424 106.25 75 106.25H112.5C114.158 106.25 115.747 106.908 116.919 108.08L131.25 122.411V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999H112.5C109.048 62.4999 106.25 59.7017 106.25 56.2499Z",
     fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M61.7418 42.9917C65.2581 39.4754 70.0272 37.5 75 37.5C79.9728 37.5 84.7419 39.4754 88.2582 42.9917C91.7746 46.5081 93.75 51.2772 93.75 56.25V62.5C93.75 65.9518 90.9518 68.75 87.5 68.75C84.0482 68.75 81.25 65.9518 81.25 62.5V56.25C81.25 54.5924 80.5915 53.0027 79.4194 51.8306C78.2473 50.6585 76.6576 50 75 50C73.3424 50 71.7527 50.6585 70.5806 51.8306C69.4085 53.0027 68.75 54.5924 68.75 56.25V62.5C68.75 65.9518 65.9518 68.75 62.5 68.75C59.0482 68.75 56.25 65.9518 56.25 62.5V56.25C56.25 51.2772 58.2254 46.5081 61.7418 42.9917Z",
-    fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M36.7418 11.7419C40.2581 8.22556 45.0273 6.25012 50.0001 6.25012C54.9729 6.25012 59.742 8.22556 63.2583 11.7419C66.7746 15.2582 68.7501 20.0273 68.7501 25.0001V59.3751C68.7501 62.8269 65.9518 65.6251 62.5001 65.6251C59.0483 65.6251 56.2501 62.8269 56.2501 59.3751V25.0001C56.2501 23.3425 55.5916 21.7528 54.4195 20.5807C53.2474 19.4086 51.6577 18.7501 50.0001 18.7501C48.3425 18.7501 46.7527 19.4086 45.5806 20.5807C44.4085 21.7528 43.7501 23.3425 43.7501 25.0001V87.5001C43.7501 90.9519 40.9518 93.7501 37.5001 93.7501C34.0483 93.7501 31.2501 90.9519 31.2501 87.5001V25.0001C31.2501 20.0273 33.2255 15.2582 36.7418 11.7419Z",
-    fill: "black"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    "fill-rule": "evenodd",
-    "clip-rule": "evenodd",
-    d: "M125 62.4999C123.342 62.4999 121.753 63.1584 120.581 64.3305C119.409 65.5026 118.75 67.0923 118.75 68.7499C118.75 72.2017 115.952 74.9999 112.5 74.9999C109.048 74.9999 106.25 72.2017 106.25 68.7499C106.25 63.7771 108.225 59.0079 111.742 55.4916C115.258 51.9753 120.027 49.9999 125 49.9999C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V87.4999C143.75 102.418 137.824 116.726 127.275 127.275C116.726 137.824 102.418 143.75 87.5 143.75H75C55.82 143.75 43.6201 137.701 33.158 127.309L33.1431 127.294L10.6431 104.794C10.568 104.719 10.4949 104.642 10.4237 104.563C7.19809 100.991 5.46983 96.315 5.59674 91.5035C5.72365 86.692 7.69601 82.1135 11.1055 78.7162C14.5149 75.3188 19.1003 73.3626 23.9122 73.2527C28.7241 73.1429 33.394 74.8877 36.9549 78.1259C37.0281 78.1924 37.0996 78.2606 37.1695 78.3305L48.1695 89.3305C50.6102 91.7712 50.6102 95.7285 48.1695 98.1693C45.7287 100.61 41.7714 100.61 39.3306 98.1693L28.4534 87.2921C27.2786 86.2651 25.7605 85.7138 24.1975 85.7495C22.5936 85.7861 21.0651 86.4382 19.9286 87.5706C18.7921 88.7031 18.1347 90.2292 18.0924 91.8331C18.0512 93.3928 18.595 94.9099 19.6139 96.0874L41.967 118.441C41.9695 118.443 41.972 118.445 41.9744 118.448C50.1354 126.552 59.1849 131.25 75 131.25H87.5C99.1033 131.25 110.231 126.641 118.436 118.436C126.641 110.231 131.25 99.1031 131.25 87.4999V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999Z",
-    fill: "black"
-  })), "Common feature around other competitor interfaces is a instruction page that guide first users which could support MRDP UX")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginLeft: "20px"
+    }
+  }, "Prioritize the design of the top bar and menus, making them easily customizable. Implement customization entrypoints to allow researchers and institutions to add custom pages (e.g., \"Our Team\" or university-specific pages) to the menu system using Django template functionality."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3332,11 +3425,45 @@ function ESNetMRDP() {
     style: {
       color: '#50C5DB'
     }
-  }, "Low-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Low-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Through collaborative discussions with James and Ken, we've distilled the user experience to two essential pages: the landing page and the transfer page. This streamlined approach creates a more intuitive and adaptable user flow that allows institutions to easily customize the website's structure and functionality. By focusing on a straightforward two-page design, we're developing a versatile codebase that can be efficiently modified to meet diverse research data portal requirements."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/mrdplowfi1.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/278427014.json */ "./.cache/caches/gatsby-plugin-image/278427014.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Landing Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Using the comparative analysis research, I redesigned landing page to incorporate summary, institution branding, allowing customization.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "A landing page that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Three features to highlight why institutes choose MRDP"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Customization section that could include eg. team or institution introductions")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/mrdplowfi2.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1884506582.json */ "./.cache/caches/gatsby-plugin-image/1884506582.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Transfer Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I merged the search page with transfers page to streamline process of finding source and destination points for transfer, taking inspiration from travel booking and cloud storage platforms.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once user logs in, users have the option to select the source, destination, and dataset to tranfer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Source and destination search expands so that users can choose and scroll through options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Search engine allows users to filter through datasets and find an appropriate one"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the \u201Cselected\u201D box/cart "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "\u201CSelected box\u201D functions as a final confirmation of datasets to transfer"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
@@ -5061,6 +5188,28 @@ __webpack_require__.r(__webpack_exports__);
 ;function i(){return i=Object.assign?Object.assign.bind():function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(t[r]=n[r])}return t},i.apply(this,arguments)}function a(t){let e=t||"/",n="",r="";const o=e.indexOf("#");-1!==o&&(r=e.slice(o),e=e.slice(0,o));const s=e.indexOf("?");return-1!==s&&(n=e.slice(s),e=e.slice(0,s)),{pathname:e,search:"?"===n?"":n,hash:"#"===r?"":r}}const c=/^[a-zA-Z][a-zA-Z\d+\-.]*?:/,l=t=>{if("string"==typeof t)return!(t=>c.test(t))(t)},p=()=> true? true?"":0:0,h=()=> true? true?"":0:0;function f(t,e=p()){var n;if(!l(t))return t;if(t.startsWith("./")||t.startsWith("../"))return t;const r=null!=(n=null!=e?e:h())?n:"/";return`${null!=r&&r.endsWith("/")?r.slice(0,-1):r}${t.startsWith("/")?t:`/${t}`}`}const u=t=>null==t?void 0:t.startsWith("/"),_=()=> true?"always":0;function d(t,e){const{pathname:n,search:r,hash:o}=a(t);return`${(0,gatsby_page_utils_apply_trailing_slash_option__WEBPACK_IMPORTED_MODULE_2__.applyTrailingSlashOption)(n,e)}${r}${o}`}const m=(t,e)=>"number"==typeof t?t:l(t)?u(t)?function(t){const e=f(t),n=_();return"always"===n||"never"===n?d(e,n):e}(t):function(t,e){if(u(t))return t;const r=_(),o=(0,_gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_1__.resolve)(t,e);return"always"===r||"never"===r?d(o,r):o}(t,e):t,y=["to","getProps","onClick","onMouseEnter","activeClassName","activeStyle","innerRef","partiallyActive","state","replace","_location"];function v(t){return f(t,h())}const b={activeClassName:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,activeStyle:prop_types__WEBPACK_IMPORTED_MODULE_3__.object,partiallyActive:prop_types__WEBPACK_IMPORTED_MODULE_3__.bool};function w(t){/*#__PURE__*/return react__WEBPACK_IMPORTED_MODULE_0__.createElement(_gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_1__.Location,null,({location:n})=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(P,i({},t,{_location:n})))}class P extends react__WEBPACK_IMPORTED_MODULE_0__.Component{constructor(t){super(t),this.defaultGetProps=({isPartiallyCurrent:t,isCurrent:e})=>(this.props.partiallyActive?t:e)?{className:[this.props.className,this.props.activeClassName].filter(Boolean).join(" "),style:i({},this.props.style,this.props.activeStyle)}:null;let e=!1;"undefined"!=typeof window&&window.IntersectionObserver&&(e=!0),this.state={IOSupported:e},this.abortPrefetch=null,this.handleRef=this.handleRef.bind(this)}_prefetch(){let t=window.location.pathname+window.location.search;this.props._location&&this.props._location.pathname&&(t=this.props._location.pathname+this.props._location.search);const e=a(m(this.props.to,t)),n=e.pathname+e.search;if(t!==n)return ___loader.enqueue(n)}componentWillUnmount(){if(!this.io)return;const{instance:t,el:e}=this.io;this.abortPrefetch&&this.abortPrefetch.abort(),t.unobserve(e),t.disconnect()}handleRef(t){this.props.innerRef&&Object.prototype.hasOwnProperty.call(this.props.innerRef,"current")?this.props.innerRef.current=t:this.props.innerRef&&this.props.innerRef(t),this.state.IOSupported&&t&&(this.io=((t,e)=>{const n=new window.IntersectionObserver(n=>{n.forEach(n=>{t===n.target&&e(n.isIntersecting||n.intersectionRatio>0)})});return n.observe(t),{instance:n,el:t}})(t,t=>{t?this.abortPrefetch=this._prefetch():this.abortPrefetch&&this.abortPrefetch.abort()}))}render(){const t=this.props,{to:n,getProps:r=this.defaultGetProps,onClick:s,onMouseEnter:c,state:p,replace:h,_location:f}=t,u=function(t,e){if(null==t)return{};var n,r,o={},s=Object.keys(t);for(r=0;r<s.length;r++)e.indexOf(n=s[r])>=0||(o[n]=t[n]);return o}(t,y); false||l(n)||console.warn(`External link ${n} was detected in a Link component. Use the Link component only for internal links. See: https://gatsby.dev/internal-links`);const _=m(n,f.pathname);return l(_)?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_1__.Link,i({to:_,state:p,getProps:r,innerRef:this.handleRef,onMouseEnter:t=>{c&&c(t);const e=a(_);___loader.hovering(e.pathname+e.search)},onClick:t=>{if(s&&s(t),!(0!==t.button||this.props.target||t.defaultPrevented||t.metaKey||t.altKey||t.ctrlKey||t.shiftKey)){t.preventDefault();let e=h;const n=encodeURI(_)===f.pathname;"boolean"!=typeof h&&n&&(e=!0),window.___navigate(_,{state:p,replace:e})}return!0}},u)):/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a",i({href:_},u))}}P.propTypes=i({},b,{onClick:prop_types__WEBPACK_IMPORTED_MODULE_3__.func,to:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,replace:prop_types__WEBPACK_IMPORTED_MODULE_3__.bool,state:prop_types__WEBPACK_IMPORTED_MODULE_3__.object});const E=react__WEBPACK_IMPORTED_MODULE_0__.forwardRef((t,n)=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(w,i({innerRef:n},t))),g=(t,e)=>{window.___navigate(m(t,window.location.pathname),e)};
 //# sourceMappingURL=index.modern.mjs.map
 
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1884506582.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1884506582.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB90lEQVR42qWTW3OCMBCF+f//zTfH0RdHFBFQiDEEE8ulH1nEtlP70jOOk2z27NkbUdd1H1/Qti2Wuq7TNL1er1VVOeewPwLagNkt0lpnWdYEWGs5Q7tcLhxwglwUxT1AXgHG8/kMP8KEjsgSmytRUMPova8DXABPKHHF4Xa74R9hJUb9BAREJDeeuCKCGt4IktTpdOIAfySLa1mWSqnD4YCTMQYOWfA/Z/SjL1J/JP24BhCVKPCFDKQ8DlKIKONDIyayKEh4TFylSCwUiR/eOoADvZTzmDYeJBzHMYLimuc5CtROFGNqrtRMXsfjEVkSwY1iJzLBIO/3+yRJdrvddrvlZu1dsqXJxIW8Wq1kvLIa45wJjzJvUi2F0TCldFXZMGBKkDE7NEKf+u6JiBikulwuZYCyKgDVxeLG+pC51iaMYJxLHzCRCUYZMiSKUaoK07JoKcVWtUly32xsHDdl6avqkaaOBRF6FLpikCIemdMV6hyGnjHzG4aBCXjfed+yECxU04zXSVmWBBAizwvkyRMb1RrDtDpEREcO8/VFRk2GSeeyLEfHWpdldr1utH70rx59w7TbpEcURkX9WEO2zMlTMxN9S6ZaaLSNf2TnxZZviyjvmCNZnOZvncnJto6TdY5Kn3vxG3nagID5AJ+ghOv/0IXc/QOfOXKArILgfaQAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/adee001edc62b7527e2c6ba350974bed/66227/mrdplowfi2.png","srcSet":"/static/adee001edc62b7527e2c6ba350974bed/862e2/mrdplowfi2.png 255w,\\n/static/adee001edc62b7527e2c6ba350974bed/10437/mrdplowfi2.png 510w,\\n/static/adee001edc62b7527e2c6ba350974bed/66227/mrdplowfi2.png 1020w","sizes":"(min-width: 1020px) 1020px, 100vw"},"sources":[{"srcSet":"/static/adee001edc62b7527e2c6ba350974bed/f4e50/mrdplowfi2.webp 255w,\\n/static/adee001edc62b7527e2c6ba350974bed/5eb57/mrdplowfi2.webp 510w,\\n/static/adee001edc62b7527e2c6ba350974bed/b08a9/mrdplowfi2.webp 1020w","type":"image/webp","sizes":"(min-width: 1020px) 1020px, 100vw"}]},"width":1020,"height":1040}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/278427014.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/278427014.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAIAAADNzV5SAAAACXBIWXMAAAsTAAALEwEAmpwYAAACWUlEQVR42o2W2XLCMAxF+f9fZAZe2HdISykQ6GkOVWyToejBdWRda7sy7d1ut7qur9dr3SWcns/nr0a+G2FzuVw87YVRp9zv9/1+v1gslstlVVXs5/M5eF32+MPH4XD4aOTzSY7HIwZs4hRjIgX4C+Z7MplMp9PVaoXd6XQiPFajdTObzQaDQb/fx3I8Hj/ABOaVqWnsU4nMCZ60W8/cxC3sOYv9uRHsYqOQSAZWywawK/rdbnfMxeqUOfPButls1us1VSURionGENLicy/gMmwrORwOAeMEDVdgjTdC8EaMSb4DbElcAaMPMBEZbQcYU3vD9RywAqBCXPrMnw4wAPCEB5lIGwtZIZNStnaDrSQ93G63wadntuID4yxngkRLbjAJ/+w5xuiaC871UbaKDfQcjUZ4xggngOV2SnJHoCRJZPViQjXIGMaHUxWpqiH/Ys7Qo8xy1tRQozAMMAMEOKiu3mq3OQOOwTKxoIpryu2qkcwzYAlY/UmEmiplUVYww7ZmlgrPvA28OFSeLqr3iOtsYQbGCFUMrUY+dyHOT0fYstoBcLAi5kMuZdg0gDUGi2MCtlWh98irS25HqySwPEVPOmmrLHjZqpQkxaMXKbCWJAl6ejemDpZ2thADjjroKdjHxB8XwGBoFXOWxuLDqH0GtjDa6R+lrfJJAsnK7eVg+OhYKgF+WmGiJZA4jRvbeY4fJMsb9LSwUTNJ9gBrJwclWZDUX4/4jJlvSQI4KJU+GukbUigpp3PaS6tXvyFZqww7nfjXEo1owfES/CuYZT+x6SS+Kf5P8gNQ9mixw6XcZAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/c588a9ac8c757d5a78de0bb4c826026d/c99c0/mrdplowfi1.png","srcSet":"/static/c588a9ac8c757d5a78de0bb4c826026d/bc588/mrdplowfi1.png 185w,\\n/static/c588a9ac8c757d5a78de0bb4c826026d/56350/mrdplowfi1.png 370w,\\n/static/c588a9ac8c757d5a78de0bb4c826026d/c99c0/mrdplowfi1.png 740w","sizes":"(min-width: 740px) 740px, 100vw"},"sources":[{"srcSet":"/static/c588a9ac8c757d5a78de0bb4c826026d/cbff3/mrdplowfi1.webp 185w,\\n/static/c588a9ac8c757d5a78de0bb4c826026d/f5191/mrdplowfi1.webp 370w,\\n/static/c588a9ac8c757d5a78de0bb4c826026d/354af/mrdplowfi1.webp 740w","type":"image/webp","sizes":"(min-width: 740px) 740px, 100vw"}]},"width":740,"height":1367.9999999999998}');
 
 /***/ }),
 

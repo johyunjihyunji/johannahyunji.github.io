@@ -72,20 +72,16 @@ b {
 
 .FooterContainer{
   color: #FF4200;
-  padding: 20px 0;
+  
   text-align: center;
   width: 100%;
-  margin-top: 100px;
-  margin-bottom: 200px;
 }
 
 .FooterText {
-  margin: 0;
   font-size: 20px;
   color: #FF4200;
 }
 .FooterText2 {
-  margin: 0;
   font-size: 2vw;
   font-family: 'AlexRoss';
   color: #FF4200;

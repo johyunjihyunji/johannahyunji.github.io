@@ -30,13 +30,11 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className='FooterContainer'>
+    <div className='FooterContainer'>
       <LopsterGallery />
       <p className ='FooterText'>
         © {currentYear} Johanna Lee
       </p>
-      <br>
-      </br>
       <p className ='FooterText2'>
         design and coded by Jo
 
@@ -56,7 +54,7 @@ const Footer = () => {
           ))}
       </div>
       </p>
-    </footer>
+    </div>
   );
 };
 
