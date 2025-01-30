@@ -50,20 +50,6 @@ function Waymo() {
           
         </div>
 
-        <div className="section">
-          <h2 className="section-title">Project Scope</h2>
-          <div className="flex-container">
-            <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#0077FF' }}>Waymo</h3>
-              <p className="paragraph">
-              <b>Waymo</b> is an <b>autonomous driving technology company</b> originally part of the Google self-driving car project.
-              Waymo focuses on developing advanced <b>self-driving systems to enhance 
-              mobility and safety.</b> Waymo operates commercial robotaxi services in San Francisco.
-              </p>
-            </div>
-            
-          </div>
-        </div>
 
         <div className="section">
           <h2 className="section-title">Project Scope</h2>
@@ -82,28 +68,29 @@ function Waymo() {
             </div>
             <div className="subsection">
             <p className="paragraph">
-            <b>Waymo</b> is transitioning from an <b>R&D-focused firm to a commercial entity</b>, which requires a comprehensive reevaluation of 
+            <b>Waymo</b> was transitioning from an <b>R&D-focused firm to a commercial entity</b>, which requires a comprehensive reevaluation of 
             its brand identity and the overall experience.
             </p>
-              <h3 className="subsection-title" style={{ color: '#0077FF' }}>Performance Marketing</h3>
+              <h3 className="subsection-title" style={{ color: '#0077FF' }}>1. Performance Marketing</h3>
               <p className="paragraph">
               Assess the <b>brands of Waymo’s active ride-hailing competitors and self-driving automobile competitors</b>, in terms of brand positioning, personality, visual/verbal identity, and advertising strategy.
               </p>
-              <h3 className="subsection-title" style={{ color: '#0077FF' }}>Brand Design System</h3>
+              <h3 className="subsection-title" style={{ color: '#0077FF' }}>2. Brand Design System</h3>
               <p className="paragraph">
               Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of 
               its <b>brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.</b>
               </p>
               <br />
-              <h3 className="subsection-title" style={{ textAlign: 'center', color: '#5a5a5a' }}>under NDA</h3>
-              <p className="paragraph">
-              please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
-              </p>
+              
             </div>
           </div>
         </div>
+        <h3 className="subsection-title" style={{ textAlign: 'center', color: '#5a5a5a' }}>this page is under construction!</h3>
+              <p className="paragraph" style={{ textAlign: 'center'}}>
+              please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
+              </p>
 
-
+{/* 
         <div className="section">
           <h2 className="section-title">Reflection</h2>
           <div className="flex-container">
@@ -138,7 +125,7 @@ function Waymo() {
 
           </div>
         </div>
-        </div>     
+        </div>      */}
 
       </div>
     <Footer />

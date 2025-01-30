@@ -2817,11 +2817,11 @@ const Footer = () => {
     }, 2000);
     return () => clearInterval(interval);
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "FooterText"
-  }, "\xA9 ", currentYear, " Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "\xA9 ", currentYear, " Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "FooterText2"
   }, "design and coded by Jo", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bottom-text",
@@ -3427,7 +3427,9 @@ function ESNetMRDP() {
     }
   }, "Low-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Through collaborative discussions with James and Ken, we've distilled the user experience to two essential pages: the landing page and the transfer page. This streamlined approach creates a more intuitive and adaptable user flow that allows institutions to easily customize the website's structure and functionality. By focusing on a straightforward two-page design, we're developing a versatile codebase that can be efficiently modified to meet diverse research data portal requirements."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Through collaborative discussions with James and Ken, we've ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "distilled the user experience to two essential pages:"), " the landing page and the transfer page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Landing Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3441,11 +3443,25 @@ function ESNetMRDP() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/278427014.json */ "./.cache/caches/gatsby-plugin-image/278427014.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/Landing Page - Low.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/803858472.json */ "./.cache/caches/gatsby-plugin-image/803858472.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Landing Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Using the comparative analysis research, I redesigned landing page to incorporate summary, institution branding, allowing customization.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+  }, "Using the comparative analysis research, I redesigned landing page to incorporate summary, institution branding, allowing customization.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "A landing page that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Three features to highlight why institutes choose MRDP"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Customization section that could include eg. team or institution introductions")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "A landing page that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Three features to highlight why institutes choose MRDP"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Customization section that could include eg. team or institution introductions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Transfer Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3459,29 +3475,66 @@ function ESNetMRDP() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1884506582.json */ "./.cache/caches/gatsby-plugin-image/1884506582.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/Transfer Page - Low 1.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1403560823.json */ "./.cache/caches/gatsby-plugin-image/1403560823.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Transfer Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I merged the search page with transfers page to streamline process of finding source and destination points for transfer, taking inspiration from travel booking and cloud storage platforms.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+  }, "I merged the search page with transfers page to streamline process of finding source and destination points for transfer, taking inspiration from travel booking and cloud storage platforms.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once user logs in, users have the option to select the source, destination, and dataset to tranfer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Source and destination search expands so that users can choose and scroll through options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Search engine allows users to filter through datasets and find an appropriate one"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the \u201Cselected\u201D box/cart "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "\u201CSelected box\u201D functions as a final confirmation of datasets to transfer"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once user logs in, users have the option to select the source, destination, and dataset to tranfer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Source and destination search expands so that users can choose and scroll through options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Search engine allows users to filter through datasets and find an appropriate one"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the \u201Cselected\u201D box/cart "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "\u201CSelected box\u201D functions as a final confirmation of datasets to transfer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#50C5DB'
     }
-  }, "Client Check In")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#50C5DB'
-    }
-  }, "High-Fi Mockups")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "High-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "After confirming the low-fi mockup and user flow with the client's point of contact, I developed a high-fi prototype incorporating an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "example customized section featuring ESNet's institution branding and content.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mockup-box"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/Final - Landing Page - Dev.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3330798796.json */ "./.cache/caches/gatsby-plugin-image/3330798796.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/esnetmrdp/Final - Transfer Page 5.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1224438398.json */ "./.cache/caches/gatsby-plugin-image/1224438398.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Streamlined the file navigation interface, browsing through source node\u2019s files/datasets"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Introduced breadcrumb trail at the top of file browser, allowing tracking of directories"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Introduced a \u201Ctransfer queue\u201D to organize selected files for transfer and details such as file name, size, transfer status/types etc "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "By choosing the source node first and then choosing destination node after browsing files, kept the transfer process intuitive and user friendly")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
-  }, "Prototyping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Final Deliverable"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
@@ -3490,43 +3543,93 @@ function ESNetMRDP() {
     style: {
       color: '#50C5DB'
     }
-  }, "Development")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Moving on to development stage, I focused on creating ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "clean and digestable code"), " that can be distributed to research instituion so that MRDP can be approachable to be customized."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginRight: "20px"
+    }
+  }, "MRDP Main Repo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/esnet/data-transfer-bootstrap/tree/esnet_branch",
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "30",
+    height: "30",
+    viewBox: "0 0 150 150",
+    fill: "black",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: {
+      transition: "fill 0.3s"
+    },
+    onMouseEnter: e => e.currentTarget.style.fill = "#50C5DB",
+    onMouseLeave: e => e.currentTarget.style.fill = "black"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M31.2501 43.7499C29.5925 43.7499 28.0027 44.4084 26.8306 45.5805C25.6585 46.7526 25.0001 48.3423 25.0001 49.9999V118.75C25.0001 120.407 25.6585 121.997 26.8306 123.169C28.0027 124.341 29.5925 125 31.2501 125H100C101.658 125 103.247 124.341 104.419 123.169C105.592 121.997 106.25 120.407 106.25 118.75V81.2499C106.25 77.7981 109.048 74.9999 112.5 74.9999C115.952 74.9999 118.75 77.7981 118.75 81.2499V118.75C118.75 123.723 116.775 128.492 113.258 132.008C109.742 135.524 104.973 137.5 100 137.5H31.2501C26.2772 137.5 21.5081 135.524 17.9918 132.008C14.4755 128.492 12.5001 123.723 12.5001 118.75V49.9999C12.5001 45.0271 14.4755 40.2579 17.9918 36.7416C21.5081 33.2253 26.2773 31.2499 31.2501 31.2499H68.7501C72.2018 31.2499 75.0001 34.0481 75.0001 37.4999C75.0001 40.9517 72.2018 43.7499 68.7501 43.7499H31.2501Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M87.5001 18.7499C87.5001 15.2981 90.2983 12.4999 93.7501 12.4999H131.25C134.702 12.4999 137.5 15.2981 137.5 18.7499V56.2499C137.5 59.7017 134.702 62.4999 131.25 62.4999C127.798 62.4999 125 59.7017 125 56.2499V24.9999H93.7501C90.2983 24.9999 87.5001 22.2017 87.5001 18.7499Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginRight: "20px"
+    }
+  }, "MRDP Cookie-Cutter Deployment with Details"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://github.com/NickolausDS/cookiecutter-django-globus-app",
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "30",
+    height: "30",
+    viewBox: "0 0 150 150",
+    fill: "black",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: {
+      transition: "fill 0.3s"
+    },
+    onMouseEnter: e => e.currentTarget.style.fill = "#50C5DB",
+    onMouseLeave: e => e.currentTarget.style.fill = "black"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M31.2501 43.7499C29.5925 43.7499 28.0027 44.4084 26.8306 45.5805C25.6585 46.7526 25.0001 48.3423 25.0001 49.9999V118.75C25.0001 120.407 25.6585 121.997 26.8306 123.169C28.0027 124.341 29.5925 125 31.2501 125H100C101.658 125 103.247 124.341 104.419 123.169C105.592 121.997 106.25 120.407 106.25 118.75V81.2499C106.25 77.7981 109.048 74.9999 112.5 74.9999C115.952 74.9999 118.75 77.7981 118.75 81.2499V118.75C118.75 123.723 116.775 128.492 113.258 132.008C109.742 135.524 104.973 137.5 100 137.5H31.2501C26.2772 137.5 21.5081 135.524 17.9918 132.008C14.4755 128.492 12.5001 123.723 12.5001 118.75V49.9999C12.5001 45.0271 14.4755 40.2579 17.9918 36.7416C21.5081 33.2253 26.2773 31.2499 31.2501 31.2499H68.7501C72.2018 31.2499 75.0001 34.0481 75.0001 37.4999C75.0001 40.9517 72.2018 43.7499 68.7501 43.7499H31.2501Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M87.5001 18.7499C87.5001 15.2981 90.2983 12.4999 93.7501 12.4999H131.25C134.702 12.4999 137.5 15.2981 137.5 18.7499V56.2499C137.5 59.7017 134.702 62.4999 131.25 62.4999C127.798 62.4999 125 59.7017 125 56.2499V24.9999H93.7501C90.2983 24.9999 87.5001 22.2017 87.5001 18.7499Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
+  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
   }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/ESNetMRDPScreenshot.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    style: {
-      marginTop: '10px',
-      borderRadius: '10px'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3503131333.json */ "./.cache/caches/gatsby-plugin-image/3503131333.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "photoDescription"
-  }, "Final Landing Page for Modern Researh Data Portal")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#50C5DB'
-    }
-  }, "User Flow Redesign:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "My project aimed to design for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "niche group of lab researchers,"), ". shifting my focus from previous GenZ targeted marketing projects. I aimed to create a UX that prioritized versatility and approachability, leading to a redesign of the website's user flow, which simplified navigation by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "consolidating two-page operations into a efficient single-page experience"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#50C5DB'
-    }
-  }, "Distributable and Customizable Codebase Development:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "Another focus was creating templates that ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "future developers could easily customize and distribute"), ", ensuring that my design was both ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "user-friendly for end-users and adaptable for developers"), ". This experience broadened my perspective on user experience design and highlighted the importance of balancing technical requirements with usability.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/ESNetMRDPPresentation.jpg",
@@ -3540,7 +3643,23 @@ function ESNetMRDP() {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3469776303.json */ "./.cache/caches/gatsby-plugin-image/3469776303.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "photoDescription"
-  }, "Student Poster Session for Berkeley Lab Computing Sciences - Presenting to ESNet Executive Director Inder Monga"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  }, "Student Poster Session for Berkeley Lab Computing Sciences - Presenting to ESNet Executive Director Inder Monga")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#50C5DB'
+    }
+  }, "User Flow Redesign:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "My project aimed to design for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "niche group of lab researchers,"), " shifting my focus from previous GenZ targeted marketing projects. I aimed to create a UX that prioritized versatility and approachability, leading to a redesign of the website's user flow, which simplified navigation by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "consolidating two-page operations into a efficient single-page experience"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: '#50C5DB'
+    }
+  }, "Distributable and Customizable Codebase Development:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Another focus was creating templates that ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "future developers could easily customize and distribute"), ", ensuring that my design was both ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "user-friendly for end-users and adaptable for developers"), ". This experience broadened my perspective on user experience design and highlighted the importance of balancing technical requirements with usability."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ESNetMRDP);
 
@@ -5191,6 +5310,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1224438398.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1224438398.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEUElEQVR42p1V3W8bRRC/vwkeaCuSlrSQShUSDzxBHyhC4o03hNSnCiEkhJDghWdQBaIgWgRVIAVC84Gdr8YBkjTgNg62Y8fnO9/n3t3e+fxjZnM+YrtJAyv97nZm9343Mzszq1148TImX7qCM2MTGJu4iKefmcSp8fN44tQ4njx99kjw+qOgXbr8Gl545XWMT0xi4uLzOPfcJSKexFNj54n4wpE4c+5ZnD47Cq1QXEGhuIziSgmF5XsoLq9hcWUNS6ulI8F7ZmYXMPvrImYXiribYb6wBA3/Y/QI3TRF2ushTQehgZQMGScIwhjdbpcW0uPB3zCxIjzQ9YfGS7zB8wX8ICDS8LFoGwZazSbMtg7HcWB6PpGnyvLcZbYskjHCKIaUEjHPFaTSy1jm8yiS0D2BfS9AS0Twybvcwv4kjCII10IibAjPhm3bCOmd+DZ811Fy5FlII4+II9yqm7i5Z+BGTcd6x89jq/UnaRxhpSZwY1Ngcz9AEgWY2RG4eV9g1wwQhgG+/dPHbYLuCLQJX2/5+KHsww/loIVM2CPC77ddvPljB3fKHlIpcH3dwdWfLdyrC0SBwIcFG2/ftbBrCLQsH+/O2Xh/wYYj5KCFPDhuURQqy2J6h2GUySKTw1yWEc9pnaxOJO2Phy1k6iTC7W0PV2cczDz0ycIAn6x7uDbnYH2PLQzwQdHFewUXVQpB0xJ4Z97FR0tObuGAy11yeb3u4fqajVLdR5cI53c8fF6y8KAdKGumKCRf/m5j3w7QcQVubdj4ZtMZjSEPToUkDok5VG/Ot5SsZjmWBy73MjmKDoBuRLpw1GVFSDEUQajAZEwQDMn99XBI5viPELLjnO1cj1xS/wWHR05oiQSGSxUSxzmSJFEVNAzWH15jC/vEWv8HfzQD/EanGXguWm0DOqFj2colXwQ5WGa9ZTu5y/W9hvpB3hx43NdDVSHC84jMhG6Y9CF/RLUqwhwss94kQo9/RnKVCONhwqolUTFpAxEapqVgO+6IhcpK6i4J5WWPGkXKCS78f13Ouw39geMms/gw4kzXhyTQRpQ7DqZ2Gvip0sB0zcibw9Apn6xT82hQy1psdbCm21g1fZS9aJRQxl0I6tiRTAa6c3cIrBtOlZG04Q39E1RJTHFhcANIKCUOg3W8R2Td26VvdNfLGsJQx1YxS7IcJAREoNPJtjPwnHXJUFxlcqhjPyrb00zcckJcWa7gjVJV4dWVCv7ywoE9eXwP7rrjD4Uvr5BiJvlWJER8VfaOPzjN8wOVqJIvogwBJauUFAI6oERdrxTXgBuqVO/gGGjf/bKAl9+6htWNbWyWKyjv7mF69gt8euczfDz9FaZW57C0VcJG5SHaJvXCdodK82ho1b2WItqpNlCpNVFrtFCt/40HtV2UazXsNhpo6m1FpBvWY6EZHS50KjfKfp6zFUbHRSeDaTp0sdsKJyLkx4G5lkJ/oWV0FE5CcpjwH6zyPQZcbz2kAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/363274bf18a52f03710d56bf977775ca/4d9bc/Final%20-%20Transfer%20Page%205.png","srcSet":"/static/363274bf18a52f03710d56bf977775ca/61d75/Final%20-%20Transfer%20Page%205.png 360w,\\n/static/363274bf18a52f03710d56bf977775ca/e1dc1/Final%20-%20Transfer%20Page%205.png 720w,\\n/static/363274bf18a52f03710d56bf977775ca/4d9bc/Final%20-%20Transfer%20Page%205.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/363274bf18a52f03710d56bf977775ca/53854/Final%20-%20Transfer%20Page%205.webp 360w,\\n/static/363274bf18a52f03710d56bf977775ca/03ca3/Final%20-%20Transfer%20Page%205.webp 720w,\\n/static/363274bf18a52f03710d56bf977775ca/bdb41/Final%20-%20Transfer%20Page%205.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":2308}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1403560823.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1403560823.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqCAYAAACz+XvQAAAACXBIWXMAAAsTAAALEwEAmpwYAAADZ0lEQVR42rVWiVLqUAzt///Q20RkKZRSStlbliKbigKOIJsj5OVE2wFKFZ+8zpy5W26a5J6bXCWq6nROKHbDpXNCoTN/yna7JeCj7ysyvoXL1Yrmi4XgeT7f66/Wa4E3P3ueCzwZ7PUt9LQXKjYltRyl9DxFExqpGZPSWYsSaYPqzTbVW9cU5z7msH4ZT0sfewpl2/fAtxAWLJarAOaLFa1fXgToH5NZrdb7Fn72nRLDLyn80im/WUB0NxxRp3dD3f7tHnqDO3Kve9Tu9KnH407/xkcXbW9At8P7/RhiUK23SM+XyChU9pArVkkzLNJyBTK4b/EBFCqO35o85/ChBQ7l1O+Z6fI0nQptprMZH9TyOG0Gt0NqwbXugJrtHg0fxtR/n3PZXQBrGbNIyUxOLFZ1phZbX6w6QZdz7F6E+RVLZSnCHKs6TTKsCl3ENYomdbpMZOjHRYx+RuLc11ipKYA83N4cKkRMsOgJIS5FJrvK1qSzeYGqGUx0nckMgpsCNWNwLGtBC/OlmtyEFLP/Ss2SzQqbg0eymkMquveCUvtB4I0BqzWkRn8SVGixQrh6EUtJazevyXQf6ao8pHj13kfsHd4Y6zl3EnQZFiI20aQmrcMKK70pac6I9MY4FFp9ROXuE3kXaU9hLGXwyeV9l+tul8ySTValHgqz5JDT6hyPoXcoV5zKkX1zVllOHuNjiKm6eGOw3OZThWxhxWlRJlekbL4cCqxX7OYJFrJCu+nK38GzMGC9xt4EFJpM7MtkRqgDN6psXdYs059YWkh9CJD9ihFh4sPSgMuIGf4GSyFwzVmkxVewyAmgXGvsAUkBNysfZuFuEt1s3hZG40dyGm1quB1J/2gBhOJhPBEZyB4mX+VYdsZ3P5pIsG1WWq270ta4xRzWdmWPZ+ztEYTWhHBZP4ZwCzFBBQOsHSBmXlL1596BPfXDBLt/ylmhzy68+304H2dEeQ8OKJzYXGcTOwCNfl0m6Hc0Kf3dNciG5kOYj6KeyphS5AEUfd0sSaLNMtDHnLojgz3IVAHaoGDP5nh64Kmx4PFSygCUSZFioI85rEFGZOcL2XtSXcbGdrfPB9YWoI+5kwq9R9BDhL0iwuSUU58hpz5H/s9T5KwKX19f6ZxQPsrG/wLl8Dp9F0ri4Kp9F2dX+BeZuxW311bzowAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/3f4c4bda4504939bbd6aadb4585946c7/fbf89/Transfer%20Page%20-%20Low%201.png","srcSet":"/static/3f4c4bda4504939bbd6aadb4585946c7/e8977/Transfer%20Page%20-%20Low%201.png 360w,\\n/static/3f4c4bda4504939bbd6aadb4585946c7/a6788/Transfer%20Page%20-%20Low%201.png 720w,\\n/static/3f4c4bda4504939bbd6aadb4585946c7/fbf89/Transfer%20Page%20-%20Low%201.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/3f4c4bda4504939bbd6aadb4585946c7/3bed8/Transfer%20Page%20-%20Low%201.webp 360w,\\n/static/3f4c4bda4504939bbd6aadb4585946c7/bb53a/Transfer%20Page%20-%20Low%201.webp 720w,\\n/static/3f4c4bda4504939bbd6aadb4585946c7/848e1/Transfer%20Page%20-%20Low%201.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":3000}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1884506582.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1884506582.json ***!
@@ -5246,6 +5387,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundCol
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/3330798796.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3330798796.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEkklEQVR42p1VS2skVRTun6QbByEBE4aYEWYYRHQhOBtR0IVr14Kr2blzJQiiQkQwBAcnTKLOwyHJ5NHv6nd3ddf70fXsrup8nnO70ulOJDOx6Y977q17vrrnfOfcyt384B5uffQJ3lxawfLqOpZW1nBjeRWvvbGE128sXxu5u/c+xfsff461d+7i1p33sH77Xdwk+62121h5+9Wwun5HgO1cvlDGSb6EQllCvlRFoSShSHaxUrsa5ZrwYewfnuCA8OK4gBz+5+90YXJKfwamhGyczhYXseh3KqjO1nXThGzZGI9Gsz2565zodEYKmH6I73ee4cPf/8FutTHbIwjzbRnfbG5DUTXU6nXUGw00my1hJ0mSnW6CNI6EfeSE+LVt4KTewdaTPRyU64uEpW4f3/6yCcO0IMsyOt0uDMOApmlIJxOx+UGtgy+3n+NhUcJT0xdrcTSCa3sYuj4m2clzOE8iJuTMmM/hJAv5x/0Cvtj8Ey+IOBqncJMJxhnJfKYFoTscQu4PoOkGFEWFqutQKXyeJ0kqHELbweNaDw+6JnZUl0Ydj3o60iwlC4S+76M/UChMUxBZpNzQo1DoRXEczzYP6WSbAwddL8LXz0tY3drDTr4MYl0kZMdOtweZSLtyX6AnIIuXXfzxqQ6kFn7YL+LnIwmBFyyKgrlyuFx3l38tL8RfHR0btQH2KPQkvlCHk8zvseHhflUlKDMl0zNxMnKXwtbiBP5oDC8IkdI4/97cvEoGbS57sYBJ9qUW+4/5xZ8gHI8ThFGMhN4GVo3mbEd8Cs+H4ziwSWXPDxDzOoXIiDOEhHGSnhM6rgdVs6BoNrqKSeVik21BN0jRnoJStYmy1CSRVPGM9+o0yipVBc9Vi0rPn1c5oLYz0RvoqBMB22eODH6JcM7m4hnNeS/7sO2RUDNCw3RQoTKo0ClqtRZKlQZanT6VkoIyNX6xSPckge1uT0W7M0CFbIl8quQjkY9tD88JuRs4N2cY8RhPxxHlc0wCcY5Go2T6LFsXcxp5nsznMAxjBIQ0TcXtEiUkhh+JMDy6pnTdoi6yqMjDDNNnQypoAcpfnNWiILQdD4bjQ9IClAYeynoAw6L+pvywKHkKt0ifBg63J2tibaAYlE9bYEA5dF1/XmUfNgkzcCP07ZAuzxg2rTVbPfHtYII25bTR7Ii1eqND+R0I8fqKTheLLoRdIDRpIRmPqE/H8KMIBiWZFc0XKjg8KgoRmISJ+QVyXxNlxOCTLxBaFLIzDGHHKdrDGFowhma6IpR8oYr9g2Nx0qkzXyCqCJXL56xmF+owzirfJ9UcuoVZORYpCKIZWDjuJjFeeMZCsfrX+ki96i83rbNE1BFD2Cl/CuiWIaR01Sd83XO9zfXvJWT1mdvafYLPvrqPUr2FBiW8Tfn54+8N/LS7ge8e/Ybtw2c4qBZQabdFb6tUk1chV6K2efh0D8eU9CK3XkuG1CjgSCpgXyoREX1Oux206ZvDLaoZ9pXIWVQe3A1c3GyblgvTDmhO15ZN5WQNBQxS/WVkgpCPqWjm+bFpUTXOQ9CMKVQxvpzwX4l4LyUJt1ZaAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/0e449953b66e92177b50e843818a5f92/314b8/Final%20-%20Landing%20Page%20-%20Dev.png","srcSet":"/static/0e449953b66e92177b50e843818a5f92/05c9a/Final%20-%20Landing%20Page%20-%20Dev.png 360w,\\n/static/0e449953b66e92177b50e843818a5f92/2e4bc/Final%20-%20Landing%20Page%20-%20Dev.png 720w,\\n/static/0e449953b66e92177b50e843818a5f92/314b8/Final%20-%20Landing%20Page%20-%20Dev.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/0e449953b66e92177b50e843818a5f92/11b2f/Final%20-%20Landing%20Page%20-%20Dev.webp 360w,\\n/static/0e449953b66e92177b50e843818a5f92/781e0/Final%20-%20Landing%20Page%20-%20Dev.webp 720w,\\n/static/0e449953b66e92177b50e843818a5f92/3888d/Final%20-%20Landing%20Page%20-%20Dev.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":2323}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3469776303.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3469776303.json ***!
@@ -5257,17 +5409,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3503131333.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3503131333.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2UlEQVR42qVSy07bQBTNZ+UhFlSoXbBHgj/opp/RJftKXbDrohs2FSCQQKlABVQwSbBJYmLnYccmPBLs+DF+nN7xJBZBLJA60tHcmblz7rlnprC6to6Vj5+wvPwBlcoSyuXKu1EqlVEsliguU1yiuIiCrDQhyze4Jszn61dr+Q3Mc+q1BmoESarh4kJCAf8x4jiGz6KFvUKapgDBCwIEjCGOIiRJkiVz8JjnZKALGShmhGpNwee9PzhSu6IA5QpCGpvbe9j6tQ+j18OldAVFoXbqDQwtK68eUbGJ42ASRti1n3HetVD9W4fU0rLzNFdIQ+noUHsDRKTScV34pJgT8KrpjPCH3MGXnWMcdww4iWAIPJ8QYEYjPOSkccTAiMz3fQK1H4Q0ewjDMCc8a+n4fnKF9t0T2m4A3fFnul54OCc0zSH6/QEM04RObfcNM1vbti18FK+A+r2Dn8YYh/07bFRl4V8S57QZIb/Q0TQ0my2oqgqrq2OoaxTfok2YTqe5Apak4N0ORo/4etLAt9MGPFecc2G5Qu6bS4aPyZMDa4yqPQHjHpKquc+pSIYXJ7gZTXCkWfjdteGThwst44UTU0retSh55CBJ3/5/D/TKT/T/HokoCtmCh/8ACIgYju2SbEIAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png","srcSet":"/static/387c971840543fb259d68a8b19aa0cda/01504/ESNetMRDPScreenshot.png 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/bfc7e/ESNetMRDPScreenshot.png 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/aa74b/ESNetMRDPScreenshot.png 2878w","sizes":"(min-width: 2878px) 2878px, 100vw"},"sources":[{"srcSet":"/static/387c971840543fb259d68a8b19aa0cda/110ca/ESNetMRDPScreenshot.webp 720w,\\n/static/387c971840543fb259d68a8b19aa0cda/90f98/ESNetMRDPScreenshot.webp 1439w,\\n/static/387c971840543fb259d68a8b19aa0cda/28008/ESNetMRDPScreenshot.webp 2878w","type":"image/webp","sizes":"(min-width: 2878px) 2878px, 100vw"}]},"width":2878,"height":1618}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/3821245747.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3821245747.json ***!
@@ -5276,6 +5417,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVR42n1Ui3KiQBDk/7/tVPARQS0jgiCgvN8P+6Y3MeclVdmqKVfonemZ7kUbHw8U3YBSoupHPNdDnjOeq5sm5IJRWMF140TQD5xW9wMMN8L8HOLNu6HrOgzDgO8ryGvM7ABr7w7DCWHfUkzj+AOnRWEIfT5DcL1iu15jLXE4HBDHMUJ5l6apAr6fTp84H2/rFZaGjuPxiDzPkSQJiqL4SEg2VVUjyzL4vo/7/Y6rJL9cLmpfVZUC5oIpihKJFPAEx2LEMBlbHj/Zak3TYLffw3VdGIaBzWaDxWKB1Wqlnt1vN3BCfhAqRkxiWRZOwngv5xzHUeyYRyUkAzKK47sCc1+WpQKwHe65Etlnwo6jYHAUz3YZk4imErJVzozJ5vO5YnY6vSOKIpRSuZBDXF4QwBZW9vksnejQdeliuVRnyPRLFLbDGGQGbd+jk5kWdYOybdGIAxr530r1Smwyyaw6wdVdr97V/cdvO4iNpofKo9XDhLmXwopymFGhYpj++Yo7NpOL9zZBBjsp8dvSQmntj27A9a8wd3uY+wMs00IsCtMBT/UCEedon+FePDUi27bR1DV68S3n3UpHVFura1omhSOz4UwurqNmyJlSZYpFloXYJs8zNVsmo7qe56mgygwKo9FPrEgPbrdb7HY7pRqr0gFUmQlDYczDN2FqmqYqRsyT3ZcPyZAWYFX6i0AGGZ6FNW/SIJUpRC8i0H+z2Uz5lUFX0J9fN+V1oK+X/L/nFObl3esH4fvH4S9O3ijBzlF9oQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/e89bb/esnetaudit.png","srcSet":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/c77a7/esnetaudit.png 768w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/60780/esnetaudit.png 1536w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/e89bb/esnetaudit.png 3072w","sizes":"(min-width: 3072px) 3072px, 100vw"},"sources":[{"srcSet":"/static/8abe7cb22a69f88201cca0dda4d1aaaf/593dd/esnetaudit.webp 768w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/292fa/esnetaudit.webp 1536w,\\n/static/8abe7cb22a69f88201cca0dda4d1aaaf/1f917/esnetaudit.webp 3072w","type":"image/webp","sizes":"(min-width: 3072px) 3072px, 100vw"}]},"width":3072,"height":2124}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/803858472.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/803858472.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqCAYAAACz+XvQAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqElEQVR42r1Vh3LaQBDV/39REnoTvffeq01iDKLMMKz3HZaQ8MlAUKKZh8SWd7fl9hRfJEFOQqk1O+QkFHL4UU6nEwHfPY/YiB1ud3tava/pfb2xALKNtjWcNprGso3UbrvbnXeIn0qjTd5QnEKxNAWjKQN+TnIqXzZWT+VKQma2gY83HKdKvXUhrDY65AsnKBzPGIBhQE1SulAhRCsImRwy6HTAFtXFpqyELAxjtVBMwCDMP0EIA3dAJU9QfY4Qfzycw6DJMMD58V3n8JMQkfzyhXjhKEUSWZEuC2Gz0yeVFYlMkeLpgoFoMkeFSgNN8XWHKAhDusP+aELZYk04F6tN8QZy5To12j2jzx4KWW8bcw79NiHfJuQe8gRjbJziXJ6rHIikRH+h9x4m1LZ7cQI22k58A/hevWu03myNkNNMGPwsio4IEyKSqpkQz25/oGqzyzlsUKnWFCviSJnPKoqG3YNAB3bsDkSFj4VwfzhQbzihTm9Inf6IuoMJ706zEM4WSxqOZzSazC0YjGb0+vvNSujY+JKNIDNu6a9tlXsM78W/CxnVnC9eafGylGJuIzf07LtarS+EZS45So8WMLeEDn3YyiBtG9xWflZgcpiHrD5oXb6wIL3WAfCBL0agQQh2l18VK/r4uF3DxecbDS3TwQe+pWrjQjjlHGCqtLoDKdrc7HY6AL7T+cuFcDiZUoFXKPOQkAHH0E4HwHc4nt5fFISkh3dXUcy3nnk06dfqT2/oy9j6dnzVWz1xn0RTeVJ57F8jxteBTA7AB761VvdCuPzzJqbIeDqXYmQj1wFfcNzVh+dey0jltn14K4c/3AFRgLtzeKvKdhW2rfKAeyjPVyaEf4N8pc5Te/IfJrYjhMfjkZyEksyWyEkoqJKTUGS99QwcJ/wA3A/Yk+x5k6MAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/74d66e48e6e17b39313f7fc06d4bc94d/fbf89/Landing%20Page%20-%20Low.png","srcSet":"/static/74d66e48e6e17b39313f7fc06d4bc94d/e8977/Landing%20Page%20-%20Low.png 360w,\\n/static/74d66e48e6e17b39313f7fc06d4bc94d/a6788/Landing%20Page%20-%20Low.png 720w,\\n/static/74d66e48e6e17b39313f7fc06d4bc94d/fbf89/Landing%20Page%20-%20Low.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/74d66e48e6e17b39313f7fc06d4bc94d/3bed8/Landing%20Page%20-%20Low.webp 360w,\\n/static/74d66e48e6e17b39313f7fc06d4bc94d/bb53a/Landing%20Page%20-%20Low.webp 720w,\\n/static/74d66e48e6e17b39313f7fc06d4bc94d/848e1/Landing%20Page%20-%20Low.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":3000}');
 
 /***/ }),
 
