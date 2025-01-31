@@ -72,9 +72,9 @@ b {
 
 .FooterContainer{
   color: #FF4200;
-  
   text-align: center;
   width: 100%;
+  margin-bottom: 2vh;
 }
 
 .FooterText {

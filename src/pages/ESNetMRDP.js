@@ -72,7 +72,7 @@ useEffect(() => {
       <div className="container">
         <div className="header-image">
           <StaticImage 
-            src="../../static/ESNetMRDPHeader.png"
+            src="../../static/Artboard 61_1.png"
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"

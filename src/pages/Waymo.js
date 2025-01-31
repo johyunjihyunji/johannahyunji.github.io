@@ -12,7 +12,7 @@ function Waymo() {
       <div className="container">
         <div className="header-image">
           <StaticImage 
-            src="../../static/WaymoHeader.png"
+            src="../../static/Artboard 151.png"
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"

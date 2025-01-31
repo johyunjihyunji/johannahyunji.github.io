@@ -53,6 +53,8 @@ const Footer = () => {
               </React.Fragment>
           ))}
       </div>
+      <br/>
+      <br/>
       </p>
     </div>
   );

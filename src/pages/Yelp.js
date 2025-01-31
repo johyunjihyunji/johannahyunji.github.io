@@ -51,7 +51,7 @@ function Yelp() {
       <div className="container">
         <div className="header-image">
           <StaticImage 
-            src="../../static/YelpHeader.png"
+            src="../../static/Artboard 61.png"
             alt="Project Header"
             style={{ borderRadius: '10px' }}
           />

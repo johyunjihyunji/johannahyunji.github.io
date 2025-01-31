@@ -49,7 +49,7 @@ function Broke() {
       <div className="container">
         <div className="header-image">
           <StaticImage 
-            src="../../static/BrokeHeader.png"
+            src="../../static/Artboard 151_1.png"
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"
