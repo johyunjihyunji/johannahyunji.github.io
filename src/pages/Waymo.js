@@ -89,6 +89,10 @@ function Waymo() {
               <p className="paragraph" style={{ textAlign: 'center'}}>
               please reach out to <b style={{backgroundColor: 'rgba(255, 23, 0, 0.2)', fontWeight: '570'}}>johannalee@berkeley.edu</b> to learn more about this project!
               </p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
 {/* 
         <div className="section">

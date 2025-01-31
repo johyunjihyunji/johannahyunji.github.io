@@ -3080,21 +3080,6 @@ function Waymo() {
   }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#0077FF'
-    }
-  }, "Waymo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Waymo"), " is an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "autonomous driving technology company"), " originally part of the Google self-driving car project. Waymo focuses on developing advanced ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "self-driving systems to enhance mobility and safety."), " Waymo operates commercial robotaxi services in San Francisco.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "section-title"
-  }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/WaymoMockup.png",
@@ -3113,64 +3098,37 @@ function Waymo() {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Waymo"), " is transitioning from an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "R&D-focused firm to a commercial entity"), ", which requires a comprehensive reevaluation of its brand identity and the overall experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Waymo"), " was transitioning from an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "R&D-focused firm to a commercial entity"), ", which requires a comprehensive reevaluation of its brand identity and the overall experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#0077FF'
     }
-  }, "Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "1. Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, "Assess the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brands of Waymo\u2019s active ride-hailing competitors and self-driving automobile competitors"), ", in terms of brand positioning, personality, visual/verbal identity, and advertising strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#0077FF'
     }
-  }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "2. Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of its ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of its ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       textAlign: 'center',
       color: '#5a5a5a'
     }
-  }, "under NDA"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
+  }, "this page is under construction!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      textAlign: 'center'
+    }
   }, "please reach out to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
     style: {
       backgroundColor: 'rgba(255, 23, 0, 0.2)',
       fontWeight: '570'
     }
-  }, "johannalee@berkeley.edu"), " to learn more about this project!")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "section-title"
-  }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "This project was very exciting because it was in the autonomous automobile industry. Exploring and researching this sector provided me with insights into the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "future landscape of the automotive industry.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/WaymoCar.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    style: {
-      borderRadius: '10px'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4131368047.json */ "./.cache/caches/gatsby-plugin-image/4131368047.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
-    style: {
-      color: '#0077FF'
-    }
-  }, "Rebranding for Self-Driving Car Service:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "It was challenging to reshape perceptions around this cutting-edge technology often deemed \"not safe.\" The ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "primary hurdle was to make autonomous driving technology more approachable and acceptable"), " to the emerging generation of users. Successfully rebranding Waymo required more than just a visual transformation; it demanded the establishment of a new norm. The goal was to shape a narrative that would encourage users to perceive self-driving car services positively. This involved not only addressing concerns about safety but also ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "fostering a sense of trust and familiarity."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  }, "johannalee@berkeley.edu"), " to learn more about this project!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Waymo);
 
@@ -4840,17 +4798,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,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"},"images":{"fallback":{"src":"/static/497537c772f1e7695214536d2634f30d/5f8ec/WaymoMockup.png","srcSet":"/static/497537c772f1e7695214536d2634f30d/8242c/WaymoMockup.png 419w,\\n/static/497537c772f1e7695214536d2634f30d/86710/WaymoMockup.png 838w,\\n/static/497537c772f1e7695214536d2634f30d/5f8ec/WaymoMockup.png 1675w","sizes":"(min-width: 1675px) 1675px, 100vw"},"sources":[{"srcSet":"/static/497537c772f1e7695214536d2634f30d/4a5c1/WaymoMockup.webp 419w,\\n/static/497537c772f1e7695214536d2634f30d/e43f9/WaymoMockup.webp 838w,\\n/static/497537c772f1e7695214536d2634f30d/ad731/WaymoMockup.webp 1675w","type":"image/webp","sizes":"(min-width: 1675px) 1675px, 100vw"}]},"width":1675,"height":1877}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/4131368047.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/4131368047.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCElEQVR42mNgQAP///9nhOH6+nqm/fv3swDZTDDMQArAooERRAgLC0tJSkrKgdirVq1iJsVANiDmhroG5DKVPz//RJ04dmzrkUOH9gL5slB1zCCDYT5hwOYKkMTRo8dmrVi+6t6OHTsPT5k27cyECZM+rl675v/cuXP/LF608P+8ubO2bNu0yRTZEJDlKK4ODQ0FcxxVlYK2btj0f9Gixf8WL1r0r6Cg8H9aSur/WZMn/83KzPzr7+//u7Cw8G9zU+P/pYsWrXv48KEJ0DCB//VowTRz5kxWEL1zweKex3cf/H/1+u2P8+cv/Xn66Mmfa3fv/ll7+cLf85cu/z176vTfM6dP/z514uTfK5cu/3/y+Onf8+fOP3v48NHuLRs3esB8ybAfGFYgzpMXryb//vn3f1Nt7S8HW+vfE/v6/928/+D/itOn/t+9c///QyD74f2H/x8/ePT/wb0H/0qKi/96u7v93bVhA0j84dKlSwXBLgQlDRB9/vz5hKOHj54J9vP5kpoY/z/A1+v7pfMXXl05dfol0HUvz5w+8/LMqdNvrl258n7r5i3ffDw9/iXGxv7LSE78c+nCpSNZoVk8GLGso6MobmNuWuRsZ7va0ty0PD0r3T+3INe3qCjfr6go26+0tMivuLggJDUpIcnGyqLbwdZqob+PT8qCBQukkSMYHlvYkgCpAABcHElg29BHlAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/67a81b4ff035b3ee29167b9224975142/bdf37/WaymoCar.png","srcSet":"/static/67a81b4ff035b3ee29167b9224975142/8a249/WaymoCar.png 408w,\\n/static/67a81b4ff035b3ee29167b9224975142/2c7a3/WaymoCar.png 817w,\\n/static/67a81b4ff035b3ee29167b9224975142/bdf37/WaymoCar.png 1633w","sizes":"(min-width: 1633px) 1633px, 100vw"},"sources":[{"srcSet":"/static/67a81b4ff035b3ee29167b9224975142/abccb/WaymoCar.webp 408w,\\n/static/67a81b4ff035b3ee29167b9224975142/22a6b/WaymoCar.webp 817w,\\n/static/67a81b4ff035b3ee29167b9224975142/a7f80/WaymoCar.webp 1633w","type":"image/webp","sizes":"(min-width: 1633px) 1633px, 100vw"}]},"width":1633,"height":818}');
 
 /***/ }),
 
