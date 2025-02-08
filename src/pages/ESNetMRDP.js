@@ -360,7 +360,7 @@ useEffect(() => {
             <div className="slidepng-container">
               <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                 <StaticImage
-                  src="../../static/esnetmrdp/Final - Landing Page - Dev.png"
+                  src="../../static/Final - Landing Page 2025.png"
                   alt="Project Header"
                   placeholder="blurred"
                   layout="constrained"
@@ -370,7 +370,7 @@ useEffect(() => {
               <div className="slidepng-container">
               <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                 <StaticImage
-                  src="../../static/esnetmrdp/Final - Transfer Page 5.png"
+                  src="../../static/Final - Transfer Page 2025.png"
                   alt="Project Header"
                   placeholder="blurred"
                   layout="constrained"
