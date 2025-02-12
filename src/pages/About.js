@@ -11,7 +11,7 @@ const About = () => {
     <>
     <CustomCursor />
     <Header />
-    <div className="about-container">
+    <div className="about">
       <section className="intro-section">
         <div className="about-content">
           <div className="about-image">
@@ -28,10 +28,14 @@ const About = () => {
             <h1>Hello! </h1>
             <h2>This is Johanna Lee :)</h2>
             <p className="introText">
-              I am a senior at the University of California, Berkeley, studying computer science and innovative design.
+              I am a senior at the University of California, Berkeley, 
+              <br/>
+              studying computer science and innovative design.
             </p>
             <p className="introText">
-              With a unique blend of technical and creative skills, I have a background in UI/UX design, 
+              With a unique blend of technical and creative skills, 
+              <br/>
+              I have a background in UI/UX design, 
               marketing design, and front-end engineering.
             </p>
 
@@ -137,7 +141,7 @@ const About = () => {
       <section className="skills-section">
       <div className = "sectiontitle">
         <h2> Skills</h2>
-        </div>
+      </div>
       <div className = "skill-items">
         <div className="skill-item">
                 <h3>Language</h3>

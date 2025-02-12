@@ -24,11 +24,11 @@
   }
   .crossed {
     text-decoration: line-through; /* Cross out the text */
-    color: #F0D732; /* Change color of crossed-out text */
+    color: #8e8e8e; /* Change color of crossed-out text */
   }
   .red-question-mark {
     color: #0438C6;
-    font-size: 24px;
+    font-size: 30px;
   }
   .cross-line {
     position: absolute;

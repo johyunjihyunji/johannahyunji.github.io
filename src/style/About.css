@@ -1,4 +1,4 @@
-.about-container {
+.about {
   font-family: Arial, sans-serif;
   padding: 10%
 }
@@ -10,7 +10,6 @@
     text-align: left;
     gap: 1vw;
 }
-
 
 
 .sectiontitle {
@@ -28,6 +27,9 @@
   flex-direction: column;
   margin-top: 5vh;
 }
+
+
+
 .skill-items {
   min-width: 57vw;
   color: #0438C6;
@@ -68,30 +70,28 @@ h1, h2, h3 {
 }
 
 .introText {
-  font-size: 1.2vw
+  font-size: 1vw;
 }
 .intro-section h1 {
   font-family: 'AlexRoss';
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .intro-section h2 {
   font-family: 'AlexRoss';
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #0438C6;
   margin-bottom: 2rem;
 }
 
 .about-content {
   display: flex;
-  gap: 5rem;
+  gap: 10rem;
   margin-bottom: 100px;
 }
 
-.about-image {
-  flex-shrink: 0;
-}
+
 
 .about-text p {
   margin-bottom: 1rem;

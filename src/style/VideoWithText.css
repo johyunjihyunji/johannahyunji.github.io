@@ -30,6 +30,7 @@ html, body {
   font-size: 2em; /* Adjust as needed */
   animation: tilt-animation 5s infinite ease-in-out;
   font-family: 'AlexRoss', sans-serif;
+  color: #0438C6;
 }
 
 @keyframes tilt-animation {

@@ -2961,7 +2961,9 @@ function IntroductionSlide() {
     "clip-rule": "evenodd",
     d: "M101.831 64.3307C104.271 61.8899 108.229 61.8899 110.669 64.3307L137.544 91.2057C145.86 99.5215 145.86 112.979 137.544 121.295L121.294 137.545C112.979 145.86 99.5213 145.86 91.2055 137.545L64.3305 110.67C61.8897 108.229 61.8897 104.271 64.3305 101.831C66.7713 99.3899 70.7286 99.3899 73.1694 101.831L100.044 128.706C103.479 132.14 109.021 132.14 112.456 128.706L128.706 112.456C132.14 109.021 132.14 103.479 128.706 100.045L101.831 73.1695C99.3897 70.7288 99.3897 66.7715 101.831 64.3307Z",
     fill: "black"
-  })), " currently UX Engineer Intern @ ESNet (Summer 2024 - Present)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  })), " currently UX Engineer Intern @ ESNet (Summer 2024 - Present)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "tilting-text"
+  }, "Designing Solutions from a Different Angle"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "joImage",
     src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "profile gif"
