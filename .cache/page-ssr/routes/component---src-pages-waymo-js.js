@@ -3039,14 +3039,14 @@ function Waymo() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/WaymoHeader.png",
+    src: "../../static/Artboard 151.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
     style: {
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1157611664.json */ "./.cache/caches/gatsby-plugin-image/1157611664.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1224380439.json */ "./.cache/caches/gatsby-plugin-image/1224380439.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4779,14 +4779,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/1157611664.json":
+/***/ "./.cache/caches/gatsby-plugin-image/1224380439.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/1157611664.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/1224380439.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABkUlEQVR42kWQTUsbYRSF5wd058JCxSEkmXlnok41imaM+ZjJTEpj1dYIBSsEGxdS8QMrDX4uLG0XhVIR2rroyo/UhT9BXHan/gJL/8jTOwnUxeG+3Hvuuee8mqUClCoRVdsOBVF90npbdjQLZFZqce4R9UOBj7ICTFN6qTLJWAZNWR6WQCmPeDwrGCMWy5FIjGEYRRH2W1AtTlHEi+1qiwnbI5ks0OOEGHqWnDsugqotZgpp/FmNSmWO+vwaezvvGR2doqtrGF13xUXhv1h7x6fx7gNHP0+olmvo5QmqjXW0KGI8UcTLzXB1ecXZWZPTX02Ofnzn8OCQ/f2vzM6u4jhP5agvaeQLrFAS+FRfLvH29TZDC4s8ONigJz+NlhLrj8TFm8VtLs7P2d3a5Pf1Ddc3t/y9+0Pz9Jgvnz+xsrxLt57BTrXj27KXFtFYvcbDbw0ct8JAqoRm2hLBzNPXFzKY9njsuExUXvF8ssaL6QUyIwHDg3nc7BRJIyfuhB/ByNO5Uafj4xL9/QHp3gBDFfgHpTTc3H3CFjIAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/252cc76b77aae12db5e1645ac2386e8f/44bb2/WaymoHeader.png","srcSet":"/static/252cc76b77aae12db5e1645ac2386e8f/e0957/WaymoHeader.png 360w,\\n/static/252cc76b77aae12db5e1645ac2386e8f/f8fb9/WaymoHeader.png 720w,\\n/static/252cc76b77aae12db5e1645ac2386e8f/44bb2/WaymoHeader.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/252cc76b77aae12db5e1645ac2386e8f/64838/WaymoHeader.webp 360w,\\n/static/252cc76b77aae12db5e1645ac2386e8f/9f8a3/WaymoHeader.webp 720w,\\n/static/252cc76b77aae12db5e1645ac2386e8f/f8be8/WaymoHeader.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":400}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8klEQVR42n1QsWoCQRT0H8TOIqeet+/u1IsiGE5R1z09PBtjIwELMUG4Ik3aVIJp06TI307e7S4ERSyGWebNDvNeSYgZLqEgqGCp2fMkHGeEWm1k59IwGTTqY5SzX/jxG6KWROlmIDMJExaGC6xWB2TZHmEw1xqR9TpDpOtXPKocvQ77WbsTqPTnIEhw/vrB6fRt2vk88xjOGNWPI6a7A4bdBYJWyn4dqK5WVf8rFcHMg8Ez4ngD4nCqT/Ss8pnj4bhHmxJ0exl8v/BPOZCkvZcB6XZWE1K/m80JXAa5zE9LlM/vcLcv6NsSUZTyaZbcMMUf7umkW59uhgAAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/29380d7a4e0d6e63c53e6879fe54739b/12eae/Artboard%20151.png","srcSet":"/static/29380d7a4e0d6e63c53e6879fe54739b/5551e/Artboard%20151.png 600w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/a5079/Artboard%20151.png 1200w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/12eae/Artboard%20151.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/29380d7a4e0d6e63c53e6879fe54739b/14f51/Artboard%20151.webp 600w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/d48b7/Artboard%20151.webp 1200w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/8762e/Artboard%20151.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
 
 /***/ }),
 

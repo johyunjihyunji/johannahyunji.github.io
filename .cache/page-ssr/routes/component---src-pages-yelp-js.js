@@ -3072,12 +3072,12 @@ function Yelp() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/YelpHeader.png",
+    src: "../../static/Artboard 61.png",
     alt: "Project Header",
     style: {
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/572396124.json */ "./.cache/caches/gatsby-plugin-image/572396124.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3840193699.json */ "./.cache/caches/gatsby-plugin-image/3840193699.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -5392,6 +5392,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/3840193699.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3840193699.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundColor":"#f83838","images":{"fallback":{"src":"/static/cbecf1c760f22105ada8f504d1bc7d49/70779/Artboard%2061.png","srcSet":"/static/cbecf1c760f22105ada8f504d1bc7d49/a24a4/Artboard%2061.png 601w,\\n/static/cbecf1c760f22105ada8f504d1bc7d49/679b5/Artboard%2061.png 1201w,\\n/static/cbecf1c760f22105ada8f504d1bc7d49/70779/Artboard%2061.png 2402w","sizes":"(min-width: 2402px) 2402px, 100vw"},"sources":[{"srcSet":"/static/cbecf1c760f22105ada8f504d1bc7d49/a3cc2/Artboard%2061.webp 601w,\\n/static/cbecf1c760f22105ada8f504d1bc7d49/ae91f/Artboard%2061.webp 1201w,\\n/static/cbecf1c760f22105ada8f504d1bc7d49/1c39a/Artboard%2061.webp 2402w","type":"image/webp","sizes":"(min-width: 2402px) 2402px, 100vw"}]},"width":2402,"height":601}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3883015766.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3883015766.json ***!
@@ -5433,17 +5444,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNElEQVR42q1TSXKDQBDz/7/iV/gHPseHsJXDvm8zwCjqSUERYyeHpKuEC0ZWt9RwgtQ8w2ht8aqMMRa/1Uku4+WC/nyGul5hlgV/KSs41DXiIIAehpfEvu+RJAn0Dy42wamqUIQhwjhGlqZQSh2IU1GgJCciJxZelmHgANM0HQVNWWKkUHC/w3VdVGyw0Pq3zPhsJFzPQxRFVkywPET0JZjn0Oz+QUvSWex1xF7QcKqBHGkqgmJdP0y3Cc7spJoGbdtCjaOFJiDdBRReeKa7zsYxkq/5O4vgjrMJ5szn7XaD4zhouCCz2t29KhU57zyvadvmJmer0IpVUCx6zMbnplNa7jjJus3VdEcHvu9bnlhueC//e5qhdCxki1zO9CQXKUWbObOWhdV0IU1lKTM/ioPgf9Yn3QNcz3c6B9UAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/18114a2dde68903d48527d711105bbd8/afa5c/YelpSwot.png","srcSet":"/static/18114a2dde68903d48527d711105bbd8/2fe1e/YelpSwot.png 480w,\\n/static/18114a2dde68903d48527d711105bbd8/9bec7/YelpSwot.png 960w,\\n/static/18114a2dde68903d48527d711105bbd8/afa5c/YelpSwot.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/18114a2dde68903d48527d711105bbd8/3a3a2/YelpSwot.webp 480w,\\n/static/18114a2dde68903d48527d711105bbd8/bde8a/YelpSwot.webp 960w,\\n/static/18114a2dde68903d48527d711105bbd8/c512e/YelpSwot.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/572396124.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/572396124.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundColor":"#f83838","images":{"fallback":{"src":"/static/630db4d89d1d136ba82e38a64b10dfe4/70779/YelpHeader.png","srcSet":"/static/630db4d89d1d136ba82e38a64b10dfe4/a24a4/YelpHeader.png 601w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/679b5/YelpHeader.png 1201w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/70779/YelpHeader.png 2402w","sizes":"(min-width: 2402px) 2402px, 100vw"},"sources":[{"srcSet":"/static/630db4d89d1d136ba82e38a64b10dfe4/a3cc2/YelpHeader.webp 601w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/ae91f/YelpHeader.webp 1201w,\\n/static/630db4d89d1d136ba82e38a64b10dfe4/1c39a/YelpHeader.webp 2402w","type":"image/webp","sizes":"(min-width: 2402px) 2402px, 100vw"}]},"width":2402,"height":601}');
 
 /***/ }),
 

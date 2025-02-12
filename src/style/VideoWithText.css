@@ -25,6 +25,36 @@ html, body {
   z-index: 1;
 }
 
+.tilting-text {
+  width: 25vw;
+  font-size: 2em; /* Adjust as needed */
+  animation: tilt-animation 5s infinite ease-in-out;
+  font-family: 'AlexRoss', sans-serif;
+}
+
+@keyframes tilt-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-7deg);
+  }
+  40% {
+    transform: rotate(3deg);
+  }
+  60% {
+    transform: rotate(-120deg);
+  }
+  80% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
 .text-container {
   display: flex;
   flex-direction: column;
