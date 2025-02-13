@@ -3175,7 +3175,46 @@ function ESNetMRDP() {
       padding: '20px',
       textAlign: 'center'
     }
-  }, "How might we reimagine the Modern Research Data Portal to create an intuitive, streamlined experience that empowers research institutions to effortlessly manage and share their data?"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "How might we reimagine the Modern Research Data Portal to create an intuitive, streamlined experience that empowers research institutions to effortlessly manage and share their data?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginRight: "20px"
+    }
+  }, "check MRDP Live Site!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://mrdp.mooo.com",
+    style: {
+      display: "flex",
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
+    width: "30",
+    height: "30",
+    viewBox: "0 0 150 150",
+    fill: "black",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: {
+      transition: "fill 0.3s"
+    },
+    onMouseEnter: e => e.currentTarget.style.fill = "#50C5DB",
+    onMouseLeave: e => e.currentTarget.style.fill = "black"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M31.2501 43.7499C29.5925 43.7499 28.0027 44.4084 26.8306 45.5805C25.6585 46.7526 25.0001 48.3423 25.0001 49.9999V118.75C25.0001 120.407 25.6585 121.997 26.8306 123.169C28.0027 124.341 29.5925 125 31.2501 125H100C101.658 125 103.247 124.341 104.419 123.169C105.592 121.997 106.25 120.407 106.25 118.75V81.2499C106.25 77.7981 109.048 74.9999 112.5 74.9999C115.952 74.9999 118.75 77.7981 118.75 81.2499V118.75C118.75 123.723 116.775 128.492 113.258 132.008C109.742 135.524 104.973 137.5 100 137.5H31.2501C26.2772 137.5 21.5081 135.524 17.9918 132.008C14.4755 128.492 12.5001 123.723 12.5001 118.75V49.9999C12.5001 45.0271 14.4755 40.2579 17.9918 36.7416C21.5081 33.2253 26.2773 31.2499 31.2501 31.2499H68.7501C72.2018 31.2499 75.0001 34.0481 75.0001 37.4999C75.0001 40.9517 72.2018 43.7499 68.7501 43.7499H31.2501Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M87.5001 18.7499C87.5001 15.2981 90.2983 12.4999 93.7501 12.4999H131.25C134.702 12.4999 137.5 15.2981 137.5 18.7499V56.2499C137.5 59.7017 134.702 62.4999 131.25 62.4999C127.798 62.4999 125 59.7017 125 56.2499V24.9999H93.7501C90.2983 24.9999 87.5001 22.2017 87.5001 18.7499Z"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
+    d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
+  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3594,8 +3633,8 @@ function ESNetMRDP() {
     style: {
       marginRight: "20px"
     }
-  }, "MRDP Cookie-Cutter Deployment with Details"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://github.com/NickolausDS/cookiecutter-django-globus-app",
+  }, "MRDP Live Site!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://mrdp.mooo.com",
     style: {
       display: "flex",
       alignItems: "center"
