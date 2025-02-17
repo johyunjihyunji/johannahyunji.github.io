@@ -2883,7 +2883,7 @@ const Header = () => {
     to: "/About"
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
+    href: "https://docs.google.com/document/d/1-8mpbnA2bJJujZMI-A15E_dJQynkMbhCgg40gQSaQdo/edit?usp=sharing"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -4917,7 +4917,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-96feac530a8fc7bba4ac4bc452851969.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-d515eb6eb5068e08db5d1df156de1745.png");
 
 /***/ }),
 

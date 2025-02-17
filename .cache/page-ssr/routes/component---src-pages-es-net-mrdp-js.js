@@ -2883,7 +2883,7 @@ const Header = () => {
     to: "/About"
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
+    href: "https://docs.google.com/document/d/1-8mpbnA2bJJujZMI-A15E_dJQynkMbhCgg40gQSaQdo/edit?usp=sharing"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3185,7 +3185,7 @@ function ESNetMRDP() {
     style: {
       marginRight: "20px"
     }
-  }, "check MRDP Live Site!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "check out MRDP Live Site!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://mrdp.mooo.com",
     style: {
       display: "flex",
@@ -3662,7 +3662,9 @@ function ESNetMRDP() {
     "fill-rule": "evenodd",
     "clip-rule": "evenodd",
     d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
-  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "This deployment was delivered to the Science Engagement Team in order to be distributed to any administrated that requires MRDP.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
