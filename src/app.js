@@ -19,6 +19,7 @@ import CustomCursor from '../Components/CustomCursor';
 
 function App() {
   return (
+    
     <Router>
     <div className = 'AppContainer'>
       <Routes>

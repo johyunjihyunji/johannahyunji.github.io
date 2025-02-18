@@ -2883,7 +2883,7 @@ const Header = () => {
     to: "/About"
   }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    href: "https://docs.google.com/document/d/1-8mpbnA2bJJujZMI-A15E_dJQynkMbhCgg40gQSaQdo/edit?usp=sharing"
+    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);

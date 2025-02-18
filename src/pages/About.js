@@ -12,9 +12,8 @@ const About = () => {
     <CustomCursor />
     <Header />
     <div className="about">
-      <section className="intro-section">
-        <div className="about-content">
-          <div className="about-image">
+      <div className="about-content">
+        <div className="about-image">
             <StaticImage 
               src="../../static/profile-photo.jpg"
               alt="Johanna Lee"
@@ -23,25 +22,43 @@ const About = () => {
               height={500}
               style={{ borderRadius: '40%' ,filter: 'grayscale(100%)' }}
             />
-          </div>
-          <div className="about-text">
-            <h1>Hello! </h1>
-            <h2>This is Johanna Lee :)</h2>
-            <p className="introText">
-              I am a senior at the University of California, Berkeley, 
-              <br/>
-              studying computer science and innovative design.
-            </p>
-            <p className="introText">
-              With a unique blend of technical and creative skills, 
-              <br/>
-              I have a background in UI/UX design, 
-              marketing design, and front-end engineering.
-            </p>
-
+        </div>
+        <div className="about-text">
+            <h2>Johanna Lee</h2>
+            <div class="more-desc">
+              <div class="more-more-desc">
+                <div class="more-more-title">Education</div>
+                <h3>University of California Berkeley</h3>
+                <p>B.A. in Computer Science</p>
+                <p>Berekely Certificate in Design Innovation</p>
+              </div>
+              <div class="more-more-desc">
+                <div class="more-more-title">Skills</div>
+                <div className="tags">
+                  <span className="tag">Figma</span>
+                  <span className="tag">Prototpying</span>
+                  <span className="tag">Adobe Illustrator</span>
+                  <span className="tag">Adobe Premiere Pro</span>
+                  <span className="tag">HTML/CSS/JS</span>
+                  <span className="tag">React</span>
+                </div>
+              </div>
+              
+              <div class="more-more-desc">
+                <div class="more-more-title">Languages</div>
+                <div className="tags">
+                  <span className="tag">English</span>
+                  <span className="tag">Korean</span>
+                  <span className="tag">Mandarin</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+
+      <div className="more-more-title">
+        Experience
+      </div>
 
       <section className="experience-section">
         <div className="sectiontitle">

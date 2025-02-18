@@ -14,8 +14,8 @@ const Header = () => {
       </Link>
       <div className='Menu'>
         <a className='MenuItem' href = "https://www.linkedin.com/in/johannaleehyunji/">LinkedIn</a>
-        <Link className='MenuItem' to="/About">About</Link>
-        <a className='MenuItem' href = "https://docs.google.com/document/d/1-8mpbnA2bJJujZMI-A15E_dJQynkMbhCgg40gQSaQdo/edit?usp=sharing">Resume</a>
+        {/* <Link className='MenuItem' to="/About">About</Link> */}
+        <a className='MenuItem' href = "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed">Resume</a>
       </div>
     </header>
   );
