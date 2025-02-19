@@ -2968,12 +2968,9 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    to: "/About"
-  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "MenuItem",
-    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
+    href: "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3141,19 +3138,17 @@ const About = () => {
       borderRadius: '40%',
       filter: 'grayscale(100%)'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2289931243.json */ "./.cache/caches/gatsby-plugin-image/2289931243.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4030146670.json */ "./.cache/caches/gatsby-plugin-image/4030146670.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "about-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "more-desc"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "more-more-desc",
-    width: "30%"
+    class: "more-more-desc"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "more-more-title"
   }, "Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "University of California Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "B.A. in Computer Science"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Berekely Certificate in Design Innovation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "more-more-desc",
-    width: "20%"
+    class: "more-more-desc"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "more-more-title"
   }, "Skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3166,13 +3161,12 @@ const About = () => {
     className: "tag"
   }, "Adobe Illustrator"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "tag"
-  }, "Adobe Premiere Proe"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+  }, "Adobe Premiere Pro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "tag"
   }, "HTML/CSS/JS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "tag"
   }, "React"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "more-more-desc",
-    width: "10%"
+    class: "more-more-desc"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "more-more-title"
   }, "Languages"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3183,7 +3177,9 @@ const About = () => {
     className: "tag"
   }, "Korean"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "tag"
-  }, "Mandarin")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  }, "Mandarin")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "more-more-title"
+  }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "experience-section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "sectiontitle"
@@ -5029,9 +5025,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2289931243.json":
+/***/ "./.cache/caches/gatsby-plugin-image/4030146670.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2289931243.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/4030146670.json ***!
   \***********************************************************/
 /***/ ((module) => {
 

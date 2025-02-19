@@ -2878,12 +2878,9 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    to: "/About"
-  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "MenuItem",
-    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
+    href: "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3129,7 +3126,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/237884685.json */ "./.cache/caches/gatsby-plugin-image/237884685.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2804112281.json */ "./.cache/caches/gatsby-plugin-image/2804112281.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3155,7 +3152,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/994384086.json */ "./.cache/caches/gatsby-plugin-image/994384086.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1223567738.json */ "./.cache/caches/gatsby-plugin-image/1223567738.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3181,7 +3178,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/606351306.json */ "./.cache/caches/gatsby-plugin-image/606351306.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1146060742.json */ "./.cache/caches/gatsby-plugin-image/1146060742.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3207,7 +3204,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3547532526.json */ "./.cache/caches/gatsby-plugin-image/3547532526.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2906325535.json */ "./.cache/caches/gatsby-plugin-image/2906325535.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3233,7 +3230,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3847912075.json */ "./.cache/caches/gatsby-plugin-image/3847912075.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3699753595.json */ "./.cache/caches/gatsby-plugin-image/3699753595.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3259,7 +3256,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3278737044.json */ "./.cache/caches/gatsby-plugin-image/3278737044.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/102996203.json */ "./.cache/caches/gatsby-plugin-image/102996203.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3285,7 +3282,7 @@ const ProjectSlide = () => {
     layout: "constrained" // Layout options
     ,
     className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/466668630.json */ "./.cache/caches/gatsby-plugin-image/466668630.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1780011638.json */ "./.cache/caches/gatsby-plugin-image/1780011638.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "ImageOverlay"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -5034,21 +5031,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/237884685.json":
+/***/ "./.cache/caches/gatsby-plugin-image/102996203.json":
 /*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/237884685.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/102996203.json ***!
   \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABaklEQVR42q1UzUrDQBDeJ9KDHnyUklvpA/gQNodW8Bl8AYsXBUE8WLz2pKAg1Zi0SZo0f21+GnYzflutJmKD1AY+MjvLzH4z384yTdP2dV0/tm27PZvNVN/31TAMVWn/XJf90l7tyVjk6A6Hw102n89baZpSHMecNvwQK7IsoyAIFIbszSiKSAiRAvmGyMCWJpNJg7mu25KnwLkxQ8QK+XccR2HI/GvCAuCigL+govhGXULP85StMrQsaz3DJMvpevBEz68G6fqIPD+QzQeS+pIhSCWh+Cxr8GLSweEJdU571L+9o975JZ31Luj+4fGjJaXy/1Ryssjp6qZPbyOTplMfp7vkuh6UdHA9wvUMIfVWeigZ16uMijgXFYXXKV1huPV7aJpmE/O4nBT4KhMg12XUTQoEIeRqMMxxi3P+r1nGeyAAwqOhsPF4vAdhupjpIyRtg+0S2Fz+0eMv38ou70lbxhqG0cHF3nkHaf1rQXFCdYoAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/43ef072eb416e17b3ee3697a0f19d535/88821/EsnetThumb.png","srcSet":"/static/43ef072eb416e17b3ee3697a0f19d535/ec760/EsnetThumb.png 360w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/3d097/EsnetThumb.png 720w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/88821/EsnetThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/43ef072eb416e17b3ee3697a0f19d535/b1cd7/EsnetThumb.webp 360w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/62cd4/EsnetThumb.webp 720w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/5fc8e/EsnetThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1081}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3278737044.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3278737044.json ***!
-  \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -5056,9 +5042,53 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3547532526.json":
+/***/ "./.cache/caches/gatsby-plugin-image/1146060742.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3547532526.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/1146060742.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABf0lEQVR42o1U20rDQBDN3/rQF3/GN8HUlhiKFtSCIH6MiIKUks29SXab8cyQjWuami4cZmd3ejKXPfWKorjMsmyTJElYluXKRV3XAuvv93uBG8M+/xY8G+xnHjahMYZgTVVVZAGfECDW3YNE9hb4IKVpqgkLvu+BPYjjmP0aMC7athUMz0dQ5XlO4LnxmqYJtdZ0OBz44uQCscD1Has5U8kQ5YUgpe5LAxKLliaWEILL98AqGXYlnszuv8zPypADv3YNRei3UorSLO8HNlK67oZ2TGhjo8zQ1dOWlm/fFKyf6Xp5R7erNT2+vNL7x+ewr7p7GX7/bIYlN6YlBdIobSgvSlJxQrsookjFkuUww57Q7eFRfxw70V/dvcsJwva3Bba8E8R/p+yWfMYTGR0Kz0EIMcEA0hGlDFXh+hOqqZhDlMIZMhukI1rmXria5lIYXQa9hu09axvylZ5Jhgic4d/mHpjjYAHiBaa14D3uxIKg9/nOxrBloMo57APOLn4AC99+xYnoEbUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/89bf2abe514c597826491c4f0706a095/e4e8d/MetaThumb.png","srcSet":"/static/89bf2abe514c597826491c4f0706a095/ec760/MetaThumb.png 360w,\\n/static/89bf2abe514c597826491c4f0706a095/a8ec3/MetaThumb.png 721w,\\n/static/89bf2abe514c597826491c4f0706a095/e4e8d/MetaThumb.png 1441w","sizes":"(min-width: 1441px) 1441px, 100vw"},"sources":[{"srcSet":"/static/89bf2abe514c597826491c4f0706a095/b1cd7/MetaThumb.webp 360w,\\n/static/89bf2abe514c597826491c4f0706a095/c982a/MetaThumb.webp 721w,\\n/static/89bf2abe514c597826491c4f0706a095/a6e79/MetaThumb.webp 1441w","type":"image/webp","sizes":"(min-width: 1441px) 1441px, 100vw"}]},"width":1441,"height":1080}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1223567738.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1223567738.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0klEQVR42q1Uy07CUBDtR/FDpAt1o1s+oF01fogLjR/AyrDVmJA0SAhUwqu8odAXtx3nDK1WQTHGJje9d+7k5Mycc0ebTCalZrNp9ft9w/M8k89mq9WSNZvNTMdxJOa6rsSwHw6H5mAwkBjuOW7M53NruVyWtOl0qsdxTL7vq91uR0opiqKIgiCQ/Xa7lTPWer0m5GT5koM/56gkSXCva91utzwej4m/gFf8xxVwhcRMywDUM0BFp740PRJKsRS3ixhU1xhMR1nHALNkSrmc9AhY4VNoB7AEcLVafQt4wFAdLUSxgHuGKJmFOQAEGBoOMV4dh+Zrj5Q7Iv/uhtLA/9oChVxWXxeVN5uN9KHICkCGYVClUqHzszO6uLyip/tbiq5NCp8f9zDcihwQPQQ5jX2ks58OGMIa1WqVOp0ONRoNeqjVKIRtXmxKcoYfBBSEBZYAoqG/UvmEKFLyT4BJpi5Wvi+U+YkhdBCG9XpdZ2QJnrDGgZ2KDPnZ7RnC3f/xUhaLBTHLspSc2UNBbbxVnMMwFGFgeiiYx5GDN4z7PIa3jDw4RuOpURqNRhbTNVhNs9fryQTBNMFUYSuYPI3eJw7ubNs22+22xJDHe4NNbWFyvQH1cV0EN+dpRAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/88a9e4d3cce7a80fe392d49557177b88/88821/YelpThumb.png","srcSet":"/static/88a9e4d3cce7a80fe392d49557177b88/ec760/YelpThumb.png 360w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/3d097/YelpThumb.png 720w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/88821/YelpThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/88a9e4d3cce7a80fe392d49557177b88/b1cd7/YelpThumb.webp 360w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/62cd4/YelpThumb.webp 720w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/5fc8e/YelpThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1081}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1780011638.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1780011638.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVR42qVUzU6DQBDmEU3j8xhsX6OJTXrtoXffwGM9VBIuEsNPAalEun/sjjMI2MZtwTrJZHdnh2+/+cMJw/A2SZI1ACy01su/qFJqyTmndZFl2drzvImDhxmCATpIuF6kMQaqqnIdPEzJgsAMjTUCj1byx09JWQt8R4ANw7quLzA0gwxbUq6DLw2GrJUAyYpxgB3Dc4CYGtjvfHjfvTR7mxxFNwRoQPFPSKNnKBIPmdoBkdkPYBdyR/sUT9NDsH97hDJ6OpvP0YAGSbM0go/XDeTpFjg/XM/QaAG82IKsyoYUYxWURfifkCk0fVxqEGVobaATwG5S7DmkKg/24C+G99/tYShB6pKir9WOcugnBedvRpW0Mhwp1HJCCMwzcx3f9yd5nq/QPseLB/x7NCql7NdOkUl/T3vyb9d5HMerIAhuvgBRBoRsaI+RXwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/4fe7f450ce67e73cce3119a75aae68d7/f4ec8/GameThumb.png","srcSet":"/static/4fe7f450ce67e73cce3119a75aae68d7/ec760/GameThumb.png 360w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/a0d9f/GameThumb.png 720w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/f4ec8/GameThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/4fe7f450ce67e73cce3119a75aae68d7/b1cd7/GameThumb.webp 360w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/b4193/GameThumb.webp 720w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/bd9a0/GameThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1080}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2804112281.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2804112281.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABaklEQVR42q1UzUrDQBDeJ9KDHnyUklvpA/gQNodW8Bl8AYsXBUE8WLz2pKAg1Zi0SZo0f21+GnYzflutJmKD1AY+MjvLzH4z384yTdP2dV0/tm27PZvNVN/31TAMVWn/XJf90l7tyVjk6A6Hw102n89baZpSHMecNvwQK7IsoyAIFIbszSiKSAiRAvmGyMCWJpNJg7mu25KnwLkxQ8QK+XccR2HI/GvCAuCigL+govhGXULP85StMrQsaz3DJMvpevBEz68G6fqIPD+QzQeS+pIhSCWh+Cxr8GLSweEJdU571L+9o975JZ31Luj+4fGjJaXy/1Ryssjp6qZPbyOTplMfp7vkuh6UdHA9wvUMIfVWeigZ16uMijgXFYXXKV1huPV7aJpmE/O4nBT4KhMg12XUTQoEIeRqMMxxi3P+r1nGeyAAwqOhsPF4vAdhupjpIyRtg+0S2Fz+0eMv38ou70lbxhqG0cHF3nkHaf1rQXFCdYoAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/43ef072eb416e17b3ee3697a0f19d535/88821/EsnetThumb.png","srcSet":"/static/43ef072eb416e17b3ee3697a0f19d535/ec760/EsnetThumb.png 360w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/3d097/EsnetThumb.png 720w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/88821/EsnetThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/43ef072eb416e17b3ee3697a0f19d535/b1cd7/EsnetThumb.webp 360w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/62cd4/EsnetThumb.webp 720w,\\n/static/43ef072eb416e17b3ee3697a0f19d535/5fc8e/EsnetThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1081}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2906325535.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2906325535.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
@@ -5067,47 +5097,14 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3847912075.json":
+/***/ "./.cache/caches/gatsby-plugin-image/3699753595.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3847912075.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/3699753595.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVR42q2Uz0oCURTG5wFat6poEbSNFhX0BiE9QARhokRBfxZFIFGrqMmNuBRqZdRGWkeLhMqIFtITaIq6mBlnRmvG+fd17qhYpOEMXfi43Hvu95tzmXsOJwjCbLlcjler1ZNms8kD8CTTNHlinBYKhXilUpnhRFGMUAAEswzDgOM4GHSwswR0vWxdq9VCDBhWFIWtdZJpWZYn2bZtMq8kSSBOkKPNCG2CZP2dDsuod4h5GYNYIY7Wkc4mfI5v3i6Q6L+AdCF81nV8qDrqigZF1mAYlncgXcCds9cvWBnZxdLUAQLTUUyObiGVyrY+1j7jCZi7e8bx2j6i64eI7h1hIbCN84uMGzP9AB8uH7E8toHFiR3Mj29ieGgVyeR9C2h6AHbeovAu4SmdQ+bmDbc0p69ekc+LP870Bf7bX2bvsB+QJWHbTkuWQ7dwer5F5m1nHOJUVQ2TfFcK83QqpdFoBDlZlt0MqY5917Ku691api4zVywWE9QxeE3TYpR+jGIDixpDjLxnpVIpwbrNF8eRXkp85i8PAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/e0eabb8466e416621dea6c8149d61db0/f4ec8/BrokeThumb.png","srcSet":"/static/e0eabb8466e416621dea6c8149d61db0/ec760/BrokeThumb.png 360w,\\n/static/e0eabb8466e416621dea6c8149d61db0/a0d9f/BrokeThumb.png 720w,\\n/static/e0eabb8466e416621dea6c8149d61db0/f4ec8/BrokeThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/e0eabb8466e416621dea6c8149d61db0/b1cd7/BrokeThumb.webp 360w,\\n/static/e0eabb8466e416621dea6c8149d61db0/b4193/BrokeThumb.webp 720w,\\n/static/e0eabb8466e416621dea6c8149d61db0/bd9a0/BrokeThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/466668630.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/466668630.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVR42qVUzU6DQBDmEU3j8xhsX6OJTXrtoXffwGM9VBIuEsNPAalEun/sjjMI2MZtwTrJZHdnh2+/+cMJw/A2SZI1ACy01su/qFJqyTmndZFl2drzvImDhxmCATpIuF6kMQaqqnIdPEzJgsAMjTUCj1byx09JWQt8R4ANw7quLzA0gwxbUq6DLw2GrJUAyYpxgB3Dc4CYGtjvfHjfvTR7mxxFNwRoQPFPSKNnKBIPmdoBkdkPYBdyR/sUT9NDsH97hDJ6OpvP0YAGSbM0go/XDeTpFjg/XM/QaAG82IKsyoYUYxWURfifkCk0fVxqEGVobaATwG5S7DmkKg/24C+G99/tYShB6pKir9WOcugnBedvRpW0Mhwp1HJCCMwzcx3f9yd5nq/QPseLB/x7NCql7NdOkUl/T3vyb9d5HMerIAhuvgBRBoRsaI+RXwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/4fe7f450ce67e73cce3119a75aae68d7/f4ec8/GameThumb.png","srcSet":"/static/4fe7f450ce67e73cce3119a75aae68d7/ec760/GameThumb.png 360w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/a0d9f/GameThumb.png 720w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/f4ec8/GameThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/4fe7f450ce67e73cce3119a75aae68d7/b1cd7/GameThumb.webp 360w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/b4193/GameThumb.webp 720w,\\n/static/4fe7f450ce67e73cce3119a75aae68d7/bd9a0/GameThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/606351306.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/606351306.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABf0lEQVR42o1U20rDQBDN3/rQF3/GN8HUlhiKFtSCIH6MiIKUks29SXab8cyQjWuami4cZmd3ejKXPfWKorjMsmyTJElYluXKRV3XAuvv93uBG8M+/xY8G+xnHjahMYZgTVVVZAGfECDW3YNE9hb4IKVpqgkLvu+BPYjjmP0aMC7athUMz0dQ5XlO4LnxmqYJtdZ0OBz44uQCscD1Has5U8kQ5YUgpe5LAxKLliaWEILL98AqGXYlnszuv8zPypADv3YNRei3UorSLO8HNlK67oZ2TGhjo8zQ1dOWlm/fFKyf6Xp5R7erNT2+vNL7x+ewr7p7GX7/bIYlN6YlBdIobSgvSlJxQrsookjFkuUww57Q7eFRfxw70V/dvcsJwva3Bba8E8R/p+yWfMYTGR0Kz0EIMcEA0hGlDFXh+hOqqZhDlMIZMhukI1rmXria5lIYXQa9hu09axvylZ5Jhgic4d/mHpjjYAHiBaa14D3uxIKg9/nOxrBloMo57APOLn4AC99+xYnoEbUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/89bf2abe514c597826491c4f0706a095/e4e8d/MetaThumb.png","srcSet":"/static/89bf2abe514c597826491c4f0706a095/ec760/MetaThumb.png 360w,\\n/static/89bf2abe514c597826491c4f0706a095/a8ec3/MetaThumb.png 721w,\\n/static/89bf2abe514c597826491c4f0706a095/e4e8d/MetaThumb.png 1441w","sizes":"(min-width: 1441px) 1441px, 100vw"},"sources":[{"srcSet":"/static/89bf2abe514c597826491c4f0706a095/b1cd7/MetaThumb.webp 360w,\\n/static/89bf2abe514c597826491c4f0706a095/c982a/MetaThumb.webp 721w,\\n/static/89bf2abe514c597826491c4f0706a095/a6e79/MetaThumb.webp 1441w","type":"image/webp","sizes":"(min-width: 1441px) 1441px, 100vw"}]},"width":1441,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/994384086.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/994384086.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAB0klEQVR42q1Uy07CUBDtR/FDpAt1o1s+oF01fogLjR/AyrDVmJA0SAhUwqu8odAXtx3nDK1WQTHGJje9d+7k5Mycc0ebTCalZrNp9ft9w/M8k89mq9WSNZvNTMdxJOa6rsSwHw6H5mAwkBjuOW7M53NruVyWtOl0qsdxTL7vq91uR0opiqKIgiCQ/Xa7lTPWer0m5GT5koM/56gkSXCva91utzwej4m/gFf8xxVwhcRMywDUM0BFp740PRJKsRS3ixhU1xhMR1nHALNkSrmc9AhY4VNoB7AEcLVafQt4wFAdLUSxgHuGKJmFOQAEGBoOMV4dh+Zrj5Q7Iv/uhtLA/9oChVxWXxeVN5uN9KHICkCGYVClUqHzszO6uLyip/tbiq5NCp8f9zDcihwQPQQ5jX2ks58OGMIa1WqVOp0ONRoNeqjVKIRtXmxKcoYfBBSEBZYAoqG/UvmEKFLyT4BJpi5Wvi+U+YkhdBCG9XpdZ2QJnrDGgZ2KDPnZ7RnC3f/xUhaLBTHLspSc2UNBbbxVnMMwFGFgeiiYx5GDN4z7PIa3jDw4RuOpURqNRhbTNVhNs9fryQTBNMFUYSuYPI3eJw7ubNs22+22xJDHe4NNbWFyvQH1cV0EN+dpRAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/88a9e4d3cce7a80fe392d49557177b88/88821/YelpThumb.png","srcSet":"/static/88a9e4d3cce7a80fe392d49557177b88/ec760/YelpThumb.png 360w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/3d097/YelpThumb.png 720w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/88821/YelpThumb.png 1440w","sizes":"(min-width: 1440px) 1440px, 100vw"},"sources":[{"srcSet":"/static/88a9e4d3cce7a80fe392d49557177b88/b1cd7/YelpThumb.webp 360w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/62cd4/YelpThumb.webp 720w,\\n/static/88a9e4d3cce7a80fe392d49557177b88/5fc8e/YelpThumb.webp 1440w","type":"image/webp","sizes":"(min-width: 1440px) 1440px, 100vw"}]},"width":1440,"height":1081}');
 
 /***/ }),
 

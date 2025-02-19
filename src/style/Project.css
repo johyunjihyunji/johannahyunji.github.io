@@ -29,7 +29,6 @@
 .info-content {
   font-size: 3.5vw;
   line-height: 1.6;
-  font-family: 'Inter', sans-serif;
 }
 
 .section {
@@ -69,7 +68,6 @@
 .paragraph {
   font-size: 3.5vw;
   line-height: 1.6;
-  font-family: 'Inter', sans-serif;
   margin-bottom: 2vh;
 }
 

@@ -2878,12 +2878,9 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    to: "/About"
-  }, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "MenuItem",
-    href: "https://drive.google.com/file/d/1rrVn9x26NXWycQwnkG_05h7U3Iji4wvZ/view?usp=sharing"
+    href: "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed"
   }, "Resume")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3046,7 +3043,7 @@ function Waymo() {
     style: {
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1224380439.json */ "./.cache/caches/gatsby-plugin-image/1224380439.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2523892494.json */ "./.cache/caches/gatsby-plugin-image/2523892494.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -3091,7 +3088,7 @@ function Waymo() {
       width: '100%',
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3803690197.json */ "./.cache/caches/gatsby-plugin-image/3803690197.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/892377171.json */ "./.cache/caches/gatsby-plugin-image/892377171.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "photoDescription"
   }, "Waymo Advertisement Mockup :)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4779,9 +4776,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/1224380439.json":
+/***/ "./.cache/caches/gatsby-plugin-image/2523892494.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/1224380439.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/2523892494.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
@@ -4790,10 +4787,10 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3803690197.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3803690197.json ***!
-  \***********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/892377171.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/892377171.json ***!
+  \**********************************************************/
 /***/ ((module) => {
 
 "use strict";

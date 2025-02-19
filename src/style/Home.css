@@ -1,16 +1,10 @@
 body {
     background-color: #F5F5F5; /* Set your desired background color #FFF7CE */
     color: #161616; /* Set your desired default text color */
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px; 
   }
 
-@font-face {
-    font-family: 'IkeaFont';
-    src: url('./../fonts/Nikea-Font/NIKEA.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
   font-family: 'AlexRoss';
@@ -20,11 +14,20 @@ body {
 }
 
 @font-face {
-  font-family: 'PeppaPig';
-  src: url('./../fonts/peppa_pig/PeppaPig.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Figtree';
+  src: url('./../fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Figtree-Italic';
+  src: url('./../fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+
+
+
 
 b {
   background-color: rgba(143, 211, 213, 0.35);
@@ -78,7 +81,7 @@ b {
 }
 
 .FooterText {
-  font-size: 20px;
+  font-size: 1.5vw;
   color: #FF4200;
 }
 .FooterText2 {
