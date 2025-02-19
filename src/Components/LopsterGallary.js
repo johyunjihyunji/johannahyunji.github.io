@@ -3,6 +3,8 @@ import Lopster from '../../static/lopster.png';
 import '../style/Lopster.css';
 const LopsterGallery = () => {
   const [rotations, setRotations] = useState([]);
+  const [screenWidth, setScreenWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0);
+
 
   const images = useMemo(() => [
     { id: 1, src: Lopster, speed: 10, direction: 1 },
@@ -10,13 +12,11 @@ const LopsterGallery = () => {
     { id: 3, src: Lopster, speed: 14, direction: 1 },
     { id: 4, src: Lopster, speed: 8, direction: -1 },
     { id: 5, src: Lopster, speed: 13, direction: 1 },
+    { id: 9, src: Lopster, speed: 7, direction: 1 },
     { id: 6, src: Lopster, speed: 10, direction: -1 },
     { id: 7, src: Lopster, speed: 8, direction: 1 },
     { id: 8, src: Lopster, speed: 9, direction: -1 },
     { id: 9, src: Lopster, speed: 7, direction: 1 },
-    { id: 10, src: Lopster, speed: 5, direction: -1 },
-    { id: 9, src: Lopster, speed: 7, direction: 1 },
-    { id: 10, src: Lopster, speed: 5, direction: -1 },
   ], []); 
 
   useEffect(() => {
@@ -35,22 +35,30 @@ const LopsterGallery = () => {
     return () => clearInterval(interval);
   }, [images]);
 
-  return (
-    <div className='LopGalleryContainer'>
-      {images.map((image, index) => (
-        <div 
-          key={image.id} 
-          className="LopImageItem" 
-          style={{ 
-            animationDuration: `${image.speed}s`,
-            transform: `rotate(${rotations[index]}deg)`
-          }}
-        >
-          <img className='LopImage' src={image.src} alt={`Lobster ${index + 1}`} />
-        </div>
-      ))}
-    </div>
-  );
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+
+    return (
+      <div className='LopGalleryContainer'>
+        {images.slice(0, screenWidth < 768 ? 7 : 10).map((image, index) => (
+          <div 
+            key={image.id} 
+            className="LopImageItem" 
+            style={{ 
+              animationDuration: `${image.speed}s`,
+              transform: `rotate(${rotations[index]}deg)`
+            }}
+          >
+            <img className='LopImage' src={image.src} alt={`Lobster ${index + 1}`} />
+          </div>
+        ))}
+      </div>
+    );
+    
 };
 
 export default LopsterGallery;

@@ -25,10 +25,11 @@
   .crossed {
     text-decoration: line-through; /* Cross out the text */
     color: #8e8e8e; /* Change color of crossed-out text */
+    font-size: 2rem;
   }
   .red-question-mark {
     color: #0438C6;
-    font-size: 30px;
+    font-size: 2rem;
   }
   .cross-line {
     position: absolute;
@@ -41,4 +42,5 @@
 
   .location-wrapper:last-child .location {
     color: #0438C6;
+    font-size: 2rem;
   }

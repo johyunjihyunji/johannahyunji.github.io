@@ -7,33 +7,23 @@ function IntroductionSlide() {
 
   return (
     <div className="background">
-      <div class="text-container">
-        <div class="left-text"></div>
-
+      <img className="joImage" src={profileGIF} alt="profile gif" />
         <div class="right-text">
           <div class="my-name">
           Johanna Lee 
           </div>
-          <br/>
-          a designer and engineer studying computer science @ UC Berkeley
-          <br/>
-          <br/>
-           currently UX Engineer Intern @ ESNet (Summer 2024 - Present)     
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
+          <p>
+            a designer and engineer studying computer science @ UC Berkeley
+            <br/>
+            currently UX Engineer Intern @ ESNet (Summer 2024 - Present) 
+          </p>    
+          <br/><br/>
           <div class="tilting-text">
             Designing Solutions from a Different Angle
           </div>
 
 
-        </div>
-      </div>
-
-      <img className="joImage" src={profileGIF} alt="profile gif" />
-      
+        </div>  
     </div>
   );
 }
