@@ -99,7 +99,7 @@ html, body {
   }
 
   .left-text {
-    flex: 0.9;
+    flex: 1;
     font-size: 1.5vw;
     margin-left: 20px;
     margin-bottom: 0;

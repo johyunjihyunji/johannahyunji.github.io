@@ -6,7 +6,7 @@
 
 .GridContainer {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 3vw;
 }
 
@@ -68,8 +68,3 @@
   
 }
 
-@media (min-width: 1024px) {
-  .GridContainer {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
