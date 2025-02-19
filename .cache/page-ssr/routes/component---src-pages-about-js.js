@@ -3001,6 +3001,10 @@ const LopsterGallery = () => {
     0: rotations,
     1: setRotations
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+  const {
+    0: screenWidth,
+    1: setScreenWidth
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(typeof window !== 'undefined' ? window.innerWidth : 0);
   const images = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => [{
     id: 1,
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -3027,6 +3031,11 @@ const LopsterGallery = () => {
     speed: 13,
     direction: 1
   }, {
+    id: 9,
+    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    speed: 7,
+    direction: 1
+  }, {
     id: 6,
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     speed: 10,
@@ -3046,21 +3055,6 @@ const LopsterGallery = () => {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     speed: 7,
     direction: 1
-  }, {
-    id: 10,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 5,
-    direction: -1
-  }, {
-    id: 9,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 7,
-    direction: 1
-  }, {
-    id: 10,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 5,
-    direction: -1
   }], []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const initialRotations = Array(images.length).fill(0);
@@ -3077,9 +3071,14 @@ const LopsterGallery = () => {
 
     return () => clearInterval(interval);
   }, [images]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "LopGalleryContainer"
-  }, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, images.slice(0, screenWidth < 768 ? 7 : 10).map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     key: image.id,
     className: "LopImageItem",
     style: {

@@ -2912,21 +2912,17 @@ __webpack_require__.r(__webpack_exports__);
 function IntroductionSlide() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "background"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "text-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "left-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "joImage",
+    src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: "profile gif"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "right-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "a designer and engineer studying computer science @ UC Berkeley", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "currently UX Engineer Intern @ ESNet (Summer 2024 - Present)", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer and engineer studying computer science @ UC Berkeley", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "currently UX Engineer Intern @ ESNet (Summer 2024 - Present)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "tilting-text"
-  }, "Designing Solutions from a Different Angle"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "joImage",
-    src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
-    alt: "profile gif"
-  }));
+  }, "Designing Solutions from a Different Angle")));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 
@@ -2956,6 +2952,10 @@ const LopsterGallery = () => {
     0: rotations,
     1: setRotations
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+  const {
+    0: screenWidth,
+    1: setScreenWidth
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(typeof window !== 'undefined' ? window.innerWidth : 0);
   const images = (0,react__WEBPACK_IMPORTED_MODULE_0__.useMemo)(() => [{
     id: 1,
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -2982,6 +2982,11 @@ const LopsterGallery = () => {
     speed: 13,
     direction: 1
   }, {
+    id: 9,
+    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    speed: 7,
+    direction: 1
+  }, {
     id: 6,
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     speed: 10,
@@ -3001,21 +3006,6 @@ const LopsterGallery = () => {
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
     speed: 7,
     direction: 1
-  }, {
-    id: 10,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 5,
-    direction: -1
-  }, {
-    id: 9,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 7,
-    direction: 1
-  }, {
-    id: 10,
-    src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    speed: 5,
-    direction: -1
   }], []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const initialRotations = Array(images.length).fill(0);
@@ -3032,9 +3022,14 @@ const LopsterGallery = () => {
 
     return () => clearInterval(interval);
   }, [images]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "LopGalleryContainer"
-  }, images.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, images.slice(0, screenWidth < 768 ? 7 : 10).map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     key: image.id,
     className: "LopImageItem",
     style: {
