@@ -46,8 +46,7 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 22px 20px;
-  font-size: 20px;
+  padding: 4vh 3vw;
 }
 
 .Logo {
@@ -97,6 +96,15 @@ b {
 .bottom-text {
   position: relative;         /* Position relative for stacking order */
   font-size: 2rem;
+}
+
+
+@media (max-width: 768px) {
+
+  .Logo {
+    height: 4rem; /* Adjust logo size */
+  }
+
 }
 
 

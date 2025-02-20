@@ -79,12 +79,15 @@ html, body {
     width: 80%;
   }
   .my-name {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .right-text {
     flex: 1;
-    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+  .tilting-text {
+    font-size: 1.5rem;
   }
 
 }
