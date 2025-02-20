@@ -25,21 +25,6 @@ const ProjectSlide = () => {
             </div>
         </Link>
 
-        {/* Project Yelp */}
-            <Link className='ImageItem' to="/Yelp">
-            <StaticImage 
-            src="../../static/AThumbs/YelpThumb.png"
-            alt="YelpThumbnail"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            className = "staticimage"
-            />
-            <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Brand Design System</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Performance Marketing</div>
-            <div className="Title">Yelp</div>
-            </div>
-        </Link>
 
           {/* Project Waymo */}
           <Link className='ImageItem'  to="/SiaPartners">
@@ -76,6 +61,7 @@ const ProjectSlide = () => {
           </div>
         </Link>
 
+
                 {/* Project Broke */}
         <Link className='ImageItem'  to="/Broke">
           <StaticImage 
@@ -87,10 +73,26 @@ const ProjectSlide = () => {
             />
 
           <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>UX Design</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Mobile UX Design</div>
             <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Brand Design System</div>
             <div className="Title">Broke</div>
           </div>
+        </Link>
+        
+                {/* Project Yelp */}
+                <Link className='ImageItem' to="/Yelp">
+            <StaticImage 
+            src="../../static/AThumbs/YelpThumb.png"
+            alt="YelpThumbnail"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            className = "staticimage"
+            />
+            <div className="ImageOverlay">
+            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Brand Design System</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Performance Marketing</div>
+            <div className="Title">Yelp</div>
+            </div>
         </Link>
 
         
