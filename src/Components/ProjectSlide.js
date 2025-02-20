@@ -110,7 +110,7 @@ const ProjectSlide = () => {
         </a>
 
                 
-        <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
+        {/* <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
             <StaticImage 
             src="../../static/AThumbs/GameThumb.png"
             alt="yelp"
@@ -123,7 +123,7 @@ const ProjectSlide = () => {
             <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Graphic Illustrations</div>
             <div className="Title">No Rain No Flower</div>
           </div>
-        </a>
+        </a> */}
 
 
 

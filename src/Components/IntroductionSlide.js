@@ -15,7 +15,7 @@ function IntroductionSlide() {
           <p>
             a designer and engineer studying computer science @ UC Berkeley
             <br/>
-            currently UX Engineer Intern @ ESNet (Summer 2024 - Present) 
+            currently UX Design Intern @ ESNet (Summer 2024 - Present) 
           </p>    
           <br/><br/>
           <div class="tilting-text">
