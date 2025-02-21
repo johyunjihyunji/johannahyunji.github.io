@@ -36,7 +36,7 @@ const Footer = () => {
         © {currentYear} Johanna Lee
       </p>
       <p className ='FooterText2'>
-        design and coded by Jo
+      Designed, drawn, and coded
 
       <br />
       <div className="bottom-text" style={{ color: '#282828' }}>
