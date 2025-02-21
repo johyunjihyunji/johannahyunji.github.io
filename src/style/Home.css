@@ -105,6 +105,11 @@ b {
     height: 4rem; /* Adjust logo size */
   }
 
+  .Menu {
+    display: flex;
+
+    gap: 10px; /* Space between menu items */
+  }
 }
 
 

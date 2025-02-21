@@ -3099,8 +3099,10 @@ const ProjectSlide = () => {
     style: {
       backgroundColor: 'rgba(0, 190, 9, 0.3)'
     }
-  }, "React Front-end Dev"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "React Front-End Dev"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
+  }, "Reimagining Customizable Data Transfer Portal "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
   }, "Energy Science Network"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
     to: "/SiaPartners"
@@ -3127,7 +3129,9 @@ const ProjectSlide = () => {
     }
   }, "UX Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
-  }, "Meta Family Center"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  }, "Empowering Families through Meta Family Center"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
+  }, "Meta"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
     to: "/Waymo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
@@ -3153,6 +3157,8 @@ const ProjectSlide = () => {
     }
   }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
+  }, "Designing Waymo's Future: Brand & UX"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
   }, "Waymo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
     to: "/Broke"
@@ -3179,6 +3185,8 @@ const ProjectSlide = () => {
     }
   }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
+  }, "Designing Accessible Travel for Young Adults"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
   }, "Broke"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
     to: "/Yelp"
@@ -3205,6 +3213,8 @@ const ProjectSlide = () => {
     }
   }, "Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
+  }, "Yelp Home Services: Brand & Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
   }, "Yelp"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "ImageItem",
     href: "https://www.youtube.com/@johannalee8172/videos"
@@ -3231,6 +3241,8 @@ const ProjectSlide = () => {
     }
   }, "Vlogs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
+  }, "Digital Diaries"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
   }, "Youtube")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectSlide);
