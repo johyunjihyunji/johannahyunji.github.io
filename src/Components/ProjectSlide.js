@@ -39,7 +39,7 @@ const ProjectSlide = () => {
            <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)' }}>UX Research</div>
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)'  }}>UX Design</div>
-            <div className="Title">Empowering Families: Redesigning Meta Family Center</div>
+            <div className="Title">Empowering Families through Meta Family Center</div>
             <div className="Company">Meta</div>
           </div>
         </Link>
