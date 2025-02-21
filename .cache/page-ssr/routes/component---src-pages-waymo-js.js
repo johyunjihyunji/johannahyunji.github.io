@@ -4661,7 +4661,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-9c5d51d72547f351d3074957f0a0e510.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-9b0d392420c3e0cdb15ea8364f8ae52f.png");
 
 /***/ }),
 

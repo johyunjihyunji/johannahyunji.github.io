@@ -58,11 +58,12 @@ html, body {
 }
 
 .my-name {
-  font-size: 9rem;
+  font-size: 8rem;
   font-family: 'AlexRoss', sans-serif;
   margin-bottom: 20px;
-  font-weight: 570;
+  font-weight: 600;
   white-space: nowrap;
+  color: rgba(0, 0, 0, 0.8); /* 50% transparency */
 }
 
 
