@@ -19,9 +19,10 @@ const ProjectSlide = () => {
             className = "staticimage"
             />
             <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}} >UX Design</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>React Front-end Dev</div>
-            <div className="Title">Energy Science Network</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>UX Design</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>React Front-End Dev</div>
+            <div className="Title">Reimagining Customizable Data Transfer Portal </div>
+            <div className="Company">Energy Science Network</div>
             </div>
         </Link>
 
@@ -38,7 +39,8 @@ const ProjectSlide = () => {
            <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)' }}>UX Research</div>
             <div className="Tags" style ={{ backgroundColor: 'rgba(4, 56, 198, 0.3)'  }}>UX Design</div>
-            <div className="Title">Meta Family Center</div>
+            <div className="Title">Empowering Families: Redesigning Meta Family Center</div>
+            <div className="Company">Meta</div>
           </div>
         </Link>
       
@@ -57,7 +59,8 @@ const ProjectSlide = () => {
             <div className="ImageOverlay">
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>UI Design</div>
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>Brand Design System</div>
-            <div className="Title">Waymo</div>
+            <div className="Title">Designing Waymo's Future: Brand & UX</div>
+            <div className="Company">Waymo</div>
           </div>
         </Link>
 
@@ -75,10 +78,12 @@ const ProjectSlide = () => {
           <div className="ImageOverlay">
             <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Mobile UX Design</div>
             <div className="Tags" style ={{backgroundColor: 'rgba(240, 215, 50, 0.5)'}}>Brand Design System</div>
-            <div className="Title">Broke</div>
+            <div className="Title">Designing Accessible Travel for Young Adults</div>
+            <div className="Company">Broke</div>
           </div>
         </Link>
         
+
                 {/* Project Yelp */}
                 <Link className='ImageItem' to="/Yelp">
             <StaticImage 
@@ -91,7 +96,8 @@ const ProjectSlide = () => {
             <div className="ImageOverlay">
             <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Brand Design System</div>
             <div className="Tags" style ={{backgroundColor: 'rgba(255, 23, 0, 0.3)'}} >Performance Marketing</div>
-            <div className="Title">Yelp</div>
+            <div className="Title">Yelp Home Services: Brand & Marketing</div>
+            <div className="Company">Yelp</div>
             </div>
         </Link>
 
@@ -107,7 +113,8 @@ const ProjectSlide = () => {
             <div className="ImageOverlay">
             <div className="Tags" style ={{ backgroundColor: 'rgba(128, 128, 128, 0.3)'}}>Video Editing</div>
             <div className="Tags" style ={{ backgroundColor: 'rgba(128, 128, 128, 0.3)'}}>Vlogs</div>
-            <div className="Title">Youtube</div>
+            <div className="Title">Digital Diaries</div>
+            <div className="Company">Youtube</div>
           </div>
         </a>
 

@@ -213,7 +213,8 @@
   .section-title {
     font-size: 3rem;
     width: 100%;  
-    background-color: #F5F5F5;
+    background-color: #f0f0e6; /* Set your desired background color #FFF7CE */
+
     width: 100%;
     z-index: 1000;
     top: 0;

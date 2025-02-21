@@ -1,6 +1,8 @@
 .GalleryContainer {
   max-width: 120vw;
   margin: 3vw auto;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
   padding: 0 20px;
 }
 
@@ -44,6 +46,10 @@
   font-size: 1.2rem;
 }
 
+.Company {
+  padding: 3px 6px;
+}
+
 .ImageItem:hover img,
 .ImageItem:hover .ImageOverlay {
   transform: scale(1.05);
@@ -55,6 +61,7 @@
   height: auto;
   border-radius: 25px;
 }
+
 
 @media (max-width: 768px) {
   .GridContainer {
