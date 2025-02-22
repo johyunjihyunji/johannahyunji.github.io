@@ -7,7 +7,9 @@ function IntroductionSlide() {
 
   return (
     <div className="background">
-      <img className="joImage" src={profileGIF} alt="profile gif" />
+      <div class="left-image">
+        <img className="joImage" src={profileGIF} alt="profile gif" />
+        </div>
         <div class="right-text">
           <div class="my-name">
           Johanna Lee 

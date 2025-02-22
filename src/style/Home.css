@@ -1,8 +1,8 @@
 body {
     background-color: #f0f0e6; /* Set your desired background color #FFF7CE */
     color: #161616; /* Set your desired default text color */
-    font-family: 'Figtree', sans-serif;
-    font-size: 16px; 
+    font-family: 'Crimson', sans-serif;
+    font-size: 20px; 
   }
 
 
@@ -22,6 +22,33 @@ body {
   font-family: 'Figtree-Italic';
   src: url('./../fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Crimson-bold';
+  src: url('./../fonts/Crimson_Text/CrimsonText-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Crimson-bold-italic';
+  src: url('./../fonts/Crimson_Text/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Crimson-italic';
+  src: url('./../fonts/Crimson_Text/CrimsonText-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Crimson';
+  src: url('./../fonts/Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Crimson-semibold';
+  src: url('./../fonts/Crimson_Text/CrimsonText-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Crimson-semibold-italic';
+  src: url('./../fonts/Crimson_Text/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+}
+
 
 
 
@@ -50,7 +77,7 @@ b {
 }
 
 .Logo {
-  height: 5.5rem; /* Adjust logo size */
+  height: 8rem; /* Adjust logo size */
 }
 
 .Menu {
@@ -61,7 +88,7 @@ b {
 .MenuItem {
   color: #FF4200;
   text-decoration: none;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-family: 'AlexRoss';
   padding: 10px 15px;
   &:hover {
@@ -80,22 +107,21 @@ b {
 
 .FooterText {
   color: #FF4200;
+  padding-bottom: 10vh;
 
 }
 .FooterText2 {
   font-family: 'AlexRoss';
   color: #FF4200;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  gap: 20px;
+  margin-top: 2vh;
 }
 
-.content-wrapper {
-  position: relative;
-  z-index: 1;
-}
 
 .bottom-text {
-  position: relative;         /* Position relative for stacking order */
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Crimson';
 }
 
 

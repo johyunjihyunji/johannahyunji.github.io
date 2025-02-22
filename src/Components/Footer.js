@@ -32,11 +32,9 @@ const Footer = () => {
   return (
     <div className='FooterContainer'>
       <LopsterGallery />
-      <p className ='FooterText'>
-        © {currentYear} Johanna Lee
-      </p>
-      <p className ='FooterText2'>
-      Designed, drawn, and coded
+
+      <div className ='FooterText2'>
+      designed, drawn, and coded by Jo
 
       <br />
       <div className="bottom-text" style={{ color: '#282828' }}>
@@ -53,9 +51,11 @@ const Footer = () => {
               </React.Fragment>
           ))}
       </div>
-      <br/>
-      <br/>
-      </p>
+
+      </div>
+      <div className ='FooterText'>
+        © {currentYear} Johanna Lee
+      </div>
     </div>
   );
 };

@@ -19,8 +19,8 @@ const ProjectSlide = () => {
             className = "staticimage"
             />
             <div className="ImageOverlay">
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>UX Design</div>
-            <div className="Tags" style ={{backgroundColor: 'rgba(0, 190, 9, 0.3)'}}>React Front-End Dev</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(98, 202, 245, 0.3)'}}>UX Design</div>
+            <div className="Tags" style ={{backgroundColor: 'rgba(98, 202, 245, 0.3)'}}>React Front-End Dev</div>
             <div className="Title">Reimagining Customizable Data Transfer Portal </div>
             <div className="Company">Energy Science Network</div>
             </div>
@@ -59,7 +59,7 @@ const ProjectSlide = () => {
             <div className="ImageOverlay">
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>UI Design</div>
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>Brand Design System</div>
-            <div className="Title">Designing Waymo's Future: Brand & UX</div>
+            <div className="Title">Designing Waymo's Future: UX & Brand</div>
             <div className="Company">Waymo</div>
           </div>
         </Link>

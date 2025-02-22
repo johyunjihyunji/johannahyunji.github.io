@@ -7,20 +7,30 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 20px;
+  padding-top: 20px;
   box-sizing: border-box;
   gap: 10px;
 }
 
 .joImage {
+  width: 80%;
+  min-width: 25vw;
+  height: 50%;
+}
+
+.left-image {
   width: 50%;
-  height: 90%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-text {
   flex: 1;
-  font-size: 1rem;
+  font-size: 1.2rem;
   flex-direction: column;
   text-align: center;
   gap: 20px;
@@ -76,16 +86,20 @@ html, body {
     align-items: center;
     margin-bottom: 40px;
   }
+
   .joImage {
-    width: 80%;
+    width: 100%;
   }
   .my-name {
     font-size: 6rem;
   }
+  .left-image {
+    width: 100%;
+  }
 
   .right-text {
     flex: 1;
-    font-size: 0.8rem;
+    font-size: 1.15rem;
   }
   .tilting-text {
     font-size: 1.5rem;

@@ -3092,12 +3092,12 @@ const ProjectSlide = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Tags",
     style: {
-      backgroundColor: 'rgba(0, 190, 9, 0.3)'
+      backgroundColor: 'rgba(98, 202, 245, 0.3)'
     }
   }, "UX Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Tags",
     style: {
-      backgroundColor: 'rgba(0, 190, 9, 0.3)'
+      backgroundColor: 'rgba(98, 202, 245, 0.3)'
     }
   }, "React Front-End Dev"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
@@ -3157,7 +3157,7 @@ const ProjectSlide = () => {
     }
   }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
-  }, "Designing Waymo's Future: Brand & UX"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Designing Waymo's Future: UX & Brand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Company"
   }, "Waymo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
@@ -4845,7 +4845,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-9b0d392420c3e0cdb15ea8364f8ae52f.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-15c044738dbfc8f5e7b3cf2c42ffad10.png");
 
 /***/ }),
 
@@ -4860,7 +4860,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-5a1d611b7c590cdae1fec72a0b0ad618.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-3723f98e01a6e654dc27550a44999c96.png");
 
 /***/ }),
 
