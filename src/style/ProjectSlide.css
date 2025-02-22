@@ -9,7 +9,7 @@
 .GridContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3vw;
+  gap: 8vw;
 }
 
 .ImageItem {
