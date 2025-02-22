@@ -52,14 +52,14 @@
 
 .ImageItem:hover img,
 .ImageItem:hover .ImageOverlay {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+  transform: scale(1.014);
+
+  transition: transform 0.1s ease;
 }
 
 .staticimage {
-  width: 35vw;
+  width: 32vw;
   height: auto;
-  border-radius: 25px;
 }
 
 

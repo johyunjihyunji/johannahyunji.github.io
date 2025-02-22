@@ -12,7 +12,7 @@ const ProjectSlide = () => {
         {/* Project MRDP */}
         <Link className='ImageItem'  to="/ESNetMRDP">
           <StaticImage 
-            src="../../static/AThumbs/EsnetThumb.png"
+            src="../../static/2025_thumbnails/esnet.png"
             alt="ESnetMRDPThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -30,7 +30,7 @@ const ProjectSlide = () => {
           {/* Project Waymo */}
           <Link className='ImageItem'  to="/SiaPartners">
           <StaticImage 
-            src="../../static/AThumbs/MetaThumb.png"
+            src="../../static/2025_thumbnails/meta.png"
             alt="SiaPartnersMetaThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -50,7 +50,7 @@ const ProjectSlide = () => {
         {/* Project Waymo */}
         <Link className='ImageItem'  to="/Waymo">
           <StaticImage 
-            src="../../static/AThumbs/WaymoThumb.png"
+            src="../../static/2025_thumbnails/waymo.png"
             alt="WaymoThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -68,7 +68,7 @@ const ProjectSlide = () => {
                 {/* Project Broke */}
         <Link className='ImageItem'  to="/Broke">
           <StaticImage 
-            src="../../static/AThumbs/BrokeThumb.png"
+            src="../../static/2025_thumbnails/broke.png"
             alt="BrokeThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -87,7 +87,7 @@ const ProjectSlide = () => {
                 {/* Project Yelp */}
                 <Link className='ImageItem' to="/Yelp">
             <StaticImage 
-            src="../../static/AThumbs/YelpThumb.png"
+            src="../../static/2025_thumbnails/yelp.png"
             alt="YelpThumbnail"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
@@ -104,7 +104,7 @@ const ProjectSlide = () => {
         
           <a className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
             <StaticImage 
-            src="../../static/AThumbs/YoutubeThumb.png"
+            src="../../static/2025_thumbnails/youtube.png"
             alt="yelp"
             placeholder="blurred" // Optional placeholder
             layout="constrained" // Layout options
