@@ -12,11 +12,11 @@ function Waymo() {
       <div className="container">
         <div className="header-image">
           <StaticImage 
-            src="../../static/Artboard 151.png"
+            src="../../static/2025_headers/Artboard 151.png"
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"
-            style={{ borderRadius: '10px' }}
+            style={{ borderRadius: '20px', border: '3px solid #000000'}}
           />
         </div>
       
