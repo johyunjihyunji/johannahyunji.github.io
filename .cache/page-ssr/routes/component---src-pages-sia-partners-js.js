@@ -3070,14 +3070,15 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/SiaPartnersMetaHeader.png",
+    src: "../../static/2025_headers/Artboard 151_2.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
     style: {
-      borderRadius: '10px'
+      borderRadius: '20px',
+      border: '3px solid #000000'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2749491032.json */ "./.cache/caches/gatsby-plugin-image/2749491032.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/383042556.json */ "./.cache/caches/gatsby-plugin-image/383042556.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -5021,17 +5022,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2749491032.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2749491032.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABSElEQVR42k2QS0tCYRBA/ReReX3cW0ZokS2iVu2CIIo2UZRKUYGl2dXro7RaVJtoF9GmVcvWQVDRi6Bf0AMzLb2+IOgnnD69CS0Ow8wwh5kx2TQdq6ARo0UkgVUrityg3rNrX3SHbuleuaQrcEFP6Io+9Q6Pektv+Ibe1Wvc6lPDYTJkhkRJ6ChxHUdMSGJGXdLKdGoZLu8fqNZKZAtZcsUsef2Dz3KOt3yG7x+d0/NHWoPvmJobOoRo4rD2R5WBnTJtagFrrEJH5JXJKS9L834WvF4CS4skIhF20ynOTo7ZjAbxLaeR1HxTaJwnx+vodCSNLW318+MV5PAzFpuM2ynjUmxI5hbGh4dQZ8ZQp8fwKBac/aPIYkYISzSIlsQPDaTov7/GaihrL8z659jeWmd9I0FKcHSwx35wDofZjkV2MTjioz1Z4BdsA/O1N3XCYAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/e87de257734add1b6e575663792defa2/12eae/SiaPartnersMetaHeader.png","srcSet":"/static/e87de257734add1b6e575663792defa2/5551e/SiaPartnersMetaHeader.png 600w,\\n/static/e87de257734add1b6e575663792defa2/a5079/SiaPartnersMetaHeader.png 1200w,\\n/static/e87de257734add1b6e575663792defa2/12eae/SiaPartnersMetaHeader.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/e87de257734add1b6e575663792defa2/14f51/SiaPartnersMetaHeader.webp 600w,\\n/static/e87de257734add1b6e575663792defa2/d48b7/SiaPartnersMetaHeader.webp 1200w,\\n/static/e87de257734add1b6e575663792defa2/8762e/SiaPartnersMetaHeader.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/2806195623.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2806195623.json ***!
@@ -5051,6 +5041,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMElEQVR42m2Tu27UUBCGU1BQ8Dw8AE9BSYkokAgFBR0F0NAhQYVEgSgQNBHJKiKiSiICm70kzmU3F8W7G+9ms6wd387F53wcO4CUi6WRZ86M/5nz/+MZwGitqawoEFIhpaQofSEqU0pV7/K8tDIu89c8cqYE7PV6NBoNvI0m/cMOzWaTjc1N2u02v+p1tre38TyPdqtFp9N1+RaDwaBCsNZi7CXA0jOFZnskebeukdp1t6YqLiePk4To7IwwiojjhDSJSdOEJEkxxlydsPTGiWYUpjxZlLxes2Rx5EDiCnTsPhzGGcMzQTDNWd3PafuCJFSEiWFvbPidXwLsR4o0HPNpPeZJzYH7XUbj06oqcFP5UYYfCmZrkrsfNS+WFP6oYDIV/NwJOBiconRxDmgrLgyLh5YH84aDqa36mPMMh9OUFT9l+Sjn6TfJ7ILkzaqke2xI45TxScBkclrScw5YFI6vQrHkTfjQKsiT0Kkp/pOuHE+5km4DcmcC7VTWSqNk4fLXqFxOt9w+Yr0z5OGC4e0PtyoiZ+p4LQH3e0O8owleINgKcnZPFIMYJpklkZbjyBBE1jU1/yYsWPHKNdDM7cKjr6pan37grlFYbt9/xcy9OW6+hFvPNTeeae681zyuWbyBoNEdsdVPEfrvhOXKnISZUznj85ahPjBk0YQsz6srfa/v8GXNZ2EPat2C+Y5h1Tc0eoI4dWq7WpFnF1WuIlU4Yq/9AypxrsS23NcL5/IPLE05BMm0xzUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/ee919d0812c4b10b3788a937c63724ee/18ffd/MetaUxSurvey2.png","srcSet":"/static/ee919d0812c4b10b3788a937c63724ee/2fe1e/MetaUxSurvey2.png 480w,\\n/static/ee919d0812c4b10b3788a937c63724ee/2c4ce/MetaUxSurvey2.png 961w,\\n/static/ee919d0812c4b10b3788a937c63724ee/18ffd/MetaUxSurvey2.png 1921w","sizes":"(min-width: 1921px) 1921px, 100vw"},"sources":[{"srcSet":"/static/ee919d0812c4b10b3788a937c63724ee/3a3a2/MetaUxSurvey2.webp 480w,\\n/static/ee919d0812c4b10b3788a937c63724ee/457b9/MetaUxSurvey2.webp 961w,\\n/static/ee919d0812c4b10b3788a937c63724ee/c7268/MetaUxSurvey2.webp 1921w","type":"image/webp","sizes":"(min-width: 1921px) 1921px, 100vw"}]},"width":1921,"height":1080}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/383042556.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/383042556.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABOElEQVR42l3QSUtCURjGcT9FpNdZLohpCbUI2rRqEyltgkhDTYgGp+t1utimWkWrcNOuVft2TSht+gRWpoHTNaMv8e86IbT4cQ4v533OeY9OkLsYxwzpMW0/qQuyiklu445X8MQecR094Ik/45UqeFNlFhIDT7iSr8PzumljF2t2xJTRagNyB73cQ8zUuC9XUNUW9WaNRutz6Ktdp9p45+e3yc3dCzOxOrpJmFkL2rjq4xtbOusxK3UQMt840h9sbQeJhneJBALsR/eQEwlOlTy31yWU5AHBwyKC1JwGDlZLdsSeG10gpLXAbB9rsorFLjLvFHGLdixGPZtrq0gBP9KOn0XRjHPZp/V2RiNPGP7942Bkg/ZCW+qNQCjCSTFHoZBBUXKULs+5OA7hMNowOeZYWQ9jz6v8AT4h8nseC9/iAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/90006939375ecc1526157365593d5ef3/12eae/Artboard%20151_2.png","srcSet":"/static/90006939375ecc1526157365593d5ef3/5551e/Artboard%20151_2.png 600w,\\n/static/90006939375ecc1526157365593d5ef3/a5079/Artboard%20151_2.png 1200w,\\n/static/90006939375ecc1526157365593d5ef3/12eae/Artboard%20151_2.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/90006939375ecc1526157365593d5ef3/14f51/Artboard%20151_2.webp 600w,\\n/static/90006939375ecc1526157365593d5ef3/d48b7/Artboard%20151_2.webp 1200w,\\n/static/90006939375ecc1526157365593d5ef3/8762e/Artboard%20151_2.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
 
 /***/ }),
 

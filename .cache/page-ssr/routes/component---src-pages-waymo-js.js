@@ -3038,14 +3038,15 @@ function Waymo() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "header-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/Artboard 151.png",
+    src: "../../static/2025_headers/Artboard 151.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
     style: {
-      borderRadius: '10px'
+      borderRadius: '20px',
+      border: '3px solid #000000'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2523892494.json */ "./.cache/caches/gatsby-plugin-image/2523892494.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1313824853.json */ "./.cache/caches/gatsby-plugin-image/1313824853.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -4778,14 +4779,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2523892494.json":
+/***/ "./.cache/caches/gatsby-plugin-image/1313824853.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2523892494.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/1313824853.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8klEQVR42n1QsWoCQRT0H8TOIqeet+/u1IsiGE5R1z09PBtjIwELMUG4Ik3aVIJp06TI307e7S4ERSyGWebNDvNeSYgZLqEgqGCp2fMkHGeEWm1k59IwGTTqY5SzX/jxG6KWROlmIDMJExaGC6xWB2TZHmEw1xqR9TpDpOtXPKocvQ77WbsTqPTnIEhw/vrB6fRt2vk88xjOGNWPI6a7A4bdBYJWyn4dqK5WVf8rFcHMg8Ez4ngD4nCqT/Ss8pnj4bhHmxJ0exl8v/BPOZCkvZcB6XZWE1K/m80JXAa5zE9LlM/vcLcv6NsSUZTyaZbcMMUf7umkW59uhgAAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/29380d7a4e0d6e63c53e6879fe54739b/12eae/Artboard%20151.png","srcSet":"/static/29380d7a4e0d6e63c53e6879fe54739b/5551e/Artboard%20151.png 600w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/a5079/Artboard%20151.png 1200w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/12eae/Artboard%20151.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/29380d7a4e0d6e63c53e6879fe54739b/14f51/Artboard%20151.webp 600w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/d48b7/Artboard%20151.webp 1200w,\\n/static/29380d7a4e0d6e63c53e6879fe54739b/8762e/Artboard%20151.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5klEQVR42n2QO0/DQBCE709ENLFzvju/ogQh5WliOwlCDo8GCVEAUhACpaCiRUoRSiQafvHH+QJlXIx2NbuamV1hTE4TtM7xvDG+P3G9McXfrEDbKjsZrcsf4skT3ThHNIvNSJIFq9UjVfVAHM8dZ8K9qG6Pubh55mSxoZeW1qBA1K6HoNSMKCrZ7b7Zbr+cmKrNLK/bU7z3F+b3a4a9MyJrXO+L//hNdTC4YjS6JrTixs8cf/SxofO6JtEl/eOKMCwdL5TaJzmEOpWUU2SQoey/5PCc1ucb6vaOvizdJWm6dJcEwSm/LEueGzYN7TsAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/12eae/Artboard%20151.png","srcSet":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/5551e/Artboard%20151.png 600w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/a5079/Artboard%20151.png 1200w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/12eae/Artboard%20151.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/14f51/Artboard%20151.webp 600w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/d48b7/Artboard%20151.webp 1200w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/8762e/Artboard%20151.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
 
 /***/ }),
 
