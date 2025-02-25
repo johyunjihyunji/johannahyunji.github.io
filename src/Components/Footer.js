@@ -14,7 +14,7 @@ const Footer = () => {
   const modelRef = useRef(null);
   
   useEffect(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
       
     const interval = setInterval(() => {
       setLocations((prevLocations) => {
@@ -34,9 +34,6 @@ const Footer = () => {
       <LopsterGallery />
 
       <div className ='FooterText2'>
-      designed, drawn, and coded by Jo
-
-      <br />
       <div className="bottom-text" style={{ color: '#282828' }}>
           based in
           <br/> 
@@ -44,7 +41,7 @@ const Footer = () => {
           <React.Fragment key={index}>
           <span 
             className={`location ${index < locations.length - 1 ? 'crossed' : ' '} ${
-               index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : '' }`}>
+               index === locations.length - 1 && location === 'Where Now?' ? 'red-question-mark' : '' }`}>
                {location}
               </span>
               {index < locations.length - 1 && <span className="space">&nbsp; &nbsp;</span>}
@@ -54,7 +51,8 @@ const Footer = () => {
 
       </div>
       <div className ='FooterText'>
-        © {currentYear} Johanna Lee
+        {/* © {currentYear} Johanna Lee */}
+        designed, drawn, and coded by Jo
       </div>
     </div>
   );

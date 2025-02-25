@@ -2916,16 +2916,16 @@ function IntroductionSlide() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "background"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "right-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("wbr", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "left-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "joImage",
     src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "profile gif"
-  })));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "right-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "my-name"
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("wbr", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 

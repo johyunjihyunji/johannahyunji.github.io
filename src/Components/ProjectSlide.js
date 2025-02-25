@@ -102,7 +102,7 @@ const ProjectSlide = () => {
         </Link>
 
         
-          <a className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
+          <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
             <StaticImage 
             src="../../static/2025_thumbnails/youtube.png"
             alt="yelp"
@@ -116,7 +116,7 @@ const ProjectSlide = () => {
             <div className="Title">Digital Diaries</div>
             <div className="Company">Youtube</div>
           </div>
-        </a>
+        </Link>
 
                 
         {/* <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>

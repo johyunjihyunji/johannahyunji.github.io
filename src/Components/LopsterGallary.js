@@ -44,7 +44,7 @@ const LopsterGallery = () => {
 
     return (
       <div className='LopGalleryContainer'>
-        {images.slice(0, screenWidth < 768 ? 6 : 8).map((image, index) => (
+        {images.slice(0, screenWidth < 768 ? 4 : 8).map((image, index) => (
           <div 
             key={image.id} 
             className="LopImageItem" 

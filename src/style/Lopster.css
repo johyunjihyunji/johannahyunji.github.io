@@ -15,7 +15,7 @@
   }
   
   .LopImageItem {
-    margin: 1vw;
+    margin: 0 2vw 0 2vw;
     position: relative;
     animation: rotate linear infinite;
     transition: transform 0.3s ease;
@@ -27,15 +27,22 @@
   }
   
   .LopImage {
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: auto;
     object-fit: cover;
   }
 
   @media (max-width: 767px) {
+    .LopImageItem {
+      margin: 0 4vw 0 4vw;
+      display: flex;
+      align-items: center;
+      animation: rotate linear infinite;
+      transition: transform 0.3s ease;
+    }
     .LopImage {
       width: 12vw;
-      height: 12vw;
+      height: auto;
       object-fit: cover;
     }
   }

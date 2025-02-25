@@ -100,28 +100,26 @@ b {
   
 
 .FooterContainer{
-  color: #fe5204;
   text-align: center;
   width: 100%;
   margin-bottom: 2vh;
+  gap: 20px;
 }
 
 .FooterText {
-  color: #fe5204;
   padding-bottom: 10vh;
+  font-family: 'Crimson-semibold';
+  font-family: 'Crimson-semibold-italic';
+  color: #fe5204;
+  gap: 20px;
 
 }
 .FooterText2 {
-  font-family: 'AlexRoss';
-  color: #fe5204;
-  font-size: 2.3rem;
-  gap: 20px;
   margin-top: 2vh;
 }
 
 
 .bottom-text {
-  font-size: 1.2rem;
   font-family: 'Crimson';
 }
 
@@ -129,21 +127,30 @@ b {
 @media (max-width: 768px) {
 
   .Logo {
-    height: 5rem; /* Adjust logo size */
+    height: 4rem; /* Adjust logo size */
   }
 
   .Menu {
     display: flex;
-    gap: 20px; /* Space between menu items */
+    gap: 15px; /* Space between menu items */
   }
 
   .MenuItem {
     color: #fe5204;
     text-decoration: none;
-    font-size: 2rem;
-    font-family: 'AlexRoss';
+    font-size: 1rem;
+    font-family: 'Crimson-italic';
     padding: 0;
   }
+
+  .FooterContainer{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2vh;
+    font-size: 0.9rem;
+  }
+  
+
 }
 
 
