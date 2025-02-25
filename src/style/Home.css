@@ -73,11 +73,11 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4vh 3vw;
+  padding: 2vh 3vw 0 3vw;
 }
 
 .Logo {
-  height: 8rem; /* Adjust logo size */
+  height: 7rem; /* Adjust logo size */
 }
 
 .Menu {
@@ -128,13 +128,20 @@ b {
 @media (max-width: 768px) {
 
   .Logo {
-    height: 4rem; /* Adjust logo size */
+    height: 5rem; /* Adjust logo size */
   }
 
   .Menu {
     display: flex;
+    gap: 20px; /* Space between menu items */
+  }
 
-    gap: 10px; /* Space between menu items */
+  .MenuItem {
+    color: #FF4200;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'AlexRoss';
+    padding: 0;
   }
 }
 

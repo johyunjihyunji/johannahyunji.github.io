@@ -14,17 +14,9 @@ function IntroductionSlide() {
           <div class="my-name">
           Johanna Lee 
           </div>
-          <p>
-            a designer and engineer studying computer science @ UC Berkeley
-            <br/>
-            currently UX Design Intern @ ESNet (Summer 2024 - Present) 
-          </p>    
-          <br/><br/>
-          <div class="tilting-text">
-            Designing Solutions from a Different Angle
-          </div>
-
-
+          <p>a designer studying computer science <wbr />@ UC Berkeley</p>  
+          <p>currently designing 
+            <br/>@ Lawrence Berkeley National Laboratory</p>    
         </div>  
     </div>
   );
