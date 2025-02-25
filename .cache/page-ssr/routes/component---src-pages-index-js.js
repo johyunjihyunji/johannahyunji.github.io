@@ -4860,7 +4860,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-ef005bc4ecc30e1167487a633918ff4b.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-ba17d3fde4a98664b2489a568f768f0c.png");
 
 /***/ }),
 
