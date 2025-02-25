@@ -43,10 +43,12 @@
   margin-right: 20px;
   padding: 3px 6px;
   font-size: 1.4rem;
+  line-height: 92%;
 }
 
 .Company {
   padding: 3px 6px;
+  color: #2D2D2D;
 }
 
 .ImageItem:hover img,

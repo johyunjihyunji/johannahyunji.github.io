@@ -73,11 +73,11 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh 3vw 0 3vw;
+  padding: 3vh 3vw 0 3vw;
 }
 
 .Logo {
-  height: 6rem; /* Adjust logo size */
+  height: 8rem; /* Adjust logo size */
 }
 
 .Menu {
@@ -86,10 +86,11 @@ b {
 }
 
 .MenuItem {
-  color: #FF4200;
+  color: #fe5204;
   text-decoration: none;
-  font-size: 2.4rem;
-  font-family: 'AlexRoss';
+  font-size: 1.8rem;
+  font-family: 'Crimson-italic';
+  font-weight: 100px;
   padding: 10px 15px;
   &:hover {
     text-decoration: underline;
@@ -99,20 +100,20 @@ b {
   
 
 .FooterContainer{
-  color: #FF4200;
+  color: #fe5204;
   text-align: center;
   width: 100%;
   margin-bottom: 2vh;
 }
 
 .FooterText {
-  color: #FF4200;
+  color: #fe5204;
   padding-bottom: 10vh;
 
 }
 .FooterText2 {
   font-family: 'AlexRoss';
-  color: #FF4200;
+  color: #fe5204;
   font-size: 2.3rem;
   gap: 20px;
   margin-top: 2vh;
@@ -137,7 +138,7 @@ b {
   }
 
   .MenuItem {
-    color: #FF4200;
+    color: #fe5204;
     text-decoration: none;
     font-size: 2rem;
     font-family: 'AlexRoss';

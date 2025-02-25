@@ -2877,11 +2877,11 @@ const Header = () => {
     className: "Menu"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
-    href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "MenuItem",
     href: "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed"
   }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "MenuItem",
+    href: "https://www.linkedin.com/in/johannaleehyunji/"
+  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://johyunjihyunji.github.io/norainnoflower/"
   }, "Playtime")));
@@ -2916,16 +2916,16 @@ function IntroductionSlide() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "background"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "right-text"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    class: "my-name"
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("wbr", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "left-image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "joImage",
     src: _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__["default"],
     alt: "profile gif"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "right-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("wbr", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")));
+  })));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 
@@ -4845,7 +4845,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-15c044738dbfc8f5e7b3cf2c42ffad10.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/lopster-102787b83fb889e09b9d6c512829bf56.png");
 
 /***/ }),
 
@@ -4860,7 +4860,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-ba17d3fde4a98664b2489a568f768f0c.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-729d8f8fe04d348c9c43cca8997e23f0.png");
 
 /***/ }),
 
