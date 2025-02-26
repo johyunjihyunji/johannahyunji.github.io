@@ -87,7 +87,7 @@ useEffect(() => {
         <div className="info-row">
           <div className="info-item">
             <h3 className="info-title">Role</h3>
-            <p className="info-content">UX Engineer Intern</p>
+            <p className="info-content">UX Design & Engineer Intern</p>
           </div>
           <div className="info-item">
             <h3 className="info-title">Skills</h3>
@@ -231,7 +231,7 @@ useEffect(() => {
               <h3 className="subsection-title" style={{color: '#0075A2' }}>Competitor Research</h3>
               <p className="paragraph">By going through software tool landing pages and other competitor interfaces, 
                 I compiled my analysis in a FigJam brainstorm. 
-                <br/>A few key takeaways were:
+                <br/>Key Takeaways:
               </p> 
 
               <div style={{display: "flex", alignItems: "center"}}>
@@ -264,10 +264,11 @@ useEffect(() => {
             </div>
 
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Interview with Client Point of Contact</h3>
+              <h3 className="subsection-title" style={{color: '#0075A2'}}>Interview with Client Point of Contact</h3>
               <p className="paragraph">
-              Through the UX research stage, I also had the chance to have a meeting with Ken Miller who was our <b>client point of contact. </b>
-              Ken delivered the <b>current painpoints of MRDP</b> and more guidance on what I should focus on in terms of <b>UI design and codebase design.</b>
+              I had a meeting with Ken Miller who was our <b>client point of contact.</b>
+              <br/>
+              Ken delivered <b>current painpoints of MRDP</b> and guidance on what I should focus on in terms of <b>UI and codebase design.</b>
               </p>
               <div style={{display: "flex", alignItems: "center", marginRight: '10px'}}>
                 <svg style={{flexShrink: 0, width: '40px', height: '40px'}} viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -276,7 +277,8 @@ useEffect(() => {
                 </svg>
                 <p className="paragraph" style={{marginLeft: "20px"}}>
                   Focus on the Django version of the Globus data portal, using data.lsstdesc.org as an example. 
-                  Similarly, our data search functionality can be removed for now.
+                  <br/>
+                  Similarly, our <b>data search functionality can be removed</b> for now.
                 </p>
               </div>
 
@@ -286,8 +288,7 @@ useEffect(() => {
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M106.25 56.2499C106.25 52.7981 109.048 49.9999 112.5 49.9999H125C129.973 49.9999 134.742 51.9753 138.258 55.4916C141.775 59.0079 143.75 63.7771 143.75 68.7499V137.5C143.75 140.028 142.227 142.307 139.892 143.274C137.556 144.242 134.868 143.707 133.081 141.919L109.911 118.75H75C70.0272 118.75 65.2581 116.774 61.7418 113.258C58.2254 109.742 56.25 104.973 56.25 99.9999V93.7499C56.25 90.2981 59.0482 87.4999 62.5 87.4999C65.9518 87.4999 68.75 90.2981 68.75 93.7499V99.9999C68.75 101.657 69.4085 103.247 70.5806 104.419C71.7527 105.591 73.3424 106.25 75 106.25H112.5C114.158 106.25 115.747 106.908 116.919 108.08L131.25 122.411V68.7499C131.25 67.0923 130.592 65.5026 129.419 64.3305C128.247 63.1584 126.658 62.4999 125 62.4999H112.5C109.048 62.4999 106.25 59.7017 106.25 56.2499Z" fill="black"/>
                 </svg>
                 <p className="paragraph" style={{marginLeft: "20px"}}>
-                Prioritize the design of the top bar and menus, making them easily customizable. 
-                Implement customization entrypoints to allow researchers and institutions to add custom pages (e.g., "Our Team" or university-specific pages) to the menu system using Django template functionality.
+                Implement <b>customization entrypoints</b> to allow research institutions to add custom pages (e.g., "Our Team" or institution-specific pages) to the menu using Django template functionality.
                 </p>
               </div>
 
@@ -300,12 +301,21 @@ useEffect(() => {
           <h2 className="section-title">Prototyping</h2>
           <div className="flex-container">
           <div className="subsection">
-            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Low-Fi Mockups</h3>
-            <p className="paragraph">Through collaborative discussions with James and Ken, we've <b>distilled the user experience 
-              to two essential pages:</b> the landing page and the transfer page. 
+            <h3 className="subsection-title" style={{color: '#0075A2'}}>Low-Fi Mockups</h3>
+            <p className="paragraph">After discussions with James and Ken, I distilled the UX
+              to two essential pages:<b> the landing page and the transfer page.</b>
             </p>
-            <p className="paragraph"><b>Landing Page</b></p>
-            <div className="mockup-box">
+            <p className="paragraph" style={{color: '#50C5DB', margin: '30px 0 0 7px', fontFamily: 'Crimson-bold', fontSize: '1.7rem'}}>Landing Page</p>
+              <p className="paragraph"> 
+              Using the comparative analysis, I redesigned landing page to incorporate:
+              <ul className="bullet-list">
+                <li><b>Introduction Section</b> to provide summary and login entry point</li>
+                <li><b>Insutrction Section</b> that guides users to access the transfer page through logging in</li>
+                <li><b>Featured Datasets Section</b> to highlight from institute</li>
+                <li><b>Customization section</b> that include eg. team or institution introductions</li>
+              </ul>
+              </p>
+              <div className="mockup-box">
               <div className="slidepng-container">
               <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                 <StaticImage
@@ -327,15 +337,23 @@ useEffect(() => {
                 </div>
               </div>
               </div>
+              <p className="paragraph" style={{color: '#50C5DB', margin: '30px 0 0 7px', fontFamily: 'Crimson-bold', fontSize: '1.7rem'}}>Transfer Page</p>
               <p className="paragraph"> 
-              Using the comparative analysis research, I redesigned landing page to incorporate summary, institution branding, allowing customization.
-              <ul className="bullet-list">
-                <li>A landing page that guides users to access the transfer page through logging in</li>
-                <li>Three features to highlight why institutes choose MRDP</li>
-                <li>Customization section that could include eg. team or institution introductions</li>
-              </ul>
+                I merged the search and transfer page to streamline the <b>process of finding source and destination points,</b>
+                <br/>
+                taking inspiration from travel booking and cloud storage platforms.
+                <br/>
+                <br/>
+                <b style={{color: '#766459', fontFamily: 'Crimson-bold-italic', fontSize: '1rem'}}>Transfer Steps:</b>
+
+              <ol className="bullet-list" style={{margin: '0'}}>
+                <li style={{margin: '10px'}}>Once user logs in, users have the option to select the <b>source, destination, and dataset to tranfer</b></li>
+                <li style={{margin: '10px'}}>Source and destination search expands so that users can choose and scroll through options</li>
+                <li style={{margin: '10px'}}><b>Search engine</b> allows users to filter through datasets and find an appropriate one</li>
+                <li style={{margin: '10px'}}>Once selected, dataset should be added to the “selected” box/cart </li>
+                <li style={{margin: '10px'}}><b>“Selected box”</b> functions as a final confirmation of <b>datasets to transfer</b></li>
+              </ol>
               </p>
-              <p className="paragraph"><b>Transfer Page</b></p>
             <div className="mockup-box">
               <div className="slidepng-container">
               <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -359,28 +377,26 @@ useEffect(() => {
                 </div>
               </div>
               </div>
-              <p className="paragraph"> 
-                I merged the search page with transfers page to streamline process of finding source and destination points for transfer,
-                taking inspiration from travel booking and cloud storage platforms.
-
-              <ul className="bullet-list">
-                <li>Once user logs in, users have the option to select the source, destination, and dataset to tranfer</li>
-                <li>Source and destination search expands so that users can choose and scroll through options</li>
-                <li>Search engine allows users to filter through datasets and find an appropriate one</li>
-                <li>Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the “selected” box/cart </li>
-                <li>“Selected box” functions as a final confirmation of datasets to transfer</li>
-              </ul>
-              </p>
           
           </div> 
 
 
           <div className="subsection">
-            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>High-Fi Mockups</h3>
+            <h3 className="subsection-title" style={{color: '#0075A2' }}>High-Fi Mockups</h3>
             <p className='paragraph'>
-            After confirming the low-fi mockup and user flow with the client's point of contact,
-            I developed a high-fi prototype incorporating an <b>example customized section featuring ESNet's institution branding and content.</b>
+            After confirming the low-fi mockups and user flow with the client point of contact,
+            I developed the <br/>high-fi prototype incorporating an <b>example customization featuring ESNet's institution branding and content.</b>
             </p>
+
+            <p className="paragraph">
+            <b style={{color: '#766459', fontFamily: 'Crimson-bold-italic', fontSize: '1rem'}}>Key Components:</b>
+              <ul className="bullet-list" style={{margin: '0'}}>
+                <li style={{margin: '10px'}}>Streamlined the <b>file navigation interface</b>, browsing through source node’s datasets</li>
+                <li style={{margin: '10px'}}><b>Introduced breadcrumb trail</b> at the top of file browser, allowing tracking of directories</li>
+                <li style={{margin: '10px'}}>Introduced a <b>“transfer queue”</b> to organize selected files for transfer and details such as name, size, transfer status etc </li>
+                <li style={{margin: '10px'}}>By choosing the source node and destination node in order, kept the <b>transfer process intuitive</b> and user friendly</li>
+              </ul>
+              </p>
 
             <div className="mockup-box">
             <div className="slidepng-container">
@@ -405,16 +421,6 @@ useEffect(() => {
               </div>
               
               </div>
-
-              <p className="paragraph">
-              <ul className="bullet-list">
-                <li>Streamlined the file navigation interface, browsing through source node’s files/datasets</li>
-                <li>Introduced breadcrumb trail at the top of file browser, allowing tracking of directories</li>
-                <li>Introduced a “transfer queue” to organize selected files for transfer and details such as file name, size, transfer status/types etc </li>
-                <li>By choosing the source node first and then choosing destination node after browsing files, kept the transfer process intuitive and user friendly</li>
-              </ul>
-              </p>
-
           </div> 
           </div>
         </div>
@@ -423,23 +429,22 @@ useEffect(() => {
           <h2 className="section-title">Final Deliverable</h2>
           <div className="flex-container">
           <div className="subsection">
-            <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Development</h3>
+            <h3 className="subsection-title" style={{ color: '#0075A2' }}>Development</h3>
             <p className='paragraph'>
-              Moving on to development stage, I focused on creating <b>clean and digestable code</b> that can be distributed to research instituion 
-              so that MRDP can be approachable to be customized.
+            During development, I focused on building a clean, digestible codebase <b>to simplify MRDP customization</b> for research institutions.
             </p>
 
             <div style={{display: "flex", alignItems: "center"}}>
-            <p className="paragraph" style={{marginRight: "20px"}}>
-              MRDP Main Repo 
+            <p className="paragraph" style={{marginRight: "5px", color:  '#50C5DB', fontFamily: 'Crimson-bold', }}>
+              MRDP Github Repository
             </p>
             <a 
               href="https://github.com/esnet/data-transfer-bootstrap/tree/esnet_branch" 
               style={{display: "flex", alignItems: "center"}}
             >
               <svg 
-                width="30" 
-                height="30" 
+                width="20" 
+                height="20" 
                 viewBox="0 0 150 150" 
                 fill="black" 
                 xmlns="http://www.w3.org/2000/svg"
@@ -455,16 +460,16 @@ useEffect(() => {
           </div>
 
           <div style={{display: "flex", alignItems: "center"}}>
-            <p className="paragraph" style={{marginRight: "20px"}}>
-            MRDP Live Site!
+            <p className="paragraph" style={{marginRight: "5px", color:  '#50C5DB', fontFamily: 'Crimson-bold', }}>
+            MRDP Example Deployment!
             </p>
             <a 
               href="https://mrdp.mooo.com" 
               style={{display: "flex", alignItems: "center"}}
             >
               <svg 
-                width="30" 
-                height="30" 
+                width="20" 
+                height="20" 
                 viewBox="0 0 150 150" 
                 fill="black" 
                 xmlns="http://www.w3.org/2000/svg"
@@ -480,7 +485,7 @@ useEffect(() => {
           </div>
           
           <p className='paragraph'>
-              This deployment was delivered to the Science Engagement Team in order to be distributed to any administrated that requires MRDP.
+              This deployment was delivered to the Science Engagement Team in order to distribute to any <b>ESNet's partner administrater that requires MRDP.</b>
             </p>
 
           </div> 
@@ -488,7 +493,7 @@ useEffect(() => {
         </div>
 
         <div className="section">
-          <h2 className="section-title">Reflection</h2>
+          <h2 className="section-title" >Reflection</h2>
           <div className="flex-container">
 
           <div className="team-photo">
@@ -506,15 +511,15 @@ useEffect(() => {
 
 
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#50C5DB' }}>User Flow Redesign:</h3>
+              <h3 className="subsection-title" style={{ color: '#0075A2', fontSize: '1.2rem' }}>User Flow Redesign:</h3>
               <p className="paragraph">
               My project aimed to design for a <b>niche group of lab researchers,</b> shifting my focus from previous 
-              GenZ targeted marketing projects. I aimed to create a UX that prioritized versatility and approachability, 
+              GenZ targeting design projects. I aimed to create a UX that prioritized versatility and approachability, 
               leading to a redesign of the website's user flow, which simplified navigation by <b>consolidating two-page operations 
               into a efficient single-page experience</b>.
               </p>
 
-              <h3 className="subsection-title" style={{ color: '#50C5DB' }}>Distributable and Customizable Codebase Development:</h3>
+              <h3 className="subsection-title" style={{ color: '#0075A2' , fontSize: '1.2rem'}}>Distributable and Customizable Codebase Development:</h3>
               <p className="paragraph">
               Another focus was creating templates that <b>future developers could easily customize and distribute</b>, ensuring that my 
               design was both <b>user-friendly for end-users and adaptable for developers</b>. This experience broadened my perspective on user 

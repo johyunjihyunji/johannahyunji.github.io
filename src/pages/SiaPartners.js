@@ -55,10 +55,14 @@ useEffect(() => {
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"
-            style={{ borderRadius: '20px', border: '3px solid #000000'}}
+            style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
           />
         </div>
-      
+
+        <div className="project-title">Meta Family Center UX</div>
+        <div className="project-summary">
+        Redesigned Meta Family Center to be inclusive of modern family dynamics, improving user experience through research and prototypes.  
+        </div>    
         <div className="info-row">
           <div className="info-item">
             <h3 className="info-title">Role</h3>
@@ -81,8 +85,8 @@ useEffect(() => {
           <div className="info-item">
             <h3 className="info-title">Team</h3>
             <p className="info-content">
-            UC Berkeley UMA Design Team, Sia Partners
-            <br />
+            UC Berkeley UMA Design Team, <br />Sia Partners
+            
             </p>
           </div>
           
@@ -92,32 +96,33 @@ useEffect(() => {
           <h2 className="section-title">Problem Space</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Meta Family Center</h3>
+              <h3 className="subsection-title" style={{  color: '#1A74E4'}}>Meta Family Center</h3>
               <p className="paragraph">
-              <b>Meta Family Center</b> is a digital platform tool that allows guardians to manage and oversee their family's online 
-              experiences across Meta technologies like Instagram and Meta Quest. It provides monitoring tools, educational resources 
-              to <b>promote digital safety and support responsible online behavior for families.</b>
+              <b>Meta Family Center</b> is a tool that allows guardians to manage their family's online 
+              experiences across Meta technologies like Instagram and Meta Quest. 
+              <br/>
+              <br/>
+              It provides monitoring tools, educational resources 
+              to <b>promote digital safety and support responsible online behavior.</b>
               </p>
             </div>
 
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Problem</h3>
+              <h3 className="subsection-title" style={{ color: '#1A74E4' }}>Problem</h3>
+              <div className="header-image" style={{marginBottom: '10px'}}>
+                <StaticImage 
+                  src="../../static/metaslides/metahmw.png"
+                  alt="Project Header"
+                  placeholder="blurred"
+                  layout="constrained"
+                  style={{ borderRadius: '30px', border: '1.2px solid #000000'}}
+                />
+              </div>
               <p className="paragraph">
-              Meta Family Center's currunt focus on parental controls <b>neglects the diverse needs of modern families,</b>
+              Meta Family Center's currunt focus on parental controls <b>neglects the diverse needs of modern families, </b>
               overlooking important aspects like <b>sibling supervision and direct media literacy education</b> for younger users.  
               </p>
             </div>
-
-            <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#1A74E4', background: '#ffffff', borderRadius: '30px', padding: '20px', textAlign: 'center'}}>
-              How might we reimagine Meta Family Center to target diverse modern family dynamics and the Gen Z users?
-              </h3>
-            </div>
-
-            <p className="paragraph">
-            Our team's final solutions live on 
-            <a href="https://familycenter.meta.com/" style={{fontFamily: 'AlexRoss', color:'#1A74E4', fontSize: '2vw'}}target="_blank" rel="noopener noreferrer"> Meta Family Center </a>'s site!
-            </p>
 
 
           </div>
@@ -128,11 +133,12 @@ useEffect(() => {
           <div className="flex-container">
             
           <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UX Audit</h3>
+              <h3 className="subsection-title" style={{ color: '#1A74E4'  }}>UX Audit</h3>
               <p className="paragraph">
-              UX audit for 4 main pages of the Meta Family Center, then synthesized material into SWOT analysis
+              We conducted UX audit for 4 the main pages of the Meta Family Center, then synthesized material into  a <b>SWOT analysis.</b>
               </p>
             </div>
+            <p style={{marginLeft: "20px"}}><b>Visual Appeal</b></p>
             <div className="slidepng-container">
             <div className="team-photo" ref={el => imageRefs.current.push(el)}>
               <StaticImage
@@ -144,7 +150,7 @@ useEffect(() => {
               />
             </div>
             </div>
-
+            <p style={{marginLeft: "20px"}}><b>Family Center Content</b></p>
               <div className="slidepng-container">
               <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                 <StaticImage
@@ -158,13 +164,13 @@ useEffect(() => {
               </div>
           
           <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UX Survey</h3>
+              <h3 className="subsection-title" style={{ color: '#1A74E4' }}>UX Survey</h3>
               <p className="paragraph">
-              Our team collected 300+ responses for our UX survey that collecting responses regarding website content and visual preferences, 
-              company values, and Meta Family Center sentiments.
+              Our team collected <b>300+ responses</b> for our UX survey regarding <b>website content, visual preferences, 
+              company values, and Meta Family Center sentiments.</b> 
               </p>
             </div>
-
+            <p style={{marginLeft: "20px"}}><b>Visual & Content</b></p>
             <div className="slidepng-container">
           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
             <StaticImage
@@ -176,7 +182,7 @@ useEffect(() => {
             />
           </div>
           </div>
-
+          <p style={{marginLeft: "20px"}}><b>Company Values & Meta Family Center</b></p>
               <div className="slidepng-container">
           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
             <StaticImage
@@ -190,9 +196,11 @@ useEffect(() => {
           </div>
 
               <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>UX Interview</h3>
+              <h3 className="subsection-title" style={{ color: '#1A74E4' }}>UX Interview</h3>
               <p className="paragraph">
-              Our team conducted 30 user interviews with student users to further understand painpoints
+              Our team conducted 30 user interviews with student users to further understand painpoints.
+              <br/>
+              The goal was to uncover <b>initial impressions, challenges, and perceptions of platform features.</b> Then, we created affinity maps and found 9 key insights.
               </p>
             </div>
           
@@ -208,12 +216,12 @@ useEffect(() => {
           </div>
           </div>
 
-          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>User Personas</h3>
+          <h3 className="subsection-title" style={{ color: '#1A74E4'}}>User Personas</h3>
 
           <p className="paragraph">
-              After user surveys and interviews, our team synthesized 5 different user personas.
+              After user surveys and interviews, our team synthesized <b>5 different user personas.</b><br/>
               These personas represent different family members and age groups, 
-              helping to capture the complexity of modern family dynamics and their interactions with digital platforms.
+              helping to <b>capture the complexity of modern family dynamics and their interactions</b> with digital platforms.
           </p>
 
           <div className="slidepng-container">
@@ -236,28 +244,60 @@ useEffect(() => {
           <div className="section">
           <h2 className="section-title">UX Design</h2>
           <div className="flex-container">
-          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Low-Fi Prototyping</h3>
+          <h3 className="subsection-title" style={{ color: '#1A74E4' }}>Low-Fi Prototyping</h3>
 
 
           <p className="paragraph">
-            Through brainstorming and discussions, our team synthesized a low-fi wireframe which will be further developed into 
-            hi-fi module prototypes for our final deliverable.
+            After research, brainstorming and discussions, our team synthesized a low-fi wireframe for each page.
           </p>
-
+        
+        <div className="mockup-box">
           <div className="slidepng-container">
           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
             <StaticImage
-              src="../../static/metaslides/MetaLowFi.png"
+              src="../../static/metaslides/MetaHomepageLowFi.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
               className="slidepng"
             />
+            <p className="photoDescription">
+              Homepage
+              </p>
           </div>
           </div>
-          <h3 className="subsection-title" style={{ color: '#5a5a5a' }}>Final Recommendations</h3>
+          <div className="slidepng-container">
+          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+            <StaticImage
+              src="../../static/metaslides/MetaFamilyCenterTools.png"
+              alt="Project Header"
+              placeholder="blurred"
+              layout="constrained"
+              className="slidepng"
+            />
+            <p className="photoDescription">
+              Family Center Tools
+              </p>
+          </div>
+          </div>
+          <div className="slidepng-container">
+          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+            <StaticImage
+              src="../../static/metaslides/MetaEducationHub.png"
+              alt="Project Header"
+              placeholder="blurred"
+              layout="constrained"
+              className="slidepng"
+            />
+            <p className="photoDescription">
+              Education Hub
+              </p>
+          </div>
+          </div>
+        </div> 
+          <h3 className="subsection-title" style={{ color: '#1A74E4'}}>Final Recommendations</h3>
           <p className="paragraph">
-            Our team's final solutions live on 
+            See some of our recommendations live on 
             <a href="https://familycenter.meta.com/" style={{fontFamily: 'AlexRoss', color:'#1A74E4', fontSize: '2vw'}}target="_blank" rel="noopener noreferrer"> Meta Family Center </a>'s site!
           </p>
 
@@ -277,8 +317,9 @@ useEffect(() => {
             <div className="subsection">
               <p className="paragraph">
               Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a <b>wide range of users, 
-              from kids to parents to non-traditional families.</b> This was challenging because each demographic had different needs. 
-              <b>User interviews provided valuable insights</b> that helped us understand 
+              from kids to parents to non-traditional families. </b>
+               This was challenging because each demographic had different needs. 
+              <b> User interviews provided valuable insights</b> that helped us understand 
               different perspectives, which was crucial for shaping our approach.
               </p>
 

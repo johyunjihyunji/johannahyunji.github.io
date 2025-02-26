@@ -16,14 +16,19 @@ function Waymo() {
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"
-            style={{ borderRadius: '20px', border: '3px solid #000000'}}
+            style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
           />
         </div>
+
+        <div className="project-title">Waymo UI and Brand Revamp</div>
+        <div className="project-summary">
+        Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and SF launch.</div>
+      
       
         <div className="info-row">
           <div className="info-item">
             <h3 className="info-title">Role</h3>
-            <p className="info-content">Creative Design Consultant</p>
+            <p className="info-content">UI/UX Design Consultant</p>
           </div>
           <div className="info-item">
             <h3 className="info-title">Skills</h3>
@@ -54,30 +59,20 @@ function Waymo() {
         <div className="section">
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
-            <div className="team-photo">
-              <StaticImage 
-              src="../../static/WaymoMockup.png"
-              alt="Project Header"
-              placeholder="blurred"
-              layout="constrained"
-              style={{height:'80vh', width: '100%', borderRadius: '10px'}}
-              />
-              <p className="photoDescription">
-              Waymo Advertisement Mockup :)
-              </p>
-            </div>
-            <div className="subsection">
             <p className="paragraph">
-            <b>Waymo</b> was transitioning from an <b>R&D-focused firm to a commercial entity</b>, which requires a comprehensive reevaluation of 
-            its brand identity and the overall experience.
-            </p>
-              <h3 className="subsection-title" style={{ color: '#0077FF' }}>1. Performance Marketing</h3>
+              <b style={{fontFamily: 'Crimson-bold', fontSize: '3rem' }}>Waymo</b> -self-driving technology company- was transitioning from an <b>R&D-focused firm to a commercial entity</b>, <br/> which required a comprehensive reevaluation of 
+              its overall user experience and brand identity.
+              </p>
+           
+            <div className="subsection">
+
+              <h3 className="subsection-title" style={{ color: '#0077FF' }}>1. UI Redesign of Waymo's Homepage</h3>
               <p className="paragraph">
-              Assess the <b>brands of Waymo’s active ride-hailing competitors and self-driving automobile competitors</b>, in terms of brand positioning, personality, visual/verbal identity, and advertising strategy.
+              Conducted <b>comprehensive competitive brand analysis</b>to inform the redesign of <b>interactive UI/UX modules,</b> aimed at enhancing Waymo's commercial appeal and targeting the next generation.
               </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>2. Brand Design System</h3>
               <p className="paragraph">
-              Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of 
+              Provide a proposal for how Waymo should evolve two core components of 
               its <b>brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.</b>
               </p>
               <br />

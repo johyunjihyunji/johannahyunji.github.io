@@ -59,7 +59,7 @@ const ProjectSlide = () => {
             <div className="ImageOverlay">
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>UI Design</div>
               <div className="Tags" style ={{backgroundColor: 'rgba(4, 56, 198, 0.4)'}}>Brand Design System</div>
-            <div className="Title">Designing Waymo's Future: UX & Brand</div>
+            <div className="Title">Designing Waymo's Future: UI & Brand</div>
             <div className="Company">Waymo</div>
           </div>
         </Link>

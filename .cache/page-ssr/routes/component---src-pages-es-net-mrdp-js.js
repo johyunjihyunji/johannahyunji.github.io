@@ -3281,13 +3281,11 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2'
     }
   }, "Competitor Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "By going through different software tool webpages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "   A few key takeaways were:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "By going through software tool landing pages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "A few key takeaways were:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3295,12 +3293,12 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
     style: {
       flexShrink: 0,
-      width: '40px',
-      height: '40px',
+      width: '30px',
+      height: '30px',
       marginRight: '10px'
     },
     viewBox: "0 0 150 150",
-    fill: "none",
+    fill: "#50C5DB",
     xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
@@ -3332,7 +3330,7 @@ function ESNetMRDP() {
     style: {
       marginLeft: "10px"
     }
-  }, "MRDP needs a proper landing page dedicated to customizable content catered to host institution/lab")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "MRDP needs a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "proper landing page"), " dedicated to customizable content catered to host institution/lab")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3340,12 +3338,12 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
     style: {
       flexShrink: 0,
-      width: '40px',
-      height: '40px',
+      width: '30px',
+      height: '30px',
       marginRight: '10px'
     },
     viewBox: "0 0 150 150",
-    fill: "none",
+    fill: "#50C5DB",
     xmlns: "http://www.w3.org/2000/svg"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
     "fill-rule": "evenodd",
@@ -3377,7 +3375,7 @@ function ESNetMRDP() {
     style: {
       marginLeft: "10px"
     }
-  }, "Common feature around other competitor interfaces is a instruction page that guide first users which could support MRDP UX")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+  }, "Common feature around other competitor interfaces is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "instruction page"), " that guide first users")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
     style: {
       border: "1px solid rgba(0, 0, 0, 0.1);",
       width: "100%",
@@ -5471,7 +5469,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAvklEQVR42i2NzQ7BUBCF+yQSiZa1hGhx/W3EGwjPxkIv0fZe/bEXP++gSZfaTfEMxxgWJ+fMd2YyxiPPoeME6hBCJ0d2FUXQR8pfHkZ/hb+dKOaeGeeY7z2lkWUZjKIoMJsvUGm20RhMUGvZMO0+6mICs9OD5Qierd6QVe+PmFkOsa5AQ4xRtQWm8yXuaQrjWZY4nS9YyS0kfXE9HzII4PqKXGGz9yD1gToSsW/vEnf9gHtJvpY7nK83vF8vfABmIKDRskuLagAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/753adbf440ab76aec459c35090820087/2a6a5/esnethmw.png","srcSet":"/static/753adbf440ab76aec459c35090820087/28ff0/esnethmw.png 562w,\\n/static/753adbf440ab76aec459c35090820087/ee447/esnethmw.png 1124w,\\n/static/753adbf440ab76aec459c35090820087/2a6a5/esnethmw.png 2247w","sizes":"(min-width: 2247px) 2247px, 100vw"},"sources":[{"srcSet":"/static/753adbf440ab76aec459c35090820087/015e3/esnethmw.webp 562w,\\n/static/753adbf440ab76aec459c35090820087/7c6d2/esnethmw.webp 1124w,\\n/static/753adbf440ab76aec459c35090820087/1f6d1/esnethmw.webp 2247w","type":"image/webp","sizes":"(min-width: 2247px) 2247px, 100vw"}]},"width":2247,"height":369}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAt0lEQVR42j2KPQ6CQBhEOYmJBRhaCxIQBKOd3kCj19MCMAF2lz97g9FTkFBDgzTj5xItJm/mZZS27cCLEjzNIMobGJFnuezSU/+GZZkMz4u/+0WQi7lA0zRQuq7Dbn/EZG5A9zZQDROa6WDmrqGaNjRrOW7Hg2Z7xNXoLAfawoVOv6m5xPZwQl3XUN59j3v1wDkIETIBP4oRJAxBzCT9KELAU4qgzWknkvJDDOMEl/CK6vnCMAz4AOCBpfr6PIm/AAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/6c27b3d3ba2a3ec509912799a3ad93c6/2a6a5/esnethmw.png","srcSet":"/static/6c27b3d3ba2a3ec509912799a3ad93c6/28ff0/esnethmw.png 562w,\\n/static/6c27b3d3ba2a3ec509912799a3ad93c6/ee447/esnethmw.png 1124w,\\n/static/6c27b3d3ba2a3ec509912799a3ad93c6/2a6a5/esnethmw.png 2247w","sizes":"(min-width: 2247px) 2247px, 100vw"},"sources":[{"srcSet":"/static/6c27b3d3ba2a3ec509912799a3ad93c6/015e3/esnethmw.webp 562w,\\n/static/6c27b3d3ba2a3ec509912799a3ad93c6/7c6d2/esnethmw.webp 1124w,\\n/static/6c27b3d3ba2a3ec509912799a3ad93c6/1f6d1/esnethmw.webp 2247w","type":"image/webp","sizes":"(min-width: 2247px) 2247px, 100vw"}]},"width":2247,"height":369}');
 
 /***/ }),
 
@@ -5493,7 +5491,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACRUlEQVR42nVU23baQBDj/78qDZQmaQ8YjIFgfL+vbSBfoEqDoe1DH+bMLjur1WhkZv0woGwd8qaD4/pyuWBgHvr+nqfo+gFZ4xgdGtezbvzn/BGzjhdXYYrlMUFUVHBdi34CHsfRYmDowcX+jPdTgn2So2tZx7vj+FedAJu6xvrtO6oix363hb/ZII7Oti+LAnVZYiB4lmdYL+eo+ftu62HjrZGlKXTf6pgNsHcOdVXZDypQJHGMNInheKbWxbgmo4JgFese50WeW42Y9pNEs44tHsgsSxNsN56Ft14h8H17uakr9Gyn4KMHf2Mgx8PhGVVZoG1qCGcC7BCFnzwo2WqEPMsg1tJIZyoSYMV9liSoCKy6hOuYTBVhGKLluXQ0hoHvWatb6hL4W9PtLgODDNRWKYa7DQ5k9e3lBYv5HIvFHK+vr1j+WJJlg4sAh3HAeLlSpxGaeMPLFZnVHbXlWvuaNindnWnLtZ0/6+7rhrbq77YZ8HYu8Ssq8ZNRcX+73cwqw2QH+bMk0AfrorrD19dtshVjstfwsI2m+/H+hjCK4W19+BxGEARPDc1v01B2Ox8JNd7vA0TU0dl580dvdmga5pywdIvPIaLzybKmnsaRTdGZbbrJm7n5NGEUOX3ICcuL0lDWmbV8wfdWSAkgZsfj0SYp5srmRbYlhqfDnl4syHTHh8/Gyk1x/3IcZrqQy9BsRYCaokCVtU9pD7Us8QUg5gG/lPDzaOZWFw/GAp1JXA1B+Xq9PuOxtz+LSfTH9638v/gNG0oCDGpBn84AAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/9e4ca9604dd07ee88651b649ebe41643/3cac7/esnetaudit.png","srcSet":"/static/9e4ca9604dd07ee88651b649ebe41643/c77a7/esnetaudit.png 768w,\\n/static/9e4ca9604dd07ee88651b649ebe41643/45aff/esnetaudit.png 1537w,\\n/static/9e4ca9604dd07ee88651b649ebe41643/3cac7/esnetaudit.png 3073w","sizes":"(min-width: 3073px) 3073px, 100vw"},"sources":[{"srcSet":"/static/9e4ca9604dd07ee88651b649ebe41643/593dd/esnetaudit.webp 768w,\\n/static/9e4ca9604dd07ee88651b649ebe41643/6f8a5/esnetaudit.webp 1537w,\\n/static/9e4ca9604dd07ee88651b649ebe41643/2aac1/esnetaudit.webp 3073w","type":"image/webp","sizes":"(min-width: 3073px) 3073px, 100vw"}]},"width":3073,"height":2123}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACVUlEQVR42mVUyXbbMBDT//9YmiZ1k7aJbS2WHGuh9l12ckEBys7rcsCjJIIzmBlQzjTNqPsRZT9g5PP5fMY8L8T8iYkYuFd0g0U3Tjgvf3NucIZpwuvJ4FuYIq0ajMNgN86Xiw1uE/CwEj4GMZ6PBqEpMZCnRNpfFmFN4HRtg9enR7RViYPvwXX3SJMYdVmg5remrjDzUMH3l81Xy/PdHfbbLYrcoGtb8iq0TbMGnKiw4UvLDRHKIofJUuQmwziOa8nM3vb9mqBp7b7JMlRlaTmKISyLSiYx9F3kDObumXm3xW77Ct9zPzMrYMX14O1RMkgUhoii0K6qoO86KI7KdtSz5PRmVWZpioIKp2m0hH8VFlQtXkpelhkitYjjGP0toA4G7EmR53CpTsqaurbKhIYqFVgKQ3+PMIrw5e4ODw8PeCTu7++x2WzQUaUG5EjBwolKhSbe8XDDibbDaJ/tO21SE+L06vmw7mu9PXfq42qbGU9xiV9JiZ9JxcMLPt7frVUEWWIksR4m/CAvaXp8fLxbW6nERba5Wkv+dVra5vn5O07sy8714HkeDkFge6L+jlxvQ/FpK8PWhIeD7aO8qJZZXP3rDEOPMs/Qsm9ZfEIq0IcagEkTO0WV0qo82kbW0X6WJNZi8mHXtRTQrQE1cm/7AmMMAio7Ho+fvqxlGU2aJUnhWxig4pB832fQxKrSwMarUnnR0YfV0IUNGHGKChrSZweWljPRzD5KoQ6KG9Cvp7cIuS6ArCPFqRL0cNTYy/XeXv64vzfc7qiavv445v84f3J/A+7EHsERkkgmAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/027dffcf47edc57db6c9d9847962862b/3cac7/esnetaudit.png","srcSet":"/static/027dffcf47edc57db6c9d9847962862b/c77a7/esnetaudit.png 768w,\\n/static/027dffcf47edc57db6c9d9847962862b/45aff/esnetaudit.png 1537w,\\n/static/027dffcf47edc57db6c9d9847962862b/3cac7/esnetaudit.png 3073w","sizes":"(min-width: 3073px) 3073px, 100vw"},"sources":[{"srcSet":"/static/027dffcf47edc57db6c9d9847962862b/593dd/esnetaudit.webp 768w,\\n/static/027dffcf47edc57db6c9d9847962862b/6f8a5/esnetaudit.webp 1537w,\\n/static/027dffcf47edc57db6c9d9847962862b/2aac1/esnetaudit.webp 3073w","type":"image/webp","sizes":"(min-width: 3073px) 3073px, 100vw"}]},"width":3073,"height":2123}');
 
 /***/ }),
 

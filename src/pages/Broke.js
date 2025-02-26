@@ -53,9 +53,14 @@ function Broke() {
             alt="Project Header"
             placeholder="blurred"
             layout="constrained"
-            style={{ borderRadius: '20px', border: '3px solid #000000'}}
+            style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
           />
         </div>
+
+        <div className="project-title">Broke App for Travel Budgeting</div>
+        <div className="project-summary">
+          Led the end-to-end design of the Broke travel budgeting app, from research and branding to high-fidelity prototyping</div>
+      
       
         <div className="info-row">
           <div className="info-item">
