@@ -50,19 +50,6 @@ body {
 }
 
 
-
-
-
-
-
-
-b {
-  background-color: rgba(143, 211, 213, 0.35);
-  padding: 2px 4px;         /* Optional: Add padding for a better highlight effect */
-  border-radius: 10px;       /* Optional: Add rounded corners for a softer look */
-  font-weight: 600; 
-}
-
 .AppContainer{
   display: flex;
   flex-direction: column;
@@ -73,11 +60,11 @@ b {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3vh 3vw 0 3vw;
+  padding: 3vh 3vw 3vh 3vw;
 }
 
 .Logo {
-  height: 8rem; /* Adjust logo size */
+  height: 6rem; /* Adjust logo size */
 }
 
 .Menu {
@@ -88,9 +75,8 @@ b {
 .MenuItem {
   color: #fe5204;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-family: 'Crimson-italic';
-  font-weight: 100px;
   padding: 10px 15px;
   &:hover {
     text-decoration: underline;

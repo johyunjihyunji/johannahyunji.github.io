@@ -2895,7 +2895,7 @@ const Footer = () => {
   const mountRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const modelRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now ?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
     const interval = setInterval(() => {
       setLocations(prevLocations => {
         const currentIndex = prevLocations.length;
@@ -2911,7 +2911,7 @@ const Footer = () => {
     className: "FooterContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterText2"
-  }, "designed, drawn, and coded by Jo", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bottom-text",
     style: {
       color: '#282828'
@@ -2919,12 +2919,12 @@ const Footer = () => {
   }, "based in", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), locations.map((location, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), {
     key: index
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now ?' ? 'red-question-mark' : ''}`
+    className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now?' ? 'red-question-mark' : ''}`
   }, location), index < locations.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "space"
   }, "\xA0 \xA0"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterText"
-  }, "\xA9 ", currentYear, " Johanna Lee"));
+  }, "designed, drawn, and coded by Jo"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
@@ -3081,7 +3081,7 @@ const LopsterGallery = () => {
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "LopGalleryContainer"
-  }, images.slice(0, screenWidth < 768 ? 6 : 8).map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, images.slice(0, screenWidth < 768 ? 4 : 8).map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     key: image.id,
     className: "LopImageItem",
     style: {

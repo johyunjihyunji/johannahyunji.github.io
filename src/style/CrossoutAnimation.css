@@ -24,7 +24,7 @@
   }
   .crossed {
     text-decoration: line-through; /* Cross out the text */
-    color: #3A2519; /* Change color of crossed-out text */
+    color: #58453A; /* Change color of crossed-out text */
     font-size: 1.2rem;
   }
   .red-question-mark {
@@ -49,7 +49,7 @@
   @media (max-width: 768px) {
     .crossed {
       text-decoration: line-through; /* Cross out the text */
-      color: #3A2519; /* Change color of crossed-out text */
+      color: #58453A; /* Change color of crossed-out text */
       font-size: 0.9rem;
     }
     .location-wrapper:last-child .location {
