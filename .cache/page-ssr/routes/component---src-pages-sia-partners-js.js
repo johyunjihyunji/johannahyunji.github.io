@@ -3076,10 +3076,14 @@ function SiaPartners() {
     layout: "constrained",
     style: {
       borderRadius: '20px',
-      border: '3px solid #000000'
+      border: '1.2px solid #000000'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/383042556.json */ "./.cache/caches/gatsby-plugin-image/383042556.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-title"
+  }, "Meta Family Center UX"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-summary"
+  }, "Redesigned Meta Family Center to be inclusive of modern family dynamics, improving user experience through research and prototypes."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
@@ -3105,7 +3109,7 @@ function SiaPartners() {
     className: "info-title"
   }, "Team"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "info-content"
-  }, "UC Berkeley UMA Design Team, Sia Partners", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "UC Berkeley UMA Design Team, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Sia Partners"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3116,42 +3120,35 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "Meta Family Center"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Meta Family Center"), " is a digital platform tool that allows guardians to manage and oversee their family's online experiences across Meta technologies like Instagram and Meta Quest. It provides monitoring tools, educational resources to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "promote digital safety and support responsible online behavior for families."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Meta Family Center"), " is a tool that allows guardians to manage their family's online experiences across Meta technologies like Instagram and Meta Quest.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "It provides monitoring tools, educational resources to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "promote digital safety and support responsible online behavior."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
-  }, "Problem"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "Meta Family Center's currunt focus on parental controls ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "neglects the diverse needs of modern families,"), "overlooking important aspects like ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "sibling supervision and direct media literacy education"), " for younger users.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
+  }, "Problem"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "header-image",
     style: {
-      color: '#1A74E4',
-      background: '#ffffff',
+      marginBottom: '10px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/metaslides/metahmw.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
       borderRadius: '30px',
-      padding: '20px',
-      textAlign: 'center'
-    }
-  }, "How might we reimagine Meta Family Center to target diverse modern family dynamics and the Gen Z users?")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "Our team's final solutions live on", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://familycenter.meta.com/",
-    style: {
-      fontFamily: 'AlexRoss',
-      color: '#1A74E4',
-      fontSize: '2vw'
+      border: '1.2px solid #000000'
     },
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, " Meta Family Center "), "'s site!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3425890193.json */ "./.cache/caches/gatsby-plugin-image/3425890193.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "Meta Family Center's currunt focus on parental controls ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "neglects the diverse needs of modern families, "), "overlooking important aspects like ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "sibling supervision and direct media literacy education"), " for younger users.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3162,11 +3159,15 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "UX Audit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "UX audit for 4 main pages of the Meta Family Center, then synthesized material into SWOT analysis")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "We conducted UX audit for 4 the main pages of the Meta Family Center, then synthesized material into  a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "SWOT analysis."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    style: {
+      marginLeft: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Visual Appeal")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3178,7 +3179,11 @@ function SiaPartners() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/48106954.json */ "./.cache/caches/gatsby-plugin-image/48106954.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    style: {
+      marginLeft: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Family Center Content")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3195,11 +3200,15 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "UX Survey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Our team collected 300+ responses for our UX survey that collecting responses regarding website content and visual preferences, company values, and Meta Family Center sentiments.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Our team collected ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "300+ responses"), " for our UX survey regarding ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "website content, visual preferences, company values, and Meta Family Center sentiments."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    style: {
+      marginLeft: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Visual & Content")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3211,7 +3220,11 @@ function SiaPartners() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2004628447.json */ "./.cache/caches/gatsby-plugin-image/2004628447.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    style: {
+      marginLeft: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Company Values & Meta Family Center")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3228,11 +3241,11 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "UX Interview"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Our team conducted 30 user interviews with student users to further understand painpoints")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Our team conducted 30 user interviews with student users to further understand painpoints.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "The goal was to uncover ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "initial impressions, challenges, and perceptions of platform features."), " Then, we created affinity maps and found 9 key insights.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3247,11 +3260,11 @@ function SiaPartners() {
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "User Personas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "After user surveys and interviews, our team synthesized 5 different user personas. These personas represent different family members and age groups, helping to capture the complexity of modern family dynamics and their interactions with digital platforms."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "After user surveys and interviews, our team synthesized ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "5 different user personas."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "These personas represent different family members and age groups, helping to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "capture the complexity of modern family dynamics and their interactions"), " with digital platforms."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3272,30 +3285,62 @@ function SiaPartners() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "Low-Fi Prototyping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Through brainstorming and discussions, our team synthesized a low-fi wireframe which will be further developed into hi-fi module prototypes for our final deliverable."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "After research, brainstorming and discussions, our team synthesized a low-fi wireframe for each page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mockup-box"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
     ref: el => imageRefs.current.push(el)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/metaslides/MetaLowFi.png",
+    src: "../../static/metaslides/MetaHomepageLowFi.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
     className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/596938627.json */ "./.cache/caches/gatsby-plugin-image/596938627.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/555682344.json */ "./.cache/caches/gatsby-plugin-image/555682344.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "photoDescription"
+  }, "Homepage"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/metaslides/MetaFamilyCenterTools.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/225845573.json */ "./.cache/caches/gatsby-plugin-image/225845573.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "photoDescription"
+  }, "Family Center Tools"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/metaslides/MetaEducationHub.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4130835847.json */ "./.cache/caches/gatsby-plugin-image/4130835847.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "photoDescription"
+  }, "Education Hub")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#5a5a5a'
+      color: '#1A74E4'
     }
   }, "Final Recommendations"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Our team's final solutions live on", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "See some of our recommendations live on", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://familycenter.meta.com/",
     style: {
       fontFamily: 'AlexRoss',
@@ -3323,7 +3368,7 @@ function SiaPartners() {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "wide range of users, from kids to parents to non-traditional families."), " This was challenging because each demographic had different needs.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "User interviews provided valuable insights"), " that helped us understand different perspectives, which was crucial for shaping our approach."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Our team collaborated closely with Sia's team on this project, which aimed to create a product suitable for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "wide range of users, from kids to parents to non-traditional families. "), "This was challenging because each demographic had different needs.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " User interviews provided valuable insights"), " that helped us understand different perspectives, which was crucial for shaping our approach."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/SiaPartnersTeamPhoto2.png",
@@ -4996,7 +5041,18 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDUlEQVR42pWSzU4UQRSFeRHXujDxXdSNGxeCLgzxBUzUuHMhGzXRRFYKbtSNhGhiQjBq4ogOkTAGGf6cgQZ6Zpqe7p76r8/qRkCJG29yq29Vbp8659YZIoTWGmMMUmlUqA/2zjn+N4bKJYoi6vU6PxoLrDSXQz3P4uIiaZpWTd57/P8Alj8MpGZmzbKTl6zcIbs8L8iyPtYIhBAUA0lRDBDhq7VFWLD+GKDQnjiTPPokuDrt6e4VIfOKldSCDxs5T+qSzUTQ6Su6qWK7q8kLQ2Ntl83tGKXkEWASrtnp9VFZzMgLT20pZml1i6y8HhnABBeeWWobikakWNg01NZdYGzp9BK6SYoOM/9L8oOaZeSV5877UqrHWYurpEgmvhVcfCmZ2xC8awpmlwVz64assHz/mbDS7gWGeh/wQH6773n81dEp9vcH5yZUPaHYSgVJoYjTQZAsSbLSDQ4jc0SRoZX6Y4bGhWbB+GfJ6LTDBpI20CsZKhkeIw+SRB8tC7wLzK2p0oTGuPDk6tijJMIRdVJEEjFczrC5R3OtjQl+nF01nJsccPK+49SteU5fHuPM6ENOnL/N3adviHZiGksrhxarAE2wSCvRXHvtuTET6HlTGbwU/qWtuflWMDwFlybWGR57zpV7U5y9Ps7k9Ef2uru0Wq1gpeIIsIxBsE59yyPtcau63/nvqEzvj4z4CwWAOaXZHvTjAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/abf3f47b587f4710fcd92caecc963287/afa5c/MetaUxSurvey1.png","srcSet":"/static/abf3f47b587f4710fcd92caecc963287/2fe1e/MetaUxSurvey1.png 480w,\\n/static/abf3f47b587f4710fcd92caecc963287/9bec7/MetaUxSurvey1.png 960w,\\n/static/abf3f47b587f4710fcd92caecc963287/afa5c/MetaUxSurvey1.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/abf3f47b587f4710fcd92caecc963287/3a3a2/MetaUxSurvey1.webp 480w,\\n/static/abf3f47b587f4710fcd92caecc963287/bde8a/MetaUxSurvey1.webp 960w,\\n/static/abf3f47b587f4710fcd92caecc963287/c512e/MetaUxSurvey1.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACL0lEQVR42k1STYsTQRCNFw+i/8K/4lXw5smzgt5E8CCygrB4UsFd9OZBcMGDi8SDsGElbMia3dWF/VInyWgmmSQzycxkPrqnP+ZZPYnGhprqaV6/evW6KkopaIpCKwDzvTmTcp5FniPnORjn4BQ5BWOs3Csp6J4krPyHr5iPogMnlHixqxBkRFxoaK1LoOMO4fljzOIZgmiGSUA5iDCLYsSZQMgIXhSEXxAaRV4iMCXA6jbDw5rCb7sLZzRFLjW4iLH2heHNocAg4AgSKuILeGGB4ShA6/AMltVGmqalCCKU6EUSdn+E2skUNzcVASycWg5SJqh8gjvvc9yvCnxzOA5+cTTaOY76ilQmOOu66FNxIcRcIQpSGEvc/aRx+6PG14EkLwVyAnAhIVSK1XqGZw2Go0GGnXaGls3x05UYewEOjruw2vZSoWE1pBa1sd6S1KZ5nIJsLEpvmeCYpQmiJKGckY8xoihFSv5JQQ/GEmREZvyee6iNQgGf5D+qMax8Jt/SGH6YkEKFvjtCpzekGMOye+jRvzv24Qchooz8nEqk3JDJ5Su71LI37KN+6uHWpsYPq1MGo3F5Uhe4/JTj3IrG+RsbuHj1AS5ce4xLV+7hbbWO1t4+dhpNTCYTmFWZz5zAdlfi+juN3d7Cw1yURjfaCV7vc6zvFXi5ZeFVtYm1D00839jC8fcO7G4HjuMsPZQLD0OSP01luVdqGYXidCbKoTfe/r/M/P3Nhsy0/Af/oeV8ou1uNwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/8378ea8871b12e940b673ebcec406964/bca19/MetaUxSurvey1.png","srcSet":"/static/8378ea8871b12e940b673ebcec406964/5702c/MetaUxSurvey1.png 480w,\\n/static/8378ea8871b12e940b673ebcec406964/16466/MetaUxSurvey1.png 960w,\\n/static/8378ea8871b12e940b673ebcec406964/bca19/MetaUxSurvey1.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/8378ea8871b12e940b673ebcec406964/6f9e9/MetaUxSurvey1.webp 480w,\\n/static/8378ea8871b12e940b673ebcec406964/990da/MetaUxSurvey1.webp 960w,\\n/static/8378ea8871b12e940b673ebcec406964/3975e/MetaUxSurvey1.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":981}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/225845573.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/225845573.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAA2CAYAAADH7bkwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEjUlEQVR42qWX51IjOxCF5/0fhlAU/KDIscg5JwMmro2Nc6TvfNo9s7I8s5etdVUjqaU+arXOdIuo3DS7fqla/ilvxVLZ/F+v14ulb9247XS6Tpyu34/7HTfux/1ut5f0o1Kjb7n3muXuH+ztR8EBMYE0W+1YWtZoNq1SrVm11oj7Laer1OpWqzesHQM1Gs2f/XbHonaraV+9TgLS7f7yIhbGX19fgfQTvVsXr+92sO9ZsViwCHfjuWQBi7MAB4B+zUv4FT8+AOxa2k/A7XZ7QFgvYP3U/wAQI+1O3z+y5tI2CtcmgM044Nqdm2MRomP+vM3fos21Dl0rviT65XLZIsv4fX5+WqlUsru7O7u+vrabmxu7v793RtVqNcvs/wFpAczlclapVJyuVqtlA8ptxcQf+8fzb11rFSLfNtJAAdciWn70FV8Fv+e+nE5y49IlgLq5kIMC8XXyXJ6F/E1o0+l0BgDRwYBQp5v2AaVLAEMuyn2fHj6h0+KaeAg6MdIO9OEVrWKosfipGKPzw4M42jQaDXt6enIc05cBPZ6fn51OF/b+/j6gIyTo3t7eXOs8fHx8dIS9urpyJGaM0Ed3e3vrxvl83ukgOC3jh4cHNy9hHJ2entr6+rqtra3Z8fGxnZ+f29nZmWsvLi5ce3JyYvv7+24eOTo6ssPDQyf0JdhFGGGACMSXy8tLY1MAMciSvb2934AYISGYD8iGtGlr0A94GAKEY4FhQKs12gy91kQck+Bvb2/b9PS0TU1N2eTkpK2srCSG8lDg2NAXEH1iO+AhRoDOzs7a6uqqO0J4ZPq6JOZ0iamAKPGUVIWExxIgOgy5YVqtGQIURSRplxICal0moLxDsgB1ZP/oQ4AK9uLioi0sLNjS0lImYNqlEKohQBSjo6M2Pj5uY2NjCef+RBt9FGyA/QBtNjc3bWRkxAHSwnz0YoAM9BH4H4Pmh2izs7PjqIPoBgFl04ODg8TDUPAy+fT4I7qQScgaZBPRCD6ywcbGhjPyk4EvolFUKBSS+OiIuA84gndsQIoj55Ens8S9HEioLMYzkiwJlBpMy5hF3/kpMUfKzoBSwFUfJCqZfxJKQb1ed7YOkGO/vLy4J4ZfFr8rqkXOQwCKxaJL6XgaVrrvCF5SX5IjE2zihVDh/vaHUwMevr6+OjCKDEfXjUn8WwzF17sYcn6oAXVUePwCBKGpJxK/QCHSQbnk5aCvQdVOn6N0En9O6U56uOr+rRCgjMJvU2MlCz8RKDci8DgVUN+rWoXD7/trMgHlvl8O/IQqj/wkrJw4BChDEitJllcEwouCMYHf2tqy+fn5RGZmZlwypqClArI7GYXMAgCZhRsmXswDPDEx4cor/eXlZddnLc6QSIYAOQbHU0oCzC8F0tEy1rFTAVHqOeHTgQ30SKLvJ1ltnnnLWkjfD7iv11zI0UxAAYmHqnqa+2sehlz7Zx6q5qJDFKvwOSdwnSSVh3Nzc+6xBL/oi2tQg4oIXeAdlKGFp6rLQ7eMwEMZUacx0BsGARSC7+7uJl7L21Qe6ogsCF9h/ks3LPQ+4H8jiIsTGSsO4AAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/2661edda9f6b06f177ea3a429bc9b698/d0e3b/MetaFamilyCenterTools.png","srcSet":"/static/2661edda9f6b06f177ea3a429bc9b698/c6fe5/MetaFamilyCenterTools.png 378w,\\n/static/2661edda9f6b06f177ea3a429bc9b698/258b7/MetaFamilyCenterTools.png 756w,\\n/static/2661edda9f6b06f177ea3a429bc9b698/d0e3b/MetaFamilyCenterTools.png 1512w","sizes":"(min-width: 1512px) 1512px, 100vw"},"sources":[{"srcSet":"/static/2661edda9f6b06f177ea3a429bc9b698/56697/MetaFamilyCenterTools.webp 378w,\\n/static/2661edda9f6b06f177ea3a429bc9b698/aafbf/MetaFamilyCenterTools.webp 756w,\\n/static/2661edda9f6b06f177ea3a429bc9b698/5fa70/MetaFamilyCenterTools.webp 1512w","type":"image/webp","sizes":"(min-width: 1512px) 1512px, 100vw"}]},"width":1512,"height":4094}');
 
 /***/ }),
 
@@ -5007,7 +5063,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACNklEQVR42o1S72/SUBTd32tiotFE/aD7K/xg/Ac0MTqdG44NNLKxsUAZlEkLHS2lpbTlRwvroOW9e3xlZMzoB19y8u65Nzn3vvvOFoCIMYbFYkFJkqQ34jhGeogI/3n4+u5vpYKWbUOqXpDaauO4eIqmomIpmiwZX2MTJ0t2h1XuNv5TMApHcIwWeZaOQbcFzzYQeD2EAuOBidDvI3DNFQ88C0PHRODbCId9Ue8J3hWCtBE80WO8rwT0uT7Fu0qAvBrhQOP4ojB8VRkO2hx7quACWY2haDJk2ml8yzMtxsvu3YQ8elvhePItoe1cjMeZBK/PCS8OEzzcS/A0y7D9neHRfowHu3O8zIl6ieF5NlnFr/JLPDuM+ZvqapHrHQ58VC5Vklsd1NUreJMpKnITZQFFt2C6Y5xVZUiXKtwgQn80RaFcQ1GScV5rolRX+ChKNk/WnAmKDYMkzUHDCqAPI3zKn+PDUQmFhgHdj3DRcSGbI2juDKo9wW6hiszJBQ5OZRyVFW4G9wQNN4TU7pNiB1AHMzhhjKbpQ+76MIS4Yo2w86OMj7kzlBQx8XgO2fBRNzxUtT7qusf9+eaXrxu6k3bjmWOJsmcytZ2AdnKntPtTopJqU398TZrpkD2aUbjg1HFD2j+pUaF2Rcdyh4q/usyastS39mrCVs9HvtIkMSWquofBNBZ7C9AbzuBdC5/xvw3OOb9v/I0PRWEk2EKUbkRi/m/wOeN8zte4y6exAHF+s+pBpP8GUtcrOJy/9icAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/b6a55857a990f7126b97ab442a1c5fe9/66846/MetaUxInterview.png","srcSet":"/static/b6a55857a990f7126b97ab442a1c5fe9/c1db0/MetaUxInterview.png 482w,\\n/static/b6a55857a990f7126b97ab442a1c5fe9/f765a/MetaUxInterview.png 964w,\\n/static/b6a55857a990f7126b97ab442a1c5fe9/66846/MetaUxInterview.png 1928w","sizes":"(min-width: 1928px) 1928px, 100vw"},"sources":[{"srcSet":"/static/b6a55857a990f7126b97ab442a1c5fe9/5bbdc/MetaUxInterview.webp 482w,\\n/static/b6a55857a990f7126b97ab442a1c5fe9/67a41/MetaUxInterview.webp 964w,\\n/static/b6a55857a990f7126b97ab442a1c5fe9/c4a04/MetaUxInterview.webp 1928w","type":"image/webp","sizes":"(min-width: 1928px) 1928px, 100vw"}]},"width":1928,"height":1089}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACF0lEQVR42l2RyXLTUBBF8ynZsGBYMBRfQsGGn4KCUJXiC4CwIRWzIAkJZDAxcZw4sWNb8jzbki3P1nvSoaUMTlGlq36vb/ft2/WWtNZU+xrDUuQFpqWpOZqCreW+gClcUBPkA97s3uG6VxqB1pJSmhefPO6v+Dz/6Ev0ePlZ8eiDZvmN5t47xeNVie99lt96PFv1eL2meCD8E8k/FTxc0bz6opiL1pLneWTrfRLFLolCh2SlL9Nccu0pmdYEozvDbI+I54UvWlwIX+nNQy7bntzWle3ZlcNAMF1qE02XiWUqItoi3x6wGbvgx9E5iXwLs9lnP5nnOFcj2xyQqnTZ+H3C970T1neOiEjMNhwCrVCwKAIXpQ6Zuk3JnlJoOaz/+ktk/5S42aLen1HoihtpqtjirGazHc8SvaxxmCqzn6qGg/SN4HmxzWG6wlnJIt0cU+1NxeUYozMO108Wmqxt/iFycEYs16TuzCnL2jVHURsoKn1Fw7leOfg15VK0JuRbA4qdkTiacmo2OJV1jdaQqjXiXERLUtMYuBhNh52EwY643D6+ZFfOphgIBX3f5zBp8HUryrfdGD+FzNQdNvYSbMVzHKSrTOYa8MMGz9M4E3FnD6kHsIY07BG9sbt4lFS5QzRTlRfukWoMQ/ud4Zz20JXoMnMVSgm0vhVFjCzgyacXKyvtoTwfV85hs9a3RTeF/yMccBfX+X/VtNnbX36toQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/106a8de16023ed3970bcf5daac0330a5/2d389/MetaUxInterview.png","srcSet":"/static/106a8de16023ed3970bcf5daac0330a5/bca19/MetaUxInterview.png 1920w,\\n/static/106a8de16023ed3970bcf5daac0330a5/faaec/MetaUxInterview.png 3840w,\\n/static/106a8de16023ed3970bcf5daac0330a5/2d389/MetaUxInterview.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/106a8de16023ed3970bcf5daac0330a5/3975e/MetaUxInterview.webp 1920w,\\n/static/106a8de16023ed3970bcf5daac0330a5/07a41/MetaUxInterview.webp 3840w,\\n/static/106a8de16023ed3970bcf5daac0330a5/c27f3/MetaUxInterview.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5029,7 +5085,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDklEQVR42qVSTYvUQBDdn+ZNBA+ePO0/8CB68rB48CQeBGFPCnoZEN0dWDy5h53ZcVcQ1vnMgAgaZ3Y+MpNM0kknk6STdD+rewYHj2JDU1Vdr6peVdceAIX/PyaHUird03I0GqHT6WA4HMKyLJIWBoOB0Xv9Pmzb3kUqBSmlkfpoXcrq74SyqlBVEiIXyLIMZUk2AfM8N1fr/8QwYAyvX73EZOoYb7f9FfX3RygoT0nFTk/quPpyZXzT2RRvDg/hLDxjNxpnODo+UVu2m4TNi3Pcu3sLrfPPBvTk0UPs37wBnlYYLxd4dn8f9VrN+JqtFh7cuY3B8IexXzw9wPPHB5sByGqT0HVdfLN60FKfXreDy8sLo6c0ho8fjtHttI09m87wtvYOfsCM3e+28anZ2LZMDPV8GU+w9BmiOIUoCrhBDNcPkeUF4iSBR8FeEKEoSwQshB+twTSW5rv0AsJHqiSfrm8Y+gQaOz4CnqEoSoxmK0wWPs1Pgsdr2NdzOB6DJB6T+RLff07gRTlhBcY096njqu3Pa4ZSRXGCIEoQpwK6UhhxMJ6ioIRplhOjGGEiTIGQc82I2IsN45BTbLr7ZZ14xTh+OYwCE2SiwIh0h1peZwJRkmK80DY3Pz73IvqokN4zg12sQthOqFJR7VrWeyfo6gBNXVDbRVWa/dP7qZnoN73MgnSzp1vs1veH4W+AEDuqQQFzaAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/df6eef3e92448b880f99b6476b703b38/18ffd/MetaUserPersonas.png","srcSet":"/static/df6eef3e92448b880f99b6476b703b38/2fe1e/MetaUserPersonas.png 480w,\\n/static/df6eef3e92448b880f99b6476b703b38/2c4ce/MetaUserPersonas.png 961w,\\n/static/df6eef3e92448b880f99b6476b703b38/18ffd/MetaUserPersonas.png 1921w","sizes":"(min-width: 1921px) 1921px, 100vw"},"sources":[{"srcSet":"/static/df6eef3e92448b880f99b6476b703b38/3a3a2/MetaUserPersonas.webp 480w,\\n/static/df6eef3e92448b880f99b6476b703b38/457b9/MetaUserPersonas.webp 961w,\\n/static/df6eef3e92448b880f99b6476b703b38/c7268/MetaUserPersonas.webp 1921w","type":"image/webp","sizes":"(min-width: 1921px) 1921px, 100vw"}]},"width":1921,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACKklEQVR42lVSy4oTQRTNV/gL/oorP0AXunIxK2UEXQlKCL5AF85CUESjEkHExzi4ERWyGXEwZiZDxpGk0z39SD+ru5Ourn7keKsyQWyovpw+Veeee6obVVWhrmsUZaVWvcL1QtUVl+XFMV6A8xxFUf7Hyyq1GlKgqGo8uH8XTx49hnwm2gTNq5fxY6en8LdPm3h45ybilCMvCmy0mnjVfqm4wd4e1i9ewp+RoXBDvjTTxrW1M2heWVcfP354j1MnT6D99IXCzzdu4fbaWbiMw3BctC6cw70bLcV9/fIZ18+fxs6v4VJwsVggnc1w0N+Bro1AE8E0dGxtvoPt2GrTz+0u3nSeQchYaNROu4Nud1txlmVi6+1rWPb0nyCLE0zIpWk7EDSSFzLo1hRhFKu8NP0IBvFZloGxGLphwPc9lGVJZ2ziDaRpqnJsgAS9KEV/OMZI08hBgcOxTiMMyKGL2TxDb3cf/cEQeZ7Dom/fd8c4OBypvfu/x+j1egjCCNJcQ6rOsxxBxBBR94K6SidJkoDnAoJEfD+AT01LujzGIkwME14QqlsNSch1feScH99yXSElF3YQww5n4KJQju0ggRdnEISdMIUVpEgzQc05TD+BE81VPGGcwiRO7pVayqG8FH3KMA0YCQhYfgyHFkuogRzTi2B6DBm5COMZjtyIHMcUgVBVctKEEpQ2ZRYZkZx+Xhm0rGpcscTyYMaFiiMXSy5fcWRgzpdYjvwXLfPiwM7aaEYAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/9065ee2b5d2e2134647f064fde065d05/2d389/MetaUserPersonas.png","srcSet":"/static/9065ee2b5d2e2134647f064fde065d05/bca19/MetaUserPersonas.png 1920w,\\n/static/9065ee2b5d2e2134647f064fde065d05/faaec/MetaUserPersonas.png 3840w,\\n/static/9065ee2b5d2e2134647f064fde065d05/2d389/MetaUserPersonas.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/9065ee2b5d2e2134647f064fde065d05/3975e/MetaUserPersonas.webp 1920w,\\n/static/9065ee2b5d2e2134647f064fde065d05/07a41/MetaUserPersonas.webp 3840w,\\n/static/9065ee2b5d2e2134647f064fde065d05/c27f3/MetaUserPersonas.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5040,7 +5096,18 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMElEQVR42m2Tu27UUBCGU1BQ8Dw8AE9BSYkokAgFBR0F0NAhQYVEgSgQNBHJKiKiSiICm70kzmU3F8W7G+9ms6wd387F53wcO4CUi6WRZ86M/5nz/+MZwGitqawoEFIhpaQofSEqU0pV7/K8tDIu89c8cqYE7PV6NBoNvI0m/cMOzWaTjc1N2u02v+p1tre38TyPdqtFp9N1+RaDwaBCsNZi7CXA0jOFZnskebeukdp1t6YqLiePk4To7IwwiojjhDSJSdOEJEkxxlydsPTGiWYUpjxZlLxes2Rx5EDiCnTsPhzGGcMzQTDNWd3PafuCJFSEiWFvbPidXwLsR4o0HPNpPeZJzYH7XUbj06oqcFP5UYYfCmZrkrsfNS+WFP6oYDIV/NwJOBiconRxDmgrLgyLh5YH84aDqa36mPMMh9OUFT9l+Sjn6TfJ7ILkzaqke2xI45TxScBkclrScw5YFI6vQrHkTfjQKsiT0Kkp/pOuHE+5km4DcmcC7VTWSqNk4fLXqFxOt9w+Yr0z5OGC4e0PtyoiZ+p4LQH3e0O8owleINgKcnZPFIMYJpklkZbjyBBE1jU1/yYsWPHKNdDM7cKjr6pan37grlFYbt9/xcy9OW6+hFvPNTeeae681zyuWbyBoNEdsdVPEfrvhOXKnISZUznj85ahPjBk0YQsz6srfa/v8GXNZ2EPat2C+Y5h1Tc0eoI4dWq7WpFnF1WuIlU4Yq/9AypxrsS23NcL5/IPLE05BMm0xzUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/ee919d0812c4b10b3788a937c63724ee/18ffd/MetaUxSurvey2.png","srcSet":"/static/ee919d0812c4b10b3788a937c63724ee/2fe1e/MetaUxSurvey2.png 480w,\\n/static/ee919d0812c4b10b3788a937c63724ee/2c4ce/MetaUxSurvey2.png 961w,\\n/static/ee919d0812c4b10b3788a937c63724ee/18ffd/MetaUxSurvey2.png 1921w","sizes":"(min-width: 1921px) 1921px, 100vw"},"sources":[{"srcSet":"/static/ee919d0812c4b10b3788a937c63724ee/3a3a2/MetaUxSurvey2.webp 480w,\\n/static/ee919d0812c4b10b3788a937c63724ee/457b9/MetaUxSurvey2.webp 961w,\\n/static/ee919d0812c4b10b3788a937c63724ee/c7268/MetaUxSurvey2.webp 1921w","type":"image/webp","sizes":"(min-width: 1921px) 1921px, 100vw"}]},"width":1921,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACHUlEQVR42lVSTWsTURQNiG78ZUJX7v0BXblz5UpQQVwIrlyIKUX8WNiFCAWrlkRtarS1pbaSdNLms5OZycybJPP1vo73vTFBH5x58967nHvuubcipYSBNlACQHn+D0IsIQgFNzu3/0JIi0VsxXzsBQW8PJJ43JBEquyjUgp5nsMPo79giOMYyYwhCmOwaEpxgoRQ7IJQ0SEtBAZhCnfsYfWtxMbhHJ32CaIoQk4qRvEM3jzDIMrwo5dhrZnDGeaYM4H+ROBoyBHMjABDKEvC7iTF4MLH6juF100P7V/7iFiMggg7kynOKGH9LMNKVeD6M4E3Pzn6vkarM8Cnr/vo9odQWpUlm9IyLvGooVHdIx/JS2FKoHsuChxeTLHTnWPbSXBvO8fDWo5aixT7EoHnwjlt22qkJELOOdI0xdgP8aQW4MVBgYQFlswkMgmNp1A5IQW0QWGTavLPxNildemhJpnhNMH7b230JjlubGhs/qYE7hhslsIj89c3d7H2eYj17zNUdxleHWT40lNokcIx42i5Bc4DbptrmzIOGPYc3ya6tQU8rY2wU/9InYzQPO7i8rXbqNw8xpX7wKU7AlfvSqw8L/CgLnB67mKrcQJnxKzaimHlvIDHUjhegg+OssqicGJLSLIMnb6LXjCnbksMqbPulETENE5RgjSZIQ4D5FlaEi4HW0k7rFqbmVK06+UslkvZof8XNlYtYku//wCUzOpOsyLxIQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/861129766d96723202b75b5b81538340/faaec/MetaUxSurvey2.png","srcSet":"/static/861129766d96723202b75b5b81538340/16466/MetaUxSurvey2.png 960w,\\n/static/861129766d96723202b75b5b81538340/bca19/MetaUxSurvey2.png 1920w,\\n/static/861129766d96723202b75b5b81538340/faaec/MetaUxSurvey2.png 3840w","sizes":"(min-width: 3840px) 3840px, 100vw"},"sources":[{"srcSet":"/static/861129766d96723202b75b5b81538340/990da/MetaUxSurvey2.webp 960w,\\n/static/861129766d96723202b75b5b81538340/3975e/MetaUxSurvey2.webp 1920w,\\n/static/861129766d96723202b75b5b81538340/07a41/MetaUxSurvey2.webp 3840w","type":"image/webp","sizes":"(min-width: 3840px) 3840px, 100vw"}]},"width":3840,"height":1962}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3425890193.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3425890193.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAjklEQVR42m1OXQvCQAzb//9vil9jCD7qvG0wFNue+pK1XouH+BCS0DZpw8wIPIXxygrnt+ssPnMOHagzGiKCMGG6M7qBsU+Mdc84TaYFu6tgo74d5DMzbnXvOJa53dwepGEEssA6/TwzVr3gkDwsmS4wb2FbLehG0VItUn2Z/3wYxj6VivOP/4KqnXIbOQvqwTDGGlZUUQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/c96a146d991d80cf399313510dbea136/5916d/metahmw.png","srcSet":"/static/c96a146d991d80cf399313510dbea136/fc3d0/metahmw.png 747w,\\n/static/c96a146d991d80cf399313510dbea136/09d3c/metahmw.png 1493w,\\n/static/c96a146d991d80cf399313510dbea136/5916d/metahmw.png 2986w","sizes":"(min-width: 2986px) 2986px, 100vw"},"sources":[{"srcSet":"/static/c96a146d991d80cf399313510dbea136/b2084/metahmw.webp 747w,\\n/static/c96a146d991d80cf399313510dbea136/9ccd2/metahmw.webp 1493w,\\n/static/c96a146d991d80cf399313510dbea136/8904d/metahmw.webp 2986w","type":"image/webp","sizes":"(min-width: 2986px) 2986px, 100vw"}]},"width":2986,"height":629}');
 
 /***/ }),
 
@@ -5062,7 +5129,18 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB00lEQVR42m2T647aMBCF9/3fY6XuQ6xUbX+zwA9K0xBM7kBIAgRyseM5nXG7LGhr6ciRPPN55ozzBOCqtcbxeKTL5YK+7zEMw01ydr8TEf6z7L89exJgFMd4e/tBm43CYrHAbDaD53mYTqcIggDL5RLz+RyrVXAjCPhDX4DH6oDA9yiKolvwQxJ/d1y5Wi2h1gGkk/u4L8Dva4OXyZm2WYw4SZCmKc7nM9q2cxbIajXh23sLP62xzRLE3JVov9+j67pH4CSxePUGqssCaZYhY+V57sBVXbvIfgReZgZh0WKXpwz7C5W4uq7vgfb6c2sxiTVlmQRGDpRwglgglcrqDOH5XWMVH5AlkTuTuEvTSBd3QGuvJw2UHWi327sKy7J0lZWshv2ybJXhlLzhdroB59MJR9bAk7fWYhzHx5b3ux1+e79orRR7mD68B7FdgL0eEao1wjCCMSOEIbto0OYBeCkOB/j+yiqliKujpmmIW3Vq26swaRg0eXyp7/sUhqE8MberzYY4b5R3yit1FVZVJQZTURRuINndYHiC7mrNlcgQxDsGufMDFyJT5vzPCvktVUznn2Do2ItexL7cJAMWsVW90brn2N4Y4+I+zpjRcqx0ov4Ad8pHEko3K4AAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/6fbbb89064181c1da4bf54a00eace1d7/a905e/MetaUxAudit2.png","srcSet":"/static/6fbbb89064181c1da4bf54a00eace1d7/c1db0/MetaUxAudit2.png 482w,\\n/static/6fbbb89064181c1da4bf54a00eace1d7/16e60/MetaUxAudit2.png 964w,\\n/static/6fbbb89064181c1da4bf54a00eace1d7/a905e/MetaUxAudit2.png 1928w","sizes":"(min-width: 1928px) 1928px, 100vw"},"sources":[{"srcSet":"/static/6fbbb89064181c1da4bf54a00eace1d7/5bbdc/MetaUxAudit2.webp 482w,\\n/static/6fbbb89064181c1da4bf54a00eace1d7/beee4/MetaUxAudit2.webp 964w,\\n/static/6fbbb89064181c1da4bf54a00eace1d7/e66f4/MetaUxAudit2.webp 1928w","type":"image/webp","sizes":"(min-width: 1928px) 1928px, 100vw"}]},"width":1928,"height":1088}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuklEQVR42m1S2ZKbQAz05+dzkudsJW+pVOVhN+wmgLmNuYK5BjDXQEeaNS4/LFXNNVKr1dJhXVeM4wDRVCjLEtM0Yds2SCmxLIsCvzOapkZZFOi6Tn1zLuMx5rBtK8paQDM8mMcj6rqmAiPmeVbEjIWDKdELQuimhSSOVcyOXYAiBCTMfxKfvi+I0xyObcE0TQRBgCzLkOc5hnECsOLzH4kvbwuyyMdf3YBhvCOKIkXMag9YJS5ixg9nQCNaaquBEAJlVSmyglocpxmgTn56A365PXpR4XIpCBcV35IFE3X0rnCT8IsZT/YK9xThVft9r2zoOlzXuSv8as74prcIXZO6OMIii7ho27bKe0XIt4kU1G2PNMvh+QGqukF/HdD1VwwD+TQvmBZJxCNE2+E6DErRRP/Z35mHJ9d9KBsqak/TNBwtC8HppPzgi45AY7klSXieh+fnFyRpSqo61NRucwO/K0I2ktfA932VkCQJYpoiG82IbxNlBXzGcbZtw6LiDB4gI6UiaiiPCpnQcRyVwE/XdRXJ3tL5fIZOvu4kTBiGodoGLnr3kBeT9+6j63HH9rgd/L3vKqtjwv/6DvdD+znaIgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/170a9413cd0a741db8912bfe1a484675/bca19/MetaUxAudit2.png","srcSet":"/static/170a9413cd0a741db8912bfe1a484675/5702c/MetaUxAudit2.png 480w,\\n/static/170a9413cd0a741db8912bfe1a484675/16466/MetaUxAudit2.png 960w,\\n/static/170a9413cd0a741db8912bfe1a484675/bca19/MetaUxAudit2.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/170a9413cd0a741db8912bfe1a484675/6f9e9/MetaUxAudit2.webp 480w,\\n/static/170a9413cd0a741db8912bfe1a484675/990da/MetaUxAudit2.webp 960w,\\n/static/170a9413cd0a741db8912bfe1a484675/3975e/MetaUxAudit2.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":981}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4130835847.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4130835847.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAuCAYAAAAoaDnGAAAACXBIWXMAAAsTAAALEwEAmpwYAAADpElEQVR42qWXiVLiQBCG8/4vZ60X4Im3gqAckkCCvfl694dJG3VxU/XXTDozPX33JBvMzX71x9bpdW04Glv6LFelrcrSimJpeV7YokaxXDmNeV4UVlaVf+e9Wq8tm+SVDSe5jUYjm87mzuj9/d3W9ccVDFermvHKN7NxCcOanv9lDkNofw5bWlYUC1tXpVU1ynKLql4IU4FDdNB6Xfl34AfWjKAPBgPLIEoqoIXClsn60++AZzweW4Y08RGTytVZNiDJxUTrPzBkUaquNn51WFyHH7I8z2tjFxs7aHHclB6U0gB7GV1COD8/P9ve3p4dHh7a/v6+nZ6e+shhkl62akMqvTN8e3uz8/Nzu7i4cPT7fXt6erLX11ebTCY2m818Pp1O/R3wzr7UhjyZJMD9UkPz1LvRHEIaIRuGnIi6vV7PJXx8fLT7+3sH0t7e3trd3Z2PvOs7tIeHB7u8vNyYZ8Pw+PjYDg4OnDHqCC8vLw7WMIomE+BQNGpICEG20kZCAGfhOebQmOsA5jBUYrTacLFYuKEZFZ+yz3A4dDVRUZDaNzc3Np/PtwzZgGRnZ2cOwgYJsIsYY1vM0el03DwC70dHR65FgyHiEzpienJy4guRgAdnsBnHRUBHgA8SwkQSog7e1MnfMcSuG4YqQwpcBWyaAVI5VVeA3lBZDAkB5TbvAnZkA9lDzYuA3ohDZUiaAWnyA9THmwR3xAcvq3qoajCmwcpINuAk7BXR6mVsh5fx6tXVlV1fX3ugi+lOXkZFgln5StASyNgHSXk4pNvteiREQG8wlFOQCE/DPFZopCfXUS8CekNllf+0NMUqjUnYhCQR0ImMBsPo1VjycVThvbkdqo3OUCETu5hGvuFlghh7RUBvdQpOoGShQqoeEuKUnXIZZ5DHhAfSMCefOYjvPwob1ThSSYVWHt+JoRyg3I1VmAO/i0NaQkPl6OFYHGK3i2i0gPRK0XbrYmxrAWkrUMlrZAoVA5sp5piLRj3cqTiQdro9yNOAUMI+O1XstEmpQFDjqDhI+y/FocEQG7FRvVnV979agAor9sJ+8epGBuEAKncEdMVrpmtuGhpfXdm+ezIiHGfgANkIteM17av7YQqXUGoKujGk9+rK/0e23bCN7hISkGpIWpzet3XvET3tkGpmzCVIpn6sjpdeOiWxGGpdmo7pOt7dy9iM1FLllcSEEd5lxNbMMQ9z9Whd73SpyuwHT6pFjIAs3pFjQLd5um2dGP4GIU7GgRRJH4UAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/4f530c03b688190dd553e25c9ff8a0d2/f45b9/MetaEducationHub.png","srcSet":"/static/4f530c03b688190dd553e25c9ff8a0d2/97d45/MetaEducationHub.png 378w,\\n/static/4f530c03b688190dd553e25c9ff8a0d2/2c33a/MetaEducationHub.png 756w,\\n/static/4f530c03b688190dd553e25c9ff8a0d2/f45b9/MetaEducationHub.png 1512w","sizes":"(min-width: 1512px) 1512px, 100vw"},"sources":[{"srcSet":"/static/4f530c03b688190dd553e25c9ff8a0d2/2e6e5/MetaEducationHub.webp 378w,\\n/static/4f530c03b688190dd553e25c9ff8a0d2/7346b/MetaEducationHub.webp 756w,\\n/static/4f530c03b688190dd553e25c9ff8a0d2/a1bce/MetaEducationHub.webp 1512w","type":"image/webp","sizes":"(min-width: 1512px) 1512px, 100vw"}]},"width":1512,"height":3497}');
 
 /***/ }),
 
@@ -5073,18 +5151,18 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABxElEQVR42m1T247aMBDd//+QPlX7A33qVn1BqiokBCQsuV8IWUHuCXY8p2OTsGRVS0e2PDPHZ84kLwBaIQSKoqC2bTEMA6SUj30cR8yLiB74stS0Jy+a0A9C/Hx7I9d1sd1usdlssF6vsVqtEATBnWwi/Eo83S0Jq+sHvKNF/lzMSUopg5nkxl1473u4zhF10zzy/qvwtyvw+reicxoiCEMkSYKu69D3vWldr04Qvv1p8R4XiKMAURwj5NwoilCW5TOhajN+0MklhZ6DvWVht9tBt+84DvI8N5mCrfy+lgjyDlkam4d93zek7P9S4S9P4ce+pywJ4XreQ2HHQ9KDIm59YMLXjYQTX3BKIiaKELPKNE3RNM1SoVcAh1zR0LWoqgpFWRrP9PT1rtgrTWjlhLoTqDmnZOjYyI/JcVwqvHxkOB4sOroev5rg+aPQZ0V6KCNC3+U2AyZQn5O/T2RB2GifLMtW7BnxmbiFO+qaxO1m6oSQZNk22faBsiwz8ZrjbAk7osZp6rFRyEGcz2dNhtPpZCbHRcbH+dOQcjQxfa+hz9q/6/WqrflUyOwXxo3/iJ4xzODgAmYuT3GuMZji3V0guf8A6JRLR3vc2woAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/7ad2f668750c48600cd8afcee856c257/a905e/MetaUxAudit1.png","srcSet":"/static/7ad2f668750c48600cd8afcee856c257/c1db0/MetaUxAudit1.png 482w,\\n/static/7ad2f668750c48600cd8afcee856c257/16e60/MetaUxAudit1.png 964w,\\n/static/7ad2f668750c48600cd8afcee856c257/a905e/MetaUxAudit1.png 1928w","sizes":"(min-width: 1928px) 1928px, 100vw"},"sources":[{"srcSet":"/static/7ad2f668750c48600cd8afcee856c257/5bbdc/MetaUxAudit1.webp 482w,\\n/static/7ad2f668750c48600cd8afcee856c257/beee4/MetaUxAudit1.webp 964w,\\n/static/7ad2f668750c48600cd8afcee856c257/e66f4/MetaUxAudit1.webp 1928w","type":"image/webp","sizes":"(min-width: 1928px) 1928px, 100vw"}]},"width":1928,"height":1088}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABt0lEQVR42l1SSZKbQBDU/w9+g79gn3xzhI+amLAmjBCIRTBCmyXEKpamIV1VCI3Gh6QbqM7OyqyZ1hpd1yHPUlyvMW63G4ZhkG8MzaAarXtkXBPHKMsSfd8/MHHwOuNH07awvXeY1hqHwwFKKfnJxHyg64iQ1uB9C2vt4LDfo65rNA2jQUvnJ+JZz+yEr689jDBF4Duw7TV2ux2OxyPSNEVLhIDGN1Pj+1Lh7z6EubKwWq2o1obv+6iqSkhFIRNGiUKSFYgvFyHJ81zAChQTDhrzoMHLpkJdsj2JICYL8qL4aHnoNapW48svhT+bGL5jy62sjv3MiDzLC1H4w1L4aZfYha504XkuoijC+Xx+2CQKWcH2XJLCkg7nKG8V+apQE5o7WqVRVA2pKcW/umkFfHb8f1fIfTP72+I3loaBxeINQRBICGO6oyWKUvY9D/P5nPzdj0HpcRL6p9oHoWEsCQYsy4JpmnBdVwjCMCQljVyw3UYShOM41K4nYWwIF/L909jwC3vGycb3OSvI6CzLaD4zCqYllT2S5IrT6SQE7BuD9xzcJ8Jp5qa5+x881Nwi76e6Zzy3/A/9+/tMQzjYZgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/0840d6be684bc5cdb771b8a73a69e64b/bca19/MetaUxAudit1.png","srcSet":"/static/0840d6be684bc5cdb771b8a73a69e64b/5702c/MetaUxAudit1.png 480w,\\n/static/0840d6be684bc5cdb771b8a73a69e64b/16466/MetaUxAudit1.png 960w,\\n/static/0840d6be684bc5cdb771b8a73a69e64b/bca19/MetaUxAudit1.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/0840d6be684bc5cdb771b8a73a69e64b/6f9e9/MetaUxAudit1.webp 480w,\\n/static/0840d6be684bc5cdb771b8a73a69e64b/990da/MetaUxAudit1.webp 960w,\\n/static/0840d6be684bc5cdb771b8a73a69e64b/3975e/MetaUxAudit1.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":981}');
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/596938627.json":
+/***/ "./.cache/caches/gatsby-plugin-image/555682344.json":
 /*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/596938627.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/555682344.json ***!
   \**********************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB1ElEQVR42oWU546CUBCFef8H84/RxN5jwR6joBQRdJZv2DF3E3eXZLiXKWfOlOAF4VWiKJY0TSWOE0mSSuI4FmzX61XvSZKqj9kuQShhGKreYhBv5W9ksViK7/uyXC7L+0JOp5MaoziVPM/l+XxKkRflvZD0fi8JROWZqR5BXxSFZFkm3mQykU6nI/1+X3q9nt43m42yeTweGmAsX6+XBllF6M3HbN5ut5PpdCrr9VoOh4PwfblcFAB2OBIEAx7u2G63m/pTNoIOm8cLZALcTDjA4l6WyGliPUS/3W41Oa2az+dVDy3AgDnRYaSfg8FAxuOxjEYjvVs78A2CQMEBpEruHi968Ykhjs1mU/s7HA61x7TGABkOyUk8m80qQOuNASIGSBn1el2ZAdjtdt+AVomVvlqtqpJ50WAe2PEAaCXXajVl9qlkGwaVvBlaoy0rYjoaThDfto/37z3EzwbEDpNcAd0h6AKXpbuAx+NRm38+n9/rZFO2ZPv9XplrybZriDsUHNmzVquly95ut/UE1JjhAwHrvy62ZXTFpgc7ABlGo9FQQNgCSDAg7nD+BYQhIAwFUNbHZVj9NH7+UH4FpBxjCKBN2hh+ivsV0AVmpThd+SvmCw9VxHyWNMpWAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/3f6222cc3355423fa917520dd3760902/e29ac/MetaLowFi.png","srcSet":"/static/3f6222cc3355423fa917520dd3760902/237c5/MetaLowFi.png 450w,\\n/static/3f6222cc3355423fa917520dd3760902/0e4f6/MetaLowFi.png 900w,\\n/static/3f6222cc3355423fa917520dd3760902/e29ac/MetaLowFi.png 1800w","sizes":"(min-width: 1800px) 1800px, 100vw"},"sources":[{"srcSet":"/static/3f6222cc3355423fa917520dd3760902/c712d/MetaLowFi.webp 450w,\\n/static/3f6222cc3355423fa917520dd3760902/4f5eb/MetaLowFi.webp 900w,\\n/static/3f6222cc3355423fa917520dd3760902/4b168/MetaLowFi.webp 1800w","type":"image/webp","sizes":"(min-width: 1800px) 1800px, 100vw"}]},"width":1800,"height":1418}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqCAYAAACz+XvQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC1ElEQVR42s2WaU9yQQyF5///L5dvakJkX1wwLAKyKIpLX58mh/SOiCB+eCcp906nPdPptIebJkuzSndmnasrG47GFsf7+7vNZjObz+f+fHx8tOfnZ5tOp65jvlwu1zbYp9FiZa3e1FrtjvX6A3t9fbXVauXy8vJi9/f3Nh6PXR4eHtxxOBzaaDTyOWCsYQd4atRr1m7Wrd1uW7PZtFqtVhB0jUZjLfV63XXSxzn2qVKtWrlc+ZSyVSoVq37Oo6DbJtGG98SPdmeHHHBfSUR2enpqx8fHdnFxcTBoItSTkxM7Ojqys7OzwwGrnsOyT0jwwUc+FGDjkYnwO/nplnNJrVbLOp2O3dzc2NVntyDX19f+RMcaNrtKosWoehx7vZ7d3d1Zt9u1wWDgOjqB8fHxUZDvdA5I63A8ukXVT78CulgsbJ/hgG9vb97DEpocndaYEwFrsmXOexQHZAEikBJCAEDPuJE2w1428kO3BtSuAlaE0SFuGG3ETIUIMVJiFZl2jOlAz1CEOrreCzmEz+A5AcF1/X7fL0z545LQ6eYnk4n7UR3w5BqQwW1iqCiIVCytEuEdHWsM2BsdvtKlWE95bf1mOCCdcX5+bqVSyfsRxqFTfg3I+ekQ8iOJR93UFZukkMP86CoLngj5UmHr5mMpFXIo51wElq/HAOIGBcC8IyQRWLaxmHWqdWFrpxjNd6KajUdWnxcAd4mQiDSPeY4fBlsB8zzGvs5tvgD+5XBAehRShVwhWt7zOtwLkP6kW6D+29tb/y/hwycH3NSWXwobR91QrDflSPnR15jyrWJWbtFR/EkJZqLkCywa5zptll9YklKOAoz1Fwk2L5Voh2/ShyScplojp/pKZZ0Lenp6ckLFThuQLuzwxwadA3LLKDWgML7GLi8vncoAJiWwM3aRhPGH6eW/sQ7ZDQMi3pVs2dCPvA9Db7LbyofbHPcq7D9vvf8a8B/wQp0vrrzZcwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/edcc27f7bfae26c5c996cf1aeb8c52ab/5e4da/MetaHomepageLowFi.png","srcSet":"/static/edcc27f7bfae26c5c996cf1aeb8c52ab/3f0d3/MetaHomepageLowFi.png 378w,\\n/static/edcc27f7bfae26c5c996cf1aeb8c52ab/3db6f/MetaHomepageLowFi.png 756w,\\n/static/edcc27f7bfae26c5c996cf1aeb8c52ab/5e4da/MetaHomepageLowFi.png 1512w","sizes":"(min-width: 1512px) 1512px, 100vw"},"sources":[{"srcSet":"/static/edcc27f7bfae26c5c996cf1aeb8c52ab/b62b9/MetaHomepageLowFi.webp 378w,\\n/static/edcc27f7bfae26c5c996cf1aeb8c52ab/a289e/MetaHomepageLowFi.webp 756w,\\n/static/edcc27f7bfae26c5c996cf1aeb8c52ab/b5b50/MetaHomepageLowFi.webp 1512w","type":"image/webp","sizes":"(min-width: 1512px) 1512px, 100vw"}]},"width":1512,"height":3194}');
 
 /***/ }),
 

@@ -3157,7 +3157,7 @@ const ProjectSlide = () => {
     }
   }, "Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Title"
-  }, "Designing Waymo's Future: UX & Brand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Designing Waymo's Future: UI & Brand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Company"
   }, "Waymo"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",

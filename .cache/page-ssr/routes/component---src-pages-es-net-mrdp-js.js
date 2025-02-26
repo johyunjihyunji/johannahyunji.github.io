@@ -3113,7 +3113,7 @@ function ESNetMRDP() {
     className: "info-title"
   }, "Role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "info-content"
-  }, "UX Engineer Intern")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "UX Design & Engineer Intern")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "info-title"
@@ -3285,7 +3285,7 @@ function ESNetMRDP() {
     }
   }, "Competitor Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "By going through software tool landing pages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "A few key takeaways were:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "By going through software tool landing pages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Key Takeaways:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3388,11 +3388,11 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2'
     }
   }, "Interview with Client Point of Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Through the UX research stage, I also had the chance to have a meeting with Ken Miller who was our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "client point of contact. "), "Ken delivered the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "current painpoints of MRDP"), " and more guidance on what I should focus on in terms of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI design and codebase design.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "I had a meeting with Ken Miller who was our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "client point of contact."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Ken delivered ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "current painpoints of MRDP"), " and guidance on what I should focus on in terms of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "UI and codebase design.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
@@ -3422,7 +3422,7 @@ function ESNetMRDP() {
     style: {
       marginLeft: "20px"
     }
-  }, "Focus on the Django version of the Globus data portal, using data.lsstdesc.org as an example. Similarly, our data search functionality can be removed for now.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Focus on the Django version of the Globus data portal, using data.lsstdesc.org as an example.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Similarly, our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "data search functionality can be removed"), " for now.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
@@ -3452,7 +3452,7 @@ function ESNetMRDP() {
     style: {
       marginLeft: "20px"
     }
-  }, "Prioritize the design of the top bar and menus, making them easily customizable. Implement customization entrypoints to allow researchers and institutions to add custom pages (e.g., \"Our Team\" or university-specific pages) to the menu system using Django template functionality."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Implement ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "customization entrypoints"), " to allow research institutions to add custom pages (e.g., \"Our Team\" or institution-specific pages) to the menu using Django template functionality."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3463,13 +3463,23 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2'
     }
   }, "Low-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Through collaborative discussions with James and Ken, we've ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "distilled the user experience to two essential pages:"), " the landing page and the transfer page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "After discussions with James and Ken, I distilled the UX to two essential pages:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " the landing page and the transfer page.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      color: '#50C5DB',
+      margin: '30px 0 0 7px',
+      fontFamily: 'Crimson-bold',
+      fontSize: '1.7rem'
+    }
+  }, "Landing Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Landing Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Using the comparative analysis, I redesigned landing page to incorporate:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Introduction Section"), " to provide summary and login entry point"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Insutrction Section"), " that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Featured Datasets Section"), " to highlight from institute"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Customization section"), " that include eg. team or institution introductions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3496,12 +3506,47 @@ function ESNetMRDP() {
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/383160167.json */ "./.cache/caches/gatsby-plugin-image/383160167.json")
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      color: '#50C5DB',
+      margin: '30px 0 0 7px',
+      fontFamily: 'Crimson-bold',
+      fontSize: '1.7rem'
+    }
+  }, "Transfer Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Using the comparative analysis research, I redesigned landing page to incorporate summary, institution branding, allowing customization.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "A landing page that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Three features to highlight why institutes choose MRDP"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Customization section that could include eg. team or institution introductions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Transfer Page")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "I merged the search and transfer page to streamline the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "process of finding source and destination points,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "taking inspiration from travel booking and cloud storage platforms.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    style: {
+      color: '#766459',
+      fontFamily: 'Crimson-bold-italic',
+      fontSize: '1rem'
+    }
+  }, "Transfer Steps:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ol", {
+    className: "bullet-list",
+    style: {
+      margin: '0'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "Once user logs in, users have the option to select the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "source, destination, and dataset to tranfer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "Source and destination search expands so that users can choose and scroll through options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Search engine"), " allows users to filter through datasets and find an appropriate one"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "Once selected, dataset should be added to the \u201Cselected\u201D box/cart "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201CSelected box\u201D"), " functions as a final confirmation of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "datasets to transfer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3527,20 +3572,45 @@ function ESNetMRDP() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3511892386.json */ "./.cache/caches/gatsby-plugin-image/3511892386.json")
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "I merged the search page with transfers page to streamline process of finding source and destination points for transfer, taking inspiration from travel booking and cloud storage platforms.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once user logs in, users have the option to select the source, destination, and dataset to tranfer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Source and destination search expands so that users can choose and scroll through options"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Search engine allows users to filter through datasets and find an appropriate one"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Once selected, the color of the selected dataset should change to indicate it was selected and should also be added to the \u201Cselected\u201D box/cart "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "\u201CSelected box\u201D functions as a final confirmation of datasets to transfer")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2'
     }
   }, "High-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "After confirming the low-fi mockup and user flow with the client's point of contact, I developed a high-fi prototype incorporating an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "example customized section featuring ESNet's institution branding and content.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "After confirming the low-fi mockups and user flow with the client point of contact, I developed the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "high-fi prototype incorporating an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "example customization featuring ESNet's institution branding and content.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    style: {
+      color: '#766459',
+      fontFamily: 'Crimson-bold-italic',
+      fontSize: '1rem'
+    }
+  }, "Key Components:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "bullet-list",
+    style: {
+      margin: '0'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "Streamlined the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "file navigation interface"), ", browsing through source node\u2019s datasets"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Introduced breadcrumb trail"), " at the top of file browser, allowing tracking of directories"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "Introduced a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201Ctransfer queue\u201D"), " to organize selected files for transfer and details such as name, size, transfer status etc "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    style: {
+      margin: '10px'
+    }
+  }, "By choosing the source node and destination node in order, kept the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "transfer process intuitive"), " and user friendly"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3566,11 +3636,7 @@ function ESNetMRDP() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1585526935.json */ "./.cache/caches/gatsby-plugin-image/1585526935.json")
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-    className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Streamlined the file navigation interface, browsing through source node\u2019s files/datasets"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Introduced breadcrumb trail at the top of file browser, allowing tracking of directories"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Introduced a \u201Ctransfer queue\u201D to organize selected files for transfer and details such as file name, size, transfer status/types etc "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "By choosing the source node first and then choosing destination node after browsing files, kept the transfer process intuitive and user friendly")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3581,11 +3647,11 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2'
     }
   }, "Development"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Moving on to development stage, I focused on creating ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "clean and digestable code"), " that can be distributed to research instituion so that MRDP can be approachable to be customized."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "During development, I focused on building a clean, digestible codebase ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "to simplify MRDP customization"), " for research institutions."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3593,17 +3659,19 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph",
     style: {
-      marginRight: "20px"
+      marginRight: "5px",
+      color: '#50C5DB',
+      fontFamily: 'Crimson-bold'
     }
-  }, "MRDP Main Repo"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "MRDP Github Repository"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://github.com/esnet/data-transfer-bootstrap/tree/esnet_branch",
     style: {
       display: "flex",
       alignItems: "center"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "30",
-    height: "30",
+    width: "20",
+    height: "20",
     viewBox: "0 0 150 150",
     fill: "black",
     xmlns: "http://www.w3.org/2000/svg",
@@ -3632,17 +3700,19 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph",
     style: {
-      marginRight: "20px"
+      marginRight: "5px",
+      color: '#50C5DB',
+      fontFamily: 'Crimson-bold'
     }
-  }, "MRDP Live Site!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "MRDP Example Deployment!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://mrdp.mooo.com",
     style: {
       display: "flex",
       alignItems: "center"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "30",
-    height: "30",
+    width: "20",
+    height: "20",
     viewBox: "0 0 150 150",
     fill: "black",
     xmlns: "http://www.w3.org/2000/svg",
@@ -3665,7 +3735,7 @@ function ESNetMRDP() {
     d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "This deployment was delivered to the Science Engagement Team in order to be distributed to any administrated that requires MRDP.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "This deployment was delivered to the Science Engagement Team in order to distribute to any ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "ESNet's partner administrater that requires MRDP."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
@@ -3690,14 +3760,16 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2',
+      fontSize: '1.2rem'
     }
   }, "User Flow Redesign:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "My project aimed to design for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "niche group of lab researchers,"), " shifting my focus from previous GenZ targeted marketing projects. I aimed to create a UX that prioritized versatility and approachability, leading to a redesign of the website's user flow, which simplified navigation by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "consolidating two-page operations into a efficient single-page experience"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "My project aimed to design for a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "niche group of lab researchers,"), " shifting my focus from previous GenZ targeting design projects. I aimed to create a UX that prioritized versatility and approachability, leading to a redesign of the website's user flow, which simplified navigation by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "consolidating two-page operations into a efficient single-page experience"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#50C5DB'
+      color: '#0075A2',
+      fontSize: '1.2rem'
     }
   }, "Distributable and Customizable Codebase Development:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
@@ -5491,7 +5563,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACVUlEQVR42mVUyXbbMBDT//9YmiZ1k7aJbS2WHGuh9l12ckEBys7rcsCjJIIzmBlQzjTNqPsRZT9g5PP5fMY8L8T8iYkYuFd0g0U3Tjgvf3NucIZpwuvJ4FuYIq0ajMNgN86Xiw1uE/CwEj4GMZ6PBqEpMZCnRNpfFmFN4HRtg9enR7RViYPvwXX3SJMYdVmg5remrjDzUMH3l81Xy/PdHfbbLYrcoGtb8iq0TbMGnKiw4UvLDRHKIofJUuQmwziOa8nM3vb9mqBp7b7JMlRlaTmKISyLSiYx9F3kDObumXm3xW77Ct9zPzMrYMX14O1RMkgUhoii0K6qoO86KI7KdtSz5PRmVWZpioIKp2m0hH8VFlQtXkpelhkitYjjGP0toA4G7EmR53CpTsqaurbKhIYqFVgKQ3+PMIrw5e4ODw8PeCTu7++x2WzQUaUG5EjBwolKhSbe8XDDibbDaJ/tO21SE+L06vmw7mu9PXfq42qbGU9xiV9JiZ9JxcMLPt7frVUEWWIksR4m/CAvaXp8fLxbW6nERba5Wkv+dVra5vn5O07sy8714HkeDkFge6L+jlxvQ/FpK8PWhIeD7aO8qJZZXP3rDEOPMs/Qsm9ZfEIq0IcagEkTO0WV0qo82kbW0X6WJNZi8mHXtRTQrQE1cm/7AmMMAio7Ho+fvqxlGU2aJUnhWxig4pB832fQxKrSwMarUnnR0YfV0IUNGHGKChrSZweWljPRzD5KoQ6KG9Cvp7cIuS6ArCPFqRL0cNTYy/XeXv64vzfc7qiavv445v84f3J/A+7EHsERkkgmAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/027dffcf47edc57db6c9d9847962862b/3cac7/esnetaudit.png","srcSet":"/static/027dffcf47edc57db6c9d9847962862b/c77a7/esnetaudit.png 768w,\\n/static/027dffcf47edc57db6c9d9847962862b/45aff/esnetaudit.png 1537w,\\n/static/027dffcf47edc57db6c9d9847962862b/3cac7/esnetaudit.png 3073w","sizes":"(min-width: 3073px) 3073px, 100vw"},"sources":[{"srcSet":"/static/027dffcf47edc57db6c9d9847962862b/593dd/esnetaudit.webp 768w,\\n/static/027dffcf47edc57db6c9d9847962862b/6f8a5/esnetaudit.webp 1537w,\\n/static/027dffcf47edc57db6c9d9847962862b/2aac1/esnetaudit.webp 3073w","type":"image/webp","sizes":"(min-width: 3073px) 3073px, 100vw"}]},"width":3073,"height":2123}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTElEQVR42mVT2Y7bMBDz//9bDywKbDbexPF9yad8JHlhyWm8QNuHgWxpNEMOqWBZV7STh2Os24Z937By798Y/YJ6mNGOM/yyMm//L2fj/WCYPX7GJX7cSnTDiHme7EAXFPpWpK7HtyjHW1IhrR38PL8A7AbiyAvaukIcvsM1NcLzBy6fIZqqQudatHWNoe+w3R/IsgRJeILjXnh6t9y20XmPvuswDoOhDJZlwTSO6LhZs7hrW1RliYYXexbT2cLOHVdddp1DXZVWrCxyeD//TVkUszhCkee4hCERfuL8cUKWxkTpDOFKWhVRF0nMpjVu1yviW4Qkju1c6IRS4IJpHIimQts2KLLMOs/T+Ac1C2pdtx1O1PQ/Tcam178Qc0+FFEZ54GEW30izsLkk7Ky59qQ2spkaCmEphFlKJhmunHN0+bRV+UKpMIRSarvfMXuPgcg0q5ZNunGiVbzF4Ff0DOUOROhIUXlyheykkFtkwaCbF3xPGvzKHd7LHst+x+P5MJqb2WZn4oaCHnzLqDzzn88nrXK38/Vll/UVgdQ8i2qW43QOEVKYmMNeiExe80QklaumQZqmyIsCURSZI44cCavVVNbQB86roRXSm9RObVb6V0hBvYyeeSPn5CheyTnWnLnsI0G/Zi3KUjVPbijoKYlSEMEXOq3eG/2ahRoWaYj0crmYX1eK4A+Fj5cyUQjZQR0zFj66V2wgpELk2XmYZmui/Wt4RkrvHpGniSG0gnqLj8fTUAnynYof71ihfxu+vhnKO2bmX0yE9Mj/DYwjIU4NOXorAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/6a6f2f50e546bb05c4ea88089adb6e22/e89bb/esnetaudit.png","srcSet":"/static/6a6f2f50e546bb05c4ea88089adb6e22/c77a7/esnetaudit.png 768w,\\n/static/6a6f2f50e546bb05c4ea88089adb6e22/60780/esnetaudit.png 1536w,\\n/static/6a6f2f50e546bb05c4ea88089adb6e22/e89bb/esnetaudit.png 3072w","sizes":"(min-width: 3072px) 3072px, 100vw"},"sources":[{"srcSet":"/static/6a6f2f50e546bb05c4ea88089adb6e22/593dd/esnetaudit.webp 768w,\\n/static/6a6f2f50e546bb05c4ea88089adb6e22/292fa/esnetaudit.webp 1536w,\\n/static/6a6f2f50e546bb05c4ea88089adb6e22/1f917/esnetaudit.webp 3072w","type":"image/webp","sizes":"(min-width: 3072px) 3072px, 100vw"}]},"width":3072,"height":2124}');
 
 /***/ }),
 

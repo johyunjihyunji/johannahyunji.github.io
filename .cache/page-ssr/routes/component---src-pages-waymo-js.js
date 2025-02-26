@@ -3044,10 +3044,14 @@ function Waymo() {
     layout: "constrained",
     style: {
       borderRadius: '20px',
-      border: '3px solid #000000'
+      border: '1.2px solid #000000'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1313824853.json */ "./.cache/caches/gatsby-plugin-image/1313824853.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-title"
+  }, "Waymo UI and Brand Revamp"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-summary"
+  }, "Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and SF launch."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
@@ -3055,7 +3059,7 @@ function Waymo() {
     className: "info-title"
   }, "Role"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "info-content"
-  }, "Creative Design Consultant")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "UI/UX Design Consultant")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "info-title"
@@ -3079,40 +3083,30 @@ function Waymo() {
     className: "section-title"
   }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/WaymoMockup.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    style: {
-      height: '80vh',
-      width: '100%',
-      borderRadius: '10px'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/892377171.json */ "./.cache/caches/gatsby-plugin-image/892377171.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "photoDescription"
-  }, "Waymo Advertisement Mockup :)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Waymo"), " was transitioning from an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "R&D-focused firm to a commercial entity"), ", which requires a comprehensive reevaluation of its brand identity and the overall experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    style: {
+      fontFamily: 'Crimson-bold',
+      fontSize: '3rem'
+    }
+  }, "Waymo"), " -self-driving technology company- was transitioning from an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "R&D-focused firm to a commercial entity"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " which required a comprehensive reevaluation of its overall user experience and brand identity."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "subsection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#0077FF'
     }
-  }, "1. Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "1. UI Redesign of Waymo's Homepage"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Assess the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brands of Waymo\u2019s active ride-hailing competitors and self-driving automobile competitors"), ", in terms of brand positioning, personality, visual/verbal identity, and advertising strategy."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Conducted ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "comprehensive competitive brand analysis"), "to inform the redesign of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interactive UI/UX modules,"), " aimed at enhancing Waymo's commercial appeal and targeting the next generation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#0077FF'
     }
   }, "2. Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Using insights from the competitive brand research, provide a proposal for how Waymo should evolve two core components of its ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Provide a proposal for how Waymo should evolve two core components of its ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brand identity to appeal to younger audiences (Gen Z), recommending brand personality and photography style.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       textAlign: 'center',
@@ -4787,17 +4781,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5klEQVR42n2QO0/DQBCE709ENLFzvju/ogQh5WliOwlCDo8GCVEAUhACpaCiRUoRSiQafvHH+QJlXIx2NbuamV1hTE4TtM7xvDG+P3G9McXfrEDbKjsZrcsf4skT3ThHNIvNSJIFq9UjVfVAHM8dZ8K9qG6Pubh55mSxoZeW1qBA1K6HoNSMKCrZ7b7Zbr+cmKrNLK/bU7z3F+b3a4a9MyJrXO+L//hNdTC4YjS6JrTixs8cf/SxofO6JtEl/eOKMCwdL5TaJzmEOpWUU2SQoey/5PCc1ucb6vaOvizdJWm6dJcEwSm/LEueGzYN7TsAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/12eae/Artboard%20151.png","srcSet":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/5551e/Artboard%20151.png 600w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/a5079/Artboard%20151.png 1200w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/12eae/Artboard%20151.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/d53540e2fb7c3c0c5b7c7cb4451f367b/14f51/Artboard%20151.webp 600w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/d48b7/Artboard%20151.webp 1200w,\\n/static/d53540e2fb7c3c0c5b7c7cb4451f367b/8762e/Artboard%20151.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/892377171.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/892377171.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,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"},"images":{"fallback":{"src":"/static/497537c772f1e7695214536d2634f30d/5f8ec/WaymoMockup.png","srcSet":"/static/497537c772f1e7695214536d2634f30d/8242c/WaymoMockup.png 419w,\\n/static/497537c772f1e7695214536d2634f30d/86710/WaymoMockup.png 838w,\\n/static/497537c772f1e7695214536d2634f30d/5f8ec/WaymoMockup.png 1675w","sizes":"(min-width: 1675px) 1675px, 100vw"},"sources":[{"srcSet":"/static/497537c772f1e7695214536d2634f30d/4a5c1/WaymoMockup.webp 419w,\\n/static/497537c772f1e7695214536d2634f30d/e43f9/WaymoMockup.webp 838w,\\n/static/497537c772f1e7695214536d2634f30d/ad731/WaymoMockup.webp 1675w","type":"image/webp","sizes":"(min-width: 1675px) 1675px, 100vw"}]},"width":1675,"height":1877}');
 
 /***/ }),
 

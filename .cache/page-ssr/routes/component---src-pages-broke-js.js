@@ -3076,10 +3076,14 @@ function Broke() {
     layout: "constrained",
     style: {
       borderRadius: '20px',
-      border: '3px solid #000000'
+      border: '1.2px solid #000000'
     },
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3863036568.json */ "./.cache/caches/gatsby-plugin-image/3863036568.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-title"
+  }, "Broke App for Travel Budgeting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "project-summary"
+  }, "Led the end-to-end design of the Broke travel budgeting app, from research and branding to high-fidelity prototyping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
