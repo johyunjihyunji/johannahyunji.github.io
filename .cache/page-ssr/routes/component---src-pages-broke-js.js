@@ -3133,13 +3133,23 @@ function Broke() {
     }
   }, "European Innovation Academy"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "European Innovation Academy (EIA)"), " offers a three-week startup program in Porto, Portugal, where students from diverse backgrounds collaborate in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "multidisciplinary teams to develop innovative product ideas."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "European Innovation Academy (EIA)"), " offers a three-week startup program in Porto, Portugal, where students from diverse backgrounds collaborate in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "multidisciplinary teams to develop innovative product ideas.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "The last three weeks of my study abroad program, I participated in EIA."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
   }, "Project Scope"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph"
+  }, "First day of EIA, I teamed up with 4 other passionate travellers to identify and solve problems under ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    style: {
+      fontSize: '1.4',
+      fontFamily: 'Crimson-bold-italics',
+      color: '#000065'
+    }
+  }, "\"travel accessibility\""), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/BrokeTeamPhotoOfficial.png",
@@ -3157,63 +3167,96 @@ function Broke() {
     className: "photoDescription"
   }, "First day of forming Broke team at EIA program!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "First day of the conference, I teamed up with 4 other passionate travellers to identify and solve problems under \"travel accessbility.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#6B0C76'
     }
   }, "Problem Space"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Through ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "17 interviews and 200+ survey results,"), " we identified the following painpoints: financial constraints, lack of budgeting knowledge, uncertainty in planing, limited access to travel resources."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title",
+  }, "Through ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " 200+ survey results and 17 interviews,"), " we identified the following painpoints of travel accessibility for young adults: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "financial constraints, lack of budgeting knowledge, limited access to travel resources."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "header-image"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/Brokehmw.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
     style: {
-      color: '#6B0C76',
-      background: '#ffffff',
-      borderRadius: '30px',
-      padding: '20px',
-      textAlign: 'center'
-    }
-  }, "How might we make traveling more accessible to middle to low income young adults?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+      borderRadius: '20px',
+      border: '1.2px solid #000000'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1012999144.json */ "./.cache/caches/gatsby-plugin-image/1012999144.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: '#6B0C76'
     }
   }, "Ideation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "We recognized a common aspiration among individuals to explore their dream destinations. The primary insight stemmed from the understanding that financial barriers, particularly for middle to low-income young adults. Four Focal Points:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "We recognized a common aspiration among individuals to explore their dream destinations.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "The primary insight stemmed from the understanding financial barriers, particularly for middle to low-income young adults.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Four Focal Points:")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
     style: {
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw',
-      background: 'rgba(107, 12, 118, 0.2)'
+      margin: '5px',
+      padding: '3px',
+      borderRadius: '10px',
+      fontFamily: 'Crimson-bold-italic',
+      fontSize: '1.2rem',
+      background: 'rgba(107, 12, 118, 0.2)',
+      color: '#000065'
     }
-  }, "Travel Budgeting"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Users struggle to create budgets that align with their specific financial situation and travel goals, leading to overspending or under-saving.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+  }, "Travel Budgeting: "), "Users struggle to create budgets that align with their specific financial situation and travel goals.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
     style: {
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw',
-      background: 'rgba(107, 12, 118, 0.2)'
+      margin: '5px',
+      padding: '3px',
+      borderRadius: '10px',
+      fontFamily: 'Crimson-bold-italic',
+      fontSize: '1.2rem',
+      background: 'rgba(107, 12, 118, 0.2)',
+      color: '#000065'
     }
-  }, "Lack of Motivation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Users often lose track of their spending and saving in real-time, making it difficult to stay motivated and stay on top of their financial goals.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+  }, "Lack of Motivation: "), "Users often lose track of their spending and saving in real-time, discouraging them from traveling.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
     style: {
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw',
-      background: 'rgba(107, 12, 118, 0.2)'
+      margin: '5px',
+      padding: '3px',
+      borderRadius: '10px',
+      fontFamily: 'Crimson-bold-italic',
+      fontSize: '1.2rem',
+      background: 'rgba(107, 12, 118, 0.2)',
+      color: '#000065'
     }
-  }, "Burden of Currency Exchange"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Users face financial burden and security concerns when making transactions while traveling due to difference in currency.  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Burden of Currency Exchange: "), "Users face financial burden and security concerns when making transactions abroad.  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    style: {
+      marginBottom: '0'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/brokecard.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      width: '40%',
+      marginTop: '40px'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4140714314.json */ "./.cache/caches/gatsby-plugin-image/4140714314.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
-      color: '#6B0C76'
+      color: '#000065',
+      fontFamily: 'Crimson-bold',
+      fontSize: '2.5rem'
     }
   }, "Broke"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "paragraph"
-  }, "Broke is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    className: "paragraph",
+    style: {
+      margin: '0'
+    }
+  }, "a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
     style: {
       background: 'none'
     }
-  }, "travel budgeting mobile app that allows users to track expenses in real-time, manage transactions, and plan itineraries."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "travel budgeting mobile app"), " that allows users to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "track expenses, manage transactions, and plan itineraries."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section",
     style: {
       marginBottom: '10px'
@@ -3224,7 +3267,7 @@ function Broke() {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Drawing inspiration from EIA\u2019s color scheme, I developed a brand design system featuring a vibrant palette of yellow and green paired with deeper blue and purple tones."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Drawing inspiration from EIA\u2019s color scheme, I ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "developed a brand design system"), " featuring a vibrant palette of yellow and green paired with deeper blue and purple tones."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3256,11 +3299,15 @@ function Broke() {
     style: {
       display: "flex",
       alignItems: "center",
-      marginBottom: '10px'
+      padding: '0',
+      marginTop: '40px'
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "40",
-    height: "40",
+    style: {
+      marginRight: '10px'
+    },
+    width: "30",
+    height: "30",
     viewBox: "0 0 150 150",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
@@ -3281,19 +3328,22 @@ function Broke() {
     fill: "black"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     style: {
-      marginLeft: "10px",
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw'
+      margin: '0',
+      fontSize: '1rem',
+      fontFamily: 'Crimson-bold-italic',
+      color: 'black'
     }
   }, "Expense tracking and bill splitting")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Users can track expenses and split bills."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Specific transactions and payments are recorded."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Options for splitting bills are available.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
-      alignItems: "center",
-      marginBottom: '10px'
+      alignItems: "center"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "40",
-    height: "40",
+    style: {
+      marginRight: '10px'
+    },
+    width: "30",
+    height: "30",
     viewBox: "0 0 150 150",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
@@ -3319,19 +3369,22 @@ function Broke() {
     fill: "black"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     style: {
-      marginLeft: "10px",
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw'
+      margin: '0',
+      fontSize: '1rem',
+      fontFamily: 'Crimson-bold-italic',
+      color: 'black'
     }
   }, "Trip planning and budgeting")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Users can plan trips and manage budgets."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Budget calculations and currency options are provided."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Past trips and current progress can be viewed.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
-      alignItems: "center",
-      marginBottom: '10px'
+      alignItems: "center"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    width: "40",
-    height: "40",
+    style: {
+      marginRight: '10px'
+    },
+    width: "30",
+    height: "30",
     viewBox: "0 0 150 150",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg"
@@ -3347,9 +3400,10 @@ function Broke() {
     fill: "black"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     style: {
-      marginLeft: "10px",
-      fontFamily: 'AlexRoss',
-      fontSize: '2vw'
+      margin: '0',
+      fontSize: '1rem',
+      fontFamily: 'Crimson-bold-italic',
+      color: 'black'
     }
   }, "User profile and preferences")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Users can update their profiles and preferences."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, " Preferences for accommodations and activities can be set."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "(Optional) page for managing subscriptions, if subscription based.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
     style: {
@@ -3369,7 +3423,7 @@ function Broke() {
     }
   }, "High-fi Prototyping"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "After iterating through ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "multiple rounds of low-fidelity wireframes and conducting user experience interviews, "), "I crafted high-fidelity wireframe prototype.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "          "), "`          ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
+  }, "After iterating through ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "multiple rounds of low-fidelity wireframes and conducting user experience interviews, "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "I crafted high-fidelity wireframe prototype.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "          "), "`          ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("iframe", {
     title: "Broke App Prototype",
     style: {
       marginBottom: "2vh",
@@ -3381,13 +3435,34 @@ function Broke() {
     allowFullScreen: true
   }), "`", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "--> This prototype was presented to potential investors and program instructors/mentors at the final day of EIA program."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "This prototype was ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "presented to potential investors and program instructors/mentors at the final day of EIA program.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
   }, "Reflection"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    style: {
+      display: 'flex',
+      flexDirection: "column",
+      justifyContent: 'center',
+      alignItems: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/BrokeTeam.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    style: {
+      marginTop: '25px',
+      borderRadius: '10px',
+      width: '50%'
+    },
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2225603499.json */ "./.cache/caches/gatsby-plugin-image/2225603499.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "photoDescription"
+  }, "Broke team after pitching to investors at the last day of EIA program!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
@@ -3403,22 +3478,7 @@ function Broke() {
     }
   }, " Leveraging Design and CS:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "I discovered that my background in computer science not only provided a strong foundation but also facilitated effective communication within a cross-functional team. I found myself articulating ideas in different languages tailored to different teammates. This project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "sparked my interest in a career path in product design."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/BrokeTeam.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    style: {
-      marginTop: '25px',
-      borderRadius: '10px',
-      maxHeight: '50vh'
-    },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2225603499.json */ "./.cache/caches/gatsby-plugin-image/2225603499.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: "photoDescription"
-  }, "Broke team after pitching to investors at the last day of EIA program!"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  }, "I discovered that my background in computer science not only provided a strong foundation but also facilitated effective communication within a cross-functional team. I found myself articulating ideas in different languages tailored to different teammates. This project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "sparked my interest in a career path in product design.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Broke);
 
@@ -5069,6 +5129,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1012999144.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1012999144.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfElEQVR42nWOvQ7EIAyDef/Xq1D/u/RKS+cGAgw+CELqcDdYjuNPUVSMESEEFP+n1v/iUkrizLVTw3CgaNtu9L3BslzQ+sA0nVhXm7PNvcE8n+i6PXNWmHE0ub9kr/VHcjmqiDyIGM4xyty8zlXe8yuzeMtEDs/jhCkffgGb8ORmRfwdgQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/a91c274da34a5bd3b10f9ddb0f1df5b9/857e4/Brokehmw.png","srcSet":"/static/a91c274da34a5bd3b10f9ddb0f1df5b9/11d9e/Brokehmw.png 946w,\\n/static/a91c274da34a5bd3b10f9ddb0f1df5b9/37111/Brokehmw.png 1892w,\\n/static/a91c274da34a5bd3b10f9ddb0f1df5b9/857e4/Brokehmw.png 3784w","sizes":"(min-width: 3784px) 3784px, 100vw"},"sources":[{"srcSet":"/static/a91c274da34a5bd3b10f9ddb0f1df5b9/0ae6d/Brokehmw.webp 946w,\\n/static/a91c274da34a5bd3b10f9ddb0f1df5b9/df421/Brokehmw.webp 1892w,\\n/static/a91c274da34a5bd3b10f9ddb0f1df5b9/5d648/Brokehmw.webp 3784w","type":"image/webp","sizes":"(min-width: 3784px) 3784px, 100vw"}]},"width":3784,"height":519}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1524343766.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1524343766.json ***!
@@ -5076,7 +5147,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAB60lEQVR42mPgY+AT4mWQEpZhsODUY3Dllmew5wBhBgYGRvtQUwkrP0Op3WfS+JP8/HhDlUL5hYWteBmEPPiA8iA1XCB1DAyhzECaGcz2F88PdxDN67cRzC835cmpcRfOb3CXK8oGSjKseLxwzpr78zb+/z91//zihsV5XEUbWFhSFzIwpMxwZ8g2CjAtysxKqyvOS6wKLPCrnOptUzqHwYYtVk2FIVFLlT1RyZQ7RducN0FVjDVKl4HBjG/NjdnWq85Nd33+scdnamWtY6FWiYe8cqajkHSKhRNPrpaHUqlznm+ra1V8V7CbROkUQ+ncWIbw6e4Kez/W+M2vrzJQZEj2nTyv3ujh/zmhabs7+P//n1n29/+sg2/+z93w9P+Crff+L9l07f/KfRf+r2kF+aBZrXdCjWHXi2Tb/HdB5pnvdbkLdRnWvFpY9OP//v8HZs2776XY92/q5En3H//Z+H/z6w3RTa5ljbXB1fdz/SrOxnlUnA9wKT/raF9609ymZC7IwFK78jmt8Q3/872Kf4Yblf434y33Zph6o9v07LcZU9f196bqsRY1T5rSkXr21axpe/+vUg9myEry58xfbMucPU2XIXOGHEPaNB6G1PksDElFIAMr5VsDqsWnzA5j6cu1ZugI0mKoFwIAJvS0+JhuAlAAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/8c479ece7c877309e1f06daaccf03d96/06f32/BrokeBrandDesignHigh.png","srcSet":"/static/8c479ece7c877309e1f06daaccf03d96/a297f/BrokeBrandDesignHigh.png 481w,\\n/static/8c479ece7c877309e1f06daaccf03d96/a892a/BrokeBrandDesignHigh.png 961w,\\n/static/8c479ece7c877309e1f06daaccf03d96/06f32/BrokeBrandDesignHigh.png 1922w","sizes":"(min-width: 1922px) 1922px, 100vw"},"sources":[{"srcSet":"/static/8c479ece7c877309e1f06daaccf03d96/4b12e/BrokeBrandDesignHigh.webp 481w,\\n/static/8c479ece7c877309e1f06daaccf03d96/2965a/BrokeBrandDesignHigh.webp 961w,\\n/static/8c479ece7c877309e1f06daaccf03d96/e2551/BrokeBrandDesignHigh.webp 1922w","type":"image/webp","sizes":"(min-width: 1922px) 1922px, 100vw"}]},"width":1922,"height":541}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB30lEQVR42iWSTWtTQRSG81tcigtXpYJ73QhSl4KLlm5EEdwogl3UogsDEY1KKlKsjdxAIdqWgilNFqUm0SYNppqkJcaEkGDS2OR+z/3I4/S6eJk5M8PLec47IVvY2MLE9R1cz8GTclyBaZpYuoVlCCzLwx/7eL7HWK6maQT3jiMQUo7r/N8LQUgdamS3SxR3q1T2G1SKDQ7LLWzb5kenTGdYwXKOKG2WyKYPWE3ucdwb0G526Lb7dFs96tXfdORe2NJw1B+xEk7x/tkWiVcZViIpkm936HVPyB8XaKhfMMwMyu1Vnt9fY2b2A4V0jfjiZ3ayOQq731i4FWMplkL9qxMyDINe74/EMhn0h5zWmqaiazq29xPNLzBwS/Rc2a1Tpm3XsIRFNfWL7chXoncTxB6tS3SJHSAbOgV1k3rjE3cuv+T1i2WK7TjNQZ1Oc4vSwTK57wrp/QQf8wprexu4eChzCrOT01ybmOLm1YfoIyFn7EpDOeC8nuSwrjA9ESbydJFc6w1H3RrRG3Fmzs5z/fxjrpxbYPLMHJcuhqXhmMy7DA8uPGF+aonovQ20kSkDlYaObNWWCELK0M0gKX8sk5Pnpqx1zQjwNdVAVXUpI0jVVgX2ifwVri+THwfvT/UPAX3kuXtv6loAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/8803161dceb770a3418381c18bdb0dc9/bb53a/BrokeBrandDesignHigh.png","srcSet":"/static/8803161dceb770a3418381c18bdb0dc9/986e5/BrokeBrandDesignHigh.png 863w,\\n/static/8803161dceb770a3418381c18bdb0dc9/55448/BrokeBrandDesignHigh.png 1727w,\\n/static/8803161dceb770a3418381c18bdb0dc9/bb53a/BrokeBrandDesignHigh.png 3453w","sizes":"(min-width: 3453px) 3453px, 100vw"},"sources":[{"srcSet":"/static/8803161dceb770a3418381c18bdb0dc9/f2713/BrokeBrandDesignHigh.webp 863w,\\n/static/8803161dceb770a3418381c18bdb0dc9/b292b/BrokeBrandDesignHigh.webp 1727w,\\n/static/8803161dceb770a3418381c18bdb0dc9/85548/BrokeBrandDesignHigh.webp 3453w","type":"image/webp","sizes":"(min-width: 3453px) 3453px, 100vw"}]},"width":3453,"height":1183}');
 
 /***/ }),
 
@@ -5110,6 +5181,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsSAAALEgHS3X78AAABiklEQVR42iXMzS+bAQCA8f4LS9hB4rALDiJ62HxEsIYsRapKfSY+DhJEJsaBg2SzcUAkZAvZRCNKRKpSW6Y1Uu3qY0z6Vuv9asgqYT7S4C94vInDc3kOP13idiLPvAk89yeRvpfGm6NsmgQDvWEjQydlfBbLmJNKWZGMuOVifst5HMmFhEIFTLZW47O/5iGWyk1ET1zUoys8zCZfy/A3j4pgES3HJXRHynkvWhjTmpbM2CUTq7IGan9jrw5fYJydHRtVL/qY6m/nTO7gfzhLAzPRDapdDEbf8kHppGaikupRMw1jJob/1PM12oBNsrIkW1hTjHhCjYjqN7b8DrwBFynJFnq7e/DsfycWzOVOykAXuFpg98qO/3IGpzzK/MkAM8fvsCntzEdbWFTqWZGt/FBK+SU0Iwiz/HSPsOn5hGMxB5ezGbtjmovgqycwfn/Aw/0ht3de1Pgyu9dfcF98xPmvh+XTNhzRRlxqDeuqic1wLRveAQ4EM6JYwM15FrGIgZDPyq34UgP1PAJKTBfkze2WIwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/7de8494da2813191d58f9f78c74c3f72/12eae/Artboard%20151_1.png","srcSet":"/static/7de8494da2813191d58f9f78c74c3f72/5551e/Artboard%20151_1.png 600w,\\n/static/7de8494da2813191d58f9f78c74c3f72/a5079/Artboard%20151_1.png 1200w,\\n/static/7de8494da2813191d58f9f78c74c3f72/12eae/Artboard%20151_1.png 2400w","sizes":"(min-width: 2400px) 2400px, 100vw"},"sources":[{"srcSet":"/static/7de8494da2813191d58f9f78c74c3f72/14f51/Artboard%20151_1.webp 600w,\\n/static/7de8494da2813191d58f9f78c74c3f72/d48b7/Artboard%20151_1.webp 1200w,\\n/static/7de8494da2813191d58f9f78c74c3f72/8762e/Artboard%20151_1.webp 2400w","type":"image/webp","sizes":"(min-width: 2400px) 2400px, 100vw"}]},"width":2400,"height":601}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/4140714314.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/4140714314.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAEM0lEQVR42n2US1BaBxSGr03imygqF4MEFTAPm6aIGiWJwYToxPhG8RVfEEl4qAhiMIggCAoEgyIQlChNnGaRTTtp0+mm032nm7Quuuyuy7Sd6UySC/evwy6b/PvzLc75zk9ICcdxEMggPhGhUJh1tfQWS8pUXbheqO+SFszMNTEMIUme8duGXNMvNZmm/0SZC7c/GuJyG3M6ybvsCY5ZpC619qnY1oUJ9nJsnLS/HilZedNfuPK2r8CN3gIvuvMfoT0vgJvZPjQdX6OaGQFcZVtn0yCdwBBZL9/60VkePFzmBf+18UJY4kXwkLuDB2VxGMgdaIqjUJ8KYaR0Hb0sZ6qbY0928CxUa6WBajmrf9/E10Hy+WQiDZwTPvjzqzMvEREc0I8q9uEu34WN9yRl4YaT05wN6l71IqUWzyeHL+jpvnNaDNTq0HZeBSlvAhLyHuqZmuRl9izqOdqf0kCVQPtDWLiHLcH+By9/h17lx2A7HYWZFYGeDGBMaMBAqQm9JWYMcK1oY1ggL1tGP88NU48TltGlVGOGG/WZ9t/SQAV/PBI9k0CYe0D5WHvwkE/hrIjB17CDpeoYZqsCePrQj7XBNcz3GOCedCHkXMDK4gT2n6uhV0ynZMxV1GZa/5Kw50miSzBo8lWEEe0MULv2IJbue+GzGOB3TGDGosPevh0L5g5oDK0IJYbw6x8WrBkXUXNejMTBFBamdHRLkQu1x+zv6llWEdFzbkyuJxeh03TQ9s0RWrmmhNEpR9AzCltUg9ALNSYv6tEobkLilRrh3TvYDKrQLWtFIKTAusUMr20mpe2x4EvC3U7ILvbVKEsMybGuNng379IjmlG4n2vhcyswrO3DYnQcEfs84lETrCs9GJLfxJVLYgzIb6BF1gD1cD/q+M2U9GjPDTluHcGQnStWsef+Hm7qhPPRED3t0EC7MgSNbBji8mu4UncD1+rEmJbN4lreKNqYBkiyVJCc0KDmhBK1hAWNGfak5JgHl3JtGwRRTWSqyo2Hco4CMtHV1P0vjBgq0MJU5oea5cAk0wFF3kOMHYmsLHmM4cIABosCR4L76Q6Gl25huGhpjv3DlSwn6rKXvklfepSv/36jMgrPqXDSdySzt3Ifdl4M1tMxep4boQ2cMH2P/Tg1UexPDjG9VF/BGtV50k3fyndBlutCc7YrJc3yQZLtPkwD2yvGwk/OPkNU+Oy9r2In6eLFqOXTUepBWYg2ckKYKd2CltyGumQbyuIw7hRtQV7oR/tJD9XK8Ly9zlh905S3+vpyvtOeBkp5CvNG1Q7ighdUiH+AIP9rrFc+xzJvF+ajjzFwtv/Rnto6nCI3X42TwdAIuWkcIIM93Sy/aIQXZSoUL499VAz15V29NoH3XfzMi98fCxLf+YWJbY9gb95RFZc7qnZFjup4kUP683Hi0zlqLMdn/wNYfgP4SWz3pQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/938ed/brokecard.png","srcSet":"/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/7b9a6/brokecard.png 645w,\\n/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/83cd6/brokecard.png 1291w,\\n/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/938ed/brokecard.png 2581w","sizes":"(min-width: 2581px) 2581px, 100vw"},"sources":[{"srcSet":"/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/3739d/brokecard.webp 645w,\\n/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/030e6/brokecard.webp 1291w,\\n/static/51dcd1ed8ef66bdd4a565395a8c7ffe3/710af/brokecard.webp 2581w","type":"image/webp","sizes":"(min-width: 2581px) 2581px, 100vw"}]},"width":2581,"height":1962}');
 
 /***/ }),
 

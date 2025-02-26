@@ -56,6 +56,11 @@ function Yelp() {
             style={{ borderRadius: '20px', border: '3px solid #000000'}}
           />
         </div>
+
+
+        <div className="project-title">Yelp Home Services</div>
+        <div className="project-summary">
+          Developed video ad concepts and brand design system for Yelp Home Services performance marketing.</div>
       
         <div className="info-row">
           <div className="info-item">
@@ -95,12 +100,12 @@ function Yelp() {
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title">Yelp Home Services</h3>
+              <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Home Services</h3>
               <p className="paragraph">
-                Our team focused on promoting <b>Yelp's Home Services</b>, which connects consumers with trusted professionals for various home improvement tasks. 
+                My team focused on promoting <b>Yelp's Home Services</b>, <br/>which <b>connects consumers with trusted professionals for various home improvement tasks.</b> 
                 </p>
                 <p className="paragraph">
-                By leveraging Yelp's preestablished extensive food businesses review platform, the project aims to <b>broaden the scope of Yelp's recognition and 
+                By leveraging Yelp's preestablished extensive food businesses review platform, <br/>the project aims to <b>broaden the scope of Yelp's recognition and 
                 enhance visibility</b> for these home service providers. 
                 </p>
 
@@ -120,13 +125,13 @@ function Yelp() {
                 There are two project scopes assigned by Yelp's team:
               </p>
 
-              <h3 className="subsection-title">1. Performance Marketing</h3>
+              <h3 className="subsection-title" style={{color: "#FF1A1A"}}>1. Performance Marketing</h3>
               <p className="paragraph">
               Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, 
               and young homeowners </b> needing home services. 
               </p>
 
-              <h3 className="subsection-title">2. Brand Design System</h3>
+              <h3 className="subsection-title"  style={{color: "#FF1A1A"}}>2. Brand Design System</h3>
               <p className="paragraph">
               Establish a robust <b>graphic design system</b> that reinforces brand consistency and strengthens connection with three 
               distinct audiences: <b>Consumers, Local Businesses, and Brand stakeholders</b>.
@@ -143,7 +148,7 @@ function Yelp() {
 
             
             <div className="subsection">
-            <h3 className="subsection-title">Preliminary Research</h3>
+            <h3 className="subsection-title" style={{color: "#E00707"}}>Preliminary Research</h3>
 
             <p className="paragraph">
               We did an initial research on marketing ad trends and content preferences for different user groups: Gen Z, Millennials, and Gen X/Homeowners
@@ -161,7 +166,7 @@ function Yelp() {
                 </div>
               </div>
 
-              <h3 className="subsection-title">SWOT Analysis</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707"}}>SWOT Analysis</h3>
 
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -174,11 +179,27 @@ function Yelp() {
                             />
                 </div>
               </div>
-              <h3 className="subsection-title">User Survey</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707"}}>User Survey</h3>
               <p className="paragraph">
               We conducted a user survey to collect insights regarding <b>Yelp sentiments, problem spaces/needs in home services, and preferences in ad content. </b>
               There was a total of 163 respondents primarily in their early 20s.
               </p>
+
+              <h3 className="subsection-title" style={{color: "#FF1A1A", fontSize: '1.2rem', marginLeft: '20px'}}>Yelp & Home Services</h3>
+
+              <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpUserSurvey1.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+                </div>
+              </div>
+
+              <h3 className="subsection-title" style={{color: "#FF1A1A", fontSize: '1.2rem', marginLeft: '20px'}}>Advertisement Content</h3>
 
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -192,19 +213,12 @@ function Yelp() {
                 </div>
               </div>
 
-              <div className="slidepng-container">
-                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
-                            <StaticImage
-                              src="../../static/yelp/YelpUserSurvey3.png"
-                              alt="Project Header"
-                              placeholder="blurred"
-                              layout="constrained"
-                              className="slidepng"
-                            />
-                </div>
-              </div>
-
-              <h3 className="subsection-title">A/B Testing</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707"}}>A/B Testing</h3>
+              <p className="paragraph">
+              My team conducted<b> A/B testing with 21 participants.</b>
+              <br/><br/>
+              Each participant is shown a pair of video advertisements and asked to provide feedback. The purpose is to gather insights on which advertisement version performs better based on viewer feedback. 
+              </p>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -224,7 +238,7 @@ function Yelp() {
 
 
         <div className="section">
-          <h2 className="section-title">User Personas</h2>
+          <h2 className="section-title" >User Personas</h2>
           <div className="flex-container">
             <div className="subsection">
 
@@ -232,7 +246,7 @@ function Yelp() {
               Base off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
             </p>
 
-              <h3 className="subsection-title">User Group 1: Gen Z</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 1: Gen Z</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -245,7 +259,7 @@ function Yelp() {
                 </div>
               </div>
 
-              <h3 className="subsection-title">User Group 2: Millennials</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 2: Millennials</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -259,7 +273,7 @@ function Yelp() {
               </div>
 
 
-              <h3 className="subsection-title">User Group 3: Gen X / Homeowners</h3>
+              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 3: Gen X / Homeowners</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -285,7 +299,7 @@ function Yelp() {
           <div className="flex-container">
             <div className="subsection">
             <p className="paragraph">
-              For performance marketing content ideation, we delivered story boards for 3 different ad video concepts:
+              For performance marketing content ideation, we delivered <b>story boards for 3 different ad video concepts:</b>
             </p>
 
             <div className="slidepng-container">
@@ -301,7 +315,7 @@ function Yelp() {
               </div>
 
 
-              <h3 className="subsection-title"> Grow with Yelp </h3>
+              <h3 className="subsection-title" style={{color: "#E00707"}}> Grow with Yelp </h3>
 
               <p className="paragraph">
               “Grow with Yelp” is a storytelling-based advertisement that showcases how Yelp is able to continuously provide the tools one needs throughout their <b>different stages of life.</b>
@@ -324,7 +338,7 @@ function Yelp() {
               </div>
 
               
-              <h3 className="subsection-title">Yelp Demo</h3>
+              <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Demo</h3>
               <p className="paragraph">
               This is an advertisement designed to highlight the <b>diverse services available in Yelp’s home service section.</b>
               </p>
@@ -346,7 +360,7 @@ function Yelp() {
                 </div>
               </div>
 
-              <h3 className="subsection-title">Yelp for Help</h3>
+              <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp for Help</h3>
               <p className="paragraph">
               "Yelp for Help" is a dynamic video concept that aims to solidify Yelp's brand identity as the <b>ultimate go-to resource</b> for quick and reliable assistance in everyday situations.
               </p>
