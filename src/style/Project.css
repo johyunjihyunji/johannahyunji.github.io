@@ -103,7 +103,7 @@ b {
 .subsection-title {
   font-size: 1.5rem;
   font-family: 'Crimson-bold-italic', sans-serif;
-  margin-top: 3vh;
+  margin-top: 10vh;
   margin-bottom: 0;
 }
 
@@ -119,7 +119,7 @@ b {
 
 .team-photo {
   object-fit: cover;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 
 .photoDescription {
@@ -160,7 +160,6 @@ b {
 .slidepng-container {
   overflow: hidden;
   border-radius: 30px;
-
 }
 
 .slideshow-container {
