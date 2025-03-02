@@ -105,7 +105,7 @@ function Broke() {
           <h2 className="section-title">Background</h2>
           <div className="flex-container">
             <div className="subsection">
-              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Sutardja Center Entrepreneurship & Technoology</h3>
+              <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Sutardja Center Entrepreneurship & Technology</h3>
               <p className="paragraph">
              <b>Sutardja Center for Entrepreneurship & Technology (SCET)</b> at UC Berkeley offers a <b>Certificate in Entrepreneurship and 
               Technology</b> designed to equip students with essential skills for innovation and leadership through a study abroad program to Segovia, Spain and Porto, Portugal.
@@ -151,7 +151,7 @@ function Broke() {
               
               <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Problem Space</h3>
               <p className="paragraph">
-              Through <b> 200+ survey results and 17 interviews,</b> we identified the following painpoints of travel accessibility for young adults: <br/>
+              Through <b> 200+ survey results and 17 interviews,</b> we identified the following pain points of travel accessibility for young adults: <br/>
                financial constraints, lack of budgeting knowledge,
                 limited access to travel resources.
                 </p>
@@ -235,7 +235,7 @@ function Broke() {
         <div className="section" style = {{marginBottom: '10px'}}>
           <h2 className="section-title">Prototyping</h2>
           <div className="flex-container">
-          <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Low-fi Prototyping</h3>
+          <h3 className="subsection-title" style={{ color: '#6B0C76' }}>Low-fidelity Prototyping</h3>
           <p className="paragraph">
           The team came together to brainstorm and sketch out the structure of our budgeting tool, targeting each painpoint at a time.
           </p>
@@ -293,9 +293,9 @@ function Broke() {
              width="800" height="450" src="https://embed.figma.com/board/3jvzIuP94ZqnYa6bmLlieG/Broke-Wirefram?node-id=0-1&embed-host=share" allowfullscreen></iframe>
           
        
-          <h3 className="subsection-title" style={{ color: '#6B0C76' }}>High-fi Prototyping</h3>
+          <h3 className="subsection-title" style={{ color: '#6B0C76' }}>High-fidelity Prototyping</h3>
           <p className="paragraph">
-          After iterating through <b>multiple rounds of low-fidelity wireframes and conducting user experience interviews, </b>
+          After iterating through <b>multiple rounds of low-fidelity wireframes and conducting user experience interviews,</b>
           <br/>
           I crafted high-fidelity wireframe prototype.
           <br/>          </p>

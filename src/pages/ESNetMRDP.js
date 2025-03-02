@@ -152,7 +152,7 @@ useEffect(() => {
 
               <p className="paragraph">
               During the internship, I improved Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development to 
-              create a <b>versatile, distributable, and customizable codebase solution</b>.
+              create a <b>versatile, distributable, and customizable codebase</b>.
               </p>
 
               <div style={{display: "flex", alignItems: "center"}}>
@@ -300,7 +300,7 @@ useEffect(() => {
           <h2 className="section-title">Prototyping</h2>
           <div className="flex-container">
           <div className="subsection">
-            <h3 className="subsection-title" style={{color: '#0075A2'}}>Low-Fi Mockups</h3>
+            <h3 className="subsection-title" style={{color: '#0075A2'}}>Low-fidelity Mockups</h3>
             <p className="paragraph">After discussions with James and Ken, I distilled the UX
               to two essential pages:<b> the landing page and the transfer page.</b>
             </p>
@@ -381,7 +381,7 @@ useEffect(() => {
 
 
           <div className="subsection">
-            <h3 className="subsection-title" style={{color: '#0075A2' }}>High-Fi Mockups</h3>
+            <h3 className="subsection-title" style={{color: '#0075A2' }}>High-fidelity Mockups</h3>
             <p className='paragraph'>
             After confirming the low-fi mockups and user flow with the client point of contact,
             I developed the <br/>high-fi prototype incorporating an <b>example customization featuring ESNet's institution branding and content.</b>

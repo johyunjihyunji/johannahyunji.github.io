@@ -102,10 +102,10 @@ function Yelp() {
             <div className="subsection">
               <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Home Services</h3>
               <p className="paragraph">
-                My team focused on promoting <b>Yelp's Home Services</b>, <br/>which <b>connects consumers with trusted professionals for various home improvement tasks.</b> 
+                My team focused on promoting <b>Yelp's Home Services</b>,<br/>which <b>connects consumers with trusted professionals for various home improvement tasks.</b> 
                 </p>
                 <p className="paragraph">
-                By leveraging Yelp's preestablished extensive food businesses review platform, <br/>the project aims to <b>broaden the scope of Yelp's recognition and 
+                By leveraging Yelp's pre-established extensive food businesses review platform, <br/>the project aims to <b>broaden the scope of Yelp's recognition and 
                 enhance visibility</b> for these home service providers. 
                 </p>
 
@@ -127,8 +127,7 @@ function Yelp() {
 
               <h3 className="subsection-title" style={{color: "#FF1A1A"}}>1. Performance Marketing</h3>
               <p className="paragraph">
-              Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, 
-              and young homeowners </b> needing home services. 
+              Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, and young homeowners </b> needing home services. 
               </p>
 
               <h3 className="subsection-title"  style={{color: "#FF1A1A"}}>2. Brand Design System</h3>
@@ -243,7 +242,7 @@ function Yelp() {
             <div className="subsection">
 
             <p className="paragraph">
-              Base off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
+              Based off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
             </p>
 
               <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 1: Gen Z</h3>
@@ -318,7 +317,7 @@ function Yelp() {
               <h3 className="subsection-title" style={{color: "#E00707"}}> Grow with Yelp </h3>
 
               <p className="paragraph">
-              <b>“Grow with Yelp”</b> is a storytelling-based advertisement that showcases how Yelp is able to <b>continuously provide </b> the tools one needs throughout their <b>different stages of life.</b>
+              <b>“Grow with Yelp”</b> is a storytelling-based advertisement that showcases how Yelp is able to <b>continuously provide</b> the tools one needs throughout their <b>different stages of life.</b>
               </p>
 
               <div className="slidepng-container">
@@ -561,9 +560,9 @@ function Yelp() {
           <p className="paragraph">
           Yelp for brands should:
           <ul>
-            <li>Use <b>bold and memorable,</b> targeting large brands that can leverage Yelp’s platform for <b>targeted advertising.</b></li>
+            <li>Use <b>bold and memorable, </b> targeting large brands that can leverage Yelp’s platform for <b>targeted advertising.</b></li>
             <li>Use a <b>limited color palette</b> primarily red paired with some whites and blacks, to enhance <b>boldness and fun.</b> </li>
-            <li>Incorporate<b>singular shapes, greater white space,</b> and limited image content to create memorable grand gestures.</li>
+            <li>Incorporate<b>singular shapes, greater white space, </b> and limited image content to create memorable grand gestures.</li>
           </ul>
           </p>
           <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Design System Direction</h3>
@@ -647,7 +646,7 @@ function Yelp() {
               <h3 className="subsection-title">Designing Branding System</h3>
               <p className="paragraph">
               The biggest challenge was creating a branding system for Yelp that <b>remained cohesive 
-        under the main brand while catering to different target groups.</b> Took trial and error to successfully differentiate
+        under the main brand while catering to different target groups. </b> Took trial and error to successfully differentiate
         the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience.
               </p>
 

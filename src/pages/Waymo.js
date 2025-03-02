@@ -22,7 +22,7 @@ function Waymo() {
 
         <div className="project-title">Waymo UI and Brand Revamp</div>
         <div className="project-summary">
-        Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and SF launch.</div>
+        Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and San Francisco launch.</div>
       
       
         <div className="info-row">
@@ -60,7 +60,7 @@ function Waymo() {
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
             <p className="paragraph">
-              <b style={{fontFamily: 'Crimson-bold', fontSize: '3rem' }}>Waymo</b> -self-driving technology company- was transitioning from an <b>R&D-focused firm to a commercial entity</b>, <br/> which required a comprehensive reevaluation of 
+              <b style={{fontFamily: 'Crimson-bold', fontSize: '3rem' }}>Waymo</b> -self-driving technology company- was transitioning from an <b>R&D-focused firm to a commercial entity</b>, <br/>which required a comprehensive reevaluation of 
               its overall user experience and brand identity.
               </p>
            
@@ -68,7 +68,7 @@ function Waymo() {
 
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>1. UI Redesign of Waymo's Homepage</h3>
               <p className="paragraph">
-              Conducted <b>comprehensive competitive brand analysis</b>to inform the redesign of <b>interactive UI/UX modules,</b> aimed at enhancing Waymo's commercial appeal and targeting the next generation.
+              Conducted <b>comprehensive competitive brand analysis</b> to inform the redesign of <b>interactive UI/UX modules,</b> aimed at enhancing Waymo's commercial appeal and targeting the next generation.
               </p>
               <h3 className="subsection-title" style={{ color: '#0077FF' }}>2. Brand Design System</h3>
               <p className="paragraph">

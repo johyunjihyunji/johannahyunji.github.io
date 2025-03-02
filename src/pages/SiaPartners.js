@@ -244,7 +244,7 @@ useEffect(() => {
           <div className="section">
           <h2 className="section-title">UX Design</h2>
           <div className="flex-container">
-          <h3 className="subsection-title" style={{ color: '#1A74E4' }}>Low-Fi Prototyping</h3>
+          <h3 className="subsection-title" style={{ color: '#1A74E4' }}>Low-fidelity Prototyping</h3>
 
 
           <p className="paragraph">
