@@ -14,7 +14,7 @@ const Footer = () => {
   const modelRef = useRef(null);
   
   useEffect(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now?'];
       
     const interval = setInterval(() => {
       setLocations((prevLocations) => {

@@ -82,7 +82,7 @@ useEffect(() => {
 
         <div className="project-title">Modern Research Data Portal</div>
         <div className="project-summary">
-          Redesigned Data Transfer Portal: Streamlined data transfers, created customizable code, and improved user experience.</div>
+          Redesigned Data Transfer Portal: Streamlined data transfers, implemented customizable code features, and improved user experience.</div>
       
         <div className="info-row">
           <div className="info-item">
@@ -122,9 +122,8 @@ useEffect(() => {
             <div className="subsection">
               <h3 className="subsection-title" style={{  color: '#0075A2' }}>Energy Science Network's Modern Research Data Portal</h3>
               <p className="paragraph">
-              Energy Sciences Network is a <b>high-performance network</b> designed to support large-scale scientific research <br/>
-               by <b>interconnecting the U.S. 
-              Department of Energy's national laboratory system</b>. 
+              Energy Science Network is a <b>high-performance network</b> designed to support large-scale scientific research <br/>
+               by <b>interconnecting the U.S. Department of Energy's national laboratory system</b>. 
               </p>
               <p className="paragraph">
                 Modern Research Data Transfer (MRDP) streamlines high-speed data transfer process by:
@@ -132,7 +131,7 @@ useEffect(() => {
               <p className="paragraph">
               <ul className="bullet-list">
                 <li>Enables <b>file transfers between authorized Globus points.</b></li>
-                <li>Provides a <b>single customoizable portal</b> for initiating transfers, browsing datasets, and monitoring progress.</li>
+                <li>Provides a <b>single customizable portal</b> for initiating transfers, browsing datasets, and monitoring progress.</li>
                 <li>Accelerates research workflows, facilitating collaboration among researchers.</li>
               </ul>
               </p>
@@ -230,7 +229,7 @@ useEffect(() => {
             <div className="subsection">
               <h3 className="subsection-title" style={{color: '#0075A2' }}>Competitor Research</h3>
               <p className="paragraph">By going through software tool landing pages and other competitor interfaces, 
-                I compiled my analysis in a FigJam brainstorm. 
+                I compiled my analysis into a FigJam brainstorm. 
                 <br/>Key Takeaways:
               </p> 
 
@@ -310,9 +309,9 @@ useEffect(() => {
               Using the comparative analysis, I redesigned landing page to incorporate:
               <ul className="bullet-list">
                 <li><b>Introduction Section</b> to provide summary and login entry point</li>
-                <li><b>Insutrction Section</b> that guides users to access the transfer page through logging in</li>
+                <li><b>Instruction Section</b> that guides users to access the transfer page through logging in</li>
                 <li><b>Featured Datasets Section</b> to highlight from institute</li>
-                <li><b>Customization section</b> that include eg. team or institution introductions</li>
+                <li><b>Customization section</b> that include e.g., team or institution introductions</li>
               </ul>
               </p>
               <div className="mockup-box">
@@ -347,7 +346,7 @@ useEffect(() => {
                 <b style={{color: '#766459', fontFamily: 'Crimson-bold-italic', fontSize: '1rem'}}>Transfer Steps:</b>
 
               <ol className="bullet-list" style={{margin: '0'}}>
-                <li style={{margin: '10px'}}>Once user logs in, users have the option to select the <b>source, destination, and dataset to tranfer</b></li>
+                <li style={{margin: '10px'}}>Once user logs in, users have the option to select the <b>source, destination, and dataset to transfer</b></li>
                 <li style={{margin: '10px'}}>Source and destination search expands so that users can choose and scroll through options</li>
                 <li style={{margin: '10px'}}><b>Search engine</b> allows users to filter through datasets and find an appropriate one</li>
                 <li style={{margin: '10px'}}>Once selected, dataset should be added to the “selected” box/cart </li>
@@ -393,7 +392,7 @@ useEffect(() => {
               <ul className="bullet-list" style={{margin: '0'}}>
                 <li style={{margin: '10px'}}>Streamlined the <b>file navigation interface</b>, browsing through source node’s datasets</li>
                 <li style={{margin: '10px'}}><b>Introduced breadcrumb trail</b> at the top of file browser, allowing tracking of directories</li>
-                <li style={{margin: '10px'}}>Introduced a <b>“transfer queue”</b> to organize selected files for transfer and details such as name, size, transfer status etc </li>
+                <li style={{margin: '10px'}}>Introduced a <b>“transfer queue”</b> to organize selected files for transfer and details such as name, size, transfer status, etc </li>
                 <li style={{margin: '10px'}}>By choosing the source node and destination node in order, kept the <b>transfer process intuitive</b> and user friendly</li>
               </ul>
               </p>
@@ -485,7 +484,7 @@ useEffect(() => {
           </div>
           
           <p className='paragraph'>
-              This deployment was delivered to the Science Engagement Team in order to distribute to any <b>ESNet's partner administrater that requires MRDP.</b>
+              This deployment was delivered to the Science Engagement Team in order to distribute to any <b>ESnet's partner administrators that requires MRDP.</b>
             </p>
 
           </div> 
