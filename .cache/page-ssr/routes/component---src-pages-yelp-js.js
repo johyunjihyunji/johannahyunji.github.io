@@ -2805,7 +2805,7 @@ const Footer = () => {
   const mountRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const modelRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now?'];
     const interval = setInterval(() => {
       setLocations(prevLocations => {
         const currentIndex = prevLocations.length;
@@ -3123,9 +3123,9 @@ function Yelp() {
     }
   }, "Yelp Home Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "My team focused on promoting ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Yelp's Home Services"), ", ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "which ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "connects consumers with trusted professionals for various home improvement tasks.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "My team focused on promoting ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Yelp's Home Services"), ",", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "which ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "connects consumers with trusted professionals for various home improvement tasks.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "By leveraging Yelp's preestablished extensive food businesses review platform, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "the project aims to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "broaden the scope of Yelp's recognition and enhance visibility"), " for these home service providers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "By leveraging Yelp's pre-established extensive food businesses review platform, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "the project aims to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "broaden the scope of Yelp's recognition and enhance visibility"), " for these home service providers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/YelpClientReveal.png",
@@ -3273,7 +3273,7 @@ function Yelp() {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Base off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Based off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: "#E00707",
@@ -3359,7 +3359,7 @@ function Yelp() {
     }
   }, " Grow with Yelp "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201CGrow with Yelp\u201D"), " is a storytelling-based advertisement that showcases how Yelp is able to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "continuously provide "), " the tools one needs throughout their ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "different stages of life.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201CGrow with Yelp\u201D"), " is a storytelling-based advertisement that showcases how Yelp is able to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "continuously provide"), " the tools one needs throughout their ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "different stages of life.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3466,47 +3466,74 @@ function Yelp() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/995600375.json */ "./.cache/caches/gatsby-plugin-image/995600375.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "slidepng-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo",
-    ref: el => imageRefs.current.push(el)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/yelp/YelpConsumers1.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3291560230.json */ "./.cache/caches/gatsby-plugin-image/3291560230.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "slidepng-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo",
-    ref: el => imageRefs.current.push(el)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/yelp/YelpConsumers2.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/225802114.json */ "./.cache/caches/gatsby-plugin-image/225802114.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "slidepng-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo",
-    ref: el => imageRefs.current.push(el)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/yelp/YelpConsumers3.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2895625055.json */ "./.cache/caches/gatsby-plugin-image/2895625055.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title"
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/yelp/YelpForConsumers1.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/942445241.json */ "./.cache/caches/gatsby-plugin-image/942445241.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/yelp/YelpForConsumers2.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/547398062.json */ "./.cache/caches/gatsby-plugin-image/547398062.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Templates"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/yelp/YelpForConsumers3.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/413040491.json */ "./.cache/caches/gatsby-plugin-image/413040491.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subsection-title",
+    style: {
+      color: "#E00707"
+    }
   }, "Business"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Yelp for business should be ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "minimalistic and straightforward,"), " targeting local businesses viewing Yelp as a growth opportunity within a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "community-based"), " platform. Utilize a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "minimal color palette"), " featuring strong reds and secondary blues to establish a professional tone that businesses can identify with. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Simple forms and relatable imagery"), " fosters trust and familiarity with Yelp among businesses."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Yelp for business should:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Be ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "minimalistic and straightforward,"), " targeting local businesses viewing Yelp as a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "growth opportunity within a community-based"), " platform."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Utilize a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "minimal color palette"), " featuring strong reds and secondary blues to establish a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "professional"), " tone that businesses can identify with. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Simple forms and relatable imagery"), " fosters trust and familiarity with Yelp among businesses."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Design System Direction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3518,19 +3545,15 @@ function Yelp() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3638255115.json */ "./.cache/caches/gatsby-plugin-image/3638255115.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "slidepng-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "team-photo",
-    ref: el => imageRefs.current.push(el)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
-    src: "../../static/yelp/YelpBusiness1.png",
-    alt: "Project Header",
-    placeholder: "blurred",
-    layout: "constrained",
-    className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3116466266.json */ "./.cache/caches/gatsby-plugin-image/3116466266.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3548,6 +3571,26 @@ function Yelp() {
     className: "team-photo",
     ref: el => imageRefs.current.push(el)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
+    src: "../../static/yelp/YelpBusiness1.png",
+    alt: "Project Header",
+    placeholder: "blurred",
+    layout: "constrained",
+    className: "slidepng",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3116466266.json */ "./.cache/caches/gatsby-plugin-image/3116466266.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Templates"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "slidepng-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "team-photo",
+    ref: el => imageRefs.current.push(el)
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_4__.StaticImage, {
     src: "../../static/yelp/YelpBusiness3.png",
     alt: "Project Header",
     placeholder: "blurred",
@@ -3555,10 +3598,21 @@ function Yelp() {
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2930725601.json */ "./.cache/caches/gatsby-plugin-image/2930725601.json")
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "subsection-title"
+    className: "subsection-title",
+    style: {
+      color: "#E00707"
+    }
   }, "Brand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Yelp for brands should be ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "bold and memorable,"), " targeting large brands that can leverage Yelp\u2019s platform for targeted advertising and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "brand awareness."), "Use a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "limited color palette"), " primarily red paired with some whites and blacks, to enhance boldness and fun. Incorporate", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "singular shapes, greater white space,"), " and limited image content to create memorable grand gestures."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Yelp for brands should:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Use ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "bold and memorable, "), " targeting large brands that can leverage Yelp\u2019s platform for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "targeted advertising.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Use a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "limited color palette"), " primarily red paired with some whites and blacks, to enhance ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "boldness and fun."), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Incorporate", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "singular shapes, greater white space, "), " and limited image content to create memorable grand gestures."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Design System Direction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3570,7 +3624,15 @@ function Yelp() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2612012717.json */ "./.cache/caches/gatsby-plugin-image/2612012717.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3594,7 +3656,15 @@ function Yelp() {
     layout: "constrained",
     className: "slidepng",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2664848104.json */ "./.cache/caches/gatsby-plugin-image/2664848104.json")
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    style: {
+      fontFamily: 'Crimson-semibold-italic',
+      color: "#FF1A1A",
+      fontSize: '1.5rem',
+      marginLeft: '20px',
+      marginBottom: "0"
+    }
+  }, "Graphic Templates"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo",
@@ -3631,11 +3701,11 @@ function Yelp() {
     className: "subsection-title"
   }, "Designing Branding System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "The biggest challenge was creating a branding system for Yelp that ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "remained cohesive under the main brand while catering to different target groups."), " Took trial and error to successfully differentiate the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "The biggest challenge was creating a branding system for Yelp that ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "remained cohesive under the main brand while catering to different target groups. "), " Took trial and error to successfully differentiate the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title"
   }, "Video Concept Ideation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "I particularly enjoyed the video concept ideation and storyboard mock-ups stage, given my experience in personal video content creation. This project offered a new perspective as I approached ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "video creation from a marketing standpoint,"), "contrasting to catering personal memories and experiences."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  }, "I particularly enjoyed the video concept ideation and storyboard mock-ups stage, given my experience in personal video content creation. This project offered a new perspective as I approached ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "video creation from a marketing standpoint, "), "contrasting to catering personal memories and experiences."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Yelp);
 
@@ -5337,7 +5407,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACP0lEQVR42oWS+0uTURjH/YP6M/qhhNEF+lGohSIsb5UNxAghV7oyo7xkBikKm3NiyUs6a73eYQPTvEQ6aebcXnfR3ecu7z4dNzGSrAPfc+A553x4vnyfEsRKJ5MkYzES0SgpcarZ7G9lMqi5HKqqFpTP5/nXKjnaErOzpCSJnNNJenSUnM2G+mGcjMVCTtQJBouv/wM7AeZFF8sOJ/NTM8zbZaZtk8hCDnmK+U92Zux25mQZeUzix+Zm4WMmEiErHOWEi9yxgxNgVhSN7W08aNJjfP2SvmEzI1YT+paHtA8N0i29p2d0hJb6WiwWE4fxOLsbGwS2t9nz+/ELHTFOgOlMlqd9HbwbtzI5M4Vra4vdb185d+0ibc5pTIuzmMeH6FpfxOpYKHQW93pJKUpBmcPDPy3HEynGzG24V6ZxSlYOHB9ZG9DTeu8ST8wGeg2VdF6/QGtXHcN2C9lkGsWzI+QhGgqRSCROA+NIL+oJ+X7iUzzEkwlcSxaWJD3y0CMGG7UYtaUYajV09BiP81HPDiUajfC2WUcsECTs3y9cfF9dwNR7E9vwXRpEd88rNEy8qUaaMAlaAVkcoVPJF8cmFqe7/QZfBrpZe9zMnmsVx2cTtv4alidrMdRdRld6nlf995mY6wG1CDyzw9WVdapqNJSXaWisquB25RUadGU8M96ht/MWFVotpVfLKddV02SoZ08JHNvO/x3oE0m53V4CwTCKPyRG4UBoH68vyI4nKOZ6n0hY1BQ/Wy434XD4TOAvDgP+aFzuBwgAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/5722cb7eb8f740b527ac398513a1b424/afa5c/YelpBusiness2.png","srcSet":"/static/5722cb7eb8f740b527ac398513a1b424/2fe1e/YelpBusiness2.png 480w,\\n/static/5722cb7eb8f740b527ac398513a1b424/9bec7/YelpBusiness2.png 960w,\\n/static/5722cb7eb8f740b527ac398513a1b424/afa5c/YelpBusiness2.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/5722cb7eb8f740b527ac398513a1b424/3a3a2/YelpBusiness2.webp 480w,\\n/static/5722cb7eb8f740b527ac398513a1b424/bde8a/YelpBusiness2.webp 960w,\\n/static/5722cb7eb8f740b527ac398513a1b424/c512e/YelpBusiness2.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACA0lEQVR42n1STW/TQBDNP4K/wIkDiDuoQpw4VAIhceDEiRNnuIVWygEFKQgKF0CJQEhtaUvkxEmcNv6InTgmTYzXzlfj2E4esxsZmgsrjb2anXnz9r3NJEkCHqvVCunie55bLpe4vNL8/yLDP1EcwzItFApvkc+/ga7p4nAynaJaryObfYViqQTXdQUwr494XxQhptgA5FMnsxnODo/hng/B/ADNRgPhYgHTaMNut/FrcI5O14aqqgJwPhqJCKmP18U0YBOQmJS/FGGpLbieh0pVRkiTtWYTjnIKfnGPBdB0QwA6ug5TlmGbJvrDIfwgEPL8BRyPx9gr5LB9+waePnuOF9kclkmMFjEqH+/DUKrQ1TPU5IoA9DsdeAQ2sm0sBgPExDL5BwhMxiNkd3bx5PFD3Lp5HfcfPBKNGjE5fPcan3ZfQvr+FfLRwZohSWK1WugSqGNZmF9cbDKczabYyb3H1p1tXLt6BXe37olr6qoG/2gf3ySG/F4dduVkDdjrwSagPv2Z71P/bFPDMWn488cJ5IMyKqUiPn/4uNaQ3J4EDMM50OoyeglrDfvEzq7V0CONXdIwuuR0hlMNwxBSRYLZMWFScVNRxKHjOJAkCZahQWnIMMh1vrhx3Iw+6efRfsPl9AFPieVvOvQYEyalmvj0jHiOMV8M5vkVD7oZj7QuBfwD5pfe2ozyD2kAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/0fa6114c2e78a58e3dba959942a467a6/2d389/YelpBusiness2.png","srcSet":"/static/0fa6114c2e78a58e3dba959942a467a6/bca19/YelpBusiness2.png 1920w,\\n/static/0fa6114c2e78a58e3dba959942a467a6/faaec/YelpBusiness2.png 3840w,\\n/static/0fa6114c2e78a58e3dba959942a467a6/2d389/YelpBusiness2.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/0fa6114c2e78a58e3dba959942a467a6/3975e/YelpBusiness2.webp 1920w,\\n/static/0fa6114c2e78a58e3dba959942a467a6/07a41/YelpBusiness2.webp 3840w,\\n/static/0fa6114c2e78a58e3dba959942a467a6/c27f3/YelpBusiness2.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5348,18 +5418,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtUlEQVR42pVS2U7CUBT0/7+CGB4N8gRfQNgFiQsou9CF0tLSFgotHedcpULig95k2rtlZs7ccwOOw26HiEjjGDgegdNJQa1l/o9xI5+wUoFXKCCqVhHe3SG8v0dYLCK4vUXUbH7dTNO/EyaHA0A3Kd0ldCqIgwBH30cSReRKEYYhIs5/G3J++q5EEXqmicnzE+zNRm26nof30QjvwyFMy8KBgrVaDZPJBB7PLuG6rhK7IvR5sNI1OI6NhE73+z2s1QorIqDLI53ncjmUy2V0Oh00Gg00GUWr1cqErkqezecYjceYzWaw6Mi2bWzoViAOYork83mUSiV0u92MrN1uo16vXxNK1IZhQNd1WOu1Il0ul1gsFtA0Te1LOdPpFDU+mhBdosq9Mc1khHLZcRwVbMCHmNOtyUzXJBe3IpYkCTaM5eHxER06fGDZ4rTX66m/GLgilLJkSHZCKC7FoUDWCcVcQ0e/WsHbYIDXlxeKGqqVPGbsU1S6JCOUrCQnn4fnMs8QhzEd7rZbdoPBO1vs2Vby8kL4QXd6v/9DKB95BClPcO41iSADRSVfa22rVrnsv2z+XfInvBo+4ca/HEsAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/44a13822219926eed795874dc4cf4b6f/afa5c/YelpBrands3.png","srcSet":"/static/44a13822219926eed795874dc4cf4b6f/2fe1e/YelpBrands3.png 480w,\\n/static/44a13822219926eed795874dc4cf4b6f/9bec7/YelpBrands3.png 960w,\\n/static/44a13822219926eed795874dc4cf4b6f/afa5c/YelpBrands3.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/44a13822219926eed795874dc4cf4b6f/3a3a2/YelpBrands3.webp 480w,\\n/static/44a13822219926eed795874dc4cf4b6f/bde8a/YelpBrands3.webp 960w,\\n/static/44a13822219926eed795874dc4cf4b6f/c512e/YelpBrands3.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/225802114.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/225802114.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVR42o2S20sUYRjG7Q/oH6irIKQbbwLxOiKxi66lq6gI8kqvooLFm4QiDIKQDoagll5Ush72MDvuusrG1Bq4BK7tjjuaJbvhad3DHHZmfn2zqxdSSR88877zwjzzPO/3NCGOWa1SLZWo7O+ji+pYFo5p4tRqDRz2joPruhx3mrxHJZFAn5nBXlzE8vtxk0mc6WnsQABb1Nr4OG463fjifwhdoeiLoiCHw8SlCDEPoVAdcx68eSyGFJZQVbVOaglXtm1TO1B+hLCq60xNfCAakZgSigLBANORWYKTk8xMvCcYDhGWZSShdF78oFIsks/l2Nra4lehQLlcPkroDbLZbH1QqVTRKzpmcR/TMDFMC0PUStUQSlyyQmFpe5udzU12BXFR4A9CVygeHH5Bt+8m/S/v8+j5PR48vcvg0GMGHvaghEdgT+ZVooCcTGOV9tjJaWyvraELd57tw902uTQaX98dzrad5EpXC+1Xmzl/+RQX2k/T0nyCfl8ndqaPztcqb6PLWOVdcpkMP9fXKQjLHuqkDYUutmiGnvQy0HGOZ12t9PR0cO3GRW53t9F66Qy9vlsYy31cH84wNptC5AhDEFgC3sV4OIxT3bIu9qTIAcoRP3klwFdNZkkNEU+O8c4/ymclBkYK5buOksrg2NbxsUktpRgeHSOS+EQoukAsmiAixUVM5liY/0g0GicozTMr4vNmZJSNjR8HkXT/TpjPF1hJr5BbzaGJZecENG0NTSx9Vcy893XRq6pGeuVb/Wb/Rfgb7nMHciFTRe8AAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/86c2b20926dc03291dbe7bf718ac8e6d/afa5c/YelpConsumers2.png","srcSet":"/static/86c2b20926dc03291dbe7bf718ac8e6d/2fe1e/YelpConsumers2.png 480w,\\n/static/86c2b20926dc03291dbe7bf718ac8e6d/9bec7/YelpConsumers2.png 960w,\\n/static/86c2b20926dc03291dbe7bf718ac8e6d/afa5c/YelpConsumers2.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/86c2b20926dc03291dbe7bf718ac8e6d/3a3a2/YelpConsumers2.webp 480w,\\n/static/86c2b20926dc03291dbe7bf718ac8e6d/bde8a/YelpConsumers2.webp 960w,\\n/static/86c2b20926dc03291dbe7bf718ac8e6d/c512e/YelpConsumers2.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAABlElEQVR42mVT7W6CQBD0/V/Bd/ANjP8QvxIq0UpoAyKIKCggKl+63VmhqfWSyd6xt3Nzs0enrmsCHo+HoF3f73dZI/7PV1X1hraug4L8dqM4jik9nyVZMtI0pdPpJLEsSwrDkHa7nRRhtAe0wB7UdmomLIucvIVOnrthRTUVRUGmadJqtZKI9WQyocFgQLZtv8CyLHJdVwhFIdihbmNb5G+3lPAcycvlQmdWnGWZKOj3+9Ttdmk2m9FwOCRVVQWY4xsO/SWMjkdW8kWO48hpgOd5tOUDEK/XK+m6Tr1ejzRNo+l0KiQA5vP5/FUhvNrv96wo42s/yYIgEMC3JEmkQPv4oNFoJNcfj8eiUFEUIX1RCEIUYLSqQHY4HGQNS2C4uVzSJwPeGoYhHm74VgGLaTstXY4b3zB835eN6/VaLIDpOLCuSvpWFSZdkMGEDucxUvbYZvKKSWsW9/QwikQJFME/EBzZVwA5eIhvYbOumBxCoArNi7iu5IgXIwpxf3QTyTzP394Y9oA0a7revrm/P0Dd/AA/YhbxX5mNmHUAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/9975fc07bf2134db3b2599169d31b033/2d389/YelpBrands3.png","srcSet":"/static/9975fc07bf2134db3b2599169d31b033/bca19/YelpBrands3.png 1920w,\\n/static/9975fc07bf2134db3b2599169d31b033/faaec/YelpBrands3.png 3840w,\\n/static/9975fc07bf2134db3b2599169d31b033/2d389/YelpBrands3.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/9975fc07bf2134db3b2599169d31b033/3975e/YelpBrands3.webp 1920w,\\n/static/9975fc07bf2134db3b2599169d31b033/07a41/YelpBrands3.webp 3840w,\\n/static/9975fc07bf2134db3b2599169d31b033/c27f3/YelpBrands3.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5392,7 +5451,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACCElEQVR42lWSTW7UQBSEs849QOzCEg4BOUKkiG2krFAAKRKcgCU7kCKhbJgNSJwlyiLMjGNPZjz+d//aXdRrT0BjqdR2d/vretXvIIwDjOqguwaqraA49l0NZxW81/DOcLQ7uSgX5aP8MGAYR4whIFAHAmx//UR1/R3lt6/QaQLjNCyBbjcqHtjvpC3nnIU1BoZA6yboHjCoHr6pYMsC3vA9gjQMYVr3yLcbKsd6s0ZVV+j6Hi0hzjqMdOci2O2AXEiSBNkqgzGamwyd0QFHQ6jSKgIMv4dhKlNTuLzEj+NjvDk7Q3afIgBcHyagXq/R5Dnauo5qGuYoEIKV1mj5rq39l9XAn3Fygs9PnuL5q9f4s1jIzASEAFcrFGmK9cMD8s0GNaG1QJWU7dBrA6sUxoqxbLeYzWZ4+/ETfp+eAufnGAtGRWDggRFYseT07g7Jckn798jptixL5keQ9VCG7roeXIDi3g/v3uPZi5f4Qoc4OoK/vd0H9m2L5XyOgu4qnlbSRUM3jkE73qIhMLYIv0eOiuA5K1pcXSFcXCB0XYxhAsoGKTnLIvBRHcuWfAdpC8nPx+T4F+PngRtCepaLw0Pg5mYCxgwJ7MQVL6bkyYWMkiPnAiHiyLHnxJ30niXcaR3bxHDPwKjkMrzcvLSNlBxPFdHy3rusUeFRnJNeC/j/hGh6amp5/gJ9TDq39FL0nQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/fa657f80a0adf1284914dfe25394c191/afa5c/DesignSystemDirectionBrand.png","srcSet":"/static/fa657f80a0adf1284914dfe25394c191/2fe1e/DesignSystemDirectionBrand.png 480w,\\n/static/fa657f80a0adf1284914dfe25394c191/9bec7/DesignSystemDirectionBrand.png 960w,\\n/static/fa657f80a0adf1284914dfe25394c191/afa5c/DesignSystemDirectionBrand.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/fa657f80a0adf1284914dfe25394c191/3a3a2/DesignSystemDirectionBrand.webp 480w,\\n/static/fa657f80a0adf1284914dfe25394c191/bde8a/DesignSystemDirectionBrand.webp 960w,\\n/static/fa657f80a0adf1284914dfe25394c191/c512e/DesignSystemDirectionBrand.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAABmElEQVR42m2SvU4CQRSFaXkNOgp6G/EZtDTaCDUlHSSa2Fn4EHaIb0JDZ0JiAeFnWXaB5WdndofjuePMSgHJYZbLnTPfuTulPM9hjLGS50tSSiFNU7tmWQYjda6Z2yM131uSr2i1wora7XbFJt8k62azwXq9ttrv97ZHiQEPyV1vylphuAxDa+hJz4mlWSnNZ0cmxKcTknYbH/Ub3Dea+BmNcGJNa01D2bjd4iAU1MaRCK00+MjaEdvDAGSNJ7xXKri6vcM3DeXzZ8imeLFAMJvZaHEc21Vm5qMrNhr+NjwoiyJ8ffbR6nbRf3gEmg3kk4mlzrzhmoVgPEbI2BE3LJdLK0voDQ8HQGrzOV6fX1C7ruOtWgVqNejhEEqomaQkESISjWkacpaiBYllpueRLa07IGOKBf+f9nowrRZMEEDRpyBUbAimU6xIlyQJtjJTEhWRnaEMHiKahXzb204HKJdhBoN/QnkpMakCRhGyuVtFYioH+jt4PB6tUtaPrMmL1DI/kklPcW20m5M+k6fyV+eiJKaQnd3bX8VH7o/Ua8DxAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/e5d1515b91190658f775ed5e97cbb6a3/2d389/DesignSystemDirectionBrand.png","srcSet":"/static/e5d1515b91190658f775ed5e97cbb6a3/bca19/DesignSystemDirectionBrand.png 1920w,\\n/static/e5d1515b91190658f775ed5e97cbb6a3/faaec/DesignSystemDirectionBrand.png 3840w,\\n/static/e5d1515b91190658f775ed5e97cbb6a3/2d389/DesignSystemDirectionBrand.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/e5d1515b91190658f775ed5e97cbb6a3/3975e/DesignSystemDirectionBrand.webp 1920w,\\n/static/e5d1515b91190658f775ed5e97cbb6a3/07a41/DesignSystemDirectionBrand.webp 3840w,\\n/static/e5d1515b91190658f775ed5e97cbb6a3/c27f3/DesignSystemDirectionBrand.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5403,7 +5462,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMUlEQVR42p2Sy2sTURjF+1/4WLgQ1I101Y26KeimuFAUFLSCIOiiLrQgKKLbbIKIuFERYze2aalF0YYmk8ckxiTYNtouqo21Nalpm0lCnjOZtPn5TdNHKm70wpl7hzlz5sz5ThuyatUqRqWCXipRk521tSbq9eb+D6vNulRCIQrDw5RUlUJ/P2U5Wyg5HBixWJPZaNAQ8b9Cnu0QxDSbWF3dPhuGWK/9n0NLX8tm0TSNXD7HQirFSqFIJpMhv5Jhk5Oe+szPkEoyHCQZCZMMBlh4/5al+ASNVsGaOEnMzVMuFMhoeVJzs5SX05iJBIvxOKa4rIv74NkuxjsOMt7ZQezwPuLnTjL/yE60t4ea9UetglORKM/eTDKdKvMp4CV78wZ0XyItOZpWKvJC5PJ5knd7Sdy6zvfTJ1BfPOG+3U7IqzTj2hSs103cA68YGHIxOuTkXs8VJo8egd17SNtsW4LR7jN8O3WcL8famRL8iEV4/sCG4nr3x5SlKhPTM3jGxvA/fsjIndvMXrtK5cJFZhwv0YWj6zqjXZ2oB3bhO7SXQPt+viountpt9PX1bU16XVDTsnhcY0Q+hPnoCxD1q6jBMN5wBLfPT1GyzefzjDoH8Qw48ciuvB5B9flQFC9ut0JWhrpdG1HXl5ep/lrEWEpjSMFNKbUp2a5uZLPeLhHWZfJmLocpjtc5UjFrBjscWjdZIRXLZWpCMoRgSGYW6lYnN1ZRPpSRapUsXgvHwqbgb5FdEZrx81A2AAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/9a6f617d9eee471b92c01d95f09a769e/afa5c/YelpBrands2.png","srcSet":"/static/9a6f617d9eee471b92c01d95f09a769e/2fe1e/YelpBrands2.png 480w,\\n/static/9a6f617d9eee471b92c01d95f09a769e/9bec7/YelpBrands2.png 960w,\\n/static/9a6f617d9eee471b92c01d95f09a769e/afa5c/YelpBrands2.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/9a6f617d9eee471b92c01d95f09a769e/3a3a2/YelpBrands2.webp 480w,\\n/static/9a6f617d9eee471b92c01d95f09a769e/bde8a/YelpBrands2.webp 960w,\\n/static/9a6f617d9eee471b92c01d95f09a769e/c512e/YelpBrands2.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAAB00lEQVR42nWS3W4SURSF0QfpG/RGn4GbPkKvrQnGNo2mPoFe+gyKF6QJsSalthD6Q2IC4YKfqE0abRGGmYH5A2lThmEYPs+hM0iTspM1Z53Z56y9z8qOTSYTJHwJ338Q4/F4hmV5iUgnFpHpdEogVomphD+BaUAQBIxGI1zXnZ1bFvcFRQXLcXDEJfv2FuPmBkesiuVg2fa8YL/fR1EU2u02mqahdzqoqjrjw+FwVjwmP2OBTq2KvfEcI/ECbX2druD6q9colQpeaIdhGKjicrPVotvtoqkKrZDLnIyYfOJYELNQwHj3Fm1zk9+PHqM/fYIdj6MWi3iiO194aJgmgRB2B9d4oyHvP+5Tqv3E91x0Xf8v6IkOrUqVwe4H2rk9CvE1zJUVjNVVtHJ5LmhZFrVqlZroulqvcXKQpddo0P/bwzTMUDA0vXl5yeDqF53z7zR/nKMVS/Tqda4uLmZ56aN83s7OGxKJBC+3ttjeeMbhbpJy6ZsoZt8JSrOdXo/DbI6j/DHZ4xPyZ2fkhAVHp6fkxf5aPFEKFkslkslPpFIp0uk0n/e+kDn4SmY/Q6Px505wEhouhR8K+X9x1pZFlJ/P4eIAL2JxaCX3PO8eonPRHP4DBK/cnrUU9KAAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/4e9597a737871e77710e8f1cf825f4a0/2d389/YelpBrands2.png","srcSet":"/static/4e9597a737871e77710e8f1cf825f4a0/bca19/YelpBrands2.png 1920w,\\n/static/4e9597a737871e77710e8f1cf825f4a0/faaec/YelpBrands2.png 3840w,\\n/static/4e9597a737871e77710e8f1cf825f4a0/2d389/YelpBrands2.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/4e9597a737871e77710e8f1cf825f4a0/3975e/YelpBrands2.webp 1920w,\\n/static/4e9597a737871e77710e8f1cf825f4a0/07a41/YelpBrands2.webp 3840w,\\n/static/4e9597a737871e77710e8f1cf825f4a0/c27f3/YelpBrands2.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5414,18 +5473,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3ElEQVR42q2SzW4ScRTFuza+DD5At7qyTTCkq26IMdGNbnwFn8KkMTE0aUJbbFi4cQEIAYbSD0rkox1ghhnGMGhl+JqBn3cgCBpdNPFmzsy9yfnf/7l3zgYS48GAkeMwc13wMZ0usMzvEBv+y0km+R6NMkyl6B8c0Jfcx+3eHqNsdsGczeT5N35ryLoyz1vkk8ni69d3VTgcDvlqWdimiaXrmJqGpenUazd0u91f6jodi2azOUe7LTzTQBNuq9WSe71VQ1v2Z8dimA8fYWxvo29uoj3ewnr5Cr1aZSJkT9TqcllDVbmu19EkvyqXUdUbarU64/F41fCbKLQj+xhHUdRnT7m8d592IEA3FMKoVJjIKlxZgdnpMJODnvB95W/exmj601gdBoPhqmGv7/AjkcD9FEM7jJDbekLvQYDb3V3MRoOxqJuKSn+8eDxOSrhHJyd8fB+hp6lUql9k5e6qoWEYlK9KVItFLpQCF+fnlPJ5qpeleT4RdZ6oTIobgsEg4XCY0M4Or18853j/HR+ODxmN1kZutw0+pzNkpVleUVAKBXKnp6TFMsWzM/nZLo4zIJvNkUgkSWcyKMLLCV8pFMlIbdu9Ndv8x9hYeHYmFpzOsTTqev0n529Y8n4CHxAphEW0RmkAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/ba421085b1bd622424ca10b8deaec985/afa5c/YelpBrands1.png","srcSet":"/static/ba421085b1bd622424ca10b8deaec985/2fe1e/YelpBrands1.png 480w,\\n/static/ba421085b1bd622424ca10b8deaec985/9bec7/YelpBrands1.png 960w,\\n/static/ba421085b1bd622424ca10b8deaec985/afa5c/YelpBrands1.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/ba421085b1bd622424ca10b8deaec985/3a3a2/YelpBrands1.webp 480w,\\n/static/ba421085b1bd622424ca10b8deaec985/bde8a/YelpBrands1.webp 960w,\\n/static/ba421085b1bd622424ca10b8deaec985/c512e/YelpBrands1.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/2895625055.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2895625055.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABuElEQVR42o1S207CQBD1/3/CDzDGJ33VgOGikZsJATWIXEuhpYW29AI9nrMIKi+6yXR2ZnfOnDPdM3AlUWQszzJj2G73e/rDHrsd/rPO9Anv77G6ukJcLiO8uEBcLBofMRddXiI4P0f6/Lyv+APYAOZpijxJ9j6OzT5drxH7PqLlElkQIN1sEPNsQ78jaC7sPEf+Zb8AI8r1WOyvVsYnBLZs25i9WGBOsywLi/kcM3qHd7KXF6TVKoJ2G+PRCGEYGmADuCabyWSCEQ/kUwLK2wIlgGw2m2EwGBjz2NjvdGA9PcFhs2ajYfJHQDFUgeM4mJNFQskLXpS8FdksKVsNut0ubq6v4boubObe+n1Mp1NUyVRkjpIDzkhsVCggASqWDNfzTE4N1aDEYo1gNByiVquh1WqhQYYe7x0BBdBnt1aziQ6lZHwmiiv86+1SCdPxGO+MHxh3CKhmYly9vcUjz8uVCt57vW9A/T0BvBJswmIBjukLhQLeyMKjxP7HBwp3d+jV6/CoZEiJFgnsNE+aS+lHQNHd6hH/WD5nJ6kRZWppbprxhs0PsZSZZ3f6bA7J0zf159Ldk/ufetFCO2K1N1QAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/c0b5cf99aeaa908d7be32880d74cd067/afa5c/YelpConsumers3.png","srcSet":"/static/c0b5cf99aeaa908d7be32880d74cd067/2fe1e/YelpConsumers3.png 480w,\\n/static/c0b5cf99aeaa908d7be32880d74cd067/9bec7/YelpConsumers3.png 960w,\\n/static/c0b5cf99aeaa908d7be32880d74cd067/afa5c/YelpConsumers3.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/c0b5cf99aeaa908d7be32880d74cd067/3a3a2/YelpConsumers3.webp 480w,\\n/static/c0b5cf99aeaa908d7be32880d74cd067/bde8a/YelpConsumers3.webp 960w,\\n/static/c0b5cf99aeaa908d7be32880d74cd067/c512e/YelpConsumers3.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACOUlEQVR42lWSzUtUURjG5+9o0aaVSZs2rYPIIgRLKPswELR2uQnKRQtpkRCBOYmDBZWlk2lQYaj5kRFGpKIw5Ax+jKDN3Dtf5jj3ztw7d2Z+vecyI+OBh/MeznOe877v83oKhQIVFItFSqWSCxUrOPk8+TIc26boOIeh3lVpeCqBZVkYholpmmQyGcz9fTICQ87qTsEUgVwJLCCnIB9mLBtL9gNBlYUtP29ubJBOxknG44RCITTDIKnr/JXYFiGFpYcPWLzZyFLbDRZbrxNov0248z4rjzqxVPai5VHlqazCW9ssrEbZihlo60Gcjx/g9Rui09NkhZjL5ZhvPM/G1XrWWq6weqqGX/faGfMPMd/nxRKNomi5GSry1OAAT9/OMr+yhq/7CX/qzsHxWna6usiq8iTjny1NbN5pJXCtgWD9aRYmv9DRcZe573OHS7asHMtLy8yMTzDe85juW82snz0DNbVoXq/bM1t6+PtiHaGTxwjUHCFw4iix5UVG+718Gn2PWgVpi0cFuvRqbOIrk1MzfBt6x7TvObPPevnR28fnQT+pvT0SySSv2loYvnSB4csNjDQ3MTPix9fTQ/+Ll6SSKVfUzTCbzRIJhoisBtlWeyRCZHeXHRGJxmKuw6otelRH13R31/6licTERBGKCUf54JpSqT0uIruSqZlKycikMdToCPJl95R56UQCLRxmT9Mw02lM6athZNwxc6TcgzlUB2V7Xg2pPKwedJdYJttlnlO+q+ZVTPkPHXzECIX72SsAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/13dd4b2300bd127d8cc0ce1193c2d4c8/2d389/YelpBrands1.png","srcSet":"/static/13dd4b2300bd127d8cc0ce1193c2d4c8/bca19/YelpBrands1.png 1920w,\\n/static/13dd4b2300bd127d8cc0ce1193c2d4c8/faaec/YelpBrands1.png 3840w,\\n/static/13dd4b2300bd127d8cc0ce1193c2d4c8/2d389/YelpBrands1.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/13dd4b2300bd127d8cc0ce1193c2d4c8/3975e/YelpBrands1.webp 1920w,\\n/static/13dd4b2300bd127d8cc0ce1193c2d4c8/07a41/YelpBrands1.webp 3840w,\\n/static/13dd4b2300bd127d8cc0ce1193c2d4c8/c27f3/YelpBrands1.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5436,7 +5484,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABpUlEQVR42o2SS0/CQBSF+f//g5UIC1bGjQthg4SgIOWNUItAi6VleHZ6PHdoEUlMmORCmLlz+M65kwHXfrMxFR+PiA8HQOtzyR7iGLeujHyoUglBoYBduYz13R1UsQjF3+tsFur+HtF8fuq+QdgIQiiETL6Fcr+HJrFWCnq7PZGKntGMTV2uKIoQyf1U0PM8jEYjWO023hoNzEgkVzQvSjnTKT6GQ4xYvu8bwS3/yNRuh3C1Qrhc/goOBgO8VKuwOh1UKhU4jvOHIAgCLGczeIsFFKlFUACkOryz4D4SeiPofH7CIplVq+G1XsfCdc8N1/aOjEQs9vt99Ho9dLtdTOkASa8R3PFAPT5CUSwguvf9bez4JEOaXRKBCGpmKnRDRmBZFubJ0M6CKxJ+tVr4Ilmz2USXNmxeeMjn0WQECENAnhVkdqfwxaZt20Y05Hl8SbieTBAwx4gb0tSheEBLdi4H//kZx6cn6Pd3QyiCQjkej1GnoxZ700GdBcWay0lrZpMuRSKXjS4nuJank1iS/IRuyWhWPEuF0qwzNz1/af7nUV8P7geHeksvY+ARGwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/9bcea70037d9046d2ec660de5586389d/afa5c/YelpBusiness3.png","srcSet":"/static/9bcea70037d9046d2ec660de5586389d/2fe1e/YelpBusiness3.png 480w,\\n/static/9bcea70037d9046d2ec660de5586389d/9bec7/YelpBusiness3.png 960w,\\n/static/9bcea70037d9046d2ec660de5586389d/afa5c/YelpBusiness3.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/9bcea70037d9046d2ec660de5586389d/3a3a2/YelpBusiness3.webp 480w,\\n/static/9bcea70037d9046d2ec660de5586389d/bde8a/YelpBusiness3.webp 960w,\\n/static/9bcea70037d9046d2ec660de5586389d/c512e/YelpBusiness3.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAABiUlEQVR42oVS2Y6CQBD0/3/EP/DBR59MXBMjxhvRNR4LHgiIKGht1egQHjbZSSoMXX1U93StKAr8i+cTT+EPLs/zN0fov2aNj8cD9/vdQPcqZMuyzMDy1WS32w1pkph77fV6wfd9TKdTjIZD9Ho97Pf7sqrOdrfDcjaDN5/jeDwaW8IEQhzHiC4XJOez6aQm0l0s8NXtYsygTqeDzWYDFRJ0pCBhoIKv16sp5HkeFoyTEAmQrxS/FdKwJOH2+xiPRkaFgmzC6lHL4lzXNckmkwm2262xmYQFnVIak0YDCdsNgwDB4YCIar7ZakYnpTVgAZtwvV4bzDmGA/1LhZpSSGJPZT9hCGcwwGQ8xpqOzXodTqsF9gREUalQR22OGOM4Ds6cX5mw4CWm5Gi1gn0gl4pjFjk0m0ipOmu3kdOW82UzzlNzVJuao756HCV7J6RTyFcKODethX3ZmEEBVfmsHqUpNBoFSGHAsZxOJ6PM7p+4cg+1sK8KYfZLto/dLPRn9wR1YtfK+lvuF6dC/h9fK8yuAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/b2dad58c91460af36ac2c542b5a5bffe/2d389/YelpBusiness3.png","srcSet":"/static/b2dad58c91460af36ac2c542b5a5bffe/bca19/YelpBusiness3.png 1920w,\\n/static/b2dad58c91460af36ac2c542b5a5bffe/faaec/YelpBusiness3.png 3840w,\\n/static/b2dad58c91460af36ac2c542b5a5bffe/2d389/YelpBusiness3.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/b2dad58c91460af36ac2c542b5a5bffe/3975e/YelpBusiness3.webp 1920w,\\n/static/b2dad58c91460af36ac2c542b5a5bffe/07a41/YelpBusiness3.webp 3840w,\\n/static/b2dad58c91460af36ac2c542b5a5bffe/c27f3/YelpBusiness3.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5458,7 +5506,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACGklEQVR42o1SXWvTYBTeDxLv/BleKPNCwRu9mxci7MY/oVdeqC2IzrGJDlZbYRZHxzbBJVtpTZNmJk1CmnTt2mamTdp8Pp68HdKC4F44yct7znnOOc95lkAn8H1Mxh7iIEBClsYxkCTsn4QhXRNmVzlL2cc/PMR4exvJyQniYhHTUgne1ha89XUE9J72+7PoNL0aIKIIXdPEbrmMnWIJpqIA0ylC14UsCCgWCjjieLij0Sx8PEZEvmyiiHLjbKKFDilZ5o4hS03Iigqx0WCB7XYbumGgWq9DECUo5MtOR9ehU0ybfL3BAKPLQguAP79V4PR6CIizhigiIs50+RR2TUA26ND5DbWlsSTPtjGiifyzM0SUk1LxBUDP81EqbOLpyn08e5FD/v1HoiuBqqqoV3lYhgbD0CGKAkuyJImKyTCp0w51GVBDC4CTiY+3b/JYffQQy7dvYuXJKnO2NB17n97hS+45uEoZtR8H7L1LndnUYa/TYbwGxOUCYDCd4OVaAXcfPMaN69dw68495tQIsHuwh8q+gg+FKszqEXvv0dJsosVuNtEnBcxL6i+H33f38XXjM3ZevcZGLo+IJKK1WvDOu9A9gJPOYWkKS7qgDfeHQ2Yu3dM5OTHAkBbB8RzalgmTQOq01SzIsizw/DFxpUBq1CCf/rqUY/ofHbLFeNT+AH2SgevOZJDSKBeOg0FmQwfhHFcZ6L+A/wCsLC0Vyv8xYgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/0745069aec110c45e9aec3baba21e645/afa5c/YelpBusiness1.png","srcSet":"/static/0745069aec110c45e9aec3baba21e645/2fe1e/YelpBusiness1.png 480w,\\n/static/0745069aec110c45e9aec3baba21e645/9bec7/YelpBusiness1.png 960w,\\n/static/0745069aec110c45e9aec3baba21e645/afa5c/YelpBusiness1.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/0745069aec110c45e9aec3baba21e645/3a3a2/YelpBusiness1.webp 480w,\\n/static/0745069aec110c45e9aec3baba21e645/bde8a/YelpBusiness1.webp 960w,\\n/static/0745069aec110c45e9aec3baba21e645/c512e/YelpBusiness1.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACQ0lEQVR42o2SS08TYRSG+7dcuGGBbgwbLwsIIbowQijQGFIwhIsSFeUSiKiUKoogVzFCO60UJE2I9ZKSwgJIjCWp0Au913bazgyP3xRMMNHESU6+72TOeeadc16DqqrocXR0xP88et3vnr+FQVGUUuHW5iYOuwPXexdOScJmk1hbWeXDsshtNpZtduxTU3xyu1E17d9AVRMXAR2fek1bl5l+yyCjc9M4bG9o7+vh3ksrz1wOLE6JwcEHDD0aICvnKRSLyPn8ccgyRZGfAMXXCgpjSzNML06y/uUjXp+PQjBAec1l6mfHmN32MjFnZWzXy2P3CtlUCnRALocmxGinFBs0oVAuqDjeWtjzOfBIC4TdEv6lXl60XuDhRAfDffWM1pyn5+5VRhaGSMSTBHd3OdjeJhIMEgqHyWQyJbBBUxVkFZxP29nf+UwkGiWZEg3fPXx1mPHMdzPX00DXpbMMt1Ry+46RVCZL7GCftKhNCGBCnHnx68cKBbCgwaveZgHcIB2Kl0YQCQWYttSy+q6Z+40VmC+Wsf68gZn5IZLJNId7flG/Q9TvJx2Poy/3eIZKUUiFcetNXJZOfJ0dfFuz4/VILFqNbDibsHRXUl12hoH+VialLnI/ZRTRpC9GP7VTVjLolvH7A7S1X6e6qpxbJiOmuiu03Kiiu7OBkSdNmE11nKuoobaxFaPpmrDY1okflZJD1BN1JaD+IhaLEQgESaVyJBJpMcMsyXSWeCJD5FDPM+TlHKlkkv0fIcLhyB+bPe3DXxAysOsKxmIzAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/5d4df14fd94dbc45e910b71fcca21a8e/2d389/YelpBusiness1.png","srcSet":"/static/5d4df14fd94dbc45e910b71fcca21a8e/bca19/YelpBusiness1.png 1920w,\\n/static/5d4df14fd94dbc45e910b71fcca21a8e/faaec/YelpBusiness1.png 3840w,\\n/static/5d4df14fd94dbc45e910b71fcca21a8e/2d389/YelpBusiness1.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/5d4df14fd94dbc45e910b71fcca21a8e/3975e/YelpBusiness1.webp 1920w,\\n/static/5d4df14fd94dbc45e910b71fcca21a8e/07a41/YelpBusiness1.webp 3840w,\\n/static/5d4df14fd94dbc45e910b71fcca21a8e/c27f3/YelpBusiness1.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5484,17 +5532,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3291560230.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3291560230.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAAAGElEQVR42mP48+fPf2pihlEDRw0cjgYCANeNFgZKV30xAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/9cfb2b454a0e76f5920876d605e0a2ca/2d389/YelpConsumers1.png","srcSet":"/static/9cfb2b454a0e76f5920876d605e0a2ca/bca19/YelpConsumers1.png 1920w,\\n/static/9cfb2b454a0e76f5920876d605e0a2ca/faaec/YelpConsumers1.png 3840w,\\n/static/9cfb2b454a0e76f5920876d605e0a2ca/2d389/YelpConsumers1.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/9cfb2b454a0e76f5920876d605e0a2ca/3975e/YelpConsumers1.webp 1920w,\\n/static/9cfb2b454a0e76f5920876d605e0a2ca/07a41/YelpConsumers1.webp 3840w,\\n/static/9cfb2b454a0e76f5920876d605e0a2ca/c27f3/YelpConsumers1.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/3529446193.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3529446193.json ***!
@@ -5513,7 +5550,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/ElEQVR42m2TzYoTQRSFsxdfwqUb3fgog0/gSvABBpe+gBvFnQSEKKI4LyDoyq3gYkDESZwk3V2Zrv6r/6rjqZpEJmDD4Xa6uV+fe+pmlmKA1Qpq6KDGnlVi6iWcGeE15TS8t3u5Ilfki3wICDEipoREzRIfjF+/QH78AHn2ifU92jdzyPlr9O8WMKKCsgrTNGBSI7TRsM5SrlTHGsg4AkY1IeoJifJ0aenQdC0M3WpCxJWA2AnUTQ3ZSQzThIE9Ex2qBJjsluB/wKraYrm8wHq9Lg48Y3CBDjiaYhwjAcYajhbKiM5aGMdRFwvEkxP4y0s4AJHvZvQLKwTauoJoGvRdh77vIKUkKI9oiiNtbIHlJoTcTuDLF4j37iPSjL8J1Nst5GZTgB1Bfd8zM0VXtoAmpUvNYyltsRIKz74B8+efgSePEa7aAkw8nAIcCNosl6gJ/rNaoa4qjMNIgCc0QwwPILcA2if8WBs8eAucPnwF3L2D8PPXMdDtdhDMryGoITTX7FQzP++voT6PzDiKZIehq1GdnSGcPgXGkQEcgGxIWiMyq8ARD/L5d14JOvOs4KmCp8xcAB4i2u+0+Ai4dRs4P78GlgwJRAmayvcHlWdcWN7bAzzX/Ye95Ta0DcLF77KHeRLktfk/6Fj5y/kflVIsu5aym5vaL3W+/gLPBkTrJSizuAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/f3d510d661d8259db9d7e84ff459b19c/afa5c/DesignSystemDirectionLocalBusiness.png","srcSet":"/static/f3d510d661d8259db9d7e84ff459b19c/2fe1e/DesignSystemDirectionLocalBusiness.png 480w,\\n/static/f3d510d661d8259db9d7e84ff459b19c/9bec7/DesignSystemDirectionLocalBusiness.png 960w,\\n/static/f3d510d661d8259db9d7e84ff459b19c/afa5c/DesignSystemDirectionLocalBusiness.png 1920w","sizes":"(min-width: 1920px) 1920px, 100vw"},"sources":[{"srcSet":"/static/f3d510d661d8259db9d7e84ff459b19c/3a3a2/DesignSystemDirectionLocalBusiness.webp 480w,\\n/static/f3d510d661d8259db9d7e84ff459b19c/bde8a/DesignSystemDirectionLocalBusiness.webp 960w,\\n/static/f3d510d661d8259db9d7e84ff459b19c/c512e/DesignSystemDirectionLocalBusiness.webp 1920w","type":"image/webp","sizes":"(min-width: 1920px) 1920px, 100vw"}]},"width":1920,"height":1080}');
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAABnElEQVR42l1SwUrDQBDtTfDqpfgV/otfIXgWFb35B94Er6Lg0YseRQ9FoYIoHpRSSNs0LU3SNE12s8lz3pqtbQOvu52ZvLw3Mw1jDMqyRFVVFrwztgzGVsAYc1rD5DlMUSxqG/yJ4xhhGCJJEmgWLZEVUhwxH0WYTCaYzWZQSiEXIiXkCoCSd7TEFoQs9DwP/X4fWZatqCQhYyQh+EEi1wb66Rnl8RHMYGDJC4lbQmd33TLvJCQRT+btIzn7XJwDzSbKdtsqLaTOEiqxmk6n1g7VODj7jpBnlisE0Rw3X8Dt1RtweAAjDhXdOIVpECAUjMdjJDVxmqaWwBFqKhQVWVHho5dh5xrY270EtregX17/FdLW1PfhdTroSQ+73a7tJQfkesimc6KFfIjI4gTffoz23SPMySnKOPpTKLVW4Vym6AtJICqHw6E9p6I0r1eChNV8DkkAoxGkCIjfgbN9YGMTZau12kMjxUqQCUFew02WedtP2hZ1DvkshPr5hL5/kBnI/7rPjfUlXp7w8upY8L6AbIA0taCyuoZ7+AtGw/u3AZyhzgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/3c1b9c8f0cbeb69f4712801c52198c58/2d389/DesignSystemDirectionLocalBusiness.png","srcSet":"/static/3c1b9c8f0cbeb69f4712801c52198c58/bca19/DesignSystemDirectionLocalBusiness.png 1920w,\\n/static/3c1b9c8f0cbeb69f4712801c52198c58/faaec/DesignSystemDirectionLocalBusiness.png 3840w,\\n/static/3c1b9c8f0cbeb69f4712801c52198c58/2d389/DesignSystemDirectionLocalBusiness.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/3c1b9c8f0cbeb69f4712801c52198c58/3975e/DesignSystemDirectionLocalBusiness.webp 1920w,\\n/static/3c1b9c8f0cbeb69f4712801c52198c58/07a41/DesignSystemDirectionLocalBusiness.webp 3840w,\\n/static/3c1b9c8f0cbeb69f4712801c52198c58/c27f3/DesignSystemDirectionLocalBusiness.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 
@@ -5550,6 +5587,28 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundCol
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/413040491.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/413040491.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAABoElEQVR42m1SW3PBYBD1//+PvjDtixmGypgpo4ZUi5CQELe4BKfnLGkznT4su192z+Xbr3C5XJCP6/X683+73SyU/62tX3m+ZhT0cz6fLU6nE47Ho+WbzQar1QrL5RLb7dZq5VEUYb/fIz0ccIpjHFnbTJr+Au52O2sWgELAQRBgsVggDEPM53P4vm/fItbReo2kXkdSLmPX6+Hz4wMxz1KCFiRX7AKYTqc2KMbJZGJAs9nMzvXf43C320UkctbecIiQQE6zCdd17woFKIXj8RgBwQSYJIkpFuOB1qRMoCIpFoum3CdZfzDA1PNQp1p9F5ZZ1p2sySSlse6FCtWgPKBFqVOIqOE48OnGExCVNRgOzxbs04IMUCra7TZq1SqabBDgkHbKvKP2ywtmVOayfi6V8F6pmIsRHTWfnvBWq8FpteD2+3eFsiVmMXijEWLa05alUOCfnQ5W3OSYoM7rK75Us0cKQ5Jwg9jSYSTL2ZZ1XwK5ASZbZxrSUvZUr7enbSsSqpcS5Qfml+zdPuYK+cecPt5SdpZ/sP/VWZ7mZr8BWQ/1OdJa5E8AAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/4f1b62a20da6935cc80167dc963b7b90/2d389/YelpForConsumers3.png","srcSet":"/static/4f1b62a20da6935cc80167dc963b7b90/bca19/YelpForConsumers3.png 1920w,\\n/static/4f1b62a20da6935cc80167dc963b7b90/faaec/YelpForConsumers3.png 3840w,\\n/static/4f1b62a20da6935cc80167dc963b7b90/2d389/YelpForConsumers3.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/4f1b62a20da6935cc80167dc963b7b90/3975e/YelpForConsumers3.webp 1920w,\\n/static/4f1b62a20da6935cc80167dc963b7b90/07a41/YelpForConsumers3.webp 3840w,\\n/static/4f1b62a20da6935cc80167dc963b7b90/c27f3/YelpForConsumers3.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/547398062.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/547398062.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACNklEQVR42m2SzWsTURTF+0+47UoQN4KiIOhCRQVRkCqiXShKKZRCFRdSiuDCVQUFtbFtQhupbpROmrSirsWFgsRW06Qfpm1mkuajmTTJJM2YzMfPN9OmVezAYd67795zzzv3tZimiQNDoF6v/49G45+1YVk0a3ZDS3MxFQox6PHg9fnwCXhHRvB5vfgGXzAyOorf72fo6TOCb966zQ3DoCEaNOHsXULEV9Y05n5GMGs6iqyQVJIk5RSrchJlfgFZ7OMrMnouS+zrF0qVCrao25XQtm00QRiJzvJLibOwFGNZXmQpNkM6rZBKy5SLqqguopkwM7dIRStTU1XKhQKaIK9Wqy7p9pUtw2JodIBDZ1tp6zrCpe6jnLpxkPaOE1w93cqTvuuw/JAH7xM8Ds5AvYKaybKqKGRzOdE4Ta1WwxL+tliW44fJq9fDXD63j1udB+joOsbJ8/u5cHEvh4/v4faddvQfvdybWKZfmhZqq5RWM2RWVlCF0qpQqev6DuHvhsmH8TG+97Tx+f4VPIOdPPJ00//8Gjd7ztDbdxfi/Qx8SjH8MbJJmFsjE4uxJlSWysKCjY1NQsfDgvAiHA5Tyqvks1kK5Rz5Yop4Yl4MRCYrYpXiGtqGzrfwNOvrBdR8HiWRQHGuLc63PXSmHI1GxbMYY1yaQAoECUghpPFJghPvCAanCIiYJE2KWEDkvSQSmXXKXAJHlfXX23SHsjlyA1scOLDsLWwlu3E3ZrOTLwjE39hCk/APeyS875Ym2ZoAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/c9c33358a08252322c40a62b90f8db33/2d389/YelpForConsumers2.png","srcSet":"/static/c9c33358a08252322c40a62b90f8db33/bca19/YelpForConsumers2.png 1920w,\\n/static/c9c33358a08252322c40a62b90f8db33/faaec/YelpForConsumers2.png 3840w,\\n/static/c9c33358a08252322c40a62b90f8db33/2d389/YelpForConsumers2.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/c9c33358a08252322c40a62b90f8db33/3975e/YelpForConsumers2.webp 1920w,\\n/static/c9c33358a08252322c40a62b90f8db33/07a41/YelpForConsumers2.webp 3840w,\\n/static/c9c33358a08252322c40a62b90f8db33/c27f3/YelpForConsumers2.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/813295459.json":
 /*!**********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/813295459.json ***!
@@ -5558,6 +5617,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","backgroundCol
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACZ0lEQVR42k2Sy09TQRTGm6BbXeqGKH8DG6I7TTAu0ASBRCk+EKGgSFhITHBlYzSB+CAC7gDBiAIhKcZEECQg0FgUdEEplL4oNG299EFftLf8nLmkhknOzHfunPvNdx46VVXJ7u+zD5pp+JAvcW7l4rQl8GFfYsmlywon2v+WQM1tgndqiA6+Z2v8C9uNjYQfteKbGMdiNOIyPibW24PyxMjys6csd7xC+TrBVn8f9ro6lIEBjVynii107Spjx45jzssjePMGHrOZyTNnmcnPZ3t2hq57jSyUluK/XMJGURHDtbX0tbcT+jCIXRCZCgpYrTdoSjXCWHcX5ooKVsvLiAmFvulpfgq1ywYDEZeT0bnv/HnxnKhQ5Wl5wMLUJL/t6yTX13C+6WbRUIevt/eAUOYeVRTiOzsklL8kU0mCNhu+DTu7wQBR+d27SczvJ5VI4PN4UBwOkr5totEIAesKkS0vqXgcNZtFJ1ltI8O8EylZL5UQbqjHW3aFz3o9E033CbgczFbpsVRWEmxuwt3VyXpVFbbz5wg/bMF7+hSbJ0+gCOWyHzrZLZdjg5dt7SyVl6NcvICjuJie1lZMH4dQ0ylGxDna3MxOTTWbJhO/Gu4yWVhI+Loe59EjOHQ6AtW3DgizQmYo4GfN48b9aYz4tyk8oo5LixbcTie7ogwrViuLovMRyw8CwhwdHXiHhkgszBPsfE1IqE7Mzx0QytnJZDJktXmEtHhgN50hLmqSEDVLJJMalvWRd3siLi1+lM1URXYZOYOH51BuOVI1ndYsm3tAEORMlffSVGF7e/9jJc6kUmQkVlX+AeSboK3GD7HYAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/d9048bfd38de1665a0dd5ba8fac4a3dc/2d389/GrowWithYelp.png","srcSet":"/static/d9048bfd38de1665a0dd5ba8fac4a3dc/bca19/GrowWithYelp.png 1920w,\\n/static/d9048bfd38de1665a0dd5ba8fac4a3dc/faaec/GrowWithYelp.png 3840w,\\n/static/d9048bfd38de1665a0dd5ba8fac4a3dc/2d389/GrowWithYelp.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/d9048bfd38de1665a0dd5ba8fac4a3dc/3975e/GrowWithYelp.webp 1920w,\\n/static/d9048bfd38de1665a0dd5ba8fac4a3dc/07a41/GrowWithYelp.webp 3840w,\\n/static/d9048bfd38de1665a0dd5ba8fac4a3dc/c27f3/GrowWithYelp.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/942445241.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/942445241.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACxLAAAsSwGlPZapAAACB0lEQVR42n2Sz2sTQRTH8yd58ejBo0RQRAsVKRRLxINotRbFm0VrRVEaD0VFooeAgR7sTUsURNBGNNqkdH82P6zrdjeb3ezG7Oxmd7/OjEQ2iA48Zniz7zPf9/abiaIILJIkwWix8yg/GAwQBITvw+HwT/5fkWEfsVV4kEfucBZnsoewcnuJ52zbRq1eR6HwFOVyGZqm8XxIa0JazII/knook8Qx+kGA19eu4tPsOXy+Mof1uVmQMERDVaG32nB/9mGYHciywoHE8xC4Lkivh5Aqj1MdZWh/cH0f1cUFDJ6sIFgt4uuN6/DpI6ogQN6owOv70HUDoiByoNFowNrZgdtuw9F1et8fV+hFMT7kTkN/dB/2szt4f/IECB2pqir4/nYd4bs89t4UIVQqHNhpNtE1DNgUZFOVPhU03jJt7+P8RXS3K3DKJWzMTIHQwpYoQVu4hK0Xd6Hdm4ewtsqBu5KEpijCsiz0WNu0PgWM4A0j1C5fgD41AWt6ErWzM/Cpwl21DuVhDtWXRZhr51F/VeJAU5awJ8v8pzmOMw6MmTVoy6XpU1javw+PDx7A84ljCOIEqiKjY7Y4xHV+QJG2+blLISwYkKkkhPxtm/zyMiaPHsHxbBa3Fm/+VmKaqH6pQZIUbG5uodX+xvPct3RUzK9pz3Lg/4wds/mywVMlbFYjY7M9HWngLyz60wl4kAxfAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/f1f5d15966afb335fa0d56b5f8815e29/2d389/YelpForConsumers1.png","srcSet":"/static/f1f5d15966afb335fa0d56b5f8815e29/bca19/YelpForConsumers1.png 1920w,\\n/static/f1f5d15966afb335fa0d56b5f8815e29/faaec/YelpForConsumers1.png 3840w,\\n/static/f1f5d15966afb335fa0d56b5f8815e29/2d389/YelpForConsumers1.png 7680w","sizes":"(min-width: 7680px) 7680px, 100vw"},"sources":[{"srcSet":"/static/f1f5d15966afb335fa0d56b5f8815e29/3975e/YelpForConsumers1.webp 1920w,\\n/static/f1f5d15966afb335fa0d56b5f8815e29/07a41/YelpForConsumers1.webp 3840w,\\n/static/f1f5d15966afb335fa0d56b5f8815e29/c27f3/YelpForConsumers1.webp 7680w","type":"image/webp","sizes":"(min-width: 7680px) 7680px, 100vw"}]},"width":7680,"height":3924}');
 
 /***/ }),
 

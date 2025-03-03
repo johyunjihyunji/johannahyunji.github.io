@@ -18,12 +18,14 @@
   transition: transform 0.3s ease;
   text-decoration: none;
 }
+.ImageItem img {
+  width: 100%;
+}
 
 .ImageOverlay {
   padding: 10px;
   gap: 10px;
   transition: transform 0.3s ease;
-  opacity: 1; /* Set this to 1 */
 }
 
 .Tags {

@@ -2895,7 +2895,7 @@ const Footer = () => {
   const mountRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const modelRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now?'];
     const interval = setInterval(() => {
       setLocations(prevLocations => {
         const currentIndex = prevLocations.length;

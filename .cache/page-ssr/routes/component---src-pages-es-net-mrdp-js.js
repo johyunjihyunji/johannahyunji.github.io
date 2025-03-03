@@ -2805,7 +2805,7 @@ const Footer = () => {
   const mountRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const modelRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const allLocations = ['Los Angeles, CA', 'Seoul, KOR', 'Vientiane, LA', 'Berkeley, CA', 'Where Now?'];
+    const allLocations = ['Los Angeles, CA', 'Seoul, Korea', 'Vientiane, Laos', 'Berkeley, CA', 'Where Now?'];
     const interval = setInterval(() => {
       setLocations(prevLocations => {
         const currentIndex = prevLocations.length;
@@ -3105,7 +3105,7 @@ function ESNetMRDP() {
     className: "project-title"
   }, "Modern Research Data Portal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "project-summary"
-  }, "Redesigned Data Transfer Portal: Streamlined data transfers, created customizable code, and improved user experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Redesigned Data Transfer Portal: Streamlined data transfers, implemented customizable code features, and improved user experience."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "info-item"
@@ -3146,13 +3146,13 @@ function ESNetMRDP() {
     }
   }, "Energy Science Network's Modern Research Data Portal"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Energy Sciences Network is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "high-performance network"), " designed to support large-scale scientific research ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Energy Science Network is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "high-performance network"), " designed to support large-scale scientific research ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, "Modern Research Data Transfer (MRDP) streamlines high-speed data transfer process by:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Enables ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "file transfers between authorized Globus points.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Provides a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "single customoizable portal"), " for initiating transfers, browsing datasets, and monitoring progress."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Accelerates research workflows, facilitating collaboration among researchers.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Enables ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "file transfers between authorized Globus points.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Provides a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "single customizable portal"), " for initiating transfers, browsing datasets, and monitoring progress."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Accelerates research workflows, facilitating collaboration among researchers.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "subsection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
@@ -3172,7 +3172,7 @@ function ESNetMRDP() {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3917732749.json */ "./.cache/caches/gatsby-plugin-image/3917732749.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "During the internship, I improved Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development to create a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable codebase solution"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "During the internship, I improved Modern Research Data Portal (MRDP) through UI/UX redesign and Django-based web development to create a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "versatile, distributable, and customizable codebase"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3285,7 +3285,7 @@ function ESNetMRDP() {
     }
   }, "Competitor Research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "By going through software tool landing pages and other competitor interfaces, I compiled my analysis in a FigJam brainstorm.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Key Takeaways:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "By going through software tool landing pages and other competitor interfaces, I compiled my analysis into a FigJam brainstorm.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Key Takeaways:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       display: "flex",
       alignItems: "center"
@@ -3465,7 +3465,7 @@ function ESNetMRDP() {
     style: {
       color: '#0075A2'
     }
-  }, "Low-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Low-fidelity Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, "After discussions with James and Ken, I distilled the UX to two essential pages:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " the landing page and the transfer page.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph",
@@ -3479,7 +3479,7 @@ function ESNetMRDP() {
     className: "paragraph"
   }, "Using the comparative analysis, I redesigned landing page to incorporate:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "bullet-list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Introduction Section"), " to provide summary and login entry point"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Insutrction Section"), " that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Featured Datasets Section"), " to highlight from institute"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Customization section"), " that include eg. team or institution introductions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Introduction Section"), " to provide summary and login entry point"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Instruction Section"), " that guides users to access the transfer page through logging in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Featured Datasets Section"), " to highlight from institute"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Customization section"), " that include e.g., team or institution introductions"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "mockup-box"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "slidepng-container"
@@ -3530,7 +3530,7 @@ function ESNetMRDP() {
     style: {
       margin: '10px'
     }
-  }, "Once user logs in, users have the option to select the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "source, destination, and dataset to tranfer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Once user logs in, users have the option to select the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "source, destination, and dataset to transfer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     style: {
       margin: '10px'
     }
@@ -3579,7 +3579,7 @@ function ESNetMRDP() {
     style: {
       color: '#0075A2'
     }
-  }, "High-Fi Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "High-fidelity Mockups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, "After confirming the low-fi mockups and user flow with the client point of contact, I developed the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "high-fi prototype incorporating an ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "example customization featuring ESNet's institution branding and content.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
@@ -3606,7 +3606,7 @@ function ESNetMRDP() {
     style: {
       margin: '10px'
     }
-  }, "Introduced a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201Ctransfer queue\u201D"), " to organize selected files for transfer and details such as name, size, transfer status etc "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Introduced a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "\u201Ctransfer queue\u201D"), " to organize selected files for transfer and details such as name, size, transfer status, etc "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     style: {
       margin: '10px'
     }
@@ -3735,7 +3735,7 @@ function ESNetMRDP() {
     d: "M135.669 14.3305C138.11 16.7712 138.11 20.7285 135.669 23.1693L66.9194 91.9193C64.4786 94.3601 60.5214 94.3601 58.0806 91.9193C55.6398 89.4785 55.6398 85.5212 58.0806 83.0805L126.831 14.3305C129.271 11.8897 133.229 11.8897 135.669 14.3305Z"
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "This deployment was delivered to the Science Engagement Team in order to distribute to any ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "ESNet's partner administrater that requires MRDP."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "This deployment was delivered to the Science Engagement Team in order to distribute to any ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "ESnet's partner administrators that requires MRDP."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"
