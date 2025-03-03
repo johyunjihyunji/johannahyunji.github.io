@@ -100,6 +100,23 @@ const ProjectSlide = () => {
             <div className="Company">Yelp</div>
             </div>
         </Link>
+        
+        <Link className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
+            <StaticImage 
+            src="../../static/2025_thumbnails/game.png"
+            alt="yelp"
+            placeholder="blurred" // Optional placeholder
+            layout="constrained" // Layout options
+            className = "staticimage"
+            />
+            <div className="ImageOverlay">
+            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Game Design</div>
+            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Graphic Illustrations</div>
+            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>P5</div>
+            <div className="Title">No Rain No Flower</div>
+            <div className="Company">Personal Project</div>
+          </div>
+        </Link>
 
         
           <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
@@ -119,20 +136,6 @@ const ProjectSlide = () => {
         </Link>
 
                 
-        {/* <a className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
-            <StaticImage 
-            src="../../static/AThumbs/GameThumb.png"
-            alt="yelp"
-            placeholder="blurred" // Optional placeholder
-            layout="constrained" // Layout options
-            className = "staticimage"
-            />
-            <div className="ImageOverlay">
-            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Game Design</div>
-            <div className="Tags" style ={{ backgroundColor: 'rgba(255, 113, 201, 0.5)'}}>Graphic Illustrations</div>
-            <div className="Title">No Rain No Flower</div>
-          </div>
-        </a> */}
 
 
 
