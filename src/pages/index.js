@@ -8,12 +8,9 @@ import '../style/Home.css'
 import IntroductionSlide from '../Components/IntroductionSlide';
 import ProjectSlide from '../Components/ProjectSlide';
 
-// //projects
-// import Broke from './Broke';
-// import ESNetMRDP from './ESNetMRDP';
-// import SiaPartners from './SiaPartners';
-// import Waymo from './Waymo';
-// import Yelp from './Yelp';
+
+// //Custom Cursor
+// import CustomCursor from '../Components/CustomCursor';
 
 
 //Header & Footer

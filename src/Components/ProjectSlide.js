@@ -7,7 +7,7 @@ import '../style/ProjectSlide.css'
 const ProjectSlide = () => {
 
   return (
-    <div className='GalleryContainer'>
+    <div className='GalleryContainer' id="projects">
       <nav className='GridContainer'>
         {/* Project MRDP */}
         <Link className='ImageItem'  to="/ESNetMRDP">

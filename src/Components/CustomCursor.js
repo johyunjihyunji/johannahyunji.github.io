@@ -56,7 +56,7 @@ const CustomCursor = () => {
             width: '50px',
             height: '60px',
             borderRadius: '80%',
-            background: 'radial-gradient(circle, rgba(4, 56, 198, 0.6) 0%, rgba(4, 56, 198, 0) 90%)',
+            background: 'radial-gradient(circle, rgba(4, 56, 198, 0.3) 0%, rgba(4, 56, 198, 0) 90%)',
             filter: 'blur(5px)',
           }}
         />

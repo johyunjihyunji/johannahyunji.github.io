@@ -2881,10 +2881,7 @@ const Header = () => {
   }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "MenuItem",
-    href: "https://johyunjihyunji.github.io/norainnoflower/"
-  }, "Playtime")));
+  }, "LinkedIn")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
@@ -3217,6 +3214,39 @@ const ProjectSlide = () => {
     className: "Company"
   }, "Yelp"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     className: "ImageItem",
+    href: "https://johyunjihyunji.github.io/norainnoflower/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
+    src: "../../static/2025_thumbnails/game.png",
+    alt: "yelp",
+    placeholder: "blurred" // Optional placeholder
+    ,
+    layout: "constrained" // Layout options
+    ,
+    className: "staticimage",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3070820599.json */ "./.cache/caches/gatsby-plugin-image/3070820599.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "ImageOverlay"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Tags",
+    style: {
+      backgroundColor: 'rgba(255, 113, 201, 0.5)'
+    }
+  }, "Game Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Tags",
+    style: {
+      backgroundColor: 'rgba(255, 113, 201, 0.5)'
+    }
+  }, "Graphic Illustrations"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Tags",
+    style: {
+      backgroundColor: 'rgba(255, 113, 201, 0.5)'
+    }
+  }, "P5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Title"
+  }, "No Rain No Flower"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "Company"
+  }, "Personal Project"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "ImageItem",
     href: "https://www.youtube.com/@johannalee8172/videos"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
     src: "../../static/2025_thumbnails/youtube.png",
@@ -3243,33 +3273,7 @@ const ProjectSlide = () => {
     className: "Title"
   }, "Digital Diaries"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "Company"
-  }, "Youtube"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "ImageItem",
-    href: "https://johyunjihyunji.github.io/norainnoflower/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.StaticImage, {
-    src: "../../static/2025_thumbnails/game.png",
-    alt: "yelp",
-    placeholder: "blurred" // Optional placeholder
-    ,
-    layout: "constrained" // Layout options
-    ,
-    className: "staticimage",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3070820599.json */ "./.cache/caches/gatsby-plugin-image/3070820599.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "ImageOverlay"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Tags",
-    style: {
-      backgroundColor: 'rgba(255, 113, 201, 0.5)'
-    }
-  }, "Game Design"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Tags",
-    style: {
-      backgroundColor: 'rgba(255, 113, 201, 0.5)'
-    }
-  }, "Graphic Illustrations"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "Title"
-  }, "No Rain No Flower")))));
+  }, "Youtube")))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectSlide);
 

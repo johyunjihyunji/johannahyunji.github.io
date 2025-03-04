@@ -13,8 +13,7 @@ import About from './pages/About';
 import Home from './pages/index';
 import ProjectSlide from './Components/ProjectSlide';
 
-//Custom Cursor
-import CustomCursor from '../Components/CustomCursor';
+
 
 
 function App() {

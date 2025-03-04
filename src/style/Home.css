@@ -5,6 +5,9 @@ body {
     font-size: 20px; 
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
 
 @font-face {
   font-family: 'AlexRoss';
@@ -64,7 +67,7 @@ body {
 }
 
 .Logo {
-  height: 6rem; /* Adjust logo size */
+  height: 7rem; /* Adjust logo size */
 }
 
 .Menu {
