@@ -4,8 +4,10 @@
   padding: 20px;
   color: #766459;
   gap: 10vh;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 20vh;
+  padding-left: 12%;
+  margin-top: 20vh;
 }
 
 b {
@@ -30,7 +32,7 @@ b {
 
 .project-summary {
   font-family: 'Crimson-italic', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .info-row {
@@ -51,14 +53,14 @@ b {
 }
 
 .info-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
   font-family: 'Crimson-semibold-italic', sans-serif;
   color: black;
 }
 
 .info-content {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
@@ -101,14 +103,14 @@ b {
 }
 
 .subsection-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Crimson-bold-italic', sans-serif;
   margin-top: 10vh;
   margin-bottom: 0;
 }
 
 .paragraph {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.2;
   margin: 7px;
 }
@@ -127,7 +129,7 @@ b {
   color: #161616;
   text-decoration: none;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .center-align {
@@ -229,7 +231,7 @@ b {
 /* Media query for screens with max-width 768px */
 @media (max-width: 768px) {
   .container {
-    max-width: 80vw;
+    padding-left: 20%;
   }
 
   .project-title {
@@ -239,7 +241,7 @@ b {
 
   .project-desc {
     font-family: 'Crimson-italic', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 
   .info-row {

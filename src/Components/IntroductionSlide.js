@@ -2,6 +2,8 @@ import React from 'react';
 import '../style/CrossoutAnimation.css';
 import '../style/VideoWithText.css';
 import profileGIF from '../../static/profileDraw.png';
+import { Link } from 'gatsby';
+import Swing from '../../static/Artboard 1.png';
 
 function IntroductionSlide() {
 
@@ -18,6 +20,10 @@ function IntroductionSlide() {
           <p>currently designing 
             <br/>@ Lawrence Berkeley National Laboratory</p>    
         </div> 
+        {/* <Link to="/About"> */}
+        <Link>
+          <img className='Swing' src={Swing} alt="swing"/>
+        </Link>
     </div>
   );
 }

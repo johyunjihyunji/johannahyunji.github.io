@@ -5,6 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/johannalee/repos/johannahyunji.github.io/.cache/dev-404-page.js")),
+  "component---src-pages-about-copy-js": preferDefault(require("/Users/johannalee/repos/johannahyunji.github.io/src/pages/About copy.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/johannalee/repos/johannahyunji.github.io/src/pages/About.js")),
   "component---src-pages-broke-js": preferDefault(require("/Users/johannalee/repos/johannahyunji.github.io/src/pages/Broke.js")),
   "component---src-pages-es-net-mrdp-js": preferDefault(require("/Users/johannalee/repos/johannahyunji.github.io/src/pages/ESNetMRDP.js")),

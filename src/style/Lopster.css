@@ -9,14 +9,11 @@
   
   .LopGalleryContainer {
     display: flex;
-    padding: 1vh;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   .LopImageItem {
-    margin: 0 2vw 0 2vw;
-    position: relative;
     animation: rotate linear infinite;
     transition: transform 0.3s ease;
   }
@@ -27,9 +24,8 @@
   }
   
   .LopImage {
-    width: 6vw;
+    width: 4vw;
     height: auto;
-    object-fit: cover;
   }
 
   @media (max-width: 767px) {

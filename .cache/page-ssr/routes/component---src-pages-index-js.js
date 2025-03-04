@@ -2819,8 +2819,6 @@ const Footer = () => {
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterContainer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "FooterText2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bottom-text",
     style: {
@@ -2832,9 +2830,9 @@ const Footer = () => {
     className: `location ${index < locations.length - 1 ? 'crossed' : ' '} ${index === locations.length - 1 && location === 'Where Now?' ? 'red-question-mark' : ''}`
   }, location), index < locations.length - 1 && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "space"
-  }, "\xA0 \xA0"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "\xA0 \xA0")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterText"
-  }, "designed, drawn, and coded by Jo"));
+  }, "designed, drawn, and coded by Jo", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\xA9 ", currentYear, " Johanna Lee"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
@@ -2857,7 +2855,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 /* harmony import */ var _style_Home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../style/Home.css */ "./src/style/Home.css");
 /* harmony import */ var _style_Home_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_Home_css__WEBPACK_IMPORTED_MODULE_3__);
-// src/Header.js
 
 
 
@@ -2865,23 +2862,47 @@ __webpack_require__.r(__webpack_exports__);
 // Style
 
 const Header = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-    className: "HeaderContainer"
+  const {
+    0: rotation,
+    1: setRotation
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0); // State to track rotation angle
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY; // Get vertical scroll position
+      setRotation(scrollTop / 14); // Adjust the divisor to control rotation speed
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll); // Clean up event listener
+    };
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "LeftNavContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/"
+    to: "/",
+    className: "LogoContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "Logo",
     src: _static_lopster_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    alt: "Logo"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    alt: "Logo",
+    style: {
+      transform: `rotate(${rotation}deg)`
+    } // Apply rotation dynamically
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "Menu"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.figma.com/proto/uEQv5fIEdHBvAgIPLFQUsx/Portfolio?page-id=643%3A255&node-id=643-256&viewport=-54%2C317%2C0.37&t=DPXVv0wSZ5qJFlzM-1&scaling=min-zoom&content-scaling=fixed"
-  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "R\xE9sum\xE9")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "https://www.linkedin.com/in/johannaleehyunji/"
-  }, "LinkedIn")));
+  }, "LinkedIn")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "MenuItem"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "MenuItem",
+    href: "/#projects"
+  }, "Projects"))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
@@ -2905,6 +2926,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style/VideoWithText.css */ "./src/style/VideoWithText.css");
 /* harmony import */ var _style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_VideoWithText_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_profileDraw_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/profileDraw.png */ "./static/profileDraw.png");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _static_Artboard_1_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../static/Artboard 1.png */ "./static/Artboard 1.png");
+
+
 
 
 
@@ -2922,7 +2947,13 @@ function IntroductionSlide() {
     class: "right-text"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     class: "my-name"
-  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")));
+  }, "Johanna Lee"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "a designer studying computer science ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ UC Berkeley"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "currently designing", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "@ Lawrence Berkeley National Laboratory")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+    to: "/About"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "Swing",
+    src: _static_Artboard_1_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+    alt: "swing"
+  })));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IntroductionSlide);
 
@@ -3069,7 +3100,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const ProjectSlide = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "GalleryContainer"
+    className: "GalleryContainer",
+    id: "projects"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
     className: "GridContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
@@ -3308,12 +3340,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// //projects
-// import Broke from './Broke';
-// import ESNetMRDP from './ESNetMRDP';
-// import SiaPartners from './SiaPartners';
-// import Waymo from './Waymo';
-// import Yelp from './Yelp';
+// //Custom Cursor
+// import CustomCursor from '../Components/CustomCursor';
 
 //Header & Footer
 
@@ -4864,6 +4892,21 @@ function instanceOfHashable(object) {
 
 /***/ }),
 
+/***/ "./static/Artboard 1.png":
+/*!*******************************!*\
+  !*** ./static/Artboard 1.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/Artboard 1-3bb72791b57e80b7d7c5fe35350ceeb2.png");
+
+/***/ }),
+
 /***/ "./static/lopster.png":
 /*!****************************!*\
   !*** ./static/lopster.png ***!
@@ -4890,7 +4933,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-729d8f8fe04d348c9c43cca8997e23f0.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/profileDraw-a4f9d3bdae52a746ed2c08227cff25ab.png");
 
 /***/ }),
 

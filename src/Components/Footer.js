@@ -31,9 +31,7 @@ const Footer = () => {
 
   return (
     <div className='FooterContainer'>
-      <LopsterGallery />
-
-      <div className ='FooterText2'>
+      {/* <LopsterGallery /> */}
       <div className="bottom-text" style={{ color: '#282828' }}>
           based in
           <br/> 
@@ -48,11 +46,10 @@ const Footer = () => {
               </React.Fragment>
           ))}
       </div>
-
-      </div>
       <div className ='FooterText'>
-        {/* © {currentYear} Johanna Lee */}
         designed, drawn, and coded by Jo
+        <br/>
+        © {currentYear} Johanna Lee
       </div>
     </div>
   );

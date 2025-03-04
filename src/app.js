@@ -1,5 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { AnimatePresence } from "framer-motion";
 
 //projects
 import Broke from './pages/Broke';
@@ -13,13 +14,15 @@ import About from './pages/About';
 import Home from './pages/index';
 import ProjectSlide from './Components/ProjectSlide';
 
-
+//Custom Cursor
+import CustomCursor from '../Components/CustomCursor';
 
 
 function App() {
   return (
     
     <Router>
+    <AnimatePresence mode="wait">
     <div className = 'AppContainer'>
       <Routes>
           <Route path="/" element={<Home />} />
@@ -30,9 +33,11 @@ function App() {
           <Route path="/Yelp" element={<Yelp />} />
           <Route path="/About" element={<About />} />
       </Routes>
+      <CustomCursor />
       <IntroductionSlide />
       <ProjectSlide />
     </div>
+    </AnimatePresence>
   </Router>
   )
 }
