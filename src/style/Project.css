@@ -32,7 +32,7 @@ b {
 
 .project-summary {
   font-family: 'Crimson-italic', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .info-row {
@@ -53,14 +53,14 @@ b {
 }
 
 .info-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
   font-family: 'Crimson-semibold-italic', sans-serif;
   color: black;
 }
 
 .info-content {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -110,7 +110,7 @@ b {
 }
 
 .paragraph {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.2;
   margin: 7px;
 }
