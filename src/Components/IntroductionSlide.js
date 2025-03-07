@@ -20,8 +20,7 @@ function IntroductionSlide() {
           <p>currently designing 
             <br/>@ Lawrence Berkeley National Laboratory</p>    
         </div> 
-        {/* <Link to="/About"> */}
-        <Link>
+        <Link to="/Playground">
           <img className='Swing' src={Swing} alt="swing"/>
         </Link>
     </div>

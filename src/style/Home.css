@@ -18,6 +18,34 @@ body {
 }
 
 @font-face {
+  font-family: 'cousine';
+  src: url('./../fonts/Cousine/Cousine-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cousine-bold';
+  src: url('./../fonts/Cousine/Cousine-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cousine-bold-italic';
+  src: url('./../fonts/Cousine/Cousine-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cousine-italic';
+  src: url('./../fonts/Cousine/Cousine-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Figtree';
   src: url('./../fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
 }
@@ -67,7 +95,8 @@ body {
   top: 0;
   bottom: 0;
   width: 7%;
-  padding: 2%;
+  min-width: 7vw;
+  padding: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,12 +114,12 @@ body {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   width: 100%;
 }
 
 .Logo {
-  width: 6rem;
+  width: 100%;
   height: auto;
 }
 
@@ -98,6 +127,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: column ;
+  justify-content: left;
   gap: 10px; /* Space between menu items */
   padding: 0;
 }
@@ -157,9 +187,8 @@ body {
 
 
 @media (max-width: 768px) {
-
   .Logo {
-    height: 5rem; /* Adjust logo size */
+    height: 4rem; /* Adjust logo size */
     width: auto;
   }
 
@@ -171,7 +200,7 @@ body {
     width: 13%;
     display: flex;
     flex-direction: column;
-    padding: 2%;
+    padding: 4%;
   }
 
   .topnav {
@@ -182,13 +211,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px; /* Space between menu items */
-    padding: 0px;
   }
 
   .MenuItem {
     color: #fe5204;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Crimson-italic';
     padding: 0;
     margin: 0;

@@ -126,7 +126,7 @@ useEffect(() => {
                by <b>interconnecting the U.S. Department of Energy's national laboratory system</b>. 
               </p>
               <p className="paragraph">
-                Modern Research Data Transfer (MRDP) streamlines high-speed data transfer process by:
+               <b style={{  fontFamily: 'crimson-bold', color: '#0075A2' }}> Modern Research Data Transfer (MRDP)</b> streamlines high-speed data transfer process by:
               </p>
               <p className="paragraph">
               <ul className="bullet-list">

@@ -31,7 +31,7 @@ const Footer = () => {
 
   return (
     <div className='FooterContainer'>
-      {/* <LopsterGallery /> */}
+      <LopsterGallery />
       <div className="bottom-text" style={{ color: '#282828' }}>
           based in
           <br/> 

@@ -2819,7 +2819,7 @@ const Footer = () => {
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "FooterContainer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_LopsterGallary__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "bottom-text",
     style: {
       color: '#282828'
@@ -2865,20 +2865,27 @@ const Header = () => {
   const {
     0: rotation,
     1: setRotation
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0); // State to track rotation angle
-
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY; // Get vertical scroll position
-      setRotation(scrollTop / 14); // Adjust the divisor to control rotation speed
+      const scrollTop = window.scrollY;
+      setRotation(scrollTop / 14);
     };
     window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Clean up event listener
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
     className: "LeftNavContainer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "topnav"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/",
     className: "LogoContainer"
@@ -2888,7 +2895,7 @@ const Header = () => {
     alt: "Logo",
     style: {
       transform: `rotate(${rotation}deg)`
-    } // Apply rotation dynamically
+    }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "Menu"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -2902,8 +2909,14 @@ const Header = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "MenuItem",
     href: "/#projects"
-  }, "Projects"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "arrow"
+  }, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "MenuItem"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "MenuItem",
+    href: "/Playground"
+  }, "Playground")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: scrollToTop,
+    className: "scroll-to-top-btn"
   }, "\u2191"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
@@ -3168,7 +3181,12 @@ function ESNetMRDP() {
     className: "paragraph"
   }, "Energy Science Network is a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "high-performance network"), " designed to support large-scale scientific research ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "interconnecting the U.S. Department of Energy's national laboratory system"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Modern Research Data Transfer (MRDP) streamlines high-speed data transfer process by:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", {
+    style: {
+      fontFamily: 'crimson-bold',
+      color: '#0075A2'
+    }
+  }, " Modern Research Data Transfer (MRDP)"), " streamlines high-speed data transfer process by:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
     className: "bullet-list"

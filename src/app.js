@@ -8,7 +8,7 @@ import ESNetMRDP from './pages/ESNetMRDP';
 import SiaPartners from './pages/SiaPartners';
 import Waymo from './pages/Waymo';
 import Yelp from './pages/Yelp';
-import About from './pages/About';
+import Playground from './pages/Playground';
 
 //Landing Page
 import Home from './pages/index';
@@ -31,7 +31,7 @@ function App() {
           <Route path="/SiaPartners" element={<SiaPartners />} />
           <Route path="/Waymo" element={<Waymo />} />
           <Route path="/Yelp" element={<Yelp />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/Playground" element={<Playground />} />
       </Routes>
       <CustomCursor />
       <IntroductionSlide />

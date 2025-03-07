@@ -10,7 +10,8 @@
   .LopGalleryContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5vw;
   }
   
   .LopImageItem {
@@ -24,7 +25,7 @@
   }
   
   .LopImage {
-    width: 4vw;
+    width: 5vw;
     height: auto;
   }
 
@@ -35,6 +36,13 @@
       align-items: center;
       animation: rotate linear infinite;
       transition: transform 0.3s ease;
+    }
+
+    .LopGalleryContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2vw;
     }
     .LopImage {
       width: 12vw;

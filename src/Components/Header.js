@@ -45,6 +45,9 @@ const Header = () => {
           <li className='MenuItem'>
             <a className='MenuItem' href="/#projects">Projects</a>
           </li>
+          <li className='MenuItem'>
+            <a className='MenuItem' href="/Playground">Playground</a>
+          </li>
         </ul>
       </div>
       <button onClick={scrollToTop} className="scroll-to-top-btn">↑</button>

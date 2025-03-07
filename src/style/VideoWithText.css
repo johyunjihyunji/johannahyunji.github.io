@@ -8,8 +8,7 @@ html, body {
   justify-content: center;
   align-items: end;
   margin-top: 20vh;
-  margin-bottom: 30vh;
-  box-sizing: border-box;
+  margin-bottom: 10vh;
   gap: 4vw;
 }
 
@@ -18,7 +17,7 @@ html, body {
   position: absolute; /* Absolute positioning */
   top: -1px;       /* Distance from the top */
   right: 8%;      /* Distance from the right */
-  width: 20%;     /* Adjust the width as needed */
+  width: 23%;     /* Adjust the width as needed */
   height: auto;    /* Maintain aspect ratio */
   transition: top 0.3s ease-out, rotate 0.3s ease-out;
 }
@@ -37,12 +36,13 @@ html, body {
 }
 
 .left-image {
-  flex: 0.5;
+  flex: 0.3;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 .right-text {
+  flex: 0.5;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -60,7 +60,7 @@ html, body {
 
 
 .my-name {
-  font-size: 5rem;
+  font-size: 6vw;
   font-family: 'Crimson-bold', sans-serif;
   white-space: nowrap;
   color: rgba(0, 0, 0, 0.8); /* 50% transparency */
@@ -106,10 +106,11 @@ html, body {
   .right-text p {
     padding: 0;
     margin: 0;
+    font-size: 1rem;
   }
   
   .my-name {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-family: 'Crimson-bold', sans-serif;
     white-space: nowrap;
     color: rgba(0, 0, 0, 0.8); /* 50% transparency */
