@@ -25,11 +25,9 @@
   .crossed {
     text-decoration: line-through; /* Cross out the text */
     color: #766459; /* Change color of crossed-out text */
-    font-size: 1.2rem;
   }
   .red-question-mark {
-    color: #0438C6;
-    font-size: 1.2rem;
+    /* color: #0438C6; */
   }
   .cross-line {
     position: absolute;
@@ -41,8 +39,7 @@
   }
 
   .location-wrapper:last-child .location {
-    color: #0438C6;
-    font-size: 2rem;
+    /* color: #0438C6; */
   }
 
 
@@ -50,15 +47,12 @@
     .crossed {
       text-decoration: line-through; /* Cross out the text */
       color: #766459; /* Change color of crossed-out text */
-      font-size: 0.9rem;
     }
     .location-wrapper:last-child .location {
-      color: #0438C6;
-      font-size: 1rem;
+      /* color: #0438C6; */
     }
     .red-question-mark {
-      color: #0438C6;
-      font-size: 1rem;
+      /* color: #0438C6; */
     }
 
     

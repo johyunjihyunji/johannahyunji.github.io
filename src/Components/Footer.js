@@ -31,6 +31,15 @@ const Footer = () => {
 
   return (
     <div className='FooterContainer'>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <LopsterGallery />
       <div className="bottom-text" style={{ color: '#282828' }}>
           based in
@@ -48,9 +57,8 @@ const Footer = () => {
       </div>
       <div className ='FooterText'>
         designed, drawn, and coded by Jo
-        <br/>
-        © {currentYear} Johanna Lee
       </div>
+      <p>© {currentYear} Johanna Lee</p>
     </div>
   );
 };

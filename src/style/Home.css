@@ -1,7 +1,7 @@
 body {
     background-color: #FFFDF8; /* Set your desired background color #FFF7CE */
     color: #161616; /* Set your desired default text color */
-    font-family: 'Crimson', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px; 
     max-width: 100vw;
   }
@@ -9,6 +9,9 @@ body {
   html {
     scroll-behavior: smooth;
   }
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @font-face {
   font-family: 'AlexRoss';
@@ -86,7 +89,14 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Make sure the container takes at least full height */
-  padding-left: 10%;
+  margin-left: 15vw;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
 .LeftNavContainer {
@@ -94,19 +104,11 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 7%;
-  min-width: 7vw;
-  padding: 2vw;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-.topnav {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
 }
 
 .LogoContainer {
@@ -119,7 +121,7 @@ body {
 }
 
 .Logo {
-  width: 100%;
+  width: 6rem;
   height: auto;
 }
 
@@ -128,7 +130,7 @@ body {
   display: flex;
   flex-direction: column ;
   justify-content: left;
-  gap: 10px; /* Space between menu items */
+  gap: 20px; /* Space between menu items */
   padding: 0;
 }
 
@@ -136,8 +138,9 @@ body {
   display: block;
   color: #fe5204;
   text-decoration: none;
-  font-size: 1.4rem;
-  font-family: 'Crimson-italic';
+  font-size: 1.1rem;
+  font-family: 'Inter';
+  width: 100%;
   &:hover {
     text-decoration: underline;
   }
@@ -169,26 +172,28 @@ body {
   flex-direction: column;
   text-align: center;
   width: 100%;
+  padding-bottom: 10vh;
+  gap: 10px;
+  font-size: 1rem;
 }
 
 .FooterText {
-  padding-bottom: 10vh;
-  font-family: 'Crimson-semibold';
-  font-family: 'Crimson-semibold-italic';
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1rem;
   color: #fe5204;
-  gap: 20px;
-
 }
 
-
-.bottom-text {
-  font-family: 'Crimson';
+.FooterContainer p {
+  padding: 0;
+  margin: 0;
 }
 
 
 @media (max-width: 768px) {
   .Logo {
-    height: 4rem; /* Adjust logo size */
+    height: 5rem; /* Adjust logo size */
     width: auto;
   }
 
@@ -216,8 +221,7 @@ body {
   .MenuItem {
     color: #fe5204;
     text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Crimson-italic';
+    font-size: 0.8rem;
     padding: 0;
     margin: 0;
   }
@@ -230,7 +234,7 @@ body {
   }
 
   .AppContainer {
-    margin-left: 12%;
+    margin-left: 15%;
   }
   
 

@@ -1,5 +1,4 @@
 .GalleryContainer {
-  max-width: 120vw;
   margin: 3vw auto;
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -37,24 +36,25 @@
   margin-right: 10px;
   margin-bottom: 10px;
   font-size: 1rem;
+  font-weight: 300;
 }
 
 .Title {
   font-weight: 600;
-  margin-right: 20px;
   padding: 3px 6px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 92%;
 }
 
 .Company {
   padding: 3px 6px;
   color: #766459;
+  font-size: 1rem;
 }
 
 .ImageItem:hover img,
 .ImageItem:hover .ImageOverlay {
-  transform: scale(1.014);
+  transform: scale(1.015);
   transition: transform 0.1s ease;
 }
 
