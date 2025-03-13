@@ -581,7 +581,7 @@ useEffect(() => {
             <div className="subsection">
           <div className="team-photo">
               <StaticImage 
-              src="../../static/ESNetMRDPPresentation.jpg"
+              src="../../static/esnetmrdp/ESNetMRDPPresentation.jpg"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"

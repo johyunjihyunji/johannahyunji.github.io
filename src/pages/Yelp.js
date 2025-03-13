@@ -109,7 +109,7 @@ function Yelp() {
 
                 <div className="team-photo" >
               <StaticImage 
-              src="../../static/YelpClientReveal.png"
+              src="../../static/yelp/YelpClientReveal.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
@@ -729,19 +729,6 @@ function Yelp() {
 
 
             <div className="subsection">
-
-          <div className="team-photo">
-              <StaticImage 
-              src="../../static/YelpFinal.jpeg"
-              alt="Project Header"
-              placeholder="blurred"
-              layout="constrained"
-              style={{ borderRadius: '10px' }}
-              />
-              <p className="photoDescription">
-              Final Deliverable with Yelp's Marketing Team :)
-              </p>
-            </div>
 
               <h3 className="subsection-title" style={{color: "#E00707"}}>Designing Branding System</h3>
               <p className="paragraph">

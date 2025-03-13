@@ -4062,7 +4062,7 @@ function ESNetMRDP() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "team-photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.StaticImage, {
-    src: "../../static/ESNetMRDPPresentation.jpg",
+    src: "../../static/esnetmrdp/ESNetMRDPPresentation.jpg",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
@@ -4070,7 +4070,7 @@ function ESNetMRDP() {
       marginTop: '40px',
       borderRadius: '10px'
     },
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/4065022915.json */ "./.cache/caches/gatsby-plugin-image/4065022915.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/641552395.json */ "./.cache/caches/gatsby-plugin-image/641552395.json")
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "photoDescription"
   }, "Student Poster Session for Berkeley Lab Computing Sciences", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Presenting to ESNet Executive Director Inder Monga")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.div, {
@@ -24890,10 +24890,10 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/4065022915.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/4065022915.json ***!
-  \***********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/641552395.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/641552395.json ***!
+  \**********************************************************/
 /***/ ((module) => {
 
 "use strict";

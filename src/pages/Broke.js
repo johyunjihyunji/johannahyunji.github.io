@@ -167,7 +167,7 @@ function Broke() {
                 </p>
                 <div className="team-photo">
               <StaticImage 
-              src="../../static/BrokeTeamPhotoOfficial.png"
+              src="../../static/broke/BrokeTeamPhotoOfficial.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
@@ -272,7 +272,7 @@ function Broke() {
             <div className='boxsection'>
             <div className="team-photo">
               <StaticImage 
-              src="../../static/brokecard.png"
+              src="../../static/broke/brokecard.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"
@@ -319,7 +319,7 @@ function Broke() {
           <div className="slidepng-container">
             <div className="team-photo" ref={el => imageRefs.current.push(el)}>
               <StaticImage
-                src="../../static/BrokeBrandDesign.png"
+                src="../../static/broke/BrokeBrandDesign.png"
                 alt="Project Header"
                 placeholder="blurred"
                 layout="constrained"
@@ -473,7 +473,7 @@ function Broke() {
                                       
           <div className="team-photo" style={{display: 'flex', flexDirection: "column", justifyContent: 'center', alignItems: "center"}}>
               <StaticImage 
-              src="../../static/BrokeTeam.png"
+              src="../../static/broke/BrokeTeam.png"
               alt="Project Header"
               placeholder="blurred"
               layout="constrained"

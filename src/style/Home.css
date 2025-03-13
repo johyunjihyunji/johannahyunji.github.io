@@ -48,41 +48,6 @@ body {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Figtree';
-  src: url('./../fonts/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Figtree-Italic';
-  src: url('./../fonts/Figtree/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Crimson-bold';
-  src: url('./../fonts/Crimson_Text/CrimsonText-Bold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Crimson-bold-italic';
-  src: url('./../fonts/Crimson_Text/CrimsonText-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Crimson-italic';
-  src: url('./../fonts/Crimson_Text/CrimsonText-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Crimson';
-  src: url('./../fonts/Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Crimson-semibold';
-  src: url('./../fonts/Crimson_Text/CrimsonText-SemiBold.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Crimson-semibold-italic';
-  src: url('./../fonts/Crimson_Text/CrimsonText-SemiBoldItalic.ttf') format('truetype');
-}
 
 
 .AppContainer{
