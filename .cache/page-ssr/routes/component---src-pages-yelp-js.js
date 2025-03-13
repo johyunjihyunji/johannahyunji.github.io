@@ -3066,6 +3066,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Yelp() {
+  const scrollToProblemSolving1 = () => {
+    var _problemSolvingRef$cu;
+    (_problemSolvingRef$cu = problemSolvingRef.current) === null || _problemSolvingRef$cu === void 0 ? void 0 : _problemSolvingRef$cu.scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
+  const scrollToProblemSolving2 = () => {
+    var _problemSolvingRef$cu2;
+    (_problemSolvingRef$cu2 = problemSolvingRef.current) === null || _problemSolvingRef$cu2 === void 0 ? void 0 : _problemSolvingRef$cu2.scrollIntoView({
+      behavior: 'smooth'
+    });
+  };
   const imageRefs = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)([]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const setupImageZoom = container => {
@@ -3201,14 +3213,46 @@ function Yelp() {
     }
   }, "1. Performance Marketing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Deliver Performance Marketing ideations for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Home Services project"), " to enhance engagement ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " among Gen Z, millennials, and young homeowners "), " needing home services."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+  }, "Deliver Performance Marketing ideations for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Home Services project"), " to enhance engagement ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " among Gen Z, millennials, and young homeowners "), " needing home services."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      textDecoration: 'none'
+    },
+    onMouseEnter: e => e.currentTarget.style.color = '#0075A2',
+    onMouseLeave: e => e.currentTarget.style.color = "black",
+    onClick: scrollToProblemSolving
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginRight: "5px"
+    }
+  }, "Jump to Solutions!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CornerRightDown, {
+    size: 24
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "subsection-title",
     style: {
       color: "#FF1A1A"
     }
   }, "2. Brand Design System"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "paragraph"
-  }, "Establish a robust ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "graphic design system"), " that reinforces brand consistency and strengthens connection with three distinct audiences: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Consumers, Local Businesses, and Brand stakeholders"), ".")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Establish a robust ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "graphic design system"), " that reinforces brand consistency and strengthens connection with three distinct audiences: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Consumers, Local Businesses, and Brand stakeholders"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    style: {
+      display: "flex",
+      alignItems: "center",
+      textDecoration: 'none'
+    },
+    onMouseEnter: e => e.currentTarget.style.color = '#0075A2',
+    onMouseLeave: e => e.currentTarget.style.color = "black",
+    onClick: scrollToProblemSolving
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "paragraph",
+    style: {
+      marginRight: "5px"
+    }
+  }, "Jump to Solutions!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CornerRightDown, {
+    size: 24
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "section"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "section-title"

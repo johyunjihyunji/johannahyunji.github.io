@@ -83,7 +83,12 @@ useEffect(() => {
             style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
           />
         </div>
-
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
         <div className="project-title">Modern Research Data Portal</div>
         <div className="project-summary">
           Redesigned Data Transfer Portal: Streamlined data transfers, implemented customizable code features, and improved user experience.</div>
@@ -125,10 +130,19 @@ useEffect(() => {
             </p>
           </div>
         </div>
+                    </motion.div>
+
 
         <div className="section">
           <h2 className="section-title">Problem Space</h2>
           <div className="flex-container">
+
+                                    <motion.div
+                                      initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                      whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                      viewport={{ once: true }} // Only animate once
+                                      transition={{ duration: 0.3 }} // Animation duration
+                                    > 
             <div className="subsection">
               <h3 className="subsection-title" style={{ color: '#0075A2' }}>Introduction</h3>
               <p className="paragraph">
@@ -137,6 +151,8 @@ useEffect(() => {
                 As part of ESNet's measurement and analysis team, I worked on the <b>Modern Research Data Portal</b> as UX engineer intern. 
               </p>
             </div>
+                        </motion.div>
+
             <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
               whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view

@@ -59,7 +59,12 @@ function Broke() {
             style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
           />
         </div>
-
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
         <div className="project-title">Broke App for Travel Budgeting</div>
         <div className="project-summary">
           Led the end-to-end design of the Broke travel budgeting app, from research and branding to high-fidelity prototyping</div>
@@ -105,6 +110,8 @@ function Broke() {
           </div>
           
         </div>
+                    </motion.div>
+
 
         <div className="section">
           <h2 className="section-title">Background</h2>

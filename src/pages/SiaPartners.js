@@ -64,6 +64,12 @@ useEffect(() => {
           />
         </div>
 
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
         <div className="project-title">Meta Family Center UX</div>
         <div className="project-summary">
         Redesigned Meta Family Center to be inclusive of modern family dynamics, improving user experience through research and prototypes.  
@@ -100,6 +106,8 @@ useEffect(() => {
           </div>
           
         </div>
+                    </motion.div>
+
 
         <div className="section">
           <h2 className="section-title">Problem Space</h2>

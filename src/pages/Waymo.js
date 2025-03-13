@@ -22,6 +22,13 @@ function Waymo() {
           />
         </div>
 
+                                <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                > 
+
         <div className="project-title">Waymo UI and Brand Revamp</div>
         <div className="project-summary">
         Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and San Francisco launch.</div>
@@ -57,6 +64,7 @@ function Waymo() {
             </p>
           </div>
         </div>
+                    </motion.div>
 
 
         <div className="section">

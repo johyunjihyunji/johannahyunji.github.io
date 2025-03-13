@@ -1,12 +1,22 @@
 import React, { useEffect, useRef } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { CornerRightDown} from 'lucide-react';
+import { motion, useViewportScroll, useTransform } from 'framer-motion';
 // import App from '../index';
 import '../style/Project.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 
 function Yelp() {
-
+  const { scrollY } = useViewportScroll();
+  const problemSolvingRef1 = useRef(null);
+  const problemSolvingRef2 = useRef(null);
+  const scrollToProblemSolving1 = () => {
+    problemSolvingRef1.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToProblemSolving2 = () => {
+    problemSolvingRef2.current?.scrollIntoView({ behavior: 'smooth' });
+  };
     const imageRefs = useRef([]);
   
   useEffect(() => {
@@ -57,7 +67,12 @@ function Yelp() {
           />
         </div>
 
-
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
         <div className="project-title">Yelp Home Services</div>
         <div className="project-summary">
           Developed video ad concepts and brand design system for Yelp Home Services performance marketing.</div>
@@ -93,10 +108,17 @@ function Yelp() {
           </div>
           
         </div>
+            </motion.div>
 
         <div className="section">
           <h2 className="section-title">Project Scope</h2>
           <div className="flex-container">
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
             <div className="subsection">
               <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Home Services</h3>
               <p className="paragraph">
@@ -120,6 +142,13 @@ function Yelp() {
               </p>
             </div>
             </div>
+            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
             <div className="boxsection" style={{textAlign:'left', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'left'}}>
 
             <p className="paragraph" style={{justifyContent: 'flex-start'}}>
@@ -132,6 +161,17 @@ function Yelp() {
               <p className="paragraph">
               Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, and young homeowners </b> needing home services. 
               </p>
+              <a 
+                style={{display: "flex", alignItems: "center", textDecoration: 'none'}}
+                onMouseEnter={(e) => e.currentTarget.style.color = "#FF1A1A" }
+                onMouseLeave={(e) => e.currentTarget.style.color = "black"}
+                onClick={scrollToProblemSolving1}
+              >
+                <p className="paragraph" style={{marginRight: "5px"}}>
+                  Jump to Solutions!
+                </p>
+                <CornerRightDown size={24} />
+              </a>
                             <br/>
 
               <h3 className="subsection-title"  style={{color: "#FF1A1A"}}>2. Brand Design System</h3>
@@ -139,16 +179,33 @@ function Yelp() {
               Establish a robust <b>graphic design system</b> that reinforces brand consistency and strengthens connection with three 
               distinct audiences: <b>Consumers, Local Businesses, and Brand stakeholders</b>.
               </p>
+              <a 
+                style={{display: "flex", alignItems: "center", textDecoration: 'none'}}
+                onMouseEnter={(e) => e.currentTarget.style.color = "#FF1A1A"}
+                onMouseLeave={(e) => e.currentTarget.style.color = "black"}
+                onClick={scrollToProblemSolving2}
+              >
+                <p className="paragraph" style={{marginRight: "5px"}}>
+                  Jump to Solutions!
+                </p>
+                <CornerRightDown size={24} />
+              </a>
 
             </div>
-            
+            </motion.div>
+
           </div>
         </div>
 
         <div className="section">
           <h2 className="section-title">User Research</h2>
           <div className="flex-container">
-
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
           <div className='what'>
             <div className="subsection">
             <h3 className="subsection-title" style={{color: "#E00707"}}>Preliminary Research</h3>
@@ -169,9 +226,24 @@ function Yelp() {
                 </div>
               </div>
             </div>
+            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
+            
             <p className="photoDescription" style={{fontStyle: 'italic'}}>
           For a closer look, hover over any image to expand it!
               </p>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
             <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
               <h3 className="boxsection-title"  style={{color: "#E00707"}}>SWOT Analysis</h3>
@@ -188,6 +260,13 @@ function Yelp() {
                 </div>
               </div>
             </div>
+            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
               <div className="subsection">
               <h3 className="subsection-title"  style={{color: "#E00707"}}>User Survey</h3>
@@ -196,6 +275,13 @@ function Yelp() {
               There was a total of 163 respondents primarily in their early 20s.
               </p>
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
               
               <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
               <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Yelp & Home Services</h3>
@@ -227,6 +313,13 @@ function Yelp() {
                 </div>
               </div>
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
 
               <div className="subsection">
@@ -264,6 +357,13 @@ function Yelp() {
 
               </p>
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
               <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
               <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>User Insights</h3>
               <div className="slidepng-container">
@@ -279,6 +379,13 @@ function Yelp() {
               </div>
 
             </div>
+            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
 
             <div className="subsection">
@@ -287,6 +394,13 @@ function Yelp() {
             Based off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
             </p>
             </div>
+            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
             <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
             <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>User Insights</h3>
             <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem', textAlign: 'left'}}>User Group 1: Gen Z</h3>
@@ -332,21 +446,34 @@ function Yelp() {
               </div>
 
             </div>
-
+            </motion.div>
           </div>
         </div>
 
-        <div className="section">
+        <div className="section" ref={problemSolvingRef1}>
           <h2 className="section-title"> Solution 1:
             <br/>
            Performance Marketing
            </h2>
           <div className="flex-container">
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
             <div className="subsection">
             <p className="paragraph">
               For performance marketing content ideation, we delivered <b>story boards for 3 different ad video concepts:</b>
             </p>
-            </div>
+            </div>            </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
+            
 
             <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -359,10 +486,24 @@ function Yelp() {
                             />
                 </div>
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
               <p className="photoDescription" style={{fontStyle: 'italic'}}>
           For a closer look, hover over any image to expand it!
               </p>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
               <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
               <h3 className="boxsection-title" style={{color: "#E00707", textAlign: 'center'}}> Grow with Yelp </h3>
@@ -391,10 +532,24 @@ function Yelp() {
               It repositions Yelp as <b>an everyday lifestyle tool rather than just a food review app.</b>
               </p>
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
               <p className="photoDescription" style={{fontStyle: 'italic'}}>
           For a closer look, hover over any image to expand it!
               </p>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
               <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
               
               <h3 className="boxsection-title" style={{color: "#E00707",  textAlign: 'center'}}>Yelp Demo</h3>
@@ -419,10 +574,24 @@ function Yelp() {
               </p>
 
               </div>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
               <p className="photoDescription" style={{fontStyle: 'italic'}}>
               For a closer look, hover over any image to expand it!
               </p>
+              </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
               <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
                           
 
@@ -474,15 +643,26 @@ function Yelp() {
 
 
             </div>
-            
+            </motion.div>
+
           </div>
         </div>
 
-        <div className="section">
+        <div className="section" ref={problemSolvingRef2}>
           <h2 className="section-title">Solution 2: <br/> Brand Design System</h2>
           <div className="flex-container">
 
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
+
           <div className="subsection">
+            <p className="paragraph">
+            Implement a strategic graphic design system that reinforces brand identity and deepens relationships with our three core audiences: Consumers, Local Businesses, and Brand Stakeholders.
+            </p>
           <h3 className="subsection-title" style={{color: "#E00707"}}>Consumer</h3>
 
           <p className="paragraph">
@@ -494,6 +674,13 @@ function Yelp() {
             </ul>
           </p>
           </div>
+          </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
           <div className="boxsection">
           <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
@@ -570,6 +757,13 @@ function Yelp() {
           </div>
           </div>
           </div>
+          </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
           <div className="subsection">
           <h3 className="subsection-title" style={{color: "#E00707"}}>Business</h3>
@@ -583,6 +777,13 @@ function Yelp() {
           </ul>
           </p>
           </div>
+          </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
 
           <div className="boxsection">
           <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
@@ -643,6 +844,13 @@ function Yelp() {
           </div>
           </div>
           </div>
+          </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
           
 
 
@@ -660,6 +868,13 @@ function Yelp() {
           </ul>
           </p>
           </div>
+          </motion.div>
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
           <div className="boxsection">
           <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
 
@@ -717,6 +932,8 @@ function Yelp() {
           </div>
 
           </div>
+          </motion.div>
+
           </div>
         </div>
 
@@ -728,6 +945,12 @@ function Yelp() {
           <div className="flex-container">
 
 
+                        <motion.div
+                          initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                          whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                          viewport={{ once: true }} // Only animate once
+                          transition={{ duration: 0.3 }} // Animation duration
+                        > 
             <div className="subsection">
 
               <h3 className="subsection-title" style={{color: "#E00707"}}>Designing Branding System</h3>
@@ -745,7 +968,7 @@ function Yelp() {
               contrasting to catering personal memories and experiences.
               </p>
             </div>
-
+            </motion.div>
 
           </div>
         </div>
