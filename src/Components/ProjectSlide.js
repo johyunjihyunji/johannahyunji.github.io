@@ -2,14 +2,22 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import '../style/ProjectSlide.css'
+import { motion, useViewportScroll, useTransform } from 'framer-motion';
 
 
 const ProjectSlide = () => {
+    const { scrollY } = useViewportScroll();
 
   return (
     <div className='GalleryContainer' id="projects">
       <nav className='GridContainer'>
         {/* Project MRDP */}
+                                <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
         <Link className='ImageItem'  to="/ESNetMRDP">
           <StaticImage 
             src="../../static/2025_thumbnails/esnet.png"
@@ -25,7 +33,13 @@ const ProjectSlide = () => {
             <div className="Company">Energy Science Network</div>
             </div>
         </Link>
-
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
 
           {/* Project Waymo */}
           <Link className='ImageItem'  to="/SiaPartners">
@@ -43,6 +57,13 @@ const ProjectSlide = () => {
             <div className="Company">Meta</div>
           </div>
         </Link>
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                > 
       
 
       
@@ -64,6 +85,14 @@ const ProjectSlide = () => {
           </div>
         </Link>
 
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
+
 
                 {/* Project Broke */}
         <Link className='ImageItem'  to="/Broke">
@@ -82,6 +111,14 @@ const ProjectSlide = () => {
             <div className="Company">Broke</div>
           </div>
         </Link>
+
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
         
 
                 {/* Project Yelp */}
@@ -100,6 +137,14 @@ const ProjectSlide = () => {
             <div className="Company">Yelp</div>
             </div>
         </Link>
+
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
         
         <Link className='ImageItem'  href='https://johyunjihyunji.github.io/norainnoflower/'>
             <StaticImage 
@@ -117,6 +162,13 @@ const ProjectSlide = () => {
             <div className="Company">Personal Project</div>
           </div>
         </Link>
+        </motion.div>
+        <motion.div
+                                  initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                                  whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                                  viewport={{ once: true }} // Only animate once
+                                  transition={{ duration: 0.3 }} // Animation duration
+                                >
 
         
           <Link className='ImageItem'  href='https://www.youtube.com/@johannalee8172/videos'>
@@ -134,7 +186,7 @@ const ProjectSlide = () => {
             <div className="Company">Youtube</div>
           </div>
         </Link>
-
+        </motion.div>
                 
 
 

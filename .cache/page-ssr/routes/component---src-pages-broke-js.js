@@ -3570,12 +3570,12 @@ function Broke() {
     className: "team-photo",
     ref: el => imageRefs.current.push(el)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.StaticImage, {
-    src: "../../static/BrokeBrandDesignHigh.png",
+    src: "../../static/BrokeBrandDesign.png",
     alt: "Project Header",
     placeholder: "blurred",
     layout: "constrained",
     className: "slidepng",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1524343766.json */ "./.cache/caches/gatsby-plugin-image/1524343766.json")
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3055766836.json */ "./.cache/caches/gatsby-plugin-image/3055766836.json")
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_6__.motion.div, {
     initial: {
       opacity: 0,
@@ -24300,17 +24300,6 @@ function warnOnce(condition, message, element) {
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/1524343766.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/1524343766.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB30lEQVR42iWSTWtTQRSG81tcigtXpYJ73QhSl4KLlm5EEdwogl3UogsDEY1KKlKsjdxAIdqWgilNFqUm0SYNppqkJcaEkGDS2OR+z/3I4/S6eJk5M8PLec47IVvY2MLE9R1cz8GTclyBaZpYuoVlCCzLwx/7eL7HWK6maQT3jiMQUo7r/N8LQUgdamS3SxR3q1T2G1SKDQ7LLWzb5kenTGdYwXKOKG2WyKYPWE3ucdwb0G526Lb7dFs96tXfdORe2NJw1B+xEk7x/tkWiVcZViIpkm936HVPyB8XaKhfMMwMyu1Vnt9fY2b2A4V0jfjiZ3ayOQq731i4FWMplkL9qxMyDINe74/EMhn0h5zWmqaiazq29xPNLzBwS/Rc2a1Tpm3XsIRFNfWL7chXoncTxB6tS3SJHSAbOgV1k3rjE3cuv+T1i2WK7TjNQZ1Oc4vSwTK57wrp/QQf8wprexu4eChzCrOT01ybmOLm1YfoIyFn7EpDOeC8nuSwrjA9ESbydJFc6w1H3RrRG3Fmzs5z/fxjrpxbYPLMHJcuhqXhmMy7DA8uPGF+aonovQ20kSkDlYaObNWWCELK0M0gKX8sk5Pnpqx1zQjwNdVAVXUpI0jVVgX2ifwVri+THwfvT/UPAX3kuXtv6loAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/8803161dceb770a3418381c18bdb0dc9/bb53a/BrokeBrandDesignHigh.png","srcSet":"/static/8803161dceb770a3418381c18bdb0dc9/986e5/BrokeBrandDesignHigh.png 863w,\\n/static/8803161dceb770a3418381c18bdb0dc9/55448/BrokeBrandDesignHigh.png 1727w,\\n/static/8803161dceb770a3418381c18bdb0dc9/bb53a/BrokeBrandDesignHigh.png 3453w","sizes":"(min-width: 3453px) 3453px, 100vw"},"sources":[{"srcSet":"/static/8803161dceb770a3418381c18bdb0dc9/f2713/BrokeBrandDesignHigh.webp 863w,\\n/static/8803161dceb770a3418381c18bdb0dc9/b292b/BrokeBrandDesignHigh.webp 1727w,\\n/static/8803161dceb770a3418381c18bdb0dc9/85548/BrokeBrandDesignHigh.webp 3453w","type":"image/webp","sizes":"(min-width: 3453px) 3453px, 100vw"}]},"width":3453,"height":1183}');
-
-/***/ }),
-
 /***/ "./.cache/caches/gatsby-plugin-image/2225603499.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/2225603499.json ***!
@@ -24319,6 +24308,17 @@ module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,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"},"images":{"fallback":{"src":"/static/9f15602f90e2e192e945f79260dde313/4419e/BrokeTeam.png","srcSet":"/static/9f15602f90e2e192e945f79260dde313/65b66/BrokeTeam.png 279w,\\n/static/9f15602f90e2e192e945f79260dde313/6e5e0/BrokeTeam.png 557w,\\n/static/9f15602f90e2e192e945f79260dde313/4419e/BrokeTeam.png 1114w","sizes":"(min-width: 1114px) 1114px, 100vw"},"sources":[{"srcSet":"/static/9f15602f90e2e192e945f79260dde313/44e76/BrokeTeam.webp 279w,\\n/static/9f15602f90e2e192e945f79260dde313/a2a99/BrokeTeam.webp 557w,\\n/static/9f15602f90e2e192e945f79260dde313/da732/BrokeTeam.webp 1114w","type":"image/webp","sizes":"(min-width: 1114px) 1114px, 100vw"}]},"width":1114,"height":1492}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3055766836.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3055766836.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAB60lEQVR42mPgY+AT4mWQEpZhsODUY3Dllmew5wBhBgYGRvtQUwkrP0Op3WfS+JP8/HhDlUL5hYWteBmEPPiA8iA1XCB1DAyhzECaGcz2F88PdxDN67cRzC835cmpcRfOb3CXK8oGSjKseLxwzpr78zb+/z91//zihsV5XEUbWFhSFzIwpMxwZ8g2CjAtysxKqyvOS6wKLPCrnOptUzqHwYYtVk2FIVFLlT1RyZQ7RducN0FVjDVKl4HBjG/NjdnWq85Nd33+scdnamWtY6FWiYe8cqajkHSKhRNPrpaHUqlznm+ra1V8V7CbROkUQ+ncWIbw6e4Kez/W+M2vrzJQZEj2nTyv3ujh/zmhabs7+P//n1n29/+sg2/+z93w9P+Crff+L9l07f/KfRf+r2kF+aBZrXdCjWHXi2Tb/HdB5pnvdbkLdRnWvFpY9OP//v8HZs2776XY92/q5En3H//Z+H/z6w3RTa5ljbXB1fdz/SrOxnlUnA9wKT/raF9609ymZC7IwFK78jmt8Q3/872Kf4Yblf434y33Zph6o9v07LcZU9f196bqsRY1T5rSkXr21axpe/+vUg9myEry58xfbMucPU2XIXOGHEPaNB6G1PksDElFIAMr5VsDqsWnzA5j6cu1ZugI0mKoFwIAJvS0+JhuAlAAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/8c479ece7c877309e1f06daaccf03d96/06f32/BrokeBrandDesign.png","srcSet":"/static/8c479ece7c877309e1f06daaccf03d96/a297f/BrokeBrandDesign.png 481w,\\n/static/8c479ece7c877309e1f06daaccf03d96/a892a/BrokeBrandDesign.png 961w,\\n/static/8c479ece7c877309e1f06daaccf03d96/06f32/BrokeBrandDesign.png 1922w","sizes":"(min-width: 1922px) 1922px, 100vw"},"sources":[{"srcSet":"/static/8c479ece7c877309e1f06daaccf03d96/4b12e/BrokeBrandDesign.webp 481w,\\n/static/8c479ece7c877309e1f06daaccf03d96/2965a/BrokeBrandDesign.webp 961w,\\n/static/8c479ece7c877309e1f06daaccf03d96/e2551/BrokeBrandDesign.webp 1922w","type":"image/webp","sizes":"(min-width: 1922px) 1922px, 100vw"}]},"width":1922,"height":541}');
 
 /***/ }),
 

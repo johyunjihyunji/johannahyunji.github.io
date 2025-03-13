@@ -130,6 +130,7 @@ transition: transform 0.3s ease;
 .boxsection-title {
   font-weight: 300;
   font-size: 1.5rem;
+  letter-spacing: 3px;
 }
 
 .subsection {
@@ -195,12 +196,12 @@ transition: transform 0.3s ease;
 
 .slidepng {
   transition: transform 0.3s ease-out;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .slidepng-container {
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .slideshow-container {
@@ -267,6 +268,9 @@ transition: transform 0.3s ease;
   height: auto;
 }
 
+.table a{
+  color: 
+}
 /* Media query for screens with max-width 768px */
 @media (max-width: 768px) {
   .container {

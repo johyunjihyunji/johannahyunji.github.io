@@ -319,7 +319,7 @@ function Broke() {
           <div className="slidepng-container">
             <div className="team-photo" ref={el => imageRefs.current.push(el)}>
               <StaticImage
-                src="../../static/BrokeBrandDesignHigh.png"
+                src="../../static/BrokeBrandDesign.png"
                 alt="Project Header"
                 placeholder="blurred"
                 layout="constrained"

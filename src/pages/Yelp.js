@@ -67,18 +67,7 @@ function Yelp() {
             <h3 className="info-title">Role</h3>
             <p className="info-content">Creative Design Consultant</p>
           </div>
-          <div className="info-item">
-            <h3 className="info-title">Skills</h3>
-            <p className="info-content">
-              Performance Marketing
-              <br />
-              Content Ideation
-              <br />
-              Consumer Survey
-              <br />
-              Brand Design System
-            </p>
-          </div>
+
           <div className="info-item">
             <h3 className="info-title">Timeline</h3>
             <p className="info-content">
@@ -93,6 +82,15 @@ function Yelp() {
             Yelp Marketing Team
             </p>
           </div>
+          <div className="info-item">
+            <h3 className="info-title">Skills</h3>
+            <p className="info-content">
+              <div className='tag'>Performance Marketing</div>
+              <div className='tag'>Content Ideation</div>
+              <div className='tag'>Consumer Survey</div>
+              <div className='tag'>Brand Design System</div>
+            </p>
+          </div>
           
         </div>
 
@@ -102,11 +100,11 @@ function Yelp() {
             <div className="subsection">
               <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Home Services</h3>
               <p className="paragraph">
-                My team focused on promoting <b>Yelp's Home Services</b>,<br/>which <b>connects consumers with trusted professionals for various home improvement tasks.</b> 
+                My team focused on promoting <b>Yelp's Home Services</b>, which <b>connects consumers with trusted professionals for various home improvement tasks.</b> 
                 </p>
                 <p className="paragraph">
-                By leveraging Yelp's pre-established extensive food businesses review platform, <br/>the project aims to <b>broaden the scope of Yelp's recognition and 
-                enhance visibility</b> for these home service providers. 
+                By leveraging Yelp's pre-established extensive food businesses review platform, the project aims to broaden the scope of Yelp's recognition and 
+                enhance visibility for these home service providers. 
                 </p>
 
                 <div className="team-photo" >
@@ -121,14 +119,20 @@ function Yelp() {
               Yelp Client Reveal!
               </p>
             </div>
-                <p className="paragraph">
+            </div>
+            <div className="boxsection" style={{textAlign:'left', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'left'}}>
+
+            <p className="paragraph" style={{justifyContent: 'flex-start'}}>
                 There are two project scopes assigned by Yelp's team:
               </p>
+              <br/>
+              <br/>
 
               <h3 className="subsection-title" style={{color: "#FF1A1A"}}>1. Performance Marketing</h3>
               <p className="paragraph">
               Deliver Performance Marketing ideations for <b>Home Services project</b> to enhance engagement <b> among Gen Z, millennials, and young homeowners </b> needing home services. 
               </p>
+                            <br/>
 
               <h3 className="subsection-title"  style={{color: "#FF1A1A"}}>2. Brand Design System</h3>
               <p className="paragraph">
@@ -145,14 +149,14 @@ function Yelp() {
           <h2 className="section-title">User Research</h2>
           <div className="flex-container">
 
-            
+          <div className='what'>
             <div className="subsection">
             <h3 className="subsection-title" style={{color: "#E00707"}}>Preliminary Research</h3>
 
             <p className="paragraph">
               We did an initial research on marketing ad trends and content preferences for different user groups: Gen Z, Millennials, and Gen X/Homeowners
               </p>
-
+              </div>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -164,9 +168,14 @@ function Yelp() {
                             />
                 </div>
               </div>
+            </div>
+            <p className="photoDescription" style={{fontStyle: 'italic'}}>
+          For a closer look, hover over any image to expand it!
+              </p>
 
-              <h3 className="subsection-title"  style={{color: "#E00707"}}>SWOT Analysis</h3>
-
+            <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
+              <h3 className="boxsection-title"  style={{color: "#E00707"}}>SWOT Analysis</h3>
+              
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -178,13 +187,18 @@ function Yelp() {
                             />
                 </div>
               </div>
+            </div>
+
+              <div className="subsection">
               <h3 className="subsection-title"  style={{color: "#E00707"}}>User Survey</h3>
               <p className="paragraph">
               We conducted a user survey to collect insights regarding <b>Yelp sentiments, problem spaces/needs in home services, and preferences in ad content. </b>
               There was a total of 163 respondents primarily in their early 20s.
               </p>
-
-              <h3 className="subsection-title" style={{color: "#FF1A1A", fontSize: '1.2rem', marginLeft: '20px'}}>Yelp & Home Services</h3>
+              </div>
+              
+              <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
+              <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Yelp & Home Services</h3>
 
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -197,8 +211,9 @@ function Yelp() {
                             />
                 </div>
               </div>
+              
 
-              <h3 className="subsection-title" style={{color: "#FF1A1A", fontSize: '1.2rem', marginLeft: '20px'}}>Advertisement Content</h3>
+              <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Advertisement Content</h3>
 
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -211,13 +226,46 @@ function Yelp() {
                             />
                 </div>
               </div>
+              </div>
+
+
+              <div className="subsection">
 
               <h3 className="subsection-title"  style={{color: "#E00707"}}>A/B Testing</h3>
               <p className="paragraph">
               My team conducted<b> A/B testing with 21 participants.</b>
               <br/><br/>
-              Each participant is shown a pair of video advertisements and asked to provide feedback. The purpose is to gather insights on which advertisement version performs better based on viewer feedback. 
+              Each participant is shown a pair of video advertisements under the themes of <b>storytelling, demonstration, and humor</b> and then asked to provide feedback. 
+              The purpose is to gather insights on which advertisement version performs better based on viewer feedback. 
+              <br/><br/>
+              <div className="table" style={{ display: 'flex', flexDirection: 'row', width: '100%' }}>
+                <div style={{diplay:'flex', flexDirection: 'column', flex: '1'}}>
+                <b>Storytelling</b>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=1d9V8xVzxBA">On CloudTec</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=37lI299U1bA&ab_channel=Tinder">Tinder</a></li>
+                </ul>
+                </div>
+                <div style={{diplay:'flex', flexDirection: 'column', flex: '1'}}>
+                <b>Demonstration</b>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=7oBZ8sBjdyQ&ab_channel=Pepsi">Pepsi</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=u3ybWiEUaUU">Starbucks</a></li>
+                </ul>
+                </div>
+                <div style={{diplay:'flex', flexDirection: 'column', flex: '1'}}>
+                <b>Humor</b>
+                <ul>
+                  <li><a href="https://youtu.be/nLwML2PagbY?feature=shared">Mercedes-Benz</a></li>
+                  <li><a href="https://youtube.com/shorts/gUB_1BD8oJo?si=JrGiFPvahm8S5DSd">Burger King</a></li>
+                </ul>
+                </div>
+              </div>
+
               </p>
+              </div>
+              <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
+              <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>User Insights</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -232,20 +280,16 @@ function Yelp() {
 
             </div>
 
-          </div>
-        </div>
 
-
-        <div className="section">
-          <h2 className="section-title" >User Personas</h2>
-          <div className="flex-container">
             <div className="subsection">
-
+            <h3 className="subsection-title"  style={{color: "#E00707"}}>User Personas</h3>
             <p className="paragraph">
-              Based off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
+            Based off of the preliminary research, user surveys, and A/B testing, our team developed 3 user personas representative of each user group we are studying.
             </p>
-
-              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 1: Gen Z</h3>
+            </div>
+            <div className="boxsection" style={{padding: '30px 30px 30px 30px'}} >
+            <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>User Insights</h3>
+            <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem', textAlign: 'left'}}>User Group 1: Gen Z</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -257,22 +301,9 @@ function Yelp() {
                             />
                 </div>
               </div>
-
-              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 2: Millennials</h3>
-              <div className="slidepng-container">
-                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
-                            <StaticImage
-                              src="../../static/yelp/YelpUserPersona3.png"
-                              alt="Project Header"
-                              placeholder="blurred"
-                              layout="constrained"
-                              className="slidepng"
-                            />
-                </div>
-              </div>
-
-
-              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem'}}>User Group 3: Gen X / Homeowners</h3>
+              <br/>
+              <br/>
+              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem' , textAlign: 'left'}}>User Group 2: Millennials</h3>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -285,8 +316,23 @@ function Yelp() {
                 </div>
               </div>
 
+              <br/>
+              <br/>
+              <h3 className="subsection-title"  style={{color: "#E00707", marginLeft: '20px', fontSize: '1.2rem' , textAlign: 'left'}}>User Group 3: Gen X / Homeowners</h3>
+              <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/YelpUserPersona4.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                            />
+                </div>
+              </div>
+
             </div>
-            
+
           </div>
         </div>
 
@@ -300,6 +346,7 @@ function Yelp() {
             <p className="paragraph">
               For performance marketing content ideation, we delivered <b>story boards for 3 different ad video concepts:</b>
             </p>
+            </div>
 
             <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -313,8 +360,12 @@ function Yelp() {
                 </div>
               </div>
 
+              <p className="photoDescription" style={{fontStyle: 'italic'}}>
+          For a closer look, hover over any image to expand it!
+              </p>
 
-              <h3 className="subsection-title" style={{color: "#E00707"}}> Grow with Yelp </h3>
+              <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
+              <h3 className="boxsection-title" style={{color: "#E00707", textAlign: 'center'}}> Grow with Yelp </h3>
 
               <p className="paragraph">
               <b>“Grow with Yelp”</b> is a storytelling-based advertisement that showcases how Yelp is able to <b>continuously provide</b> the tools one needs throughout their <b>different stages of life.</b>
@@ -333,18 +384,22 @@ function Yelp() {
               </div>
 
                <p className="paragraph">
-              We aim to <b>grow brand loyalty within the younger generation.</b>
-              <br/>
-              <br/>
-               As young users face new responsibilities, they should view <b>Yelp as a go-to app</b> they are already familiar with. 
-               <br/>
-              It repositions Yelp as <b style={{fontFamily: 'Crimson-semibold-italic'}}>an everyday lifestyle tool rather than just a food review app.</b>
-              </p>
+              We aim to <b>grow brand loyalty within the younger generation. </b>
 
+               As young users face new responsibilities, they should view Yelp as a go-to app they are already familiar with. 
+
+              It repositions Yelp as <b>an everyday lifestyle tool rather than just a food review app.</b>
+              </p>
+              </div>
+
+              <p className="photoDescription" style={{fontStyle: 'italic'}}>
+          For a closer look, hover over any image to expand it!
+              </p>
+              <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
               
-              <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp Demo</h3>
+              <h3 className="boxsection-title" style={{color: "#E00707",  textAlign: 'center'}}>Yelp Demo</h3>
               <p className="paragraph">
-              This is an advertisement designed to highlight the <b>diverse services available in Yelp’s home service section.</b>
+              This is an advertisement designed to highlight the <b>diverse services</b> available in Yelp’s home service.
               </p>
               <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -360,12 +415,18 @@ function Yelp() {
 
               <p className="paragraph">
               The purpose is to demonstrate how Yelp makes <b>home management easier</b> and more efficient.
-              <br/>
-              This advertisement aims to position Yelp as a <b style={{fontFamily: 'Crimson-semibold-italic'}}>trusted resource in home management and improvement.</b>
+              This advertisement aims to position Yelp as a <b>trusted resource in home management and improvement.</b>
               </p>
-             
 
-              <h3 className="subsection-title" style={{color: "#E00707"}}>Yelp for Help</h3>
+              </div>
+
+              <p className="photoDescription" style={{fontStyle: 'italic'}}>
+              For a closer look, hover over any image to expand it!
+              </p>
+              <div className="boxsection"  style={{textAlign:'left', padding: '30px 30px 30px 30px'}}>
+                          
+
+              <h3 className="boxsection-title" style={{color: "#E00707", textAlign: 'center'}}>Yelp for Help</h3>
               <p className="paragraph">
               "Yelp for Help" aims to solidify Yelp's brand identity as the <b>ultimate go-to resource for quick and reliable assistance.</b> 
               </p>
@@ -382,9 +443,8 @@ function Yelp() {
               </div>
 
               <p className="paragraph">
-              Through <b>engaging typography transitions,</b> the video <b>captures the fast-paced lifestyle of younger audiences</b>.
-              <br/>
-               This concept <b style={{fontFamily: 'Crimson-semibold-italic'}}>positions Yelp as a verb</b> synonymous with <b style={{fontFamily: 'Crimson-semibold-italic'}}>seeking help and recommendations</b>.
+              Through engaging typography transitions, the video <b>captures the fast-paced lifestyle of younger audiences</b>.
+               This concept <b>positions Yelp as a verb</b> synonymous with seeking help and recommendations.
               </p>
               
 
@@ -423,8 +483,6 @@ function Yelp() {
           <div className="flex-container">
 
           <div className="subsection">
-
-
           <h3 className="subsection-title" style={{color: "#E00707"}}>Consumer</h3>
 
           <p className="paragraph">
@@ -435,8 +493,10 @@ function Yelp() {
               <li><b>Use diverse shapes</b> while maintaining order, establishing Yelp as both refreshingly fun and reliable.</li>
             </ul>
           </p>
+          </div>
 
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Design System Direction</h3>
+          <div className="boxsection">
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -448,9 +508,10 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Mockups</h3>
-
-
+          <br/>
+          <br/>
+          <br/>
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Mockups</h3>
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -462,7 +523,10 @@ function Yelp() {
                             />
           </div>
           </div>
-
+          <br/>
+          <br/>          <br/>
+          <br/>
+          <br/>
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -474,7 +538,10 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Templates</h3>
+          <br/>
+          <br/>
+
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Templates</h3>
 
 
           <div className="slidepng-container">
@@ -488,7 +555,23 @@ function Yelp() {
                             />
           </div>
           </div>
+          <br/>
+          <br/>
+          <div className="slidepng-container">
+                          <div className="team-photo" ref={el => imageRefs.current.push(el)}>
+                            <StaticImage
+                              src="../../static/yelp/yelpposter.png"
+                              alt="Project Header"
+                              placeholder="blurred"
+                              layout="constrained"
+                              className="slidepng"
+                              style={{width: '60%'}}
+                            />
+          </div>
+          </div>
+          </div>
 
+          <div className="subsection">
           <h3 className="subsection-title" style={{color: "#E00707"}}>Business</h3>
 
           <p className="paragraph">
@@ -499,7 +582,10 @@ function Yelp() {
             <li><b>Simple forms and relatable imagery</b> fosters trust and familiarity with Yelp among businesses.</li>
           </ul>
           </p>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Design System Direction</h3>
+          </div>
+
+          <div className="boxsection">
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
                             <StaticImage
@@ -511,7 +597,9 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Mockups</h3>
+          <br/><br/><br/><br/>
+
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Mockups</h3>
 
 
           <div className="slidepng-container">
@@ -525,6 +613,7 @@ function Yelp() {
                             />
           </div>
           </div>
+          <br/><br/>
 
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -537,7 +626,9 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Templates</h3>
+          <br/><br/>
+          <br/><br/>
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Templates</h3>
 
 
           <div className="slidepng-container">
@@ -551,9 +642,12 @@ function Yelp() {
                             />
           </div>
           </div>
+          </div>
+          
 
 
           
+          <div className="subsection">
 
           <h3 className="subsection-title" style={{color: "#E00707"}}>Brand</h3>
 
@@ -565,7 +659,9 @@ function Yelp() {
             <li>Incorporate<b>singular shapes, greater white space, </b> and limited image content to create memorable grand gestures.</li>
           </ul>
           </p>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Design System Direction</h3>
+          </div>
+          <div className="boxsection">
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Design System Direction</h3>
 
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -578,7 +674,8 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Mockups</h3>
+          <br/><br/><br/><br/>
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Mockups</h3>
 
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -591,6 +688,7 @@ function Yelp() {
                             />
           </div>
           </div>
+          <br/><br/>
 
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -603,7 +701,8 @@ function Yelp() {
                             />
           </div>
           </div>
-          <h3 style={{fontFamily: 'Crimson-semibold-italic', color: "#FF1A1A", fontSize: '1.5rem', marginLeft: '20px', marginBottom: "0"}}>Graphic Templates</h3>
+          <br/><br/><br/><br/>
+          <h3 className="boxsection-title" style={{color: "#FF1A1A"}}>Graphic Templates</h3>
 
           <div className="slidepng-container">
                           <div className="team-photo" ref={el => imageRefs.current.push(el)}>
@@ -617,8 +716,7 @@ function Yelp() {
           </div>
           </div>
 
-
-            </div>
+          </div>
           </div>
         </div>
 
@@ -628,6 +726,9 @@ function Yelp() {
         <div className="section">
           <h2 className="section-title">Reflection</h2>
           <div className="flex-container">
+
+
+            <div className="subsection">
 
           <div className="team-photo">
               <StaticImage 
@@ -642,15 +743,15 @@ function Yelp() {
               </p>
             </div>
 
-            <div className="subsection">
-              <h3 className="subsection-title">Designing Branding System</h3>
+              <h3 className="subsection-title" style={{color: "#E00707"}}>Designing Branding System</h3>
               <p className="paragraph">
               The biggest challenge was creating a branding system for Yelp that <b>remained cohesive 
         under the main brand while catering to different target groups. </b> Took trial and error to successfully differentiate
         the design system for consumers, brands, and businesses, maintaining Yelp's overall identity while addressing the unique needs of each audience.
               </p>
-
-              <h3 className="subsection-title">Video Concept Ideation</h3>
+                  <br/>
+                  <br/><br/>
+              <h3 className="subsection-title" style={{color: "#E00707"}}>Video Concept Ideation</h3>
               <p className="paragraph">
               I particularly enjoyed the video concept ideation and storyboard mock-ups stage, given my experience 
               in personal video content creation. This project offered a new perspective as I approached <b>video creation from a marketing standpoint, </b>
