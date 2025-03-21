@@ -1,18 +1,25 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
 import { Link, Lightbulb, CornerRightDown} from 'lucide-react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../style/Project.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import PasswordInput from './Protection'; 
 
 function SiaPartners() {
   const { scrollY } = useViewportScroll();
   const imageRefs = useRef([]);
   const problemSolvingRef = useRef(null);
+  const [isUnlocked, setIsUnlocked] = useState(false);
   const scrollToProblemSolving = () => {
     problemSolvingRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const handleUnlock = () => {
+    setIsUnlocked(true);
+  };
+
 
 useEffect(() => {
   const setupImageZoom = (container) => {
@@ -49,6 +56,71 @@ useEffect(() => {
     cleanupFunctions.forEach(cleanup => cleanup && cleanup());
   };
 }, []);
+
+if (!isUnlocked) {
+  return (
+    <>
+  <Header />
+  <div className="container">
+  <div className="header-image">
+      <StaticImage 
+        src="../../static/2025_headers/Artboard 151_2.png"
+        alt="Project Header"
+        placeholder="blurred"
+        layout="constrained"
+        style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
+      />
+  </div>
+
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                      whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                      viewport={{ once: true }} // Only animate once
+                      transition={{ duration: 0.3 }} // Animation duration
+                    > 
+    <div className="project-title">Meta Family Center UX</div>
+    <div className="project-summary">
+    Redesigned Meta Family Center to be inclusive of modern family dynamics, improving user experience through research and prototypes.  
+    </div>    
+    <div className="info-row">
+      <div className="info-item">
+        <h3 className="info-title">Role</h3>
+        <p className="info-content">UX Design Consultant</p>
+      </div>
+      <div className="info-item">
+        <h3 className="info-title">Timeline</h3>
+        <p className="info-content">
+          August 2023 - December 2023
+        </p>
+      </div>
+      <div className="info-item">
+        <h3 className="info-title">Team</h3>
+        <p className="info-content">
+        UC Berkeley UMA Design Team, <br />Sia Partners
+        
+        </p>
+      </div>
+      <div className="info-item">
+        <h3 className="info-title">Skills</h3>
+        <p className="info-content">
+          <div className='tag'>Wireframing</div>
+          <div className='tag'>User Flow</div>
+          <div className='tag'>Figma</div>
+          <div className='tag'>Prototyping</div>
+          <div className='tag'>UX Audit</div>
+          <div className='tag'>UX Survey</div>
+          <div className='tag'>User Personas</div>
+        </p>
+      </div>
+      
+    </div>
+    </motion.div>
+    <PasswordInput onUnlock={handleUnlock} />
+    </div>
+    <Footer/>
+  </>
+  );
+}
 
   return (
     <>

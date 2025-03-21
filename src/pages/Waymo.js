@@ -1,13 +1,80 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import '../style/Project.css';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
+import PasswordInput from './Protection'; 
 
 
 function Waymo() {
   const { scrollY } = useViewportScroll();
+  const [isUnlocked, setIsUnlocked] = useState(false);
+  const handleUnlock = () => {
+      setIsUnlocked(true);
+    };
+  if (!isUnlocked) {
+    return (
+      <>
+    <Header />
+    <div className="container">
+    <div className="header-image">
+        <StaticImage 
+            src="../../static/2025_headers/Artboard 151.png"
+          alt="Project Header"
+          placeholder="blurred"
+          layout="constrained"
+          style={{ borderRadius: '20px', border: '1.2px solid #000000'}}
+        />
+    </div>
+  
+                      <motion.div
+                        initial={{ opacity: 0, scale: 0.9, y: 20 }} // Initial state
+                        whileInView={{ opacity: 1, scale: 1, y: 0 }} // Animate state when in view
+                        viewport={{ once: true }} // Only animate once
+                        transition={{ duration: 0.3 }} // Animation duration
+                      > 
+            <div className="project-title">Waymo UI and Brand Revamp</div>
+        <div className="project-summary">
+        Redesigned Waymo's UI and brand to appeal to younger audience in preparation for their transition to a commercial entity and San Francisco launch.</div>
+      
+      
+        <div className="info-row">
+          <div className="info-item">
+            <h3 className="info-title">Role</h3>
+            <p className="info-content">UI/UX Design Consultant</p>
+          </div>
+          <div className="info-item">
+            <h3 className="info-title">Timeline</h3>
+            <p className="info-content">
+              Jan 2023 - June 2023
+            </p>
+          </div>
+          <div className="info-item">
+            <h3 className="info-title">Team</h3>
+            <p className="info-content">
+            UMA Design Team, <br/>Waymo's Design Team
+            </p>
+          </div>
+          <div className="info-item">
+            <h3 className="info-title">Skills</h3>
+            <p className="info-content">
+              <div className='tag'>User Flow</div>
+              <div className='tag'>Figma</div>
+              <div className='tag'>Prototyping</div>
+              <div className='tag'>Wireframing</div>
+              <div className='tag'>Brand Design</div>
+              <div className='tag'>Ad Campaign Mockup</div>
+              <div className='tag'>Competitor Research</div>
+            </p>
+          </div>
+        </div>
+      </motion.div>
+      <PasswordInput onUnlock={handleUnlock} />
+      </div>
+      <Footer/>
+    </>
+    );}
   return (
     <>
      <Header />

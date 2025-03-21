@@ -21,16 +21,13 @@ const ArtGallery = () => {
   const [aspectRatios, setAspectRatios] = useState([]);
 
   const artworks = [
-    { src: "../../1x/Artboard 1_2.png", title: "Dreamy Landscape", description: "A surreal vista of floating islands and cosmic skies." },
-    { src: "../../1x/Artboard 1.png", title: "Abstract Emotions", description: "A vibrant explosion of colors representing human feelings." },
-    { src: "../../1x/catalina.jpg", title: "Dreamy Landscape", description: "A surreal vista of floating islands and cosmic skies." },
-    { src: "../../1x/IMG_1079.JPG", title: "Digital Dystopia", description: "A futuristic cityscape with a touch of cyberpunk aesthetics." },
-    { src: "../../1x/JOPOSTER.jpg", title: "Abstract Emotions", description: "A vibrant explosion of colors representing human feelings." },
-    { src: "../../1x/catalina2.jpg", title: "Abstract Emotions", description: "A vibrant explosion of colors representing human feelings." },
-    { src: "../../1x/glade.jpg", title: "Digital Dystopia", description: "A futuristic cityscape with a touch of cyberpunk aesthetics." },
-    { src: "../../1x/jeju.jpg", title: "Dreamy Landscape", description: "A surreal vista of floating islands and cosmic skies." },
-    { src: "../../1x/JOPOSTER.jpg", title: "Abstract Emotions", description: "A vibrant explosion of colors representing human feelings." },
-    { src: "../../1x/love.jpg", title: "Digital Dystopia", description: "A futuristic cityscape with a touch of cyberpunk aesthetics." },
+    { src: "../../1x/Artboard 1_2.png", title: "UC JAZZ FALL CONCERT ALIEN INVASION", description: "Designed a poster for the UC Berkeley Jazz Fall Concert, featuring the Advanced Combos, with an alien invasion theme." },
+    { src: "../../1x/Artboard 1.png", title: "PLEASE BE YOURSELF", description: "Transformed a candid digital photo of a friend enjoying coffee into a graphic poster." },
+    { src: "../../1x/JOPOSTER.jpg", title: "LET'PLAY2", description: "Inspired by a Taco Tuesday outing, this poster blends color pencils with digital refinement in Photoshop." },
+    { src: "../../1x/catalina.jpg", title: "SHOCKED IN CATALINA", description: "Captured Catalina Island on film during my scuba diving trip and added hand-drawn illustrations." },
+    { src: "../../1x/IMG_1079.JPG", title: "TO LIVE IN SF", description: "Captured a moment in San Francisco on film and added hand-drawn illustrations." },
+    { src: "../../1x/jeju.jpg", title: "Travels", description: "A Jeju Island cafe on film with a hand-drawn illustration of a dog I met in Santa Monica, CA." },
+    { src: "../../1x/love.jpg", title: "LOVE", description: "A Jeju Island garden on film with hand-drawn illustration of an owl." },
   ];
 
   const handleFlip = (index) => {
@@ -122,7 +119,7 @@ const ArtGallery = () => {
         
         <div style={{display: 'flex', flexDirection: 'row', width: '100%', gap: '4vw', marginBottom: '5rem'}}>
 
-          <div style={{ width: '7rem', display: 'flex', flexDirection: 'column', alignContent: 'center', justifyContent: 'center'}}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignContent: 'center', justifyContent: 'center'}}>
             <Link to="/">
               <img
                 className='Logo'
@@ -131,7 +128,7 @@ const ArtGallery = () => {
                 style= {{margin: '0', padding: '0'}}
               />
             </Link>
-            <p style={{fontSize: '1rem', fontFamily: 'cousine', textAlign: 'center', margin: '0', padding: '0', color: '#ffff'}}>Home</p>
+            <p style={{fontSize: '1rem', fontFamily: 'cousine', textAlign: 'center', margin: '0', padding: '0', color: '#ffff'}}>HOME</p>
           </div>
 
           <div style={{fontFamily: 'cousine', fontSize: '1rem'}}>
@@ -146,9 +143,9 @@ const ArtGallery = () => {
           </div>
           
         </div>
-        <p style={{fontSize: '4rem',fontFamily: 'cousine-italic', textAlign: 'center', display: 'flex', width: '100%', justifyContent: 'center', color: 'white'}}>coming soon...</p>
+        {/* <p style={{fontSize: '4rem',fontFamily: 'cousine-italic', textAlign: 'center', display: 'flex', width: '100%', justifyContent: 'center', color: 'white'}}>coming soon...</p> */}
         
-        {/* <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
           {artworks.map((artwork, index) => (
             <motion.div
               key={index}
@@ -202,7 +199,7 @@ const ArtGallery = () => {
               </motion.div>
             </motion.div>
           ))}
-        </div> */}
+        </div>
       </motion.div>
     </>
   );
